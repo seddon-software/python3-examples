@@ -1,0 +1,5 @@
+  git init
+  git add .
+  git commit -m "Python Examples (March 2015)"
+  git remote add origin git@git.assembla.com:python-examples.git
+  git push origin master
