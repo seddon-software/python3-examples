@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<book>
+  <title>The Firm</title>
+  <author firstName="John F" lastName="Grisham">Lawyer, popular writer ...</author>
+  <author firstName="Peter" lastName="Smith">Lawyer, unpopular writer ...</author>
+  <publisher>The Random House<location>UK</location>London, SW1V 2SA</publisher>
+</book>

@@ -1,0 +1,7 @@
+<div metal:use-macro="layout">
+    <div metal:fill-slot="content">        
+        <li tal:repeat="g theGrounds">
+            ${g.ground} - ${g.city}
+        </li>
+    </div>
+</div>

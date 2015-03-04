@@ -1,0 +1,10 @@
+<div metal:use-macro="layout">
+    <div metal:fill-slot="content">
+        <li tal:repeat="g theGrounds">
+            ${g.ground} - ${g.city}
+        </li>
+        <li tal:repeat="team theTeams">
+            ${team.name} - ${team.country}
+        </li>
+    </div>
+</div>

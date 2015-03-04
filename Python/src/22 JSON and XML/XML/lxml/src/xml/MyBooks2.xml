@@ -1,0 +1,11 @@
+<book:book xmlns:book="http://www.demo.com/book">
+  <book:title>XMLBeans</book:title>
+  <book:author>
+    <!-- Invalid document last and first in reverse order -->
+    <book:last>Smith</book:last>
+    <book:first>John</book:first>
+  </book:author>
+  <book:publisher>Wiley</book:publisher>
+  <book:pubdate>2007-06+01:00</book:pubdate>
+  <book:cost>23.79</book:cost>
+</book:book>

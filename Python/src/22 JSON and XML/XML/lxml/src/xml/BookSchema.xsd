@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<xsd:schema targetNamespace="http://www.demo.com/book" 
+        xmlns:bk="http://www.demo.com/book" 
+        xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+        elementFormDefault="qualified">
+        
+  <xsd:group name="authorGroup">
+   <xsd:sequence>
+    <xsd:element name="first" type="xsd:string"/>
+    <xsd:element name="last" type="xsd:string"/>
+   </xsd:sequence>
+  </xsd:group>
+  
+  <xsd:simpleType name='money'>
+   <xsd:restriction base='xsd:decimal'>
+    <xsd:fractionDigits value='2'/>
+   </xsd:restriction>
+  </xsd:simpleType>
+
+  <xsd:element name="book">
+   <xsd:complexType>
+    <xsd:sequence>
+     <xsd:element name="title" type="xsd:string"/>
+     <xsd:element name="author">
+      <xsd:complexType>
+       <xsd:group ref="bk:authorGroup"/>
+      </xsd:complexType>
+     </xsd:element>
+     <xsd:element name="publisher" type="xsd:string"/>
+     <xsd:element name="pubdate" type="xsd:gYearMonth"/>
+     <xsd:element name="cost" type="bk:money"/>
+    </xsd:sequence>
+   </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
+ 

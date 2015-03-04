@@ -1,0 +1,3 @@
+include mvc/config/deployment.ini_tmpl
+recursive-include mvc/public *
+recursive-include mvc/templates *

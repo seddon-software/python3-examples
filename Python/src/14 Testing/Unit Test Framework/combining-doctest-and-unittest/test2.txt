@@ -1,0 +1,15 @@
+#!/usr/bin/python
+#
+#  Example showing how to use doctest
+#
+#  The tests are in this file, but the code under test
+#  is in a separate file
+#
+
+>>> import ExternalTests
+>>> ExternalTests.square(5)
+25
+>>> ExternalTests.square(26)
+Traceback (most recent call last):
+  ...
+ValueError: input too large

@@ -1,0 +1,55 @@
+<html>
+<head>
+<title>Rich Internet Applications</title>
+
+<style type="text/css">
+</style>
+
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript">
+    function test() {
+
+        $.ajaxSetup({
+            cache : false
+        });
+
+        <!-- sending parameters to JSP with echo -->
+
+        $("#click").live('click', function() {
+            $.ajax({
+                type : "GET",
+                url : "http:://localhost:18080",
+                dataType : "json",
+                data : {x: "100", y: "200", z: "300"},
+                success : function(response) {
+                    var message = "x: " + response.x + "<br>" +
+                                  "y: " + response.y + "<br>" +
+                                  "z: " + response.z + "<br>";
+                    $("#showData").html(message);
+                },
+                error : function(jqXHR, textStatus, errorThrown) {
+                    alert(textStatus);
+                }
+            });
+        });
+    }
+
+    $(document).ready(function() {
+        test();
+    });
+</script>
+
+
+</head>
+<body>
+    <h3>Pass parameters to Server, with echo</h3>
+    <div id="click">Click to pass JSON data:
+      <pre>{x: "100", y: "200", z: "300"}</pre> 
+    </div>
+    <hr/>
+    and echo them back here: <p/>
+    <div id="showData"></div>
+
+</body>
+</html>

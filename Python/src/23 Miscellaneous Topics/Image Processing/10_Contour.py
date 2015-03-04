@@ -1,0 +1,16 @@
+import os, sys
+import Image, ImageFilter
+
+
+os.chdir("images")
+infile = "DSCN0639.JPG"
+
+
+outfile = os.path.splitext(infile)[0] + ".contour.jpg"
+try:
+    img = Image.open(infile)
+    img = img.filter(ImageFilter.CONTOUR)
+    img.show()
+    img.save(outfile, "JPEG")
+except IOError, e:
+    print e

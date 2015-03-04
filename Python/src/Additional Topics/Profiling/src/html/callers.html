@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <link rel="stylesheet" href="./style.css" type="text/css" />
+  <title>pyprof2html - stats/profilestats.prof</title><script type="text/javascript" src="./jquery.js"></script>
+<script type="text/javascript" id="js">
+  $(document).ready(function() {
+      $("tr").mouseover(function() {
+          $(this).addClass("hover");
+          }).mouseout(function() {
+          $(this).removeClass("hover");
+          });
+  });</script></head>
+
+<body>
+  
+  <div class="content">
+
+    <div class="header">
+        <div class="header-title"><a href="./index.html">Profile Report</a></div>
+        <div class="header-time">
+          Profile Time on <strong>Tue Apr  1 20:28:49 2014</strong><br/>
+          Reported Time on <strong>Tue Apr  1 20:29:27 2014</strong>
+        </div>
+    </div>
+
+    <div class="profile-info">
+        <h2>Profile Info</h2>
+        <p>
+        Profile Data Type: <span class="bold">cProfile</span><br/>
+        Total Time: <span class="bold"> 60.5868</span> CPU second<br/>
+        Total Func Call: <span class="bold">200007</span> function calls
+        </p>
+    </div>
+
+    <hr/>
+
+    <div class="profile-table">
+        <h2>Function Caller Table&nbsp;&nbsp;
+        <a href="index.html">All function&nbsp;&raquo;</a>
+        </h2>
+
+    <table class="prof">
+      <thead>
+        <tr>
+        <th style="width:250px;" class="prof" align="center"
+        ><span title="provides the respective data of each function"
+        >Dest filename:lineno(function)</span></th>
+        <th class="prof"><span title="for the number of calls"
+                               >ncalls</span></th>
+        <th class="prof"
+        ><span title="for the total time spent in the given
+ function (and excluding time made in calls to sub-functions)"
+        >tottime</span></th>
+        <th class="prof"
+        ><span title="total time spent in this and all
+ subfunctions (from invocation till exit).
+ This figure is accurate even for recursive functions.">cumtime</span></th>
+        <th style="width:250px;" class="prof" align="center"
+        ><span title="provides the respective data of each function"
+        >Orig filename:lineno(function)</span></th>
+        </tr>
+      </thead>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="4">{time.sleep}</td><td class="profdata-arrow" style="background-color:#ffcc33"><span id="callers_3217f8a07c44e8563cdb4f699f82e104" title="{time.sleep}">10000</span></td><td class="profdata" style="background-color:#ff6666">  5.8936</td>
+            <td class="profdata" style="background-color:#ff6666">  5.8936</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:5(f1)</td>
+          </tr>
+          <tr>
+            <td class="profdata-arrow" style="background-color:#ff6666">20000</td><td class="profdata" style="background-color:#ff3333"> 11.8017</td>
+            <td class="profdata" style="background-color:#ff3333"> 11.8017</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:11(f2)</td>
+          </tr>
+          <tr>
+            <td class="profdata-arrow" style="background-color:#ff3333">30000</td><td class="profdata" style="background-color:#ff3333"> 17.6783</td>
+            <td class="profdata" style="background-color:#ff3333"> 17.6783</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:17(f3)</td>
+          </tr>
+          <tr>
+            <td class="profdata-arrow" style="background-color:#ff3333">40000</td><td class="profdata" style="background-color:#ff3333"> 23.4865</td>
+            <td class="profdata" style="background-color:#ff3333"> 23.4865</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:23(f4)</td>
+          </tr>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="1">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:23(f4)</td><td class="profdata-arrow" style="background-color:#ffffff"><span id="callers_0a41ee2e5cdd7e06d04ce8208cab50f0" title="/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:23(f4)">1</span></td><td class="profdata" style="background-color:#ffffff">  0.5412</td>
+            <td class="profdata" style="background-color:#ff3333"> 24.2099</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:30(foo)</td>
+          </tr>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="4">{method &#39;random&#39; of &#39;_random.Random&#39; objects}</td><td class="profdata-arrow" style="background-color:#ffcc33"><span id="callers_0dd69f7340ad924842a0ff5409039da9" title="{method 'random' of '_random.Random' objects}">10000</span></td><td class="profdata" style="background-color:#ffffff">  0.0459</td>
+            <td class="profdata" style="background-color:#ffffff">  0.0459</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:5(f1)</td>
+          </tr>
+          <tr>
+            <td class="profdata-arrow" style="background-color:#ff6666">20000</td><td class="profdata" style="background-color:#ffffff">  0.0831</td>
+            <td class="profdata" style="background-color:#ffffff">  0.0831</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:11(f2)</td>
+          </tr>
+          <tr>
+            <td class="profdata-arrow" style="background-color:#ff3333">30000</td><td class="profdata" style="background-color:#ffffff">  0.1131</td>
+            <td class="profdata" style="background-color:#ffffff">  0.1131</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:17(f3)</td>
+          </tr>
+          <tr>
+            <td class="profdata-arrow" style="background-color:#ff3333">40000</td><td class="profdata" style="background-color:#ffffff">  0.1822</td>
+            <td class="profdata" style="background-color:#ffffff">  0.1822</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:23(f4)</td>
+          </tr>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="1">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:17(f3)</td><td class="profdata-arrow" style="background-color:#ffffff"><span id="callers_d44c0f8e452ecdd9fb5f7901a7385887" title="/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:17(f3)">1</span></td><td class="profdata" style="background-color:#ffffff">  0.3692</td>
+            <td class="profdata" style="background-color:#ff3333"> 18.1605</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:30(foo)</td>
+          </tr>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="1">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:11(f2)</td><td class="profdata-arrow" style="background-color:#ffffff"><span id="callers_7cdcf6766cf81c75b41de49330ab4141" title="/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:11(f2)">1</span></td><td class="profdata" style="background-color:#ffffff">  0.2583</td>
+            <td class="profdata" style="background-color:#ff3333"> 12.1431</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:30(foo)</td>
+          </tr>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="1">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:5(f1)</td><td class="profdata-arrow" style="background-color:#ffffff"><span id="callers_60a864acc679cab69cbcb08e5d99ba75" title="/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:5(f1)">1</span></td><td class="profdata" style="background-color:#ffffff">  0.1336</td>
+            <td class="profdata" style="background-color:#ff6666">  6.0731</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:30(foo)</td>
+          </tr>
+          <tr>
+            <td class="prof" style="width:300px;" rowspan="1">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:30(foo)</td><td class="profdata-arrow" style="background-color:#ffffff"><span id="callers_cf96460b30f0638f41a5e655e6b592b4" title="/Users/seddon/home/workspace/Python/Python/src/Profiling/src/myprogram.py:30(foo)">1</span></td><td class="profdata" style="background-color:#ffffff">  0.0001</td>
+            <td class="profdata" style="background-color:#ff3333"> 60.5867</td>
+            <td class="prof" style="width:300px;">/Users/seddon/home/workspace/Python/Python/src/Profiling/src/02.profiling-using-decorators.py:13(profileIt)</td>
+          </tr>
+    </table>
+    </div>
+
+    <div id="footer">
+    <p>
+    Generated by
+    <a href="http://pypi.python.org/pypi/pyprof2html/">pyprof2html</a>: 0.2.3
+    &nbsp;&nbsp;&nbsp;Powered by <a href="http://www.python.org/">Python</a
+    > and <a href="http://jinja.pocoo.org/2/">Jinja2</a>
+    </p>
+    </div>
+
+  </div>
+
+</body></html>
+

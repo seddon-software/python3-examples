@@ -1,0 +1,10 @@
+<book:book xmlns:book="http://www.demo.com/book">
+  <book:title>XMLBeans</book:title>
+  <book:author>
+    <book:first>John</book:first>
+    <book:last>Smith</book:last>
+  </book:author>
+  <book:publisher>Wiley</book:publisher>
+  <book:pubdate>2007-06+01:00</book:pubdate>
+  <book:cost>23.79</book:cost>
+</book:book>
