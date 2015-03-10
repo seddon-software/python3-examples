@@ -1,0 +1,9 @@
+import subprocess,os,sys
+import set_paths
+
+sys.path.append('../..')
+import common
+os.chdir("../src")
+
+# must run build first
+subprocess.call("python setup.py install".split())

@@ -22,7 +22,7 @@ def install(cmd):
     subprocess.call(cmd.split())
     
 setPath()
-subprocess.call("pip install scrapy".split())
+subprocess.call("easy_install  pip".split())
 
 1
 

@@ -1,0 +1,2 @@
+for i in (2,4,6,8,3, 7.77, "hello"):
+    print i,

@@ -6,7 +6,6 @@
 
 from math import sqrt
 
-
 def cube(x):
     return x * x * x
 

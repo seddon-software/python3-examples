@@ -1,0 +1,9 @@
+def incr(x):
+    x = x + 1
+
+
+a = 100
+incr(a)
+print a
+
+

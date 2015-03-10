@@ -1,0 +1,24 @@
+############################# immutable
+
+def incr(x):
+    x = x + 1
+    return x
+
+a = 100
+a = incr(a)
+print a
+
+############################### mutable
+
+def addItem(mylist):
+    mylist.append(99)
+
+a = [4,5,6]
+print id(a)
+addItem(a)
+print a
+print id(a)
+
+
+
+

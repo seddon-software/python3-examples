@@ -1,0 +1,6 @@
+for i in (2,4,6,8,10,12):
+    print i,
+print
+
+for i in range(2,12,2):
+    print i,

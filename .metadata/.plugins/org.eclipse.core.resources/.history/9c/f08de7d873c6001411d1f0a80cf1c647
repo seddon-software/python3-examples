@@ -1,0 +1,13 @@
+def sum(x, y):
+    return x + y
+
+
+print sum(4, 8)
+p = sum
+z = sum(4, 8)
+z = p(4, 8)
+
+
+1
+
+

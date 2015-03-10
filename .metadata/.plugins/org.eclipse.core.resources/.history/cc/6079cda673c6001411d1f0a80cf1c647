@@ -1,0 +1,12 @@
+def sum(x, y):
+    return x + y
+
+
+x = 100
+y = 200
+z = sum(x, y)
+print z
+z = sum(5, 7)
+print z
+
+

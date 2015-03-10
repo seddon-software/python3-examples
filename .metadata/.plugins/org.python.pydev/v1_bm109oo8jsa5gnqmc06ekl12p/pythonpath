@@ -10,3 +10,5 @@
 /System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/PyObjC
 /Library/Python/2.7/site-packages
 /usr/local/lib/wxPython-3.0.0.0/lib/python2.7
+/Library/Python/2.7/site-packages/mymodule-1.0-py2.7.egg
+/Library/Python/2.7/site-packages/pip-6.0.8-py2.7.egg

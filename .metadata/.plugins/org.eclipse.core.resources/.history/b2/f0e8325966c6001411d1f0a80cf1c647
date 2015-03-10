@@ -1,0 +1,4 @@
+list1 = range(10,20)
+list2 = list1[3:]
+print list1
+print list2

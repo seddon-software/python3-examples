@@ -1,0 +1,2 @@
+list1 = range(30,10,-3)
+print list1

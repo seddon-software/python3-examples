@@ -1,0 +1,9 @@
+salary = {
+          'john' : 23000,
+          'susan': 47000,
+          'jim'  : 33000,
+          'zoe'  : 44000,
+          'pedro': 41500
+          }
+
+print salary

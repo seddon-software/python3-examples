@@ -35,3 +35,5 @@ try:
             # hence NO exception raised
 except UnboundLocalError, e:
     print e
+
+print "finished"

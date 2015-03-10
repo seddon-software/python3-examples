@@ -1,0 +1,13 @@
+def range(x, y):
+    return x + y
+
+
+sum = lambda x,y : x + y
+
+p = sum
+print sum
+print p
+
+1
+
+

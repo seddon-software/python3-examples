@@ -1,0 +1,11 @@
+def sum(x, y):
+    return x + y
+
+
+p = sum
+print sum
+print p
+
+1
+
+

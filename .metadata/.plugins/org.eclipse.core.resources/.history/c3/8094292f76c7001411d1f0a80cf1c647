@@ -1,0 +1,20 @@
+############################################################
+#
+#    Exception in destructor
+#
+############################################################
+
+class MyClass(object):
+    def __del__(self):  # looks as though the DTOR throws
+        raise Exception("Oops") # but this is ignored
+        print "Bar: Bye"
+
+
+def f():
+    x = MyClass()   # DTOR called after this line
+    
+try:
+    f()
+    raise Exception("only get here if exceptions ignored in DTOR")
+except Exception, e:
+    print e

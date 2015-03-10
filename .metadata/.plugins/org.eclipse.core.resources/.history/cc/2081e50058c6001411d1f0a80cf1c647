@@ -1,0 +1,13 @@
+x = [ [2,3], (5,6) ]
+
+# print x
+# print x[0]
+# print x[0][1]
+z = 99
+x[0][1] = z
+#print x
+print id(z)
+print id(x[0][1])
+print id(99)
+print id(2)
+print id(x[0][0])

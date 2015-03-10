@@ -1,0 +1,6 @@
+mytuple = ( 5, 7, 11, 13, 17 )
+mylist = list(mytuple)
+
+print mytuple
+print mylist
+

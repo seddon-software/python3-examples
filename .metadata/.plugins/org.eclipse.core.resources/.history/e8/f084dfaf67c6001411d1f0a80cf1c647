@@ -1,0 +1,9 @@
+import copy
+
+list1 = range(10,20)
+list2 = list1[:]
+list3 = list(list1)
+list4 = copy.deepcopy(list1)
+print id(list2)
+print id(list3)
+print id(list4)
