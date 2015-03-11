@@ -18,7 +18,7 @@ def displayUserDefinedPartsOfDictionary(dct):
 class MyClassFactory(type):
     y = 100
     def __init__(cls, name, bases, dct):
-        print "Creating class %s using CustomMetaclass" % name
+        print "Creating class {0} using MyClassFactory metaclass".format(name)
         print "with dictionary: "
         displayUserDefinedPartsOfDictionary(dct)
         bases = (object,)
@@ -28,7 +28,7 @@ class MyClassFactory(type):
         print "Allocating memory for class", name
         dct['y'] = MyClassFactory.y              # attribute created
         dct['f'] = lambda self: self.x + self.y; # method created
-        # use the class factory type to allocate
+        # use the 'type' class factory type to allocate
         return type.__new__(cls, name, bases, dct)
 
 # New classes use the class factory 'type', unless the __metaclass__
@@ -37,7 +37,7 @@ class MyClassFactory(type):
 class BaseClass(object):
     __metaclass__ = MyClassFactory
     x = 44
-    # this class will get 'x', 'y' and 'f' defined by the class factory
+    # this class will also get 'y' and 'f' defined by the class factory
     
 # this uses the class factory of its superclass
 class SubClass(BaseClass):
@@ -46,23 +46,23 @@ class SubClass(BaseClass):
         
 base1 = BaseClass()
 base2 = BaseClass()
-print "Base class: ", BaseClass.__bases__
+print "Base class inherits from: ", BaseClass.__bases__
 base1.a = 100
 base1.b = 200
 base2.c = 300
 print "\nBase dictionaries:"
 print "=================="
-displayUserDefinedPartsOfDictionary(BaseClass.__dict__)
-displayUserDefinedPartsOfDictionary(base1.__dict__)
-displayUserDefinedPartsOfDictionary(base2.__dict__)
+print "\t(Class)";        displayUserDefinedPartsOfDictionary(BaseClass.__dict__)
+print "\t(object base1)"; displayUserDefinedPartsOfDictionary(base1.__dict__)
+print "\t(object base2)"; displayUserDefinedPartsOfDictionary(base2.__dict__)
 
 sub = SubClass()
 print "\nDerived dictionaries:"
 print "====================="
-displayUserDefinedPartsOfDictionary(SubClass.__dict__)
-displayUserDefinedPartsOfDictionary(sub.__dict__)
+print "\t(Class)";        displayUserDefinedPartsOfDictionary(SubClass.__dict__)
+print "\t(object sub)";   displayUserDefinedPartsOfDictionary(sub.__dict__)
 
-# call methods on sub
+print("calling methods on sub ...")
 sub.h()
 print sub.f()
 

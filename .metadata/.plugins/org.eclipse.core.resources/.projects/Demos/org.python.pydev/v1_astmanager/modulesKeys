@@ -1,10 +1,13 @@
 MODULES_MANAGER_V2
 Hello|/Users/seddon/home/workspace/PythonForGit/Demos/Hello.py
 arrays|/Users/seddon/home/workspace/PythonForGit/Demos/arrays.py
+classes|/Users/seddon/home/workspace/PythonForGit/Demos/classes.py
 functions|/Users/seddon/home/workspace/PythonForGit/Demos/functions.py
+functions2|/Users/seddon/home/workspace/PythonForGit/Demos/functions2.py
 indentation|/Users/seddon/home/workspace/PythonForGit/Demos/indentation.py
 integers|/Users/seddon/home/workspace/PythonForGit/Demos/integers.py
 loops|/Users/seddon/home/workspace/PythonForGit/Demos/loops.py
 mytypes|/Users/seddon/home/workspace/PythonForGit/Demos/mytypes.py
 numbers|/Users/seddon/home/workspace/PythonForGit/Demos/numbers.py
 slices|/Users/seddon/home/workspace/PythonForGit/Demos/slices.py
+sortedhash|/Users/seddon/home/workspace/PythonForGit/Demos/sortedhash.py

@@ -23,7 +23,9 @@ class Point(object):
 p = Point()
 p.x = 55    # calls setX
 a = p.x     # calls getX
-del p.x     # calls delX
+#del p.x     # calls delX
+print Point.__dict__
+print p.__dict__
 
 # using property decorator (read only attributes)
 class Foo(object):

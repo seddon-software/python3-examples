@@ -27,6 +27,7 @@ def outer():
         print inner.__closure__
         print inner.__closure__[1].cell_contents
         x[0] += 1  # x refers to outer 'x' because its mutable => closure
+        print x[0]
     return inner
 
 f = outer()

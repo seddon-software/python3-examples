@@ -4,6 +4,8 @@
 #
 ############################################################
 
+# THIS EXAMPLE APPEARS TO BE INCOMPLETE
+
 class Property(object):
     
     def __init__(self, fget=None, fset=None, fdel=None, doc=None):

@@ -10,7 +10,7 @@ class Singleton:
     def whatsMyId(self):
         print id(self)
         
-        
+
 x1 = Singleton.Create()
 x2 = Singleton.Create()
 x3 = Singleton.Create()

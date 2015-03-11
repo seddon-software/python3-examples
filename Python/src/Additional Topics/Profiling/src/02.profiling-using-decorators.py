@@ -8,7 +8,7 @@ if not os.path.exists('stats'): os.mkdir('stats')
 os.chdir('stats')
 
 # this decorator profiles individual functions and creates two files in stats directory: 
-#    cachegrind.out.profilestats (in KCachegrind-compatible fotrmat)
+#    cachegrind.out.profilestats (in KCachegrind-compatible format)
 #    profilestats.prof (in cProfile format)
 @profilestats.profile
 def profileIt():

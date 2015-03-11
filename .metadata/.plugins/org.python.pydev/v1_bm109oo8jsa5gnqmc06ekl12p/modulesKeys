@@ -377,6 +377,7 @@ _markerlib.markers|/System/Library/Frameworks/Python.framework/Versions/2.7/Extr
 _md5
 _multibytecodec|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multibytecodec.so
 _multiprocessing|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multiprocessing.so
+_myexample|/Library/Python/2.7/site-packages/_myexample.so
 _osx_support|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_osx_support.py
 _pyio|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_pyio.py
 _random|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_random.so
@@ -1552,6 +1553,7 @@ multiprocessing.sharedctypes|/System/Library/Frameworks/Python.framework/Version
 multiprocessing.synchronize|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/synchronize.py
 multiprocessing.util|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multiprocessing/util.py
 mutex|/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/mutex.py
+myexample|/Library/Python/2.7/site-packages/myexample.py
 mypackage.__init__|0|mypackage/__init__.py|1
 mypackage.f1|0|mypackage/f1.py|1
 mypackage.mysubpackage.__init__|0|mypackage/mysubpackage/__init__.py|1

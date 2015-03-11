@@ -14,7 +14,9 @@
 
 class A(object): 
     # methods automatically bound to object, but must have at least one parameter
-    def g(self): print("calling g()") # method bound to object
+    def g(self): 
+        print("calling g()") # method bound to object
+        print self
     # alternatively bind to a class
     gg = classmethod(g) # method bound to class
         

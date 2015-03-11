@@ -19,7 +19,7 @@ class C(B):
         self.x = self.x         # !!! not what it seems !!!
         self.x = 200
 
-c = C() # reference only exists in base class
+c = C() # reference (x) only exists in base class
 print A.x
 print c.x
 print id(A.x)

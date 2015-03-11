@@ -1,6 +1,6 @@
-department = 'Silly Walk'
-z = {x: x**2 for x in (2, 4, 6)}
-print z
+
+squares = {x: x**2 for x in (2, 4, 6)}
+print squares
 
 department = 'Silly Walk'
 print {x: department.count(x) for x in department}
