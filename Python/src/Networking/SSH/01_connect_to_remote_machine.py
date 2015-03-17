@@ -19,4 +19,4 @@ def execute(cmd, hostname, port, username, password):
     except Exception,e:
         print 'whoops' + str(e)
 
-execute(cmd="uname -a", hostname="192.168.2.5", port=22, username="python", password="this is a demo account")
+execute(cmd="uname -a", hostname="172.27.250.211", port=22, username="python", password="this is a demo account")

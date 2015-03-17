@@ -29,7 +29,7 @@ paramiko.util.log_to_file('ssh.log') # sets up logging
 
 ubuntuServer = Server(username="python", 
                         password="this is a demo account", 
-                        hostname="192.168.2.5", 
+                        hostname="172.27.250.211", 
                         port=22) 
 
 # upload and download a file

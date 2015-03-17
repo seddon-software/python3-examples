@@ -1,0 +1,27 @@
+############################################################
+#
+#    decorators
+#
+############################################################
+
+def f1(fn):
+    print "f1"
+    return fn
+
+def f2(fn):
+    print "f2"
+    return fn
+
+def f3(fn):
+    print "f3"
+    return fn
+
+def f(x): 
+    return x * x
+
+# this how we decorate without annotations
+print f1(f2)(f3)(f)(5)
+
+# this is how we decorate with annotations
+
+1

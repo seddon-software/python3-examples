@@ -1,0 +1,8 @@
+import shutil
+
+outDirectory = "files/Perl"
+shutil.rmtree(outDirectory)
+
+outDirectory = "files/Compressed"
+shutil.rmtree(outDirectory)
+

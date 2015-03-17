@@ -1,0 +1,8 @@
+import pip
+
+pip.main("install pycurl".split())
+
+1
+
+
+

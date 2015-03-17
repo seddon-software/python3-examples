@@ -1,3 +1,7 @@
+THIS FILE IS NOW OUT OF DATE !!!!!!!!!!!!!!!!
+The bug in section 1 has been fixed.  Section 2 is still applicable.
+
+
 1. These examples will not build on Windows because of a 'bug' in distutils
 
     The -mno-cygwin option has been removed from the GCC compiler

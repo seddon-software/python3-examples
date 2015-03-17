@@ -1,22 +1,14 @@
 # Use this script to setup packages
 #
-# Choose the installer below with a command such as:
-#
-#    installer = "pip install"          # to install
-#    installer = "pip uninstall"        # to uninstall
-#    installer = "pip install --upgrade # to upgrade
-
 # N.B. if you are installing behind a proxy you will have to set 
 #    HTTP_PROXY=http://user:password@yourproxy.com:port
-#
 # Alternatively use a local repository:
 #    install -f http://localhost/repo foo
 
-import subprocess,os,sys
-import set_path
-# import set_proxy
 
+import pip
 
+# modify this if your installation is behind a proxy
 def setProxy(url):
     """example call:
           setProxy("http://wwwcache.rl.ac.uk:8080")
@@ -24,11 +16,13 @@ def setProxy(url):
     os.environ["HTTP_PROXY"] = url
     
 def install(cmd):
-    cmd = (installer + " " + cmd)
-    print "****", cmd
-    subprocess.call(cmd.split())
+    cmd = mode + " " + cmd
+    print "**** pip {0}".format(cmd)
+    pip.main(cmd.split())
     
-installer = "pip install"
+# mode = "uninstall"
+# mode = "install --upgrade"
+mode = "install"
 install("beautifulSoup")
 install("bottle")
 install("chameleon")
@@ -49,6 +43,7 @@ install("pip")
 install("pil")
 install("pisa")
 install("profilestats")
+install("pycurl")
 install("pypdf2")
 install("pypng")
 install("pyprof2html")
@@ -74,8 +69,7 @@ install("xlwt")     # excel
 install("yolk")
 
 # use pip and yolk to see what is installed
-subprocess.call("pip freeze".split())
-subprocess.call("yolk -l".split())
+pip.main(['freeze'])
 
 1
 

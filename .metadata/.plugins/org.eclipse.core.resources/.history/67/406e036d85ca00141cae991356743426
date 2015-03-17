@@ -1,0 +1,3 @@
+import subprocess, os
+
+subprocess.call("python 05_advanced _example.py --log logfile.txt 3 5 7 9 11".split())

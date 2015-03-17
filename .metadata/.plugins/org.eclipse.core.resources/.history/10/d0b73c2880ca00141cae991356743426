@@ -1,0 +1,8 @@
+import sys
+
+import sys
+print sys.version
+
+for arg in sys.argv:
+    print arg,
+    

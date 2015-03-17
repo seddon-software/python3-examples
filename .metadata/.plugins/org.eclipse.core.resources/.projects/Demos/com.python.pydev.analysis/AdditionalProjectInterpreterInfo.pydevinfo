@@ -7,7 +7,7 @@ sortedhash|1425915408000|/Users/seddon/home/workspace/PythonForGit/Demos/sortedh
 classes|1426068437000|/Users/seddon/home/workspace/PythonForGit/Demos/classes.py
 numbers|1425904454000|/Users/seddon/home/workspace/PythonForGit/Demos/numbers.py
 loops|1425901428000|/Users/seddon/home/workspace/PythonForGit/Demos/loops.py
-polymorphism|1426091897000|/Users/seddon/home/workspace/PythonForGit/Demos/polymorphism.py
+polymorphism|1426092380000|/Users/seddon/home/workspace/PythonForGit/Demos/polymorphism.py
 integers|1425901733000|/Users/seddon/home/workspace/PythonForGit/Demos/integers.py
 mytypes|1425902005000|/Users/seddon/home/workspace/PythonForGit/Demos/mytypes.py
 indentation|1425900424000|/Users/seddon/home/workspace/PythonForGit/Demos/indentation.py
@@ -16,33 +16,34 @@ functions2|1425917383000|/Users/seddon/home/workspace/PythonForGit/Demos/functio
 arrays|1425903034000|/Users/seddon/home/workspace/PythonForGit/Demos/arrays.py
 -- END DISKCACHE
 -- START DICTIONARY
-18
+19
 3=slices
 1=functions
 4=sortedhash
 6=classes
 8=numbers
-18=Point.moveBy
+19=Point.moveBy
 2=polymorphism
 13=Point
 16=Manager
 10=integers
 11=mytypes
-17=Point.__init__
+18=Point.__init__
 9=indentation
 15=Employee
 12=Hello
 7=functions2
+17=Horse
 5=arrays
 14=Person
 -- END DICTIONARY
 -- START TREE 1
 24
-!<m|0|
 a|1|a!11@
 add|1|addItem!10@
 e|1|e!19@
 emp|1|Employee!17@
+h|1|h!19@
 hor|1|Horse!17@
 inc|1|incr!10@
 lis|2|list1!27@list2!27@
@@ -64,18 +65,17 @@ y|1|y!59@
 z|1|z!59@
 -- END TREE
 -- START TREE 2
-13
-!<m|0|
+12
 __d|1|__del__!13&50@
 __i|1|__init__!13&50@
 cou|1|count!13&51@
 dis|1|display!13&50@
-dri|3|drink!14&18@drink!15&18@drink!16&18@
-eat|3|eat!14&18@eat!15&18@eat!16&18@
+dri|4|drink!14&18@drink!15&18@drink!16&18@drink!17&18@
+eat|4|eat!14&18@eat!15&18@eat!16&18@eat!17&18@
 get|1|getCount!13&50@
 mov|1|moveBy!13&50@
-nam|1|name!17&51@
-sle|1|sleep!14&18@
-x|2|x!17&51@x!18&51@
-y|2|y!17&51@y!18&51@
+nam|1|name!18&51@
+sle|2|sleep!14&18@sleep!17&18@
+x|2|x!18&51@x!19&51@
+y|2|y!18&51@y!19&51@
 -- END TREE

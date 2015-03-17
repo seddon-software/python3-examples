@@ -1,0 +1,13 @@
+import zipfile, tarfile, os
+
+# outDirectory = "files/Perl"
+# if not os.path.exists(outDirectory): os.mkdir(outDirectory)
+os.chdir("out")
+
+tar = tarfile.open("MyFile.tar.gz")
+tar.extractall()
+tar.close()
+
+zipfile.ZipFile("MyFile.tar", "r").extractall()
+
+

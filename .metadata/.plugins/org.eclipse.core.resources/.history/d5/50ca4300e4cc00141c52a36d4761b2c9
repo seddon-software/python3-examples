@@ -1,0 +1,8 @@
+import pip
+
+pip.main("install lxml".split())
+
+1
+
+
+

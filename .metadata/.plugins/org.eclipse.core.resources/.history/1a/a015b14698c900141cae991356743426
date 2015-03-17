@@ -1,0 +1,10 @@
+import subprocess,os,sys
+import set_path
+# import set_proxy
+    
+subprocess.call("pip3 install mechanize".split())
+
+1
+
+
+

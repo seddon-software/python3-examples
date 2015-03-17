@@ -1,0 +1,26 @@
+############################################################
+#
+#    decorators
+#
+############################################################
+
+def trace(fn):
+    def enhance(obj,value):
+        print locals()
+        print "calling " + fn.func_name + "(" + str(x) + ")"
+        return obj.fn(value)
+    return enhance
+    
+
+def ff(fn):
+    print "ff"
+    return fn
+
+
+class foo(object):
+    @trace
+    def xxx(self, n): 
+        print "foo", n
+x = foo()
+x.xxx(5)
+1

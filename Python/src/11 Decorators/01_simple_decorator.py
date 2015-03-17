@@ -4,22 +4,22 @@
 #
 ############################################################
 
-def myDecorate(fn):
+def DoubleIt(fn):
     def enhance(y):
-        return fn(y + y)
+        return fn(y) + fn(y)
     return enhance
 
-def f(x): 
+def square(x): 
     return x * x
 
 # this how we decorate without annotations
-print myDecorate(f)(5)
+print DoubleIt(square)(10)
 
 # this is how we decorate with annotations
-@myDecorate
-def g(x): 
+@DoubleIt
+def Square(x): 
     return x * x
 
-print g(5)
+print Square(10)
 
 1

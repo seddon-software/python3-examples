@@ -1,10 +1,7 @@
-import subprocess,os,sys
-import set_path
-# import set_proxy
-    
-subprocess.call("pip install -r requirements.txt".split())
+import pip
 
-1
+pip.main("install -r requirements.txt".split())
+
 
 
 

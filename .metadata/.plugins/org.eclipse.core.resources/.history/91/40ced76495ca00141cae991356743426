@@ -1,0 +1,16 @@
+# import sys, os, subprocess, distutils
+# from distutils.sysconfig import get_python_lib
+# 
+# # import pip
+# # print("pip.pyc is at {0}".format(pip.__path__))
+# print("Python exe: {0}".format(sys.executable))
+# print("Library: {0}".format(get_python_lib()))
+
+
+import distutils.spawn as s
+# cmd = distutils.spawn.find_executable("adb")
+s.find_executable('pip-2.7', path='/')
+print s.__dict__['find_executable']('pip-2.7', path='/')
+
+
+print "DONE"

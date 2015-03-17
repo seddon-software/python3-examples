@@ -1,0 +1,8 @@
+import pip
+
+pip.main("uninstall beautifulSoup".split())
+
+1
+
+
+

@@ -1,0 +1,31 @@
+############################################################
+#
+#    decorators
+#
+############################################################
+
+
+def ff(fn):
+    print "ff"
+    return fn
+
+
+class foo(object):
+    z = 100
+    def __init__(self, msg):
+        self.msg = msg
+
+    def bar(self, f):
+        def decor(x):
+            print f
+            print self.msg, x
+        return decor
+    @ff
+    def xxx(self, f):
+        def decor2():
+            print "xxx:", self.msg
+        return decor2
+        
+x = foo()
+x.xxx(5)
+1

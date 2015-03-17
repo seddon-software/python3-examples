@@ -1,0 +1,12 @@
+# import subprocess,os,sys
+# import set_path
+# import set_proxy
+import pip
+
+pip.main("install pycurl".split())
+import pycurl
+
+1
+
+
+

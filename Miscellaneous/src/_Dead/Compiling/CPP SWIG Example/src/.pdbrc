@@ -1,0 +1,4 @@
+alias z n ;; l
+alias x s ;; l
+alias setup b build_ext.py:305 ;; b ccompiler.py:962 ;; b cygwinccompiler.py:53 ;; !cc=distutils.command.build_ext.build_ext.compiler.__dict__
+alias b distutils\command\build_ext.py:339

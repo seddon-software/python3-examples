@@ -1,9 +1,11 @@
-import zipfile, os
+import zipfile, tarfile, os, subprocess
 
-outDirectory = "files/Perl"
-if not os.path.exists(outDirectory): os.mkdir(outDirectory)
-os.chdir(outDirectory)
+os.chdir("out")
 
-zipfile.ZipFile("../../zips/Perl.zip", "r").extractall()
+tar = tarfile.open("MyFile.tar.gz")
+tar.extractall()
+tar.close()
 
+zipfile.ZipFile("../zips/Perl.zip", "r").extractall()
 
+print os.listdir(".")

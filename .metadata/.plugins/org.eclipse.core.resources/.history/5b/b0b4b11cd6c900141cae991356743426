@@ -1,0 +1,32 @@
+############################################################
+#
+#    decorators
+#
+############################################################
+
+
+class foo(object):
+
+    def __init__(self, msg):
+        self.msg = msg
+
+    def bar(self, f):
+        def decor():
+            print self.msg
+        return decor
+
+x = foo("foo")
+y = foo("bar")
+
+@x.bar
+def f():
+    pass
+
+@y.bar
+def g():
+    pass
+
+f()
+g()
+
+1

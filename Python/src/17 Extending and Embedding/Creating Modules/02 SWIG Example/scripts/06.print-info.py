@@ -13,3 +13,6 @@ def displayInfo(baseFileName):
 
 displayInfo("SWIG_example-1.0-py")
 
+
+from distutils.sysconfig import get_python_lib, get_config_vars
+print get_python_lib()

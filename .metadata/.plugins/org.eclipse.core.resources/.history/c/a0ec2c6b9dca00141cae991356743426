@@ -1,0 +1,4 @@
+import pip
+
+cmd = "uninstall -y mymodule"
+pip.main(cmd.split())

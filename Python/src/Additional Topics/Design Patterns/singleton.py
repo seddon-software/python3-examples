@@ -1,6 +1,5 @@
 class Singleton:
     theInstance = None
-    
     @classmethod
     def Create(cls):
         if Singleton.theInstance == None:

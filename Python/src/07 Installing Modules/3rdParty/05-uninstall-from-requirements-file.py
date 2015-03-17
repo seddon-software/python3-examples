@@ -1,16 +1,4 @@
-import subprocess,os,sys
-import set_path
-# import set_proxy
+import pip
 
-    
-def install(cmd):
-    cmd = (installer + " " + cmd)
-    print "****", cmd
-    subprocess.call(cmd.split())
-    
-subprocess.call("pip uninstall -r requirements.txt".split())
-
-1
-
-
+pip.main("uninstall -r requirements.txt".split())
 
