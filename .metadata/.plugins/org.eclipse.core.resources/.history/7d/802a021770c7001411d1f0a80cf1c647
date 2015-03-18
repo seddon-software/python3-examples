@@ -1,6 +1,0 @@
-# x = 100
-# y = 200
-# z = x + y
-
-a = [lambda x: x*x*x for x in (2,3,4)]
-b = (lambda x: x*x*x for x in (2,3,4))

@@ -1,7 +1,0 @@
-x = 100
-y = x
-
-x = x + 1
-
-print x
-print y

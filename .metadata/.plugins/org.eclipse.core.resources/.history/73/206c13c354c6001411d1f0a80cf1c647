@@ -1,9 +1,0 @@
-mytuple = ( 5, 7, 11, 13, 17 )
-mylist = list(mytuple)
-mylist2 = list(mylist)
-
-print mytuple
-print mylist
-print mylist2
-
-

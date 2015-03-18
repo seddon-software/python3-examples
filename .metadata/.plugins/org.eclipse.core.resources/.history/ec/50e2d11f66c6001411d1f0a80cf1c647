@@ -1,2 +1,0 @@
-list1 = range(30,10,-1)
-print list1
