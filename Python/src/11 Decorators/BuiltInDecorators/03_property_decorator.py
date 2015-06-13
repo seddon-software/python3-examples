@@ -15,7 +15,6 @@ class Circle(object):
 circle1 = Circle(10.0)
 circle2 = Circle(20.0)
 circle3 = Circle(30.0)
-circle1.area = 4.4
 
 print circle1.radius
 print circle1.area

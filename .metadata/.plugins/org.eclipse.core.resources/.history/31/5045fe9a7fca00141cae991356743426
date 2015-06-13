@@ -1,5 +1,0 @@
-import sys
-
-for arg in sys.args:
-    print arg
-    

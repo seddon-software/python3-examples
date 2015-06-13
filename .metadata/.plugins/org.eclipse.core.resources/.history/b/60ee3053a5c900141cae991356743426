@@ -1,8 +1,0 @@
-import sys, os
-from distutils.sysconfig import get_python_lib
-
-print("pip.pyc is at {0}".format(pip.__path__[0]))
-print("Python exe: {0}".format(sys.executable))
-print("Library: {0}".format(get_python_lib()))
-import subprocess
-subprocess.call("pip list".split())

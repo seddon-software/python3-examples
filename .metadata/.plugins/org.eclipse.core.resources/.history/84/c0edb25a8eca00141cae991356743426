@@ -1,8 +1,0 @@
-import argparse 
- 
-parser = argparse.ArgumentParser() 
-parser.add_argument('food', choices=['spam','eggs','ham']) 
-args = parser.parse_args() 
-print args.food  
-print args.__dict__
-

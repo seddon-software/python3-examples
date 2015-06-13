@@ -33,7 +33,8 @@ a = ones( (2,2) )
 print a, id(a)
 a *= 3
 print a, id(a)      # same array
-a = a * 3
-print a, id(a)      # different array
+b = a * 3
+print a, id(a)
+print b, id(b)      # different array
 
 1

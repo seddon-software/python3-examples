@@ -22,7 +22,8 @@ data = br.response().read()
 
 # pick out anchors that are tagged with the story class
 soup = BeautifulSoup(data)
-tags = soup.findAll("a", "story")
+# tags = soup.findAll("a", "story")
+tags = soup.findAll("a")
 newSoup = BeautifulSoup()
 
 base = "http://www.bbc.co.uk"

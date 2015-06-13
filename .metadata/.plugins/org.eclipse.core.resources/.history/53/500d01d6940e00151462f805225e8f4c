@@ -1,0 +1,9 @@
+class Point:
+    pass
+
+# create objects
+p1 = Point()
+p2 = Point()
+p3 = Point()
+print type(p1.__class__)
+1

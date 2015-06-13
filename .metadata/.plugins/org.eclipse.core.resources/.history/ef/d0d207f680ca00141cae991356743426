@@ -1,4 +1,0 @@
-import subprocess, os
-
-subprocess.call("python 02.py --help".split())
-subprocess.call("python 02.py -h".split())

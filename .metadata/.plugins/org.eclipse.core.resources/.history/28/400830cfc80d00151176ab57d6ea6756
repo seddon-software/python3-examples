@@ -1,0 +1,3 @@
+x = raw_input("type in a number: ")
+x = x + 1
+print x

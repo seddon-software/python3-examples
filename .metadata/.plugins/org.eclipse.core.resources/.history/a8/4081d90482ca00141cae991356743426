@@ -1,6 +1,0 @@
-import subprocess, os
-
-subprocess.call("python 03.py 123 456".split())
-print "-------------------------------------------"
-subprocess.call("python 03.py 123 456 789".split())
-

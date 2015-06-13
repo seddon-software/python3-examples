@@ -1,3 +1,0 @@
-import subprocess
-
-subprocess.call("01.py red orange yellow green blue indigo violet".split())

@@ -1,6 +1,6 @@
 from abc import ABCMeta, abstractmethod, abstractproperty
 
-class Shape:
+class Shape(object):
     __metaclass__ = ABCMeta
 
     @abstractmethod

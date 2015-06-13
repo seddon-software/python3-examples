@@ -1,4 +1,0 @@
-import subprocess, os
-
-print os.getcwd()
-subprocess.call("01.py red orange yellow green blue indigo violet".split())

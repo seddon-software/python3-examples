@@ -100,6 +100,9 @@ convert in both directions and print out any discrepancies
 """
 for i in range(4000):
     r = toRoman(i)
+    print r
     n = toDecimal(r)
     if i - int(n) != 0:
         print "Error: ", i
+
+

@@ -2,6 +2,7 @@ from matplotlib import cm
 from matplotlib.ticker import LinearLocator, FormatStrFormatter
 import matplotlib.pyplot as plt
 import numpy as np
+from mpl_toolkits.mplot3d import axes3d, Axes3D
 
 X = np.arange(-5, 5, 0.25)
 Y = np.arange(-5, 5, 0.25)
@@ -15,7 +16,8 @@ colormaps = [cm.autumn, cm.bone, cm.cool, cm.coolwarm, cm.copper, cm.flag, cm.gr
 
 for cmap in colormaps:
     fig = plt.figure()
-    ax = fig.gca(projection='3d')
+#     ax = fig.gca(projection='3d')
+    ax = Axes3D(fig)
     surface = ax.plot_surface(X, Y, Z, rstride=1, cstride=1, cmap=cmap, linewidth=0, antialiased=False)
     ax.set_title(cmap.name)
     ax.set_zlim(-1.01, 1.01)

@@ -8,7 +8,7 @@
 def MissingMethods():
     class MyClass(object):
         def __getattr__(self, attr):
-            self.missingAttribute = attr
+            self.missingAttribute = str(attr)
             return self.replacement  # this method gets called instead
         
         def replacement(self): 

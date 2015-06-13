@@ -3,7 +3,6 @@
 #    handling undefined attributes
 #
 ############################################################
-from twisted.internet.test.test_serialport import DoNothing
 
 # Chain of Responsibility Pattern
 

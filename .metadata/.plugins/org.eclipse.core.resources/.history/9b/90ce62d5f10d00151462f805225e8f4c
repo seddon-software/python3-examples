@@ -1,0 +1,8 @@
+def swap(a, b):
+    pass
+
+x = 100
+y = 200
+swap(x, y)
+print x, y
+

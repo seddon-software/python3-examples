@@ -1,0 +1,8 @@
+x = range(10, 30)
+y = x[:]    # shallow copy
+z = tuple(x)
+w = list(z)
+print id(x)
+print id(z)
+print id(w)
+

@@ -33,4 +33,5 @@ def main():
     s = pl.sin(2*pl.pi*t)
     ax2.plot(t, s, color='blue', lw=2)
     pl.draw()
+    print "done"
 main()

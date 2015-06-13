@@ -9,6 +9,8 @@ import unittest
 class MyClass():
     'This method is mocked out'
     def my_method(self):
+        # this method will do something complicated in practice
+        # and we don't wan't it to take part in the test
         pass
  
 class AnotherClass():
@@ -19,7 +21,7 @@ class AnotherClass():
     
 
 class testPoint(unittest.TestCase):
-    'testing a method mocked out with a constant return value'
+    'testing a method mocked out with a constant return value (True)'
     @patch.object(MyClass, 'my_method')
     def test_mocking_a_method(self, mocked_method):
         mocked_method.return_value=True
@@ -27,7 +29,7 @@ class testPoint(unittest.TestCase):
         result = o.f()
         self.assertTrue(result)
 
-    'testing a method mocked out with a constant return value'
+    'testing a method mocked out which returns the successive results (False, False, True)'
     @patch.object(MyClass, 'my_method')
     def test__mocking_a_method_with_multiple_return_values(self, mocked_method):
         return_values= [False,False,True]

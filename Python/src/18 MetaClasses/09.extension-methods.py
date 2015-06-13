@@ -20,12 +20,13 @@ a3 = A(); a3.name = "a3"
 # attempt simple binding
 try:
     a1.f = f 
-    a1.f()
+    a1.f(a1)    # works, but is awkward
+    a1.f()      # fails
 except Exception, e:
     print "***Error: Simple binding:", e
     
 # use MethodType 
-a1.f = types.MethodType(f, a1, A)   # bind f to an instance a of A
+a1.f = types.MethodType(f, a1, A)   # bind f to an instance a1 of A
 a1.f()
 
 # check if f is bound to other objects

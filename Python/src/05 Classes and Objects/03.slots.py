@@ -13,6 +13,8 @@ try:
     p = Point(10, 20)
     p.display()
     print p.__slots__
+    p.x = 50
+    p.y = 50
 #    print p.__dict__
     p.z = 50        # not allowed
 except AttributeError, e:

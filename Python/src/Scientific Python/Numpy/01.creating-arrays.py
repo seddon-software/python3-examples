@@ -11,6 +11,7 @@ set_printoptions(precision=3)
 
 # create array filled with 1's
 a = ones( (3,5) ); print a
+b = ones( (3,5) ) * 13; print b
 
 # create array filled with 0's
 a = zeros( (3,5) ); print a
@@ -35,6 +36,8 @@ a = linspace(-50.0,50.0,5); print a
 a = linspace(-50.0,50.0,7); print a
 
 # use a function
+a = fromfunction(lambda i,j: i * j, (3,3))
+print a
 a = fromfunction(lambda i,j,k: i + j + k, (4,2,3))
 print a
 

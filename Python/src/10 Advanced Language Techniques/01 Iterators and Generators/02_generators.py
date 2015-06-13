@@ -26,7 +26,7 @@ iter = f.myGenerator()      # call generator function to create an iterable
 for n in iter:              # invoke the iterable
     print n,
 
-for n in Fibonacci().myGenerator():              # invoke the iterable
+for n in Fibonacci().myGenerator():              # invoke the iterable directly
     print n,
 
 

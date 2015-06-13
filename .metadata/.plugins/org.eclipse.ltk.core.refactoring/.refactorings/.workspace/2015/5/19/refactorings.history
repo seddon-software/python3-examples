@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;Python/src/_Play/04_string_interpolation&apos;" deleteContents="false" description="Delete resource &apos;Python/src/_Play/04_string_interpolation&apos;" element1="/Python/src/_Play/04_string_interpolation" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1431117191606"/>
+</session>

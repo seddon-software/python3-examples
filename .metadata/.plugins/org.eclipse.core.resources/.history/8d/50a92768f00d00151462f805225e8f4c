@@ -1,0 +1,10 @@
+def average(x, y):
+    print (x + y) / 2.0
+    
+
+average(4, 8)
+average(4, 7)
+f = average
+f(5, 9)
+f = 77
+print f

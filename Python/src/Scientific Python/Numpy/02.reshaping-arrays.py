@@ -11,7 +11,9 @@ a = ones( (24,) ); print a
 
 # reshape it
 b = a.reshape(2,3,4); print b
-
+a[13] = 99
+print a
+print b
 # display properties
 print type(b)
 print "Shape:", b.shape

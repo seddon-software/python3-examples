@@ -1,0 +1,10 @@
+def f(params):
+    for p in params:
+        print p
+
+
+
+
+
+f(3, 5, 7, 9, 11)
+f(2, 4, 8)

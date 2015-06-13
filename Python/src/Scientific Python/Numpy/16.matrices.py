@@ -14,7 +14,7 @@ c = a * b; print c
 a = matrix( [[3,5],[4,1]] ); print a
 print "Transpose"; print a.T
 print "Inverse"; print a.I
-
+print "Determinate", linalg.det(a)
 # linear algebra
 # 5x + 3y = 31
 # 2x - 7y = -45

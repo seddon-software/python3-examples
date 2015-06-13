@@ -1,0 +1,10 @@
+def swap(a, b):
+    temp = a
+    a = b
+    b = temp
+
+x = 100
+y = 200
+swap(x, y)
+print x, y
+

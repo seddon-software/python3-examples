@@ -1,0 +1,8 @@
+import pip
+
+pip.main("install pyserial".split())
+
+1
+
+
+

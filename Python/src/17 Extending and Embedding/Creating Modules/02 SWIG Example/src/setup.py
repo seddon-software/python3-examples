@@ -3,7 +3,7 @@ from distutils.core import setup, Extension
 
 
 example_module = Extension('_myhello',
-                           sources=['hello.i', 'hello.c'],
+            sources=['hello.i', 'hello.c'],
                            )
 
 setup (

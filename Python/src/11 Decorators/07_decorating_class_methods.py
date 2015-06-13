@@ -21,4 +21,7 @@ class MyClass(object):
         
 m = MyClass(100)
 m.add(25)
+# currying version
+trace(m.add(25))
+
 1

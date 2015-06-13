@@ -19,7 +19,7 @@ pattern = r"""^(           # capture-1
                 )
                  (\D+)     # capture-8
                )$"""
-compiledPattern = re.compile(pattern, re.X)
+compiledPattern = re.compile(pattern, re.VERBOSE)
              
 result = compiledPattern.search(string)
 

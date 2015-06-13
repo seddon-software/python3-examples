@@ -1,0 +1,8 @@
+import pip
+
+pip.main("install serial".split())
+
+1
+
+
+

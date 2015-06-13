@@ -1,0 +1,8 @@
+class Point:
+    pass
+
+# create objects
+p1 = Point()
+
+
+1

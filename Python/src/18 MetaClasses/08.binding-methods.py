@@ -10,7 +10,7 @@
 # binding refers to the first parameter in function call
 #   with object binding the first parameter is a reference to an instance
 #   with class binding the first parameter is a reference to an class
-# static binding works just like a function call
+# static binding (staticmethod) works just like a function call
 
 class A(object): 
     # methods automatically bound to object, but must have at least one parameter

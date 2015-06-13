@@ -16,6 +16,7 @@ print a is c
 # change underlying data - both arrays see the changes
 a[3] = 99
 print a
+print b
 print c
 
 # reshape one array - data unchanged

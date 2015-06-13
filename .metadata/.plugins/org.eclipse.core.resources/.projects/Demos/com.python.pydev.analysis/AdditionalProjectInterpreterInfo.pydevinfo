@@ -1,19 +1,19 @@
 -- VERSION_4
 -- START DISKCACHE
-/Users/seddon/home/workspace/PythonForGit/.metadata/.plugins/org.eclipse.core.resources/.projects/Demos/com.python.pydev.analysis/v2_indexcache
-slices|1425911054000|/Users/seddon/home/workspace/PythonForGit/Demos/slices.py
-functions|1425909727000|/Users/seddon/home/workspace/PythonForGit/Demos/functions.py
-sortedhash|1425915408000|/Users/seddon/home/workspace/PythonForGit/Demos/sortedhash.py
-classes|1426068437000|/Users/seddon/home/workspace/PythonForGit/Demos/classes.py
-numbers|1425904454000|/Users/seddon/home/workspace/PythonForGit/Demos/numbers.py
-loops|1425901428000|/Users/seddon/home/workspace/PythonForGit/Demos/loops.py
-polymorphism|1426092380000|/Users/seddon/home/workspace/PythonForGit/Demos/polymorphism.py
-integers|1425901733000|/Users/seddon/home/workspace/PythonForGit/Demos/integers.py
-mytypes|1425902005000|/Users/seddon/home/workspace/PythonForGit/Demos/mytypes.py
-indentation|1425900424000|/Users/seddon/home/workspace/PythonForGit/Demos/indentation.py
-Hello|1425895614000|/Users/seddon/home/workspace/PythonForGit/Demos/Hello.py
-functions2|1425917383000|/Users/seddon/home/workspace/PythonForGit/Demos/functions2.py
-arrays|1425903034000|/Users/seddon/home/workspace/PythonForGit/Demos/arrays.py
+/Users/seddon/home/workspace/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/Demos/com.python.pydev.analysis/v2_indexcache
+slices|1425911054000|/Users/seddon/home/workspace/Python/Demos/slices.py
+functions|1425909727000|/Users/seddon/home/workspace/Python/Demos/functions.py
+sortedhash|1425915408000|/Users/seddon/home/workspace/Python/Demos/sortedhash.py
+classes|1426068437000|/Users/seddon/home/workspace/Python/Demos/classes.py
+numbers|1425904454000|/Users/seddon/home/workspace/Python/Demos/numbers.py
+loops|1425901428000|/Users/seddon/home/workspace/Python/Demos/loops.py
+polymorphism|1426092380000|/Users/seddon/home/workspace/Python/Demos/polymorphism.py
+integers|1425901733000|/Users/seddon/home/workspace/Python/Demos/integers.py
+mytypes|1425902005000|/Users/seddon/home/workspace/Python/Demos/mytypes.py
+indentation|1425900424000|/Users/seddon/home/workspace/Python/Demos/indentation.py
+Hello|1425895614000|/Users/seddon/home/workspace/Python/Demos/Hello.py
+functions2|1425917383000|/Users/seddon/home/workspace/Python/Demos/functions2.py
+arrays|1425903034000|/Users/seddon/home/workspace/Python/Demos/arrays.py
 -- END DISKCACHE
 -- START DICTIONARY
 19

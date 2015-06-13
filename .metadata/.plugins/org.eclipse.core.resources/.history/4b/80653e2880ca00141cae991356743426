@@ -1,7 +1,0 @@
-import subprocess, os
-
-import sys
-print sys.version
-
-print os.getcwd()
-subprocess.call("python 01_args.py red orange yellow green blue indigo violet".split())

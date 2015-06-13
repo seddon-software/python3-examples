@@ -20,9 +20,11 @@ print a
 print a1
 
 print "split unequal horizontally"
-a0,a1,a2 = hsplit(a,(1,2))  # 2 splits
+a0,a1,a2 = hsplit(a,(2,3))  # split at col 2 and 3
 print a
-print a2
+print "a0 ="; print a0
+print "a1 ="; print a1
+print "a2 ="; print a2
 
 
 

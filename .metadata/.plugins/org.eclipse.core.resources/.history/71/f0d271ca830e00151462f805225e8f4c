@@ -1,0 +1,13 @@
+def f(*params, **kwargs):
+    for p in params:
+        print p,
+    print
+    
+    for (key, value) in kwargs.iteritems():
+        print key, value 
+
+f(3, 5, 7, 9, 11)
+f(2, 4, 8)
+f(a = 4, b = 6)
+mytuple = (7, 9, 11)
+f(3, 5, mytuple, a = 4, b = 6)

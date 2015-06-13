@@ -1,0 +1,4 @@
+for day in ['mon', 'tue', 'wed', 'thu', 'fri']:
+    print day
+
+

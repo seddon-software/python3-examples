@@ -17,6 +17,8 @@ print np.average(a, axis=1)
 
 # sort data
 print np.msort(a)
+print np.sort(a, axis=0)
+print np.sort(a, axis=1)
 
 # insert elements:  insert(array, positions, items)
 print a
