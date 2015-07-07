@@ -1,8 +1,0 @@
-a = [ 4, 6, 7, 1, 12, 5, 13, 5, 6 ] # mutable
-b = a
-print id(a)
-a.append(99)
-print id(a)
-print id(b)
-print a
-print b

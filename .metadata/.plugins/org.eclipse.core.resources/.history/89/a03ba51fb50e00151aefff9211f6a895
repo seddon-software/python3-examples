@@ -1,5 +1,0 @@
-import mylib.partA
-import mylib.partB
-
-a1 = mylib.partA.A()
-a2 = mylib.partA.A()

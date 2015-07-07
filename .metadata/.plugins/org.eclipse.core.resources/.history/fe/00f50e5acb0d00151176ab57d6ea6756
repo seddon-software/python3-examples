@@ -1,8 +1,0 @@
-for day in ['mon', 'tue', 'wed', 'thu', 'fri']:
-    print day,
-    
-for n in range(20):
-    print n
-
-
-

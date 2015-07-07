@@ -1,0 +1,14 @@
+salary = {
+          'sue' : 45000,
+          'ali' : 27000,
+          'zac' : 31000,
+          'zoe' : 34000,
+          'joe' : 52000
+          }
+
+theKeys = salary.keys()
+theKeys.sort()
+print theKeys
+
+for key in theKeys:
+    print key, salary[key]

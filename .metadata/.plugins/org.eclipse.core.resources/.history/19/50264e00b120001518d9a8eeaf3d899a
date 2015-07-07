@@ -1,0 +1,18 @@
+############################################################
+#
+#    decorators
+#
+############################################################
+
+
+def f1(fn):
+    def inner(x):
+        return fn(x)
+    return inner
+
+def square(n): return n * n
+
+
+g1 = f1(square)
+print g1(6)
+1

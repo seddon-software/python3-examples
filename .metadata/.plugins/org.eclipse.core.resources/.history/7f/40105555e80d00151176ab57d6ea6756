@@ -1,9 +1,0 @@
-salary = {
-           'John' : 52000,
-           'Sue'  : 48000,
-           'Dave' : 38000,
-           'Zoe'  : 60000,
-           (3,4)  : 55000
-         }
-
-print salary

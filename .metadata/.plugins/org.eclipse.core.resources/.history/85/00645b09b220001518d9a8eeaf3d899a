@@ -1,0 +1,20 @@
+############################################################
+#
+#    decorators
+#
+############################################################
+
+def f1(fn1):
+    def f2(fn2):
+        def f3(fn3):
+            return fn1(fn2)(fn3)
+        return f3
+    return f2
+
+def doubleIt(n): return 2 * n
+def trebleIt(n): return 3 * n
+def quadrupleIt(n): return 4 * n
+
+
+print f1(doubleIt)(trebleIt)
+1

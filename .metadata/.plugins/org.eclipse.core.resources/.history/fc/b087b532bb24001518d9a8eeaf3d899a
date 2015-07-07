@@ -1,0 +1,10 @@
+def square(n):
+    return n * n
+
+
+a = square(6)
+print a
+p = square
+square = 3.14159
+print square
+print p(7)

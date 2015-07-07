@@ -1,5 +1,0 @@
-def f(a, b, c):
-    print a + b + c
-    
-    
-f(2, 4, 6)

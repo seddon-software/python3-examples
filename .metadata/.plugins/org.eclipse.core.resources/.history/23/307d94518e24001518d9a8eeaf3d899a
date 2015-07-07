@@ -1,0 +1,8 @@
+x = 245
+
+if x > 200:
+    print "x is big"
+    print "x is big"
+    if x > 300:
+        print "x is even bigger"
+    

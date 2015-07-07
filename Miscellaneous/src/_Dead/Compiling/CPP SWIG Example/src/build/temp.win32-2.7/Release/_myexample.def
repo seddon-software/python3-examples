@@ -1,3 +1,0 @@
-LIBRARY _myexample.pyd
-EXPORTS
-init_myexample

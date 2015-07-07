@@ -1,0 +1,6 @@
+def adOne(n):
+    n = n + 1
+    
+x = 100
+x = x + 1
+print x

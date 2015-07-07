@@ -1,3 +1,0 @@
-x = raw_input("type in a number: ")
-
-print x

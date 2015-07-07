@@ -1,5 +1,0 @@
-#! /bin/ksh
-
-read a
-echo $a
-
