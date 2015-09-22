@@ -9,8 +9,8 @@ os.chdir("zipfiles")
 
 
 import zipfile
-zipfile.ZipFile("gp444win32.zip", "r").extractall()
+zipfile.ZipFile("src.zip", "r").extractall()
 
 
 import shutil
-shutil.rmtree("gnuplot")
+shutil.rmtree("src")
