@@ -1,0 +1,22 @@
++revert
++Tempo120
++ElectricGrandPiano
++AFlatMajor
+
+[16]  .C .D .E .E .D .C +rest .C .B .A .A .B .C +rest
+      .C .D .E .D .C .D .E .E .B .B .C .C .D .D .E +rest
+
+[16]  .C .D .E .E .D .C +rest .C .B .A .A .B .C +rest
+      .C .D .E .D .C .D .E .E .B .B .C .C .D .D +dot .C [32] +rest
+
+
++treble
++SynthDrum
+[16]  .c .c .c .c .c .c +rest .c .c .c .c .c .c +rest
+      .c .c .c .c .c .c .c .c .c .c .c .c .c .c .c +rest
+
+[16]  .c .c .c .c .c .c +rest .c .c .c .c .c .c +rest
+      .c .c .c .c .c .c .c .c .c .c .c .c .c .c [8] .c
+
++auto-beam
++go

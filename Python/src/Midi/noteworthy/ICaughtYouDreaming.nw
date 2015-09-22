@@ -1,0 +1,56 @@
++revert
+
+
+
++Tempo120
++Sweep
+
+[4] 15 13 11 [8]  15 ~11 [4] +rest
+[8] ~15  [16] ~15 [8] 13 ~11
+[4] 9 +rest +bar
+
+[4] 13 11  9 [8]  13 ~9 [4] +rest
+[8] ~13  [16] ~13   [8] 11 ~9
+[4] 7 +rest +bar
+
+[4] 11 9 7  [8]  11 ~7 [4] +rest
+[8] ~11 [16] ~11   [8] 9 ~7
+[4] 5 +rest +bar
+
+[8] ~5   [16] +rest [8] ~7 [8] 9
+[8] 7 [4] 13 [4] +rest
+[8] ~11  [16] ~13
+[8] 11 13 [4] 15 +rest +bar
+
++lyrics
++startLyrics
+I caught you dream- -ing just the oth- -er day
+And there was sad- -ness in your heart I'd say
+I tried to reach you, you just turned a- -way
+As if to tell me I had gone a- -stray
++endLyrics
+
+# Yes you were dreaming just the other day
+# And your still dreaming - every other day
+# I saw you dreaming just the other day
+# But you just turned - and looked the other way
+# And were you dreaming of a promised life
+#
+#---------------------
+# Per chance to dream of yester year
+#	Of all the futures that we shared
+
+#	I caught you dreaming of another way
+#	Perhaps we'll try to start again
+# I caught you dreaming just the other day
+# I saw you turn and look the other way
+# Perhaps you'll dream of yesterday
+#	Of all the futures that we shared
+#	I caught you dreaming of another way
+#	Perhaps we'll try to start again
+
+
++auto-beam
+#+end
++go
+

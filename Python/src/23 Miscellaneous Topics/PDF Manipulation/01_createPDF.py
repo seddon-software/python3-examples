@@ -17,9 +17,9 @@ def addPage(lines):
         v -= 14 * point
     c.showPage()
 
-addPage(["Page 1", "Hello", "World"])
+addPage(["Page 1", "Goodbye", "Universe"])
 addPage(["Page 2", "More lines", "of text"])
-addPage(["Page 3"])
+addPage(["Page 3", "This is famous in the UK"])
 addPage(["Page 4"])
 addPage(["Page 5 - line 1", "line 2", "line 3", "line 4", "line 5", "line 6", "line 7"])
 

@@ -1,5 +1,5 @@
 import os, sys
-import Image, ImageFilter
+from PIL import Image, ImageFilter
 
 
 os.chdir("images")

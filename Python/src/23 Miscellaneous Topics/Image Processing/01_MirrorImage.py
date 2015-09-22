@@ -1,11 +1,9 @@
 import os, sys
-import Image
+from PIL import Image
 
 
 os.chdir("images")
 infile = "DSCF0437.JPG"
-
-
 outfile = os.path.splitext(infile)[0] + ".flipped.jpg"
 try:
     img = Image.open(infile)

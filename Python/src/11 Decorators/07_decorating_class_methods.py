@@ -4,6 +4,8 @@
 #
 ############################################################
 
+# the method is passed directly to the decorator, the object
+# to the inner function
 def trace(fn):
     def enhance(obj,value):
         print "calling {0}('{1}')".format(fn.func_name, value)

@@ -1,5 +1,5 @@
 import os, sys
-import Image
+from PIL import Image
 
 
 os.chdir("images")
@@ -12,5 +12,5 @@ try:
     img = img.crop(box)
     img.show()
     img.save(outfile, "JPEG")
-except IOError:
+except IOError, e:
     print e

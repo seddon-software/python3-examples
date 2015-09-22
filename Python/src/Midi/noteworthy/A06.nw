@@ -1,0 +1,28 @@
++revert
++Tempo100
++TubularBells
++EFlatMajor
+
+[16] 14 {5 +natural 9c} 14 {+flat 5 7c} [8] +rest {9 +flat 17c}
+ [16] +natural 11 {12 17c} 9 {11 17c} [8] +rest [16] +natural 14 {5 12c} +bar
+
+[4] +natural 9 [16] 12 9 7 +natural 11 [4] +rest 12 +bar
+
+[16] {5 +natural 9c} 14 {+flat 5 9c} 14 [8] 7 {9 12c} [8] +rest
+ [16] 14 {+natural 5 9c}  14 [8] {+flat +dot 5 +dot 7c} +bar
+
+[8] 5 {+natural 9 12c} 9 {12 +flat 17c} [2] +rest
++bar
+
++auto-beam
+
++bass
++TubularBells
++EFlatMajor
+[4] 9 [8] 11 +natural 7 [4] 11 [8] 7 11 +bar
+[2] 9 11 +bar
+[8] +natural 7 11 [4] +rest [8] 11 7 [4] +rest +bar
+[8] +natural 7 +flat 14 [4] +rest [2] +rest
+
++auto-beam
++go
