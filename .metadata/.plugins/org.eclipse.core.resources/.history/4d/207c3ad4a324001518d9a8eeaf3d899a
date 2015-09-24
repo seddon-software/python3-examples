@@ -1,4 +1,0 @@
-l1 = [1,2,3,4]
-l2 = list(l1)
-print id(l1)
-print id(l2)

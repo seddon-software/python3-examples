@@ -1,8 +1,0 @@
-for i in range(0, 20):
-    print i * i,
-
-x = range(10, 30)
-print x
-
-    
-    

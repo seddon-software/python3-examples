@@ -1,9 +1,0 @@
-def square(n):
-    return n * n
-
-
-a = square(6)
-print a
-
-square = 3.14159
-print square

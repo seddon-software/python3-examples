@@ -1,5 +1,0 @@
-x = 345
-
-if x > 200:
-          print "x is big"
-    

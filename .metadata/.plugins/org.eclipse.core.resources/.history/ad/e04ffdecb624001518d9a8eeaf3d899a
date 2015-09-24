@@ -1,8 +1,0 @@
-def average(x, y):
-    return (x + y) / 2.0
-
-
-print "average is", average(4, 8)
-print "average is", average(4, 9)
- 
-

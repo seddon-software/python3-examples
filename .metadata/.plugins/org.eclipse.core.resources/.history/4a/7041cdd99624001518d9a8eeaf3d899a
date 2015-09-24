@@ -1,3 +1,0 @@
-x = [ 2, 3, 4, 5, 6, 8, 10, 20, 30 ]
-print x[2:6]        # slice (sub-array)
-print x[2:8:2]      #steps of 2

@@ -1,8 +1,0 @@
-x = [ [10, 20], (30, 40) ]
-
-print id(x[0][0])
-x[0][0] = 90
-print id(x[0][0])
-print x
-print id(90)
-print id(10)
