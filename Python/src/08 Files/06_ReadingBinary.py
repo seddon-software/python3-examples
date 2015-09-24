@@ -13,8 +13,8 @@ def readBinary(filename):
     try:
         size = os.stat(filename).st_size
         f = open(filename, "rb")
-        chars = array.array('c')    # read as chars
-        chars.fromfile(f, size)     # convert to list
+        chars = array.array('c')    # sets up a byte buffer
+        chars.fromfile(f, size)     # populates the buffer
         return chars.tolist()       # return list of chars
     except EOFError,e:  # file doesn't contain chars
         print e
