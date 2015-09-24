@@ -4,6 +4,8 @@
 #
 ############################################################
 
+# Using eval and exec is regarded as a secut=rity risk these days 
+
 x = 10
 y = 20
 codeFragment = raw_input("Please enter some code (e.g. 'print x + y'): ")

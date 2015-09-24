@@ -1,9 +1,10 @@
-
 ############################################################
 #
 #    eval operators
 #
 ############################################################
+
+# Using eval and exec is regarded as a secut=rity risk these days 
 
 x = 10
 y = 20
