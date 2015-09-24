@@ -5,7 +5,7 @@ def toHex(n):
     return hex(n)
 
 # because ints have infinite precision, using ~ will generate
-# and infinate set of F's for negative numbers, so we need something
+# an infinite set of F's for negative numbers, so we need something
 # like the above to similate a finite number of bits
 
 x = 0xAE53FE13
