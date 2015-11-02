@@ -4,7 +4,7 @@ from Cython.Build import cythonize
 
 name = 'HelloWorld_Package'
 version = '2.0'
- 
+
 setup(
     name = name,
     version = version,

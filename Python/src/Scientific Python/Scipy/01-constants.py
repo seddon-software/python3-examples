@@ -12,7 +12,7 @@ print(c.giga, c.mega, c.kilo)
 
 # physical constants
 print("speed of light", c.c)
-print("Plank's constant", c.h)
+print("Planck's constant", c.h)
 print("Boltzmann constant", c.k)
 
 #weight in kg

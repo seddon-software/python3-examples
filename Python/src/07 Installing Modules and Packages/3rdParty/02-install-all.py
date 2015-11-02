@@ -6,7 +6,7 @@
 #    install -f http://localhost/repo foo
 
 
-import pip
+import pip, os
 
 # modify this if your installation is behind a proxy
 def setProxy(url):

@@ -5,7 +5,7 @@
 ############################################################
 
 from numpy import *
-
+import numpy as np
 
 set_printoptions(precision=3)
 
