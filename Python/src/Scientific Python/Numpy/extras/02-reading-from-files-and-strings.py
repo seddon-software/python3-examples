@@ -4,7 +4,7 @@ import io
 # data can be tab separated or comma seperated  
 
 # read data from a file (tab seperated)  
-data = np.genfromtxt('test1.dat')
+data = np.genfromtxt('files/test1.dat')
 np.set_printoptions(precision=3)
 np.set_printoptions(formatter={'float': lambda x: "{:8.1f}".format(x)})
 print data

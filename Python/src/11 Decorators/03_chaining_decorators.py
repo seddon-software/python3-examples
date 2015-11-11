@@ -11,7 +11,7 @@ def bold(fn):
     return decorate
 
 
-def uk(fn):
+def us(fn):
     def decorate():
         # swap month and day
         fields = fn().split('/')
@@ -28,21 +28,21 @@ def getDate():
 def getBoldDate(): 
     return getDate()
 
-@uk
-def getUkDate():
+@us
+def getUsDate():
     return getDate()
 
 @bold
-@uk
-def getBoldUkDate():
+@us
+def getBoldUsDate():
     return getDate()
 
 
 print "original", getDate()
 print "bold    ", getBoldDate()
-print "uk      ", getUkDate()
-print "bold+uk ", getBoldUkDate()
+print "us      ", getUsDate()
+print "bold+us ", getBoldUsDate()
 # what is happening under the covers
-print bold(uk(getDate))()
+print bold(us(getDate))()
 
 1

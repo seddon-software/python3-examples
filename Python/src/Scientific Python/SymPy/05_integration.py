@@ -1,4 +1,4 @@
-import sympy
+import sympy, matplotlib
 from sympy import integrate, sin, exp
 sympy.init_printing()
 
