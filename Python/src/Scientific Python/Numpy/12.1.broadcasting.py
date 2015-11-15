@@ -4,11 +4,11 @@
 #
 ############################################################
 
-from numpy import *
+import numpy as np
 
 a = [2, 4, 6, 8, 10]
-x = hstack(a); print x
-y = vstack(a); print y
+x = np.hstack(a); print x
+y = np.vstack(a); print y
 
 f = x * y
 

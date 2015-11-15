@@ -4,10 +4,10 @@
 #
 ############################################################
 
-from numpy import *
+import numpy as np
 
 # create array
-a = ones( (24,) ); print a
+a = np.ones( (24,) ); print a
 
 # reshape it
 b = a.reshape(2,3,4); print b

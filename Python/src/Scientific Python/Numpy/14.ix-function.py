@@ -4,7 +4,7 @@
 #
 ############################################################
 
-from numpy import *
+import numpy as np
 
 # The ix_ function takes N 1-D sequences and returns N outputs
 # with N dimensions each, such that the shape is 1 in all but 
@@ -12,11 +12,11 @@ from numpy import *
 # cycles through all N dimensions.
 
 # set up arrays to be used for 3D grid
-a = array([2,5,7])
-b = array([4,8,1])
-c = array([3,5,2])
+a = np.array([2,5,7])
+b = np.array([4,8,1])
+c = np.array([3,5,2])
 
-ax,bx,cx = ix_(a,b,c)
+ax,bx,cx = np.ix_(a,b,c)
 print ax
 print bx
 print cx

@@ -4,9 +4,9 @@
 #
 ############################################################
 
-from numpy import *
+import numpy as np
 
-a = arange(12); print a
+a = np.arange(12); print a
 b = a.copy(); print b
 
 # changes to a do not affect b
