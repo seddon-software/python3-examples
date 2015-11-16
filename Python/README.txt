@@ -5,7 +5,6 @@ To clone the repo use:
 
 
 
-
 To push changes to the repo:
 	cd <to-the-directory-containing-this-README>
 	git add .
