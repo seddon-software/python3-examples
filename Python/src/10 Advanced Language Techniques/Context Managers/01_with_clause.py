@@ -6,7 +6,12 @@
 
 import sys
 
-
+class MyException(Exception):
+    def __init__(self, message):
+        self.message = message
+    def __str__(self):
+        return self.message
+        
 class MyClass:
     def __enter__(self):
         print "WITH: initialization"
@@ -17,32 +22,34 @@ class MyClass:
         print "type:     ", type
         print "value:    ", value
         print "traceback:", traceback
-        if isinstance(value, Exception):
-            return True   # suppress Expression
-        else:
-            return False
+        return False  # propagate exception (True swallows the exception)
 
     def hello(self):
-        print "Hello",
+        print "Hello"
 
     def oops(self):
-        raise Exception("oops")
+        raise MyException("oops")
 
 print "============ WITH =========================="        
-with MyClass() as m:
-    m.hello()
-    m.oops()
-
+try:
+    with MyClass() as m:
+        m.hello()
+        m.oops()
+except Exception as e:
+    print "exception propagated out of with statement"
 
 print "============ Equivalent Code ==============="        
 try:
-    m = MyClass().__enter__()
-    m.hello()
-    m.oops()
-except Exception, e:
-    traceback = sys.exc_info()
-    m.__exit__(type(e), e, traceback[-1])
-else:
-    m.__exit__(None, None, None)
-
+    try:
+        m = MyClass().__enter__()
+        m.hello()
+        m.oops()
+    except Exception, e:
+        traceback = sys.exc_info()
+        result = m.__exit__(type(e), e, traceback[-1])
+        if not result: raise 
+    else:
+        m.__exit__(None, None, None)
+except Exception as e:
+    print "exception propagated out of with statement"
 

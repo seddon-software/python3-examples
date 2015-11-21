@@ -2,7 +2,7 @@ Last updated 26 October 2015
 
 To clone the repo use:
 	git clone git://git.assembla.com/python-examples.git
-
+    git clone https://git.assembla.com/python-examples.git
 
 
 To push changes to the repo:

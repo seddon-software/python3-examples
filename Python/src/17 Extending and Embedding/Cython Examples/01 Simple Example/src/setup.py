@@ -1,10 +1,15 @@
 import sys
 from distutils.core import setup
+from distutils.extension import Extension
 from Cython.Build import cythonize
 
-name = 'HelloWorld_Package'
+
+name = 'MyCython_Package'
 version = '2.0'
 
+extensions = [
+    Extension("*", ["*.pyx"], extra_compile_args=["-w"])
+]
 setup(
     name = name,
     version = version,
@@ -20,7 +25,7 @@ setup(
     classifiers = ["Developers", "Python Programming Course"],
     platforms = sys.platform,
     license = "none",
-    ext_modules = cythonize("hello.pyx")
+    ext_modules = cythonize(extensions)
 )
 
 print "setup is creating an egg info file called:"

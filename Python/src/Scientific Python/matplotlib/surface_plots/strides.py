@@ -13,7 +13,7 @@ Y = np.expand_dims(Y, axis=1)
 
 Z = X * Y + X + Y
 
-ax.plot_surface(X, Y, Z, rstride=10, cstride=25, alpha=0.3)
+ax.plot_surface(X, Y, Z, rstride=5, cstride=5, alpha=0.3)
 
 ax.set_xlabel('X')
 ax.set_ylabel('Y')

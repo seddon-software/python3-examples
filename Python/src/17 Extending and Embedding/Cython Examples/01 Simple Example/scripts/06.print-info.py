@@ -8,9 +8,9 @@ def displayInfo(directory, file):
         f = open(eggInfoFile, 'r')
         print f.read()
     except:
-        pass
+        print "can't get any info"
 
-name = 'HelloWorld_Package'
+name = 'MyCython_Package'
 moduleVersion = '2.0'
 
 try:

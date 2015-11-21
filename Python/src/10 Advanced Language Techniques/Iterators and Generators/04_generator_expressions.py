@@ -10,10 +10,6 @@ from math import sqrt
 # evaluate each expression on demand (lazy evaluation), whereas comprehensions
 # evaluate all expressions immediately
 
-# Experience with list comprehensions has shown their wide-spread utility throughout Python. 
-# However, many of the use cases do not need to have a full list created in memory.
-# Instead, they only need to iterate over the elements one at a time
-
 # use brackets to return a generator expression:
 roots = (sqrt(x) for x in range(10))
 
