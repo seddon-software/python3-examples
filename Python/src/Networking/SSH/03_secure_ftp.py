@@ -27,14 +27,14 @@ class Server(object):
 
 paramiko.util.log_to_file('ssh.log') # sets up logging
 
-ubuntuServer = Server(username="python", 
-                        password="this is a demo account", 
-                        hostname="172.27.250.211", 
+ubuntuServer = Server(username="pi", 
+                        password="3.14159", 
+                        hostname="192.168.2.4", 
                         port=22) 
 
 # upload and download a file
-ubuntuServer.upload(local="files/test1.txt", remote="test1.txt")
-ubuntuServer.download(remote="test1.txt", local="files/test1.txt")
+ubuntuServer.upload(local="files/test2.txt", remote="test2.txt")
+ubuntuServer.download(remote="test2.txt", local="files/test2.copy.txt")
 ubuntuServer.close()
 
 

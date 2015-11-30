@@ -3,7 +3,7 @@ import paramiko
 paramiko.util.log_to_file('ssh.log') # sets up logging
 
 ssh = paramiko.SSHClient()
-#ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 #ssh.connect('192.168.2.5', username='python', password='this is a demo account')
 
 
@@ -17,6 +17,6 @@ def execute(cmd, hostname, port, username, password):
         print stdout.readlines()
         ssh.close()
     except Exception,e:
-        print 'whoops' + str(e)
+        print 'whoops: ' + str(e)
 
-execute(cmd="uname -a", hostname="172.27.250.211", port=22, username="python", password="this is a demo account")
+execute(cmd="uname -a", hostname="192.168.2.4", port=22, username="pi", password="3.14159")
