@@ -29,7 +29,7 @@ def main():
     summary = oxford_data.groupby(['period']).aggregate(np.mean)
 
     # plot the data
-    ax = summary.plot(figsize=(16, 10), 
+    ax = summary.plot(figsize=(10, 6), 
                                title = 'Oxford : Average Min and Max Temperatures (over 4 year periods)', 
                                # x defaults to index
                                y = ['tmin', 'tmax'], 

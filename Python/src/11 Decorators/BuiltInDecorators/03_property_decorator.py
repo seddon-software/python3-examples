@@ -16,6 +16,7 @@ circle1 = Circle(10.0)
 circle2 = Circle(20.0)
 circle3 = Circle(30.0)
 
+print Circle.__dict__
 print circle1.radius
 print circle1.area
 print circle1.perimeter

@@ -21,7 +21,7 @@ def main():
     lerwick_data.drop(['year', 'month', 'air-frost-days', 'rain(mm)', 'sun(hours)', 'comment'], axis = 1, inplace = True)
 
     # plot remaining data as a bar chart
-    ax = lerwick_data[-50:].plot(figsize=(16, 10), 
+    ax = lerwick_data[-50:].plot(figsize=(8, 5), 
                                title = 'Lerwick : Min and Max Temperatures', 
                                x = 'period',
                                y = ['tmin', 'tmax'], 

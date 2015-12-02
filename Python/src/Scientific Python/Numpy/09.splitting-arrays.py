@@ -26,5 +26,4 @@ print "a1 ="; print a1
 print "a2 ="; print a2
 
 
-
 1

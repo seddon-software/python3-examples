@@ -1,5 +1,5 @@
 
-squares = {x: x**2 for x in (2, 4, 6)}
+squares = {x**2: x**3 for x in (2, 4, 6)}
 print squares
 
 department = 'Silly Walk'

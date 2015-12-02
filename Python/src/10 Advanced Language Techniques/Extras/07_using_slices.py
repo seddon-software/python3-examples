@@ -39,6 +39,7 @@ class mylist(object):
 # define slices
 mySlice = slice(3,9,2)
 print mySlice
+print type(a)
 
 # define lists
 myList = range(100)

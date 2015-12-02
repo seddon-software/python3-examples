@@ -2,7 +2,7 @@ import sys
 from distutils.core import setup, Extension
  
 mymodule = Extension('fibonacci', sources = ['fibmodule.c'])
- 
+
 setup (name = 'FibonacciPackage',
         version = '1.0',
         author = "CRS Enterprises Ltd",

@@ -9,24 +9,27 @@ class MyMetaclass(type):
     def mro(cls):
         return (cls, B, object) # note that A is missing
     
-class A(object):
-    def f(self): print "f()"
+class A(object): pass
+class B(A): pass
+class C1(B): pass
+class C2(B): __metaclass__ = MyMetaclass
 
-class B(A):
-    def g(self): print "calling g() ..."
+# inheritance hierarchy appears to be:
+#     object
+#        |
+#        A
+#        |
+#        B
+#        |
+#     -------
+#     |     |
+#     C1    C2
 
-class C(B):
-    __metaclass__ = MyMetaclass
-    def h(self): print "calling h() ..."
+# but C2 uses a metaclass to override this
+ 
+# print the inheritance mro for C1 (as expected)
+print "mro for C1: ", C1.__mro__
 
-print C.mro()
-print C.__mro__
-o = C();
-o.h()
-o.g()
-try:
-    o.f()   # this fails because A is not in the MRO for class C
-except AttributeError, e:
-    print e
+# print the inheritance mro for C2 (note that it has been totally cahanged)
+print "mro for C2: ", C2.__mro__
 
-1

@@ -20,7 +20,7 @@ class MyClass:
         global lock, count1, count2
         for i in xrange(0, 2*1000*1000):
             count1 += 1
-            with lock:
+            with lock: 
                 count2 += 1
 
     

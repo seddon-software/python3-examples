@@ -13,7 +13,7 @@ from math import sqrt
 # use brackets to return a generator expression:
 roots = (sqrt(x) for x in range(10))
 
-#iterate through generator
+# iterate using the generator
 for r in roots:
     print "{0:6.2f}".format(r),
 print

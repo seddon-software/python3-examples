@@ -25,7 +25,7 @@ def secureFileCopy(localFile, remoteFile, hostname, port, username, password):
 
 secureFileCopy(localFile="files/test1.txt", 
                remoteFile="test1.txt", 
-               hostname="192.168.2.4", 
+               hostname="192.168.1.140", 
                port=22, 
                username="pi", 
                password="3.14159")

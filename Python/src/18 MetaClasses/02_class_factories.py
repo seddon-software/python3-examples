@@ -32,7 +32,7 @@ class MyClassFactory(type):
         return type.__new__(cls, name, bases, dct)
 
 # New classes use the class factory 'type', unless the __metaclass__
-# attribute is defined to select a different class factory
+#     attribute is defined to select a different class factory
  
 class BaseClass(object):
     __metaclass__ = MyClassFactory
