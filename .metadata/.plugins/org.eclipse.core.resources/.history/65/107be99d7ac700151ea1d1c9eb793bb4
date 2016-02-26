@@ -1,0 +1,90 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from skimage import data
+from PIL import Image
+from scipy import ndimage
+from skimage.morphology import watershed
+from scipy.ndimage.morphology import binary_fill_holes 
+
+class Plotter:
+    def __init__(self, plt, subplotTotal, title):
+        self.plt = plt
+        self.subplotTotal = subplotTotal
+        self.figure = plt.gcf()
+        self.figure.canvas.set_window_title(title)
+
+    def plot(self, subplotNo, title, data):
+        subPlot = self.figure.add_subplot(1, self.subplotTotal, subplotNo)
+        subPlot.set_title(title)
+        self.plt.imshow(data, interpolation = "none", cmap = "Greys")
+    
+    def publish(self):
+        self.plt.show()
+        
+def loadImage(fileName):
+    image = Image.open(fileName)
+    image.load()
+    data = np.asarray(image, dtype="int32" )
+    return data
+
+rice = loadImage("images/rice.jpg")
+print rice.shape
+
+
+filter = rice[:,:,0] > 160; 
+rice[filter] = [255, 0, 0]
+filter = rice[:,:,0] <= 160; 
+rice[filter] = [0, 0, 0]
+figure = Plotter(plt, 4, "rice grains")
+figure.plot(1, "raw", rice)
+figure.publish()
+exit()
+rice_r = np.copy(rice)
+mask = rice_r[:,:,0] > 0
+rice_r[mask] = [0,0,0]
+figure.plot(2, "raw (red)", rice_r[:,:,2])
+
+
+figure.publish()
+exit()
+from skimage.feature import canny
+
+from skimage.filters import sobel
+#rice_red = rice[:, :, 0]    # reduce to 2D image
+plt.imshow(rice, interpolation="none")
+plt.show()
+mask = rice[:,:,0] > 160
+rice_red[mask] = [255,0,0]
+mask = rice[:,:,1] > 160
+rice_red[mask] = [0,255,0]
+mask = rice[:,:,2] > 160
+rice_red[mask] = [0,0,255]
+
+plt.imshow(rice, interpolation="none")
+plt.show()
+exit()
+#rice_red = np.invert(rice_red)
+z = sobel(rice_red)
+elevation_map = binary_fill_holes(z)
+plt.imshow(elevation_map)
+plt.show()
+print np.amax(elevation_map)
+exit()
+
+print skimage.morphology.remove_small_holes
+segmentation = skimage.morphology.remove_small_holes(rice_red)
+plt.imshow(segmentation)
+plt.show()
+exit()
+
+# from skimage.morphology import watershed
+# segmentation = watershed(elevation_map, rice_red)
+segmentation = ndimage.binary_fill_holes(segmentation - 1)
+plt.imshow(segmentation)
+plt.show()
+
+labeled_rice, numberOfObjects = ndimage.label(segmentation)
+print "n =", numberOfObjects
+plt.imshow(labeled_rice)
+plt.show()   
+exit()

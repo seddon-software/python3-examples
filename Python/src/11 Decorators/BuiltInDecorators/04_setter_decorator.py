@@ -11,7 +11,7 @@ class Circle(object):
     @radius.setter      # version 2.6
     def radius(self, value):
         if not isinstance(value, float):
-        	raise TypeError("Must be a float")
+        	    raise TypeError("Must be a float")
         self.theRadius = value
         
 circle1 = Circle(10.0)

@@ -1,0 +1,19 @@
+def trace(fn):
+    def enhance(n):
+        print "calling {} with {}".format(fn.func_name, n) 
+        return 2 * fn(n) # fn is seen by closure
+    return enhance
+    
+    
+@trace
+def square(n):
+    return n * n
+
+@trace
+def cube(n):
+    return n * n * n 
+
+# print trace(square)(7)
+# print trace(cube)(5)
+print square(7)
+print cube(5)

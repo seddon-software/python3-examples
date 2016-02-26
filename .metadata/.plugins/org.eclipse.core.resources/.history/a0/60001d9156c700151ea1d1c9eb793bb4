@@ -1,0 +1,16 @@
+# install using pip:        pip install scikit-image
+#
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+data = np.array([ 
+        [1,0,0,0,0],
+        [1,1,1,1,0],
+        [0,1,0,1,0],
+        [1,1,1,1,0],
+        [1,0,1,1,0],
+         ])
+#data = np.asarray( img, dtype="int32" )
+plt.imshow(data, interpolation = "none")
+plt.show()   

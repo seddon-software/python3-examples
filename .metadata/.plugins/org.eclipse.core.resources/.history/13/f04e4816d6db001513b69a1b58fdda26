@@ -1,0 +1,12 @@
+def trace(fn):
+    def enhance(n):
+        print "calling square with" + str(n) 
+        return fn(n) # fn is seen by closure
+    return enhance
+    
+    
+    
+def square(n):
+    return n * n
+
+print trace(square)(7)

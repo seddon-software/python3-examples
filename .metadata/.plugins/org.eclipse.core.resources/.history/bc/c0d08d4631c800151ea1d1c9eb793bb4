@@ -1,0 +1,25 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import PIL.Image as Image
+import skimage.measure as measure
+
+
+def load_image( infilename ) :
+    img = Image.open( infilename )
+    img.load()
+    data = np.asarray( img, dtype="int32" )
+    return data
+
+rice = load_image("images/rice.jpg")
+print "Shape of raw image: {}".format(rice.shape)
+rice = rice[:,:,0]
+print "Shape of red image: {}".format(rice.shape)
+
+rice[ rice[:,:] > 120 ] = 256
+plt.imshow(rice, interpolation="none", cmap="gray")
+plt.show()
+
+labels = measure.label(rice)
+# print labels
+props = measure.regionprops(labels, ['FilledArea', 'Label'])
+print len(props)

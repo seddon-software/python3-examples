@@ -1,0 +1,11 @@
+import numpy as np
+
+def f(x):
+    return true;
+
+z = np.array([[10, 20], [30, 40]])
+flt = filter(f, z)
+print z
+z[filter] = 77
+print z
+

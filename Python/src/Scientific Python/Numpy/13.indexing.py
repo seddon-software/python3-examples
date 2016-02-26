@@ -19,9 +19,14 @@ print a[index1]
 print a[index2]
 
 # set up a boolean filter for a
+# filter is applied for each element of a; a is shortform of a[:,:]
 a = np.arange(24).reshape(6,4); print a
 filter = a % 3 == 0; print filter
 a[filter] = 99; print a
+
+filter = a[:,:] % 3 == 0; print filter
+a[filter] = 88; print a
+
 
 
 1

@@ -1,0 +1,6 @@
+import numpy as np
+
+z = np.array([[10, 20], [30, 40]])
+flt = filter(lambda x:x==30)
+print z
+print z[filter]

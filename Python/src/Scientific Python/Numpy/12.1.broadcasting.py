@@ -16,7 +16,7 @@ a = [2, 4, 6, 8, 10]
 x = np.hstack(a); print x
 y = np.vstack(a); print y
 
-f = x * y
+f = y * x
 print f
 fig = plt.figure()
 ax = Axes3D(fig)

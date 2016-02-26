@@ -1,0 +1,62 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.ndimage as nd
+import skimage.measure as measure
+
+def set_title(title):
+    figure = plt.gcf()
+    figure.canvas.set_window_title(title)
+
+data = np.array(
+        [ 
+            [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[0,0,0],[1,1,1],[0,0,0],[1,1,1],[0,0,0],[0,0,0],[1,1,1],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0],[1,1,1],[0,0,0],[0,0,0],[1,1,1],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[0,0,0],[0,0,0],[0,0,0],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0]],
+            [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0],[0,0,0],[1,1,1],[1,1,1],[1,1,1],[0,0,0]],
+            [[0,0,0],[0,0,0],[1,1,1],[0,0,0],[1,1,1],[0,0,0],[0,0,0],[1,1,1],[0,0,0],[1,1,1],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[0,0,0],[1,1,1],[0,0,0],[0,0,0],[1,1,1],[0,0,0],[1,1,1],[0,0,0]],
+            [[0,0,0],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[1,1,1],[0,0,0],[1,1,1],[1,1,1],[1,1,1],[0,0,0]],
+            [[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],
+        ],
+    )
+
+# data = np.vstack((data, data))
+# data = np.hstack((data, data))
+# data = np.vstack((data, data))
+# data = np.hstack((data, data))
+
+set_title("plot uses interpolation by default")
+# plt.imshow(data)
+# plt.show()
+
+set_title("switch off interpolation")
+# plt.imshow(data, interpolation = "none")
+# plt.show()
+
+set_title("convert to single channel and fill holes")
+data = data[:,:,0]
+filled = nd.binary_fill_holes(data).astype(int)
+# plt.imshow(filled, interpolation = "none", cmap = "jet")
+# plt.show()
+
+
+labels, numberOfObjects = nd.label(filled)
+set_title("label objects: {} objects found".format(numberOfObjects))
+# plt.imshow(labels, interpolation = "none", cmap = "jet")
+# plt.show()
+
+labels = measure.label(filled)
+props = measure.regionprops(labels, ['FilledArea', 'Label'])
+set_title("label objects: {} objects found".format(len(props)))
+# bbox
+for item in props:
+    b = item['bbox']
+    n = item['Label']
+    print "object {} has size {}".format(item['Label'], item['FilledArea'])
+    plt.text(n, 4, item['Label'], color="white")
+
+plt.imshow(labels, interpolation = "none", cmap = "jet")
+plt.show()

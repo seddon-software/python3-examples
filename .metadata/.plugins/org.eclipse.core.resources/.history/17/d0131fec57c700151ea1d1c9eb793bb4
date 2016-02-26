@@ -1,0 +1,27 @@
+# install using pip:        pip install scikit-image
+#
+
+import numpy as np
+import matplotlib.pyplot as plt
+import scipy.ndimage.morphology as morphology
+
+def display(data):
+    plt.imshow(data, interpolation = "none", cmap = "Greys")
+    plt.show()   
+
+data = np.array([ 
+        [1,1,1,1,1,1,0],
+        [1,1,0,0,0,1,0],
+        [1,0,0,0,0,1,1],
+        [1,1,0,0,0,0,1],
+        [0,1,0,1,0,0,1],
+        [1,1,0,1,0,1,1],
+        [1,1,1,1,1,1,0],
+         ])
+#data = np.asarray( img, dtype="int32" )
+display(data)
+display( np.invert(data) )
+
+# scipy.ndimage.morphology.binary_fill_holes(input, structure=None, output=None, origin=0)
+display( morphology.binary_fill_holes(data) )
+

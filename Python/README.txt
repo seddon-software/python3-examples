@@ -1,4 +1,4 @@
-Last updated 26 October 2015
+Last updated 2 December 2015
 
 To clone the repo use:
 	git clone git://git.assembla.com/python-examples.git
@@ -17,3 +17,6 @@ The repo on assembla can be visited at:
 
 To find the largest 10 files in these examples:
 	find . -type f -ls | sort -k7nr | head -10
+
+To login to assembler:
+   username: seddon

@@ -1,0 +1,10 @@
+import numpy as np
+
+a = np.zeros((5, 5), dtype=int)
+a[1:4, 1:4] = 1
+a[2,2] = 0
+print a
+
+import scipy.ndimage as ndimage 
+b = ndimage.binary_fill_holes(a).astype(int)
+print b
