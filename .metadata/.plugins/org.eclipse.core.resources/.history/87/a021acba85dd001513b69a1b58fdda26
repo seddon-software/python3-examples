@@ -3,7 +3,6 @@ import os
 os.system('mkdir myrepo')
 os.chdir('myrepo')
 
-
 os.system('git init')
 os.system('echo "hello world" > hello.txt')
 os.system('git add hello.txt') 
