@@ -1,0 +1,12 @@
+git init
+echo "hello world" > hello.txt
+git add hello.txt 
+git status
+git commit -m "added hello.txt"
+git status
+git log
+git show
+git remote add origin https://github.com/seddon-software/sat-repo.git
+git remote -v
+git push -u origin master
+

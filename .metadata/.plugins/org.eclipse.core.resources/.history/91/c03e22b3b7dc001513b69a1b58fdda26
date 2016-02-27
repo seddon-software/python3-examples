@@ -1,0 +1,7 @@
+import mylib as m
+
+m.f1()
+m.f2()
+m.f3()
+m.f4()
+
