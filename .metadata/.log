@@ -4819,3 +4819,23 @@ org.eclipse.jgit.api.errors.JGitInternalException: No changes
 	at org.eclipse.egit.core.op.CommitOperation.execute(CommitOperation.java:206)
 	at org.eclipse.egit.ui.internal.commit.CommitJob.run(CommitJob.java:93)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.ui 4 0 2016-02-27 17:42:07.026
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-02-27 17:42:09.910
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-02-27 17:46:37.288
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+
+!ENTRY org.eclipse.ui 4 0 2016-02-27 19:03:41.927
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
