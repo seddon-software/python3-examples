@@ -5,6 +5,6 @@ SAVE_ALL_BEFORE_BUILD=true
 SWITCH_PERSPECTIVE_ON_PROJECT_CREATION=always
 TASKS_FILTERS_MIGRATE=true
 eclipse.preferences.version=1
-platformState=1413115421147
+platformState=1413115421152
 quickStart=false
 tipsAndTricks=true

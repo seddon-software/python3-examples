@@ -1,0 +1,14 @@
+import dis
+
+def f():
+    x = 4 + 3
+    return x
+
+dis.dis(f)
+
+
+
+
+
+
+

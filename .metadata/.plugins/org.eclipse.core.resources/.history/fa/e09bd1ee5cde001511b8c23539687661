@@ -1,0 +1,7 @@
+import inspect
+
+
+def f(x, y):
+    return x + y
+
+print inspect.stack()

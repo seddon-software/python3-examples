@@ -1,0 +1,11 @@
+import dis
+
+def f():
+dis.dis(f)
+
+
+
+
+
+
+

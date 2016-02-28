@@ -1,0 +1,13 @@
+import dis
+
+def f(x, y):
+    return x + y
+
+dis.dis(f)
+
+
+
+
+
+
+

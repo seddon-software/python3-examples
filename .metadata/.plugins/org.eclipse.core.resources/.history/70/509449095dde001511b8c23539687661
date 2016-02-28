@@ -1,0 +1,7 @@
+import inspect, pprint
+
+
+def f(x, y):
+    return x + y
+
+pprint inspect.stack()

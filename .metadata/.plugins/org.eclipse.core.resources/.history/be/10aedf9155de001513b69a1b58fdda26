@@ -1,0 +1,15 @@
+import dis
+
+def f():
+    x = 4
+    y = 6
+    return x + y
+
+dis.dis(f)
+
+
+
+
+
+
+

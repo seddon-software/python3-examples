@@ -1,0 +1,7 @@
+import os
+package = "string"
+p = __import__(package)
+
+print "compiled file:", p.__file__
+print "source file:", p.__file__[:-1]
+os.system("cat " + p.__file__[:-1])

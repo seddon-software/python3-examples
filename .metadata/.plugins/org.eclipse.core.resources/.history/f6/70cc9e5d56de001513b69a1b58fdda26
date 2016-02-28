@@ -1,0 +1,16 @@
+import dis
+
+def f(x, y):
+    return x + y
+
+print f("ABC", "DEF")
+print f(5, 7)
+
+dis.dis(f)
+
+
+
+
+
+
+

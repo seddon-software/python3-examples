@@ -1,0 +1,3 @@
+import string
+print "compiled file:", string.__file__
+print "source file:", string.__file__[:-1]
