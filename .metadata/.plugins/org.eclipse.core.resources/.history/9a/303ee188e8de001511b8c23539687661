@@ -1,0 +1,5 @@
+import os
+
+os.chdir('myrepo')
+os.system('git push -u origin master')
+

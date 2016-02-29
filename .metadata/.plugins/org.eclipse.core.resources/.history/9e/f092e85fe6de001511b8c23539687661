@@ -1,0 +1,13 @@
+import os
+
+os.chdir('myrepo')
+
+os.system('git branch mybranch')
+os.system('git checkout master')
+os.system('ls')
+os.system('echo "hello world" > hello4.txt')
+os.system('echo "hello world" > hello5.txt')
+os.system('echo "hello world" > hello6.txt')
+os.system('git add .') 
+os.system('git commit -m "more files for master branch"')
+
