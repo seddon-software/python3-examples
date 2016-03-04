@@ -15,7 +15,10 @@ def set_title(title):
     figure = plt.gcf()
     figure.canvas.set_window_title(title)
 
-
+def enhanceImage(image, threshold):
+    image[ image[:,:] <= threshold ] = 0
+    image[ image[:,:]  > threshold ] = 1
+    
 rice = load_image("images/rice.jpg")
 print "Shape of raw image: {}".format(rice.shape)
 
@@ -26,44 +29,34 @@ set_title("monchrome image")
 plt.imshow(rice, interpolation="none", cmap="gray")
 plt.show()
 
-# enhance the image
-rice[ rice[:,:] > 120 ] = 255
-rice[ rice[:,:] <= 120 ] = 0
+enhanceImage(rice, 120)
 set_title("enhanced image")
 plt.imshow(rice, interpolation="none", cmap="gray")
 plt.show()
 
-
-# close rice grains
-rice = morphology.binary_closing(rice)
-set_title("after skimage.morphology.binary_closing")
-plt.imshow(rice, interpolation="none", cmap="gray")
-plt.show()
-
-# fill in holes
-rice = nd.binary_fill_holes(rice).astype(int)
-set_title("after scipy.ndimage.binary_fill_holes")
-plt.imshow(rice, interpolation="none", cmap="gray")
-plt.show()
-
-
-
 # remove small objects (they must be labelled)
-rice = measure.label(rice)
-rice = morphology.remove_small_objects(rice)
-set_title("after skimage.morphology.remove_small_objects")
+set_title("removed small objects")
+labelled = measure.label(rice)
+labelled = morphology.remove_small_objects(labelled)
+# remove labelling (objects -> 1, non objects -> 0)
+rice = np.copy(labelled)
+enhanceImage(rice, 1)
 plt.imshow(rice, interpolation="none", cmap="gray")
 plt.show()
 
-# pick up info on objects
+set_title("close objects and fill holes")
+rice = nd.binary_fill_holes(rice).astype(int)
+rice = morphology.binary_closing(rice)
+plt.imshow(rice, interpolation="none", cmap="gray")
+plt.show()
+
+# look at object properties
 rice = measure.label(rice)
 props = measure.regionprops(rice, ['FilledArea', 'Label'])
 for item in props:
-    b = item['bbox']
-    x = (b[0] + b[2])/2
-    y = (b[1] + b[3])/2
-    n = item['Label']
-    message = str(item['Label'])
+    y = item.centroid[0]
+    x = item.centroid[1]
+    message = str(item.label)
     plt.text(x, y, message, color="white")
 set_title("labelling {} objects".format(len(props)))
 plt.imshow(rice, interpolation = "none", cmap = "jet")

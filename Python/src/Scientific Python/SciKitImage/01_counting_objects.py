@@ -47,6 +47,7 @@ labels = measure.label(filled)
 props = measure.regionprops(labels, ['FilledArea', 'Label'])
 set_title("label objects: {} objects found".format(len(props)))
 
+# label all the items with number and size
 for item in props:
     b = item['bbox']
     x = (b[0] + b[2])/2

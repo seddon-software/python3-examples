@@ -1,0 +1,15 @@
+import scipy
+from numpy import *
+# from __future__ import division
+from matplotlib import plt
+import scikits.audiolab as audio
+
+# Graphing helper function
+def setup_graph(title='', x_label='', y_label='', fig_size=None):
+    fig = plt.figure()
+    if fig_size != None:
+        fig.set_size_inches(fig_size[0], fig_size[1])
+    ax = fig.add_subplot(111)
+    ax.set_title(title)
+    ax.set_xlabel(x_label)
+    ax.set_ylabel(y_label)
