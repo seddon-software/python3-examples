@@ -1,2 +1,0 @@
-import inspect
-inspect.getdoc(object)

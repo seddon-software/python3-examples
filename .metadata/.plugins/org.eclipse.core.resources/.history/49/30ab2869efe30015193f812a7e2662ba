@@ -1,0 +1,9 @@
+import h5py
+file = h5py.File('i22-4996.nxs','r')
+for x in file:
+    print x
+    
+x = file['entry1']
+print x
+
+pass

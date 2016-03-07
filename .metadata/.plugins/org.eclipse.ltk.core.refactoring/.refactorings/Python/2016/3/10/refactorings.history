@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Python/src/Scientific Python/Nexus/i22-4996.nxs.recover&apos; to &apos;i22-4996.nxs&apos;" description="Rename resource &apos;i22-4996.nxs.recover&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Scientific Python/Nexus/i22-4996.nxs.recover" name="i22-4996.nxs" stamp="1457381634842" updateReferences="true"/>
+</session>

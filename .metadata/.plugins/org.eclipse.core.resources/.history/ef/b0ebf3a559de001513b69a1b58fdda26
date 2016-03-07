@@ -1,7 +1,0 @@
-import os
-package = "timeit"
-p = __import__(package)
-
-os.system("cat " + p.__file__[:-1])
-print "compiled file:", p.__file__
-print "source file:", p.__file__[:-1]

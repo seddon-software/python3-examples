@@ -1,0 +1,4 @@
+import h5py
+file = h5py.File('i22-4996.nxs','r')
+pass
+

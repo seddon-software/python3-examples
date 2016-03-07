@@ -1,7 +1,0 @@
-import os
-
-os.chdir('myrepo')
-os.system('git status')
-os.system('git log')
-os.system('git show')
-
