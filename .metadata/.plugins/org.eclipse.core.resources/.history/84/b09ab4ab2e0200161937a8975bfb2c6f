@@ -1,0 +1,11 @@
+def trace(fn):
+    def enhance(n):
+        print "calling square with {}".format(n)
+        return fn(n)
+    return enhance
+    
+    
+def square(n):
+    return n * n
+
+print trace(square)(5)

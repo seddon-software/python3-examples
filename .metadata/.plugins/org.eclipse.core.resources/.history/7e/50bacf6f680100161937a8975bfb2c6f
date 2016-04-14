@@ -1,0 +1,8 @@
+def square(n):
+    return n * n
+
+
+print square(9)
+f = square
+square = 55
+print square

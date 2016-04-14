@@ -1,0 +1,7 @@
+x = [ [10, 20], (30, 40) ]
+
+x[1] = "abcdef"
+print x
+# print x[0]
+# print x[1]
+# print x[1][0]

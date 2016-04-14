@@ -1,0 +1,10 @@
+import calculator as c
+import unittest
+
+class TestCalculator(unittest.TestCase):  # use any meaningful name
+    def test_AddTwoSmallIntegers(self):
+        actual = c.add(6, 9)
+        expected = 15
+        self.assertEqual(expected, actual)
+
+unittest.main()

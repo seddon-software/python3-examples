@@ -1,0 +1,2 @@
+wine = 'MiXeD caSe'
+print wine.upper()

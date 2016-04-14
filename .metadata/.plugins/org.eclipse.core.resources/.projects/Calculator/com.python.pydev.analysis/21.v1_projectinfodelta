@@ -1,0 +1,11 @@
+INSTUPtest_calculator
+/Users/seddon/home/workspace/Python/Calculator/src/test_calculator.py
+INFOS:&&1|1|2|0&&2|3|2|1&&3|4|2|5&&2|6|2|1&&2|7|2|1&&2|8|2|1
+TestCalculatorClass=1
+TestCalculatorClass.setUp=5
+testExceptionIdWeAddTwoStrings2=8
+c=4
+test_calculator=2
+setUp=3
+testWeCanAddTwoNumbers=6
+testExceptionIfWeAddTwoStrings=7

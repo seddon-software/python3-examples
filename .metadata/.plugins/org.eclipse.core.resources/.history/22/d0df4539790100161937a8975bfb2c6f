@@ -1,0 +1,7 @@
+x = range(30, 50)
+y = x[:]
+print y
+
+
+
+

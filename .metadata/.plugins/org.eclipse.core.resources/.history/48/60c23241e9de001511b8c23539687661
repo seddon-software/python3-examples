@@ -1,6 +1,0 @@
-import os
-
-os.chdir('myrepo')
-os.system('git log master..')
-os.system('git log mybranch..')
-

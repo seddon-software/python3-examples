@@ -1,0 +1,7 @@
+def square(n):
+    print n + square.a
+    return n * n
+
+
+square.a = 100
+print square(9)

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Python/src/Scientific Python/austen/02.py&apos; to &apos;02_optimization.py&apos;" description="Rename resource &apos;02.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Scientific Python/austen/02.py" name="02_optimization.py" stamp="1458338184337" updateReferences="true"/>
+</session>

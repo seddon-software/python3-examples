@@ -1,0 +1,6 @@
+class Point:
+    pass
+
+# create dem objects
+p1 = Point()
+

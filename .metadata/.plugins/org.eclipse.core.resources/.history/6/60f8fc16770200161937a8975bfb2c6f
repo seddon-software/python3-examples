@@ -1,0 +1,24 @@
+from Calculator import *
+import unittest
+
+
+class TestCalculatorClass(unittest.TestCase):
+    """
+    A test class for the Calculator class
+    """
+    def testWeCanAddTwoNumbers(self):
+        c = Calculator()
+        r = c.add(5, 6)
+        self.assertEqual(11, r)
+        
+    def testExceptionIdWeAddTwoStrings(self):
+        c = Calculator()
+#         r = c.add("5", "6")
+        self.assertRaises(TypeError, lambda _: c.add("5", "6"))
+#         self.assertRaises(MyException, c.add, "5", "6")
+
+
+if __name__ == '__main__':
+    unittest.main()
+    1
+    

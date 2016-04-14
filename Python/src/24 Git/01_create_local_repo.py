@@ -1,5 +1,7 @@
 import os, shutil
 
+raw_input("Make sure you have deleted previously created remote repo ('myrepo'), and the hit return")
+
 # clean up previous runs
 try:
     shutil.rmtree("myrepo")

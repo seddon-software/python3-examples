@@ -1,5 +1,0 @@
-import h5py
-file = h5py.File('i22-4996.nxs','r')
-for x in file['entry1']:
-    print x
-    

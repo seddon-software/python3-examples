@@ -1,0 +1,12 @@
+salary = { 'Jim' : 50000,
+           'Bob' : 44000,
+           'Sue' : 27000,
+           'Zoe' : 66000,
+           'Ali' : 42000
+          }
+
+print salary['Zoe']
+salary['Zoe'] = 67000
+print salary
+
+

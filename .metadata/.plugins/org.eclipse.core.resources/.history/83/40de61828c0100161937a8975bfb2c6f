@@ -1,0 +1,15 @@
+class Point:
+    def initialize(self):
+        pass
+
+# create dem objects
+p1 = Point()
+p2 = Point()
+p3 = Point()
+
+Point.initialize(p1)
+Point.initialize(p2)
+Point.initialize(p3)
+
+1
+

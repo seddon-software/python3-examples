@@ -1,0 +1,2 @@
+t = (10, 20)
+print type(t)

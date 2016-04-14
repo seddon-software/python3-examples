@@ -1,0 +1,2 @@
+x = range(30, 50)
+print x
