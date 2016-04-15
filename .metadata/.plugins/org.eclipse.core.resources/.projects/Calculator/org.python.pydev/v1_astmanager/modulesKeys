@@ -1,3 +1,4 @@
 MODULES_MANAGER_V2
-calculator|/Users/seddon/home/workspace/Python/Calculator/src/calculator.py
-test_calculator|/Users/seddon/home/workspace/Python/Calculator/src/test_calculator.py
+Calculator|/Users/seddon/home/workspace/Python/Calculator/src/Calculator.py
+test_calculator|/Users/seddon/home/workspace/Python/Calculator/test/test_calculator.py
+xxxtest_calculator|/Users/seddon/home/workspace/Python/Calculator/src/xxxtest_calculator.py

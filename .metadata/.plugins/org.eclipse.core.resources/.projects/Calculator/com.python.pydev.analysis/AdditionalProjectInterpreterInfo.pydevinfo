@@ -1,37 +1,27 @@
 -- VERSION_4
 -- START DISKCACHE
 /Users/seddon/home/workspace/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/Calculator/com.python.pydev.analysis/v2_indexcache
-test_calculator|1460662119000|/Users/seddon/home/workspace/Python/Calculator/src/test_calculator.py
+test_calculator|1460662412000|/Users/seddon/home/workspace/Python/Calculator/test/test_calculator.py
 Calculator|1460662057000|/Users/seddon/home/workspace/Python/Calculator/src/Calculator.py
+xxxtest_calculator|1460662412000|/Users/seddon/home/workspace/Python/Calculator/src/xxxtest_calculator.py
 -- END DISKCACHE
 -- START DICTIONARY
-4
-4=TestCalculatorClass
-3=TestCalculatorClass.setUp
-2=test_calculator
+5
+5=TestCalculatorClass
+4=TestCalculatorClass.setUp
+3=test_calculator
 1=Calculator
+2=xxxtest_calculator
 -- END DICTIONARY
 -- START TREE 1
-7
-!<m|0|
-Ca|0|
+2
 cal|1|Calculator!9@
-mye|0|
-poi|0|
-tes|1|TestCalculatorClass!17@
-xte|0|
+tes|2|TestCalculatorClass!17@TestCalculatorClass!25@
 -- END TREE
 -- START TREE 2
-11
-__i|0|
+4
 add|1|add!1&10@
-c|1|c!3&19@
-dis|0|
-get|0|
-mov|0|
-poi|0|
-set|1|setUp!4&18@
-tes|3|testExceptionIdWeAddTwoStrings2!4&18@testWeCanAddTwoNumbers!4&18@testExceptionIdWeAddTwoStrings!4&18@
-x|0|
-y|0|
+c|2|c!4&19@c!4&27@
+set|2|setUp!5&26@setUp!5&18@
+tes|6|testExceptionIdWeAddTwoStrings2!5&26@testWeCanAddTwoNumbers!5&18@testWeCanAddTwoNumbers!5&26@testExceptionIfWeAddTwoStrings!5&18@testExceptionIfWeAddTwoStrings!5&26@testExceptionIdWeAddTwoStrings2!5&18@
 -- END TREE

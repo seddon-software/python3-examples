@@ -1,4 +1,5 @@
 MODULES_MANAGER_V2
+Points|/Users/seddon/home/workspace/Python/Demos2/src/Points.py
 arrays|/Users/seddon/home/workspace/Python/Demos2/src/arrays.py
 casts|/Users/seddon/home/workspace/Python/Demos2/src/casts.py
 functions|/Users/seddon/home/workspace/Python/Demos2/src/functions.py
@@ -7,4 +8,6 @@ loops|/Users/seddon/home/workspace/Python/Demos2/src/loops.py
 mutability|/Users/seddon/home/workspace/Python/Demos2/src/mutability.py
 quiz|/Users/seddon/home/workspace/Python/Demos2/src/quiz.py
 slices|/Users/seddon/home/workspace/Python/Demos2/src/slices.py
+tdd|/Users/seddon/home/workspace/Python/Demos2/src/tdd.py
+trace_decorator|/Users/seddon/home/workspace/Python/Demos2/src/trace_decorator.py
 variables|/Users/seddon/home/workspace/Python/Demos2/src/variables.py
