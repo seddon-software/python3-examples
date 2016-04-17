@@ -1,0 +1,19 @@
+import sympy
+
+x, y, z = sympy.symbols('x, y, z')
+eq = x - x**2.5 + 7
+z = sympy.solve( eq, x )
+
+# note most of the results are complex (I represents sqrt(-1))
+for result in z:
+    print sympy.N(result, 5)    # N is used to limit precision
+
+import pylab as p
+
+X = p.arange(-5, 5, 0.01)
+Y = X - X**2.5 + 7
+p.plot(X, Y, color='red', lw=2)
+Y = X * 0
+p.plot(X, Y, color='blue', lw=2)
+
+p.show()

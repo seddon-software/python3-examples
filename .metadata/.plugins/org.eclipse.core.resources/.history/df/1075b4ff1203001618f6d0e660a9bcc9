@@ -1,0 +1,13 @@
+def volume(**hash):
+    print hash
+    return hash['height'] * hash['width'] * hash['depth']
+
+print volume(height = 10, width = 20, depth = 30, xxx = 99)
+print volume(width = 20, depth = 30, height = 10)
+d = {'width' : 20, 'depth' : 30, 'height' : 10}
+print volume(**d)
+
+
+x = dict(height = 10, width = 20, depth = 30, xxx = 99)
+print x
+

@@ -1,0 +1,11 @@
+from calculator import *
+import unittest
+
+class TestMyCalculatorClass(unittest.TestCase):
+    """doc string"""
+    def testWeCanAddFiveAndSixTogether(self):
+        c = Calculator()
+        actual = c.add(5, 6)
+        expected = 11
+        self.assertEqual(expected, actual)
+        

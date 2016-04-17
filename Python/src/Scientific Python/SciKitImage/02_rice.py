@@ -46,7 +46,7 @@ plt.show()
 
 set_title("close objects and fill holes")
 rice = nd.binary_fill_holes(rice).astype(int)
-rice = morphology.binary_closing(rice)
+# rice = morphology.binary_closing(rice)
 plt.imshow(rice, interpolation="none", cmap="gray")
 plt.show()
 

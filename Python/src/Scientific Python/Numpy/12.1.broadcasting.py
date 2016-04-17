@@ -13,10 +13,11 @@ import numpy as np
 from mpl_toolkits.mplot3d import axes3d, Axes3D
 
 a = [2, 4, 6, 8, 10]
+a = np.arange(2, 10, 0.01)
 x = np.hstack(a); print x
 y = np.vstack(a); print y
 
-f = y * x
+f = y * np.cos(x)
 print f
 fig = plt.figure()
 ax = Axes3D(fig)

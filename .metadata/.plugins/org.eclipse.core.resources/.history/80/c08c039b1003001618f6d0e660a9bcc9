@@ -1,0 +1,7 @@
+def volume(height, width, depth):
+    return height * width * depth
+
+print volume(10, 20, 30)
+print volume(height = 10, width = 20, depth = 30)
+print volume(width = 20, depth = 30, height = 10)
+ 

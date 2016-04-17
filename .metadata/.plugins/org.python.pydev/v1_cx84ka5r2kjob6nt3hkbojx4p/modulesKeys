@@ -1386,6 +1386,7 @@ _md5
 _multibytecodec|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multibytecodec.so
 _multiprocessing|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multiprocessing.so
 _myexample|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_myexample.so
+_myhello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_myhello.so
 _osx_support|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_osx_support.py
 _pyio|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_pyio.py
 _pytest.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_pytest/__init__.py
@@ -3899,7 +3900,6 @@ h5py.utils|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-
 h5py.version|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/h5py/version.py
 hashlib|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hashlib.py
 heapq|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/heapq.py
-hello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/hello.so
 hmac|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hmac.py
 ho.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/ho/__init__.py
 ho.pisa.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/ho/pisa/__init__.py
@@ -4857,6 +4857,7 @@ mutagen.trueaudio|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.
 mutagen.wavpack|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mutagen/wavpack.py
 mutex|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/mutex.py
 myexample|/Library/Python/2.7/site-packages/myexample.py
+myhello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/myhello.py
 mypackage.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/__init__.py
 mypackage.f1|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/f1.py
 mypackage.mysubpackage.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/mysubpackage/__init__.py

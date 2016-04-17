@@ -14,3 +14,6 @@ print diff(3*x**4, x)
 # now for triple differentials
 print diff(3*x**4, x, x, x) # d3y/dx3
 print diff(3*x**4, x, 3)    # the same
+import sympy
+for key in sympy.__dict__:
+    print key

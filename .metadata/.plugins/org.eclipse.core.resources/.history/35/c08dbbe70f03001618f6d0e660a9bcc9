@@ -1,0 +1,11 @@
+def average(*args):
+    sum = 0
+    for a in args:
+        sum = sum + a
+    return sum / float(len(args))
+
+print average(3, 6, 7)
+print average(3, 6, 7, 5, 2, 8, 9)
+
+m = [3, 6, 7, 5, 2, 8, 9]
+print average(m)
