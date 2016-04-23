@@ -1,7 +1,0 @@
-def average(*args):
-    sum = 0
-    for a in args:
-        sum = sum + a
-    return sum / len(a)
-
-print average(3, 6, 7)

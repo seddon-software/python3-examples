@@ -1,2 +1,9 @@
 *.pyc
+.metadata/**
+**/.history
+**/.launches
+**/.refactorings
+DLS/**
+Demos/**
+
 

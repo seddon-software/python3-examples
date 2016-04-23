@@ -1,8 +1,0 @@
-x = range(30, 50)
-y = x[:]
-print id(x), id(y)
-
-
-
-
-

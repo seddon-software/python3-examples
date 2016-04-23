@@ -5,8 +5,8 @@ import dis
 def f(x, y):
     return x + y
 
-print f("ABC", "DEF")
-print f(5, 7)
+print( f("ABC", "DEF") )
+print( f(5, 7) )
 
 # look at the bytecode
 dis.dis(f)

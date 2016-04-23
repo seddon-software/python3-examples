@@ -1,3 +1,0 @@
-x = range(30, 50)
-print len(x[4:7])
-

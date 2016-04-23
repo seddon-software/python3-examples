@@ -1,4 +1,0 @@
-def average(*a):
-    return (a[0] + a[1] + a[2]) / 3.0
-
-print average(3, 6, 7)

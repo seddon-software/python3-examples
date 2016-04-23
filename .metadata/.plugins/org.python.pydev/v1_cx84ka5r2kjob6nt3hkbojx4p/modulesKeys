@@ -1386,7 +1386,6 @@ _md5
 _multibytecodec|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multibytecodec.so
 _multiprocessing|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multiprocessing.so
 _myexample|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_myexample.so
-_myhello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_myhello.so
 _osx_support|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_osx_support.py
 _pyio|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_pyio.py
 _pytest.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_pytest/__init__.py
@@ -3900,6 +3899,7 @@ h5py.utils|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-
 h5py.version|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/h5py/version.py
 hashlib|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hashlib.py
 heapq|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/heapq.py
+hello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/hello.so
 hmac|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/hmac.py
 ho.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/ho/__init__.py
 ho.pisa.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/ho/pisa/__init__.py
@@ -4788,18 +4788,7 @@ mingus.midi.fluidsynth|/Library/Frameworks/Python.framework/Versions/2.7/lib/pyt
 mingus.midi.pyFluidSynth|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mingus/midi/pyFluidSynth.py
 mistune|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mistune.so
 mmap|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/mmap.so
-mock.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/__init__.py
-mock.mock|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/mock.py
-mock.tests.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/__init__.py
-mock.tests.__main__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/__main__.py
-mock.tests.support|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/support.py
-mock.tests.testcallable|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testcallable.py
-mock.tests.testhelpers|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testhelpers.py
-mock.tests.testmagicmethods|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testmagicmethods.py
-mock.tests.testmock|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testmock.py
-mock.tests.testpatch|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testpatch.py
-mock.tests.testsentinel|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testsentinel.py
-mock.tests.testwith|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock/tests/testwith.py
+mock|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mock.py
 modulefinder|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/modulefinder.py
 msvcrt
 multifile|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/multifile.py
@@ -4857,14 +4846,6 @@ mutagen.trueaudio|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.
 mutagen.wavpack|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mutagen/wavpack.py
 mutex|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/mutex.py
 myexample|/Library/Python/2.7/site-packages/myexample.py
-myhello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/myhello.py
-mypackage.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/__init__.py
-mypackage.f1|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/f1.py
-mypackage.mysubpackage.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/mysubpackage/__init__.py
-mypackage.mysubpackage.f1|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/mysubpackage/f1.py
-mypackage.mysubpackage.f2|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/mysubpackage/f2.py
-mypackage.mysubpackage.f3|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/mysubpackage/f3.py
-mypackage.mysubpackage.f4|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mypackage/mysubpackage/f4.py
 names.__init__|/Library/Python/2.7/site-packages/names/__init__.py
 names._version|/Library/Python/2.7/site-packages/names/_version.py
 names.authority|/Library/Python/2.7/site-packages/names/authority.py
@@ -5908,7 +5889,9 @@ pip._vendor.packaging.__init__|/Library/Frameworks/Python.framework/Versions/2.7
 pip._vendor.packaging._compat|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/_compat.py
 pip._vendor.packaging._structures|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/_structures.py
 pip._vendor.packaging.markers|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/markers.py
+pip._vendor.packaging.requirements|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/requirements.py
 pip._vendor.packaging.specifiers|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/specifiers.py
+pip._vendor.packaging.utils|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/utils.py
 pip._vendor.packaging.version|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/packaging/version.py
 pip._vendor.pkg_resources.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/pkg_resources/__init__.py
 pip._vendor.progress.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/progress/__init__.py
@@ -6016,6 +5999,7 @@ pip.commands.uninstall|/Library/Frameworks/Python.framework/Versions/2.7/lib/pyt
 pip.commands.wheel|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/commands/wheel.py
 pip.compat.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/compat/__init__.py
 pip.compat.dictconfig|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/compat/dictconfig.py
+pip.compat.ordereddict|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/compat/ordereddict.py
 pip.download|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/download.py
 pip.exceptions|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/exceptions.py
 pip.index|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/index.py
@@ -6035,6 +6019,7 @@ pip.utils.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2
 pip.utils.appdirs|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/appdirs.py
 pip.utils.build|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/build.py
 pip.utils.deprecation|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/deprecation.py
+pip.utils.encoding|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/encoding.py
 pip.utils.filesystem|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/filesystem.py
 pip.utils.hashes|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/hashes.py
 pip.utils.logging|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/utils/logging.py

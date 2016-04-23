@@ -1,6 +1,0 @@
-class MyException(exception):
-    
-class Calculator:
-    def add(self, x, y):
-        if 
-        return x + y

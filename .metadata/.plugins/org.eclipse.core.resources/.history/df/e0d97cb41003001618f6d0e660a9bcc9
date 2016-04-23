@@ -1,6 +1,0 @@
-def volume(**hash):
-    return hash['height'] * hash['width'] * hash['depth']
-
-print volume(height = 10, width = 20, depth = 30)
-print volume(width = 20, depth = 30, height = 10)
- 

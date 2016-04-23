@@ -1,7 +1,0 @@
-def square(n):
-    return n * n
-
-cube = lambda n : n**3
-print square(2)
-print cube(2)
-

@@ -2,11 +2,11 @@ import logging
 
 
 # as no logfile specified, use the console
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 # logging.basicConfig(level=logging.INFO)
 # logging.basicConfig(level=logging.WARNING)
 # logging.basicConfig(level=logging.ERROR)
-# logging.basicConfig(level=logging.CRITICAL)
+logging.basicConfig(level=logging.CRITICAL)
 
 logging.debug('This is a debug message')
 logging.info('This is an info message')

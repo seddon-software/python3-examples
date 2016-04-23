@@ -11,9 +11,11 @@ def get_quote(symbol):
         print symbol, quote
     else:
         quote = 'no quote available for: ' + symbol
-
+        print quote
+        
 get_quote("IBM")
 get_quote("MS")
+get_quote("XXZZ")
 get_quote("MSFT")
 get_quote("ERICB")
 

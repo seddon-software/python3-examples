@@ -3,7 +3,7 @@ import pylab as pl
 pd.set_option('display.width', 100)
 
 
-# query need numexpr to be installed
+# query needs numexpr to be installed
 def f(x):
     print x
     return x == "Gold"

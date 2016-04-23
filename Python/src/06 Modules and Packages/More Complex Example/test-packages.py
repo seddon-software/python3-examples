@@ -8,16 +8,13 @@ import sys
 print sys.path
 sys.path.append("mylib")
 
-from package1.package2.ModuleA import A
-from package1.package2.ModuleBC import B
-from package1.package2.ModuleBC import C as CCC
-from package1.package2 import help
+import package1.package2.ModuleA as A
+import package1.package2.ModuleB as B
+import package1.package2.ModuleC as C
 
-help()
-print A.__dict__
-a = A()
-b = B()
-c = CCC()
+a = A.A()
+b = B.B()
+c = C.C()
 
 a.f()
 a.g()

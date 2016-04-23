@@ -55,7 +55,7 @@ _Exercises.src.Advanced.3_histogramOfWords|1445811274000|/Users/seddon/home/work
 16=_Exercises.src.Intermediate.2_palindromes
 -- END DICTIONARY
 -- START TREE 1
-76
+77
 asc|1|asciiText!11@
 bod|1|body!19@
 buf|1|buffer!19@
@@ -84,7 +84,7 @@ ini|1|initial!59@
 isp|1|isPalindrome!130@
 key|2|key!59@keyCols!59@
 lea|1|league!107@
-lin|2|lines!91@lines!123@
+lin|2|lines!123@lines!91@
 lis|9|listD!131@listB!115@list2!51@listA!131@listA!115@listC!131@listE!131@list1!51@listB!131@
 loc|1|local_ssl_sock!67@
 loo|2|lookUp!83@lookUp2!75@
@@ -105,10 +105,11 @@ pop|1|popularStems!91@
 pri|3|printHomeTable!122@pricesAvailableEvent!139@PrintResults!90@
 pro|1|ProcessStems!90@
 q|0|
+r|1|r!83@
 rea|2|readResultsFile!122@readInputFile!26@
 rem|1|removeNonAscii!10@
 res|2|resetEvent!139@results!107@
-rom|2|romanToDecimal!82@romanToDecimal!74@
+rom|2|romanToDecimal!74@romanToDecimal!82@
 roo|0|
 sco|1|scores!107@
 sd|1|sd!67@

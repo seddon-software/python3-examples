@@ -1,15 +1,3 @@
-"""
-=============================================
-    mysubpackage
-=============================================
-"""
-
-print "loading mysubpackage"
-
-
-def help():
-    print "help"
-    print __doc__
-
+# package1/package2/__init__.py
     
     

@@ -2,7 +2,6 @@ import timeit
 from threading import Thread
 from multiprocessing import Process
 
-
 # create a callable class
 class MyClass:
     def __call__(self, count):

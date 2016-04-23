@@ -1,6 +1,6 @@
-def catch(fn, *args, **kwargs):
+def catch(fn):  # fn captures n in the call
     try:
-        return fn(*args, **kwargs)
+        return fn()  # fn = the lambda which takes no parameters
     except Exception as e:
         return e
 

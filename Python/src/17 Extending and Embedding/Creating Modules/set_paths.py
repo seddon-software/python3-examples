@@ -11,7 +11,7 @@ def setPaths():
         compilerPath = "/opt/local/bin:"
         pythonPath = os.path.dirname(sys.executable) + ":"    
     
-    if sys.platform == "linux2":    # OSX 10.8
+    if sys.platform == "linux2":
         swigPath = "/usr/local/bin:"
         compilerPath = "/usr/bin:"
         pythonPath = os.path.dirname(sys.executable) + ":"

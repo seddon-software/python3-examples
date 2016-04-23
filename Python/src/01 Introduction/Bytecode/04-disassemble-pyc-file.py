@@ -12,14 +12,14 @@ def openCompiledFile():
             
             # get the code object
             code_object = marshal.load(fd)
-    except IOError,e:
-        print e
+    except IOError as e:
+        print(e)
         sys.exit()
     return code_object
 
 def inspect_code_object(code_object, indent=''):    
-    print code_object.co_consts
-    print code_object.co_names
+    print(code_object.co_consts)
+    print(code_object.co_names)
 
 code_object = openCompiledFile()
 inspect_code_object(code_object)
