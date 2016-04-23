@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Python/src/07 Installing Modules/3rdParty/02-install-all-from-command-line.py&apos;" deleteContents="false" description="Delete resource &apos;Python/src/07 Installing Modules/3rdParty/02-install-all-from-command-line.py&apos;" element1="/Python/src/07 Installing Modules/3rdParty/02-install-all-from-command-line.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1426624877284"/>
-</session>

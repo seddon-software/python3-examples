@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;Python/src/_Exercises/src/Advanced/Copy of 1_convertBetweenRomanAndArabicNumerals.py&apos;" deleteContents="false" description="Delete resource &apos;Python/src/_Exercises/src/Advanced/Copy of 1_convertBetweenRomanAndArabicNumerals.py&apos;" element1="/Python/src/_Exercises/src/Advanced/Copy of 1_convertBetweenRomanAndArabicNumerals.py" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1446406295805"/>
-</session>

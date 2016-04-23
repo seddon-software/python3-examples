@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Python/src/_Play/powerpoint/test3.pptx&apos; to &apos;test2.pptm&apos;" description="Rename resource &apos;test3.pptx&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/_Play/powerpoint/test3.pptx" name="test2.pptm" stamp="1440277974452" updateReferences="true"/>
-</session>
