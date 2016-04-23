@@ -1,0 +1,4 @@
+def average(x, y, z):
+    return (x + y + z) / 3.0
+
+print average(4, 6, 11)

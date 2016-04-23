@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;MyFortran/main&apos; to &apos;main.f95\&apos;" description="Rename resource &apos;main&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main" name="main.f95\" stamp="1446316543105" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;MyFortran/main.f95\&apos; to &apos;main.f95&apos;" description="Rename resource &apos;main.f95\&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main.f95\" name="main.f95" stamp="1446316548604" updateReferences="true"/>
+</session>

@@ -1,0 +1,6 @@
+x = range(10, 30)
+y = range(85, 95)
+x[3:8] = y[5:8]
+print x
+
+ 

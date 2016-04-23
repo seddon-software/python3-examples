@@ -1,0 +1,12 @@
+def square(n):
+    return n**2
+
+f = square
+x = f(5)
+print x
+print f
+print square
+
+square = 'Hello'
+print square
+

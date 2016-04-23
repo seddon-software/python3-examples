@@ -1,0 +1,30 @@
+class Point(object):
+    count = 0
+    @staticmethod
+    def getCount():
+        return Point.count
+    def __init__(self, name, x0, y0):
+        Point.count = Point.count + 1
+        self.name = name
+        self.x = x0
+        self.y = y0
+    def display(self):
+        print "Point: '{}' is at [{},{}]".format(self.name, self.x, self.y)
+    def moveBy(self, dx, dy):
+        self.x = self.x + dx
+        self.y = self.y + dy
+# create objects
+print Point.getCount()
+p1 = Point("first",  100, 200)
+p2 = Point("second", 300, 500)
+p3 = Point("third",  250, 100)
+print p1.getCount()
+print p1.count
+p1.moveBy(1, 1)
+p2.moveBy(1, 1)
+p3.moveBy(1, 1)
+p1.display()
+p2.display()
+p3.display()
+
+1

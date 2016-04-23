@@ -1,0 +1,13 @@
+!SESSION 2016-04-23 21:39:31.325 -----------------------------------------------
+eclipse.buildId=4.4.0.I20140606-1215
+java.version=1.8.0_20
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/seddon/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/seddon/.eclipse_keyring -showlocation
+
+This is a continuation of log file /Users/seddon/home/workspace/Python/.metadata/.bak_0.log
+Created Time: 2016-04-23 21:50:30.903
+
+!ENTRY net.resheim.eclipse.launcher.core 1 0 2016-04-23 21:50:30.903
+!MESSAGE Launching new Eclipse instance with "open -n /Users/seddon/bin/Eclipse/eclipse-jee-luna/Eclipse.app --args -vm /Library/Java/JavaVirtualMachines/jdk1.8.0_20.jdk/Contents/Home/bin/../jre/lib/server/libjvm.dylib -os macosx -ws cocoa -arch x86_64 -showsplash -launcher /Users/seddon/bin/Eclipse/eclipse-jee-luna/Eclipse.app/Contents/MacOS/eclipse -name Eclipse --launcher.library /Users/seddon/bin/Eclipse/eclipse-jee-luna/Eclipse.app/Contents/MacOS//../../../plugins/org.eclipse.equinox.launcher.cocoa.macosx.x86_64_1.1.200.v20140603-1326/eclipse_1601.so -startup /Users/seddon/bin/Eclipse/eclipse-jee-luna/Eclipse.app/Contents/MacOS//../../../plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar --launcher.appendVmargs -product org.eclipse.epp.package.jee.product -keyring /Users/seddon/.eclipse_keyring -showlocation -vmargs -Dosgi.requiredJavaVersion=1.6 -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -XX:MaxPermSize=256m -Xms40m -Xmx512m -Xdock:icon=../Resources/Eclipse.icns -XstartOnFirstThread -Dorg.eclipse.swt.internal.carbon.smallFonts -Djava.class.path=/Users/seddon/bin/Eclipse/eclipse-jee-luna/Eclipse.app/Contents/MacOS//../../../plugins/org.eclipse.equinox.launcher_1.3.0.v20140415-2008.jar "

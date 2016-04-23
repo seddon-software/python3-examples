@@ -1,0 +1,5 @@
+x = range(1, 30)
+print x[10:-10] # slice
+y = x[:]
+print id(x)
+print id(y)

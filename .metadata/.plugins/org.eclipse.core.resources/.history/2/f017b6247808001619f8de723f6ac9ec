@@ -1,0 +1,19 @@
+import unittest
+from Calculator import *
+
+class TestCalculator(unittest.TestCase):
+    def testThatWeCanAddFiveAndSevenToGetTwelve(self):
+        c = Calculator()
+        actual = c.add(5, 7)
+        expected = 12
+        self.assertEquals(expected, actual)
+
+    def testThatWeCanAddSixAndTwentyToGetTwentySix(self):
+        c = Calculator()
+        actual = c.add(6, 20)
+        expected = 26
+        self.assertEquals(expected, actual)
+
+    def testThatIfTheFirstParameterIsAStringWeThrowATypeError(self):
+        c = Calculator()
+        self.assertRaises(TypeError, c.add, "Five", 23)

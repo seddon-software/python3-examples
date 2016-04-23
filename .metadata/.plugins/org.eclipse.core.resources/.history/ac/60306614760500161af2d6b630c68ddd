@@ -1,0 +1,6 @@
+def average(*a):
+    pass
+#     return (x + y + z) / 3.0
+
+print average(4, 6, 11)
+print average(4, 6, 11, 15, 2)

@@ -1,0 +1,5 @@
+def average(x, y):
+    return (x + y) / 2
+
+print average(6, 12)
+print average(6, 13)

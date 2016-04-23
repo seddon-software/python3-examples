@@ -1,0 +1,10 @@
+18:36:28 **** Build of configuration Debug for project MyFortran ****
+make all 
+Building file: ../main.f95
+Invoking: GNU Fortran Compiler
+gfortran -funderscoring -O0 -g -Wall -c -fmessage-length=0 -o "main.o" "../main.f95"
+/bin/sh: gfortran: command not found
+make: *** [main.o] Error 127
+
+18:36:28 Build Finished (took 346ms)
+

@@ -1,0 +1,8 @@
+import unittest
+
+class TestCalculator(unittest.TestCase):
+    def test1(self):
+        c = Calculator()
+        actual = c.add(5, 7)
+        expected = 12
+        self.assertEquals(expected, actual)

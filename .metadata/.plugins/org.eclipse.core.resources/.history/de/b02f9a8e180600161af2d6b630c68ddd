@@ -1,0 +1,28 @@
+class Point:
+    # CTOR
+    def __init__(self, name):
+        self.name = name
+        self.x = 0
+        self.y = 0
+    def __init__(self, name, x0, y0):
+        self.name = name
+        self.x = x0
+        self.y = y0
+    def display(self):
+        print "Point: '{}' is at [{},{}]".format(self.name, self.x, self.y)
+    def moveBy(self, dx, dy):
+        self.x = self.x + dx
+        self.y = self.y + dy
+# create objects
+p1 = Point("first",  100, 200)
+p2 = Point("second", 300, 500)
+p3 = Point("third",  250, 100)
+o = Point("origin")
+p1.moveBy(1, 1)
+p2.moveBy(1, 1)
+p3.moveBy(1, 1)
+p1.display()
+p2.display()
+p3.display()
+
+1

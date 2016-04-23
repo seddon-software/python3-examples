@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Python/src/Scientific Python/Fitting/01.py&apos; to &apos;01-polynomial-fit.py&apos;" description="Rename resource &apos;01.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Scientific Python/Fitting/01.py" name="01-polynomial-fit.py" stamp="1446415702077" updateReferences="true"/>
+</session>

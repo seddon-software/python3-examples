@@ -1,0 +1,14 @@
+class Point:
+    def initialize(self, name, x0, y0):
+        self.name = name
+        self.x = x0
+        self.y = y0
+        
+# create objects
+p1 = Point()
+p2 = Point()
+p3 = Point()
+p1.initialize("first",  100, 200)
+p2.initialize("second", 300, 500)
+p3.initialize("third",  250, 100)
+1

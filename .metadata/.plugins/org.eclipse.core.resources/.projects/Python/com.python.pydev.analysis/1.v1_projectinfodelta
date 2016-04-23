@@ -1,0 +1,10 @@
+INSTUP_Exercises.src.Advanced.6_convertUnicodeToAscii
+/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/6_convertUnicodeToAscii.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&3|6|2|0&&3|6|2|0&&3|7|2|0
+writeAsciiFile=5
+removeNonAscii=1
+getUnicodeFileContents=4
+unicodeText=6
+asciiText=7
+convertHyphens=3
+_Exercises.src.Advanced.6_convertUnicodeToAscii=2

@@ -1,0 +1,5 @@
+def volume(**d):
+    print d
+    return d['h'] * d['w'] * d['d']
+
+print volume(d = 3, h = 10, w = 5, dummy = 77)

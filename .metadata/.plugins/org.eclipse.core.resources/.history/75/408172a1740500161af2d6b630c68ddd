@@ -1,0 +1,3 @@
+def volume(height, width, depth):
+    return height * width * depth
+

@@ -1,0 +1,26 @@
+import unittest
+from Calculator import *
+
+class TestCalculator(unittest.TestCase):
+    def setUp(self): # code run before every test
+        self.c = Calculator()
+        
+    def testThatWeCanAddFiveAndSevenToGetTwelve(self):
+        actual = self.c.add(5, 7)
+        expected = 12
+        self.assertEquals(expected, actual)
+
+    def testThatWeCanAddSixAndTwentyToGetTwentySix(self):
+        actual = self.c.add(6, 20)
+        expected = 26
+        self.assertEquals(expected, actual)
+
+    def testThatIfTheFirstParameterIsAStringWeThrowATypeError(self):
+        self.assertRaises(BadParameter, self.c.add, "Five", 23)
+     
+    def testThatIfTheSecondParameterIsAStringWeThrowATypeError(self):
+        self.assertRaises(BadParameter, self.c.add, 23, "Five")
+    
+    def testThatIfBothParametersAreStringsWeThrowATypeError(self):
+        self.assertRaises(BadParameter, self.c.add, "Four", "Five")
+        

@@ -1,0 +1,39 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/seddon/home/workspace/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/DLS/com.python.pydev.analysis/v2_indexcache
+coupling|1461424228000|/Users/seddon/home/workspace/Python/DLS/src/coupling.py
+_1_zen|1461424726000|/Users/seddon/home/workspace/Python/DLS/src/_1_zen.py
+_2_functional|1435837617000|/Users/seddon/home/workspace/Python/DLS/src/_2_functional.py
+-- END DISKCACHE
+-- START DICTIONARY
+7
+2=coupling
+5=Ellipse
+4=Shape
+6=Rectangle
+3=ShapeFactory
+7=Polygon
+1=_2_functional
+-- END DICTIONARY
+-- START TREE 1
+12
+cub|1|cube!10@
+e|1|e!19@
+ell|1|Ellipse!17@
+hid|1|HideAnyShape!18@
+p|1|p!19@
+pol|1|Polygon!17@
+qua|1|quad!10@
+r|1|r!19@
+rec|1|Rectangle!17@
+sha|2|ShapeFactory!17@Shape!17@
+squ|2|square!10@square2!10@
+tra|1|trace!10@
+-- END TREE
+-- START TREE 2
+4
+cre|1|create!3&18@
+dra|4|draw!4&18@draw!5&18@draw!6&18@draw!7&18@
+hid|4|hide!4&18@hide!5&18@hide!6&18@hide!7&18@
+sho|4|show!4&18@show!5&18@show!6&18@show!7&18@
+-- END TREE

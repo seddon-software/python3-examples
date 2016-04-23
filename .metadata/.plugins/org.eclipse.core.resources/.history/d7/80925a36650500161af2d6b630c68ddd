@@ -1,0 +1,8 @@
+x = range(10, 30)  # list
+y = tuple(x)       # tuple
+z = list(y)
+
+print id(x)
+print id(y)
+print id(z)
+

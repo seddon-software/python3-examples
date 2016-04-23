@@ -1,0 +1,9 @@
+x = 100
+x = "Hello"
+x = 'Hello'
+x = True
+x = [ 5, 7, 2, 4]
+x = ( 3, 6, 1, 99)
+x = { 'Monday' : 1, 'Tuesday' : 2, 'Wednesday' : 3}
+
+1

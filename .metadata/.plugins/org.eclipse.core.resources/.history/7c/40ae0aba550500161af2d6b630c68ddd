@@ -1,0 +1,16 @@
+# immutable data
+def addOne(n):
+    n = n + 1
+    return n
+x = 100
+x = addOne(x)
+print x
+
+# mutable data
+def extendList(n):
+    n.append(99)
+x = range(10, 20)
+extendList(x)
+print x
+
+

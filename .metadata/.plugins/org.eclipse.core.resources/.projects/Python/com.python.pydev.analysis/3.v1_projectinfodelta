@@ -1,0 +1,10 @@
+INSTUP_Exercises.src.Advanced.7_printFootballHomeTable
+/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/7_printFootballHomeTable.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&3|6|2|0&&3|7|2|0
+_Exercises.src.Advanced.7_printFootballHomeTable=2
+teams=7
+getHomeResults=5
+readResultsFile=3
+printHomeTable=1
+lines=6
+getTeams=4

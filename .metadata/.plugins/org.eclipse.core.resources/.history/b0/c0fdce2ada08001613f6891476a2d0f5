@@ -1,0 +1,8 @@
+"""
+=============================================
+    mypackage
+=============================================
+"""
+print "loading mypackage"
+import package2
+import package3

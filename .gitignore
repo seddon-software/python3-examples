@@ -1,5 +1,4 @@
 *.pyc
-.metadata/**
 DLS/**
 Demos/**
 

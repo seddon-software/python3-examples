@@ -1,0 +1,10 @@
+import copy
+x = [ [10, 20], [30, 40] ]
+y = x[:][:] # shallow copy
+z = copy.deepcopy(x)
+print y
+print id(x), id(x[0]), id(x[1])
+print id(y), id(y[0]), id(y[1])
+print id(z), id(z[0]), id(z[1])
+
+

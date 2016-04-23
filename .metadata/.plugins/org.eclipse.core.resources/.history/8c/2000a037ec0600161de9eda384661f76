@@ -1,0 +1,28 @@
+class Time:
+    def __init__(self, hrs = 0, min = 0):
+        self.hrs = hrs
+        self.min = min
+    def __add__(self, rhs):
+        if isinstance(rhs, int):
+            rhs = Time(rhs/60, rhs%60)
+        result = Time()
+        result.hrs = self.hrs + rhs.hrs
+        result.min = self.min + rhs.min
+        if result.min >= 60:
+            result.min -= 60
+            result.hrs += 1
+        return result
+#     def __radd__(self, min):
+#         hrs = min / 60
+#         min = min % 60
+#         return self + Time(hrs, min)
+    def __str__(self):
+        return "[{:2d},{:02d}]".format(self.hrs, self.min)
+            
+t1 = Time(5, 45)
+t2 = Time(3, 20)
+t3 = t1 + t2
+print t3
+t4 = t1 + 130
+print t4
+

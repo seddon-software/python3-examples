@@ -1,0 +1,6 @@
+def average(x, y):
+    return (x + y) / 7.0
+
+result = average(6, 13)
+x = 100
+print "result = {0} {1}".format(result, x)

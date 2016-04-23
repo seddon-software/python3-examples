@@ -1,0 +1,8 @@
+def square(n):    return n**2
+def cube(n):      return n**3
+def power(fn, n): return fn(n)
+quad = lambda n : n**4
+
+print power(square, 7)
+print power(cube, 10)
+print power(quad, 2)

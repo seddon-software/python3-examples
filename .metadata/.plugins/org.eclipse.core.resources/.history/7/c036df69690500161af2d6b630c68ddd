@@ -1,0 +1,4 @@
+salary = { ('John', 'Smith') : [50000, "London"],
+           'John', 5000 }
+print salary
+

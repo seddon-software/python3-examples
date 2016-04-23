@@ -1,0 +1,7 @@
+def volume(**d):
+    print d
+    return d['h'] * d['w'] * d['d']
+
+print volume(d = 3, h = 10, w = 5, dummy = 77)
+data = {'w':5, 'h':10, 'd':3, 'dummy':77}
+print volume(**data)

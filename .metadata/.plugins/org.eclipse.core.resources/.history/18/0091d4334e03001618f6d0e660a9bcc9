@@ -1,0 +1,24 @@
+############################################################
+#
+#    dictionary
+#
+############################################################
+
+# set up a dictionary
+salary = {
+           "john":  34000, 
+          "sara":  27000,
+          "pedro": 52000,
+          "tim":   12500,
+          "zoe":   66000
+         }
+
+# keys(), values() and items() return iterators
+t = type(salary.keys())
+print(t)
+for key in salary.keys():
+    print(key, end = " ")
+print()
+for value in salary.values():
+    print(value, end = " ")
+    

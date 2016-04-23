@@ -1,0 +1,14 @@
+############################################################
+#
+#    input
+#
+############################################################
+
+x = input("type something: ")
+print(x)
+
+y = eval(input("type something: "))
+print(y)
+
+z = eval(input("type something: "))
+print(z)
