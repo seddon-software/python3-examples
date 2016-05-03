@@ -1,0 +1,38 @@
+# refactoring
+
+
+
+
+def g(x, y):
+    return x + y
+
+def f(x, y):
+    return lambda:x + y
+
+def subtract_it(x, y):
+    return x - y
+
+def addit(x, y):
+    result = x + y
+class A:
+    class B:
+        self.name
+        self.positionX
+        self.positionY
+
+
+x = 100
+y = 200
+
+result = g(x, y)
+
+
+a = A(x, y)
+addit(x, y)
+addit(x, y)
+
+result = subtract_it(x, y)
+square = f(x, y)
+z = f(3,4)
+print z()
+

@@ -1,0 +1,23 @@
+# refactoring
+
+
+
+def f(x, y):
+    return lambda:x + y
+
+def subtract_it(x, y):
+    return x - y
+
+def addit(x, y):
+    result = x + y
+
+x = 100
+y = 200
+addit(x, y)
+addit(x, y)
+
+result = subtract_it(x, y)
+square = f(x, y)
+z = f(3,4)
+print z
+

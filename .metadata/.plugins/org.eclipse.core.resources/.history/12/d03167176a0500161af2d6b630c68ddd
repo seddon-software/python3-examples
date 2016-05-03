@@ -1,8 +1,0 @@
-x = 1,
-print type(x)
-salary = { 
-           'John', 
-           5000
-            }
-print salary
-

@@ -1,9 +1,0 @@
-for f in *.py
-do
-    cp ${f} ${f}2
-    2to3 ${f}
-done
-
-ls
-
-

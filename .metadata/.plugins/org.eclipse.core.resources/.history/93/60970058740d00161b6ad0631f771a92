@@ -1,0 +1,18 @@
+from timeit import timeit
+import math
+
+count = 10
+format = "%16s%8.3f %s"
+
+statement = "s = ''.join(['a' for n in range(" + str(count) + ")])"
+print "comprehensions {:8.3f} {}".format(timeit(statement, number=1), statement)
+
+def sum_1():
+    sum = 0.0
+    for r in range(10):
+        pi = math.atan(1.0) / 4.0
+        sum = sum + pi * r**2
+    print "sum_1: {:8.3f}".format(sum)
+sum_1()
+
+print "sum_1: {:8.3f} {}".format(timeit("sum_1()", "from __main__ import *", number=1), statement)

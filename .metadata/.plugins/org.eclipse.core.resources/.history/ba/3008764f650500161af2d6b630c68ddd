@@ -1,8 +1,0 @@
-x = range(10, 30)  # list
-y = tuple(x)       # tuple
-z = list(x)
-
-print id(x)
-print id(y)
-print id(z)
-

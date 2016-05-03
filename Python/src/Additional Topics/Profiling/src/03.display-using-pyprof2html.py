@@ -3,7 +3,7 @@ import pyprof2html
 # run profiling-using-decorators.py first
 # this creates files in the html directory
 
-converter = pyprof2html.Converter("stats/profilestats.prof")
+converter = pyprof2html.Converter("stats/profilestats.out")
 converter._hookhtml()
 
 # display html/index.html in web browser

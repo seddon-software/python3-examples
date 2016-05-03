@@ -1,4 +1,0 @@
-def volume(h, w, d):
-    return h * w * d
-
-print volume(d = 3, h = 10, w = 5)

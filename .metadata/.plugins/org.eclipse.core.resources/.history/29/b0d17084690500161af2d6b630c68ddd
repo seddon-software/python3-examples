@@ -1,6 +1,0 @@
-salary = { 
-           'John', 
-           5000
-            }
-print salary
-

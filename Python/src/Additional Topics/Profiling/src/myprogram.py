@@ -1,32 +1,42 @@
 import random, time
 
 count = 0
-
+n = 100
 def f1():
     global count
-    for i in xrange(10000):
-        time.sleep(random.random() * 0.001)
+    for i in xrange(n):
+        sleepy()
         count = count + i
 
 def f2():
     global count
-    for i in xrange(20000):
-        time.sleep(random.random() * 0.001)
+    for i in xrange(2 * n):
+        sleepy()
         count = count + i
 
 def f3():
     global count
-    for i in xrange(30000):
-        time.sleep(random.random() * 0.001)
+    for i in xrange(3 * n):
+        sleepy()
         count = count + i
 
 def f4():
     global count
-    for i in xrange(40000):
-        time.sleep(random.random() * 0.001)
+    for i in xrange(4 * n):
+        sleepy()
         count = count + i
 
-
+def sleepy():
+    sleep1()
+    sleep2()
+    sleep3()
+    
+def sleep1():
+    time.sleep(random.random() * 0.001)
+def sleep2():
+    time.sleep(random.random() * 0.002)
+def sleep3():
+    time.sleep(random.random() * 0.003)
 def foo():
     f1()
     f2()

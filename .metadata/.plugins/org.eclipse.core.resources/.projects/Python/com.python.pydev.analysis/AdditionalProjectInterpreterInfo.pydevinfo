@@ -6,8 +6,8 @@ _Exercises.src.Intermediate.1_removeDuplicatesFromLists|1326663528000|/Users/sed
 _Exercises.src.Intermediate.4_compress|1445806087000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Intermediate/4_compress.py
 Networking.SSH.03_secure_ftp|1448961784000|/Users/seddon/home/workspace/Python/Python/src/Networking/SSH/03_secure_ftp.py
 _Exercises.src.Advanced.1_convertBetweenRomanAndArabicNumerals|1446405732000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/1_convertBetweenRomanAndArabicNumerals.py
-_Exercises.src.Advanced.6_convertUnicodeToAscii|1445791941000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/6_convertUnicodeToAscii.py
 Networking.SSH.02_secure_file_copy|1448961641000|/Users/seddon/home/workspace/Python/Python/src/Networking/SSH/02_secure_file_copy.py
+_Exercises.src.Advanced.6_convertUnicodeToAscii|1445791941000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/6_convertUnicodeToAscii.py
 _Exercises.src.Advanced.7_printFootballHomeTable|1445792138000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/7_printFootballHomeTable.py
 Networking.SSH.01_connect_to_remote_machine|1448961597000|/Users/seddon/home/workspace/Python/Python/src/Networking/SSH/01_connect_to_remote_machine.py
 Networking.SNMP.02|1360279198000|/Users/seddon/home/workspace/Python/Python/src/Networking/SNMP/02.py
@@ -15,9 +15,9 @@ _Exercises.src.Intermediate.5_hashTables|1445809498000|/Users/seddon/home/worksp
 Networking.SSL.01|1362246618000|/Users/seddon/home/workspace/Python/Python/src/Networking/SSL/01.py
 _Exercises.src.Advanced.4_threading|1326663528000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/4_threading.py
 Networking.EMail.myemail|1326663526000|/Users/seddon/home/workspace/Python/Python/src/Networking/EMail/myemail.py
-_Exercises.src.Advanced.resources.1|1446396680000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/resources/1.py
 Networking.SNMP.01|1360279110000|/Users/seddon/home/workspace/Python/Python/src/Networking/SNMP/01.py
 Networking.PyCurl.01|1426367348000|/Users/seddon/home/workspace/Python/Python/src/Networking/PyCurl/01.py
+_Exercises.src.Advanced.resources.1|1446396680000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/resources/1.py
 _Exercises.src.Advanced.5_scrapeFootballResults|1445789317000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Advanced/5_scrapeFootballResults.py
 _Exercises.src.Intermediate.3_flatten|1390864686000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Intermediate/3_flatten.py
 _Exercises.src.Intermediate.2_palindromes|1390862930000|/Users/seddon/home/workspace/Python/Python/src/_Exercises/src/Intermediate/2_palindromes.py
@@ -27,7 +27,7 @@ _Exercises.src.Advanced.3_histogramOfWords|1445811274000|/Users/seddon/home/work
 28
 22=Server
 25=Share.getPrices
-10=_Exercises.src.Advanced.1_convertBetweenRomanAndArabicNumerals
+9=_Exercises.src.Advanced.1_convertBetweenRomanAndArabicNumerals
 12=Networking.SSH.01_connect_to_remote_machine
 18=Networking.SNMP.02
 7=_Exercises.src.Intermediate.5_hashTables
@@ -46,7 +46,7 @@ _Exercises.src.Advanced.3_histogramOfWords|1445811274000|/Users/seddon/home/work
 15=_Exercises.src.Advanced.7_printFootballHomeTable
 8=Networking.SSL.01
 2=Networking.PyCurl.01
-9=_Exercises.src.Advanced.resources.1
+10=_Exercises.src.Advanced.resources.1
 28=MyTests
 23=Share
 27=Server.__init__
@@ -84,13 +84,13 @@ ini|1|initial!59@
 isp|1|isPalindrome!130@
 key|2|key!59@keyCols!59@
 lea|1|league!107@
-lin|2|lines!123@lines!91@
+lin|2|lines!91@lines!123@
 lis|9|listD!131@listB!115@list2!51@listA!131@listA!115@listC!131@listE!131@list1!51@listB!131@
 loc|1|local_ssl_sock!67@
-loo|2|lookUp!83@lookUp2!75@
+loo|2|lookUp!75@lookUp2!83@
 mon|1|monitor!138@
 myc|1|mycompany!139@
-myt|1|MyTests!73@
+myt|1|MyTests!81@
 new|1|newList!51@
 ntf|1|ntfOrg!147@
 occ|1|occurances!27@
@@ -102,10 +102,10 @@ par|2|part1!59@part2!59@
 pat|1|pattern!59@
 poi|0|
 pop|1|popularStems!91@
-pri|3|printHomeTable!122@pricesAvailableEvent!139@PrintResults!90@
+pri|3|pricesAvailableEvent!139@PrintResults!90@printHomeTable!122@
 pro|1|ProcessStems!90@
 q|0|
-r|1|r!83@
+r|1|r!75@
 rea|2|readResultsFile!122@readInputFile!26@
 rem|1|removeNonAscii!10@
 res|2|resetEvent!139@results!107@
@@ -121,7 +121,7 @@ sou|1|soup!107@
 squ|0|
 ssh|1|ssh!99@
 ste|1|stems!91@
-sui|1|suite!74@
+sui|1|suite!82@
 tea|4|team!107@teams!123@teams!107@teamScores!107@
 thr|2|thread1!139@thread2!139@
 tic|1|ticker!138@
@@ -155,7 +155,7 @@ p3|0|
 pri|3|prices!24&139@prices!25&139@prices!26&139@
 res|1|reset!23&138@
 sft|1|sftp!27&163@
-tes|9|test_CanConvertNumberBetween14and39!28&74@test_CanConvert5!28&74@test_CanConvertNumberBetween71and250!28&74@test_CanConvertNumberBetween9and13!28&74@test_CanConvertNumberBetween40and70!28&74@test_CanConvertNumberBetween1and3!28&74@test_CanConvert4!28&74@test_CanConvertNumberBetween6and8!28&74@test_CanConvertLargeNumber!28&74@
+tes|9|test_CanConvertNumberBetween14and39!28&82@test_CanConvert5!28&82@test_CanConvertNumberBetween71and250!28&82@test_CanConvertNumberBetween9and13!28&82@test_CanConvertNumberBetween40and70!28&82@test_CanConvertNumberBetween1and3!28&82@test_CanConvert4!28&82@test_CanConvertNumberBetween6and8!28&82@test_CanConvertLargeNumber!28&82@
 tra|1|transport!27&163@
 upl|1|upload!22&162@
 x|0|

@@ -1,0 +1,11 @@
+import os, shutils
+
+try:
+    shutils.rmtree("html")
+except:
+    pass
+
+try:
+    shutils.rmtree("stats")
+except:
+    pass

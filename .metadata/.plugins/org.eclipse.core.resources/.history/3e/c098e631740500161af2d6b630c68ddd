@@ -1,6 +1,0 @@
-def average(x, y):
-    return (x + y) / 7.0
-
-result = average(6, 13000000000000000)
-x = 100
-print "result = {0:15.2g}, x = {1}".format(result, x)

@@ -1,7 +1,0 @@
-def addOne(n):
-    n = n + 1
-
-x = 100
-addOne(x)
-print x
-

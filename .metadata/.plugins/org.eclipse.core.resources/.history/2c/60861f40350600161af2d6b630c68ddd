@@ -1,6 +1,0 @@
-import mylib as m
-import mylib
-m.f1()
-m.f2()
-mylib.f3()
-mylib.f4()

@@ -1,8 +1,0 @@
-x = range(10, 30)  # list
-y = tuple(x)       # tuple
-z = list(x)        # cast creates a copy
-
-print id(x), id(x[0]), id(x[1])
-print id(y), id(y[0]), id(y[1])
-print id(z), id(z[0]), id(z[1])
-

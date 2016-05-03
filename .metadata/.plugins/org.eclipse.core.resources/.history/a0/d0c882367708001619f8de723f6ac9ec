@@ -1,8 +1,0 @@
-import unittest
-
-class TestCalculator(unittest.TestCase):
-    def testThatWeCanAddFiveAndSevenToGetTwelve(self):
-        c = Calculator()
-        actual = c.add(5, 7)
-        expected = 12
-        self.assertEquals(expected, actual)

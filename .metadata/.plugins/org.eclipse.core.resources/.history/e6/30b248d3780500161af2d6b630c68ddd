@@ -1,8 +1,0 @@
-def square(n):
-    return n**2
-
-x = square(5)
-print x
-square = 'Hello'
-print square
-

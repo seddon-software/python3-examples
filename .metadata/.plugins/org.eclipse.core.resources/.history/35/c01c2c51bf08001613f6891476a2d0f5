@@ -1,5 +1,0 @@
-import py_compile, os
-
-py_compile.compile("myfile.py", "myfile.pyc")
-os.system("ls")
-1

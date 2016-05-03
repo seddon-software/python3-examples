@@ -1,5 +1,0 @@
-def volume(height, width, depth):
-    return height * width * depth
-
-print volume(5, 10, 20)
-print volume(height = 5, width = 10, depth = 20)

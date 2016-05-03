@@ -1,6 +1,0 @@
-x = range(10, 30)
-y = range(85, 95)
-x[5:8] = y[3:8]
-print x
-
- 

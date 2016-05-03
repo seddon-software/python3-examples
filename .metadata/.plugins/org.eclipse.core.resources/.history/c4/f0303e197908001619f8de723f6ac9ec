@@ -1,7 +1,0 @@
-class BadParameter(Exception): pass
-
-class Calculator(object):
-    def add(self, x, y):
-        if isinstance(x, str):
-            raise 
-        return x + y

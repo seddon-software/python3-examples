@@ -1,9 +1,0 @@
-def square(n):
-    return n**2
-
-'''
-calling square(6)
-36
-'''
-
-print square(6)

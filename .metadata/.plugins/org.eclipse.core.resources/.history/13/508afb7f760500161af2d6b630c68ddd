@@ -1,8 +1,0 @@
-def average(*a):
-    sum = 0
-    for n in a:
-        sum += n
-    return float(sum) / len(a)
-
-print average(4, 6, 11)
-print average(4, 6, 11, 15, 2)

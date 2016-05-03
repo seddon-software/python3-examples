@@ -1,0 +1,66 @@
+# refactoring
+
+
+
+
+def g(x, y):
+    return x + y
+
+def f(x, y):
+    return lambda:x + y
+class A:
+
+        def __init__(self, name, positionX, positionY):
+            self.name = name
+            self.positionX = positionX
+            self.positionY = positionY
+
+        def get_name(self):
+            return self.__name
+
+
+        def get_position_x(self):
+            return self.__positionX
+
+
+        def get_position_y(self):
+            return self.__positionY
+
+
+        def set_name(self, value):
+            self.__name = value
+
+
+        def set_position_x(self, value):
+            self.__positionX = value
+
+
+        def set_position_y(self, value):
+            self.__positionY = value
+
+
+        def del_name(self):
+            del self.__name
+
+
+        def del_position_x(self):
+            del self.__positionX
+
+
+        def del_position_y(self):
+            del self.__positionY
+
+
+        name = property(get_name, set_name, del_name, "name's docstring")
+        positionX = property(get_position_x, set_position_x, del_position_x, "positionX's docstring")
+        positionY = property(get_position_y, set_position_y, del_position_y, "positionY's docstring")
+#         self.name
+#         self.positionX
+#         self.positionY
+
+
+a = A("Sue", 5, 8)
+a.positionX = 3
+a.positionY = 7
+a.name = "Jon"
+print a.__dict__

@@ -1,0 +1,15 @@
+
+
+
+def subtract_it(x, y):
+    return x - y
+
+def addit(x, y):
+    result = x + y
+
+x = 100
+y = 200
+addit(x, y)
+addit(x, y, 6)
+
+result = subtract_it(x, y)

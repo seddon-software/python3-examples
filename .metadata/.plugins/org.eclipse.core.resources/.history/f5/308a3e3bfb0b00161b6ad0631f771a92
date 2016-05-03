@@ -1,0 +1,79 @@
+events: Ticks
+summary: 67578
+fl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+fn=f3
+17 487
+cfn=<method 'random' of '_random.Random' objects>
+calls=30000 0
+17 176
+cfn=<time.sleep>
+calls=30000 0
+17 19578
+
+fl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/02.profiling-using-decorators.py
+fn=profileIt
+20 0
+cfl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+cfn=foo
+calls=1 30
+20 67578
+
+fl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+fn=f4
+23 666
+cfn=<method 'random' of '_random.Random' objects>
+calls=40000 0
+23 235
+cfn=<time.sleep>
+calls=40000 0
+23 26242
+
+fl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+fn=f2
+11 330
+cfn=<method 'random' of '_random.Random' objects>
+calls=20000 0
+11 102
+cfn=<time.sleep>
+calls=20000 0
+11 13000
+
+fn=<method 'random' of '_random.Random' objects>
+0 568
+
+fn=<time.sleep>
+0 65363
+
+fl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+fn=foo
+30 0
+cfl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+cfn=f3
+calls=1 17
+30 20241
+cfl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+cfn=f4
+calls=1 23
+30 27144
+cfl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+cfn=f2
+calls=1 11
+30 13433
+cfl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+cfn=f1
+calls=1 5
+30 6759
+
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 0
+
+fl=/Users/seddon/home/workspace/Python/Python/src/Additional Topics/Profiling/src/myprogram.py
+fn=f1
+5 161
+cfn=<method 'random' of '_random.Random' objects>
+calls=10000 0
+5 54
+cfn=<time.sleep>
+calls=10000 0
+5 6542
+
