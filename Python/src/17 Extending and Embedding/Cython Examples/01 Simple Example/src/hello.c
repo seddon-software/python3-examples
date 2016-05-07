@@ -636,8 +636,6 @@ static PyObject *__pyx_pf_5hello_say_hello(CYTHON_UNUSED PyObject *__pyx_self); 
 static PyObject *__pyx_pf_5hello_2say_goodbye(CYTHON_UNUSED PyObject *__pyx_self); /* proto */
 static PyObject *__pyx_pf_5hello_4fibonacci(CYTHON_UNUSED PyObject *__pyx_self, int __pyx_v_n); /* proto */
 static PyObject *__pyx_pf_5hello_6sumOfSquares(CYTHON_UNUSED PyObject *__pyx_self, int __pyx_v_lo, int __pyx_v_hi); /* proto */
-static PyObject *__pyx_int_0;
-static PyObject *__pyx_int_1;
 static PyObject *__pyx_codeobj_;
 static PyObject *__pyx_tuple__3;
 static PyObject *__pyx_tuple__5;
@@ -762,7 +760,7 @@ static PyObject *__pyx_pf_5hello_2say_goodbye(CYTHON_UNUSED PyObject *__pyx_self
  *     print "say_goodbye was compiled using cython"
  * 
  * def fibonacci(int n):             # <<<<<<<<<<<<<<
- * #     cdef int a, b
+ *     cdef int a, b
  *     a, b = 0, 1
  */
 
@@ -794,13 +792,14 @@ static PyObject *__pyx_pw_5hello_5fibonacci(PyObject *__pyx_self, PyObject *__py
 }
 
 static PyObject *__pyx_pf_5hello_4fibonacci(CYTHON_UNUSED PyObject *__pyx_self, int __pyx_v_n) {
-  PyObject *__pyx_v_a = NULL;
-  PyObject *__pyx_v_b = NULL;
+  int __pyx_v_a;
+  int __pyx_v_b;
   PyObject *__pyx_r = NULL;
   __Pyx_RefNannyDeclarations
-  PyObject *__pyx_t_1 = NULL;
-  PyObject *__pyx_t_2 = NULL;
+  int __pyx_t_1;
+  int __pyx_t_2;
   int __pyx_t_3;
+  PyObject *__pyx_t_4 = NULL;
   int __pyx_lineno = 0;
   const char *__pyx_filename = NULL;
   int __pyx_clineno = 0;
@@ -808,34 +807,25 @@ static PyObject *__pyx_pf_5hello_4fibonacci(CYTHON_UNUSED PyObject *__pyx_self, 
 
   /* "hello.pyx":9
  * def fibonacci(int n):
- * #     cdef int a, b
+ *     cdef int a, b
  *     a, b = 0, 1             # <<<<<<<<<<<<<<
  *     while b < n:
  *         a, b = b, a + b
  */
-  __pyx_t_1 = __pyx_int_0;
-  __Pyx_INCREF(__pyx_t_1);
-  __pyx_t_2 = __pyx_int_1;
-  __Pyx_INCREF(__pyx_t_2);
-  __pyx_v_a = __pyx_t_1;
   __pyx_t_1 = 0;
+  __pyx_t_2 = 1;
+  __pyx_v_a = __pyx_t_1;
   __pyx_v_b = __pyx_t_2;
-  __pyx_t_2 = 0;
 
   /* "hello.pyx":10
- * #     cdef int a, b
+ *     cdef int a, b
  *     a, b = 0, 1
  *     while b < n:             # <<<<<<<<<<<<<<
  *         a, b = b, a + b
  *     return a
  */
   while (1) {
-    __pyx_t_2 = __Pyx_PyInt_From_int(__pyx_v_n); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __pyx_t_1 = PyObject_RichCompare(__pyx_v_b, __pyx_t_2, Py_LT); __Pyx_XGOTREF(__pyx_t_1); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_DECREF(__pyx_t_2); __pyx_t_2 = 0;
-    __pyx_t_3 = __Pyx_PyObject_IsTrue(__pyx_t_1); if (unlikely(__pyx_t_3 < 0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 10; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_DECREF(__pyx_t_1); __pyx_t_1 = 0;
+    __pyx_t_3 = ((__pyx_v_b < __pyx_v_n) != 0);
     if (!__pyx_t_3) break;
 
     /* "hello.pyx":11
@@ -845,14 +835,10 @@ static PyObject *__pyx_pf_5hello_4fibonacci(CYTHON_UNUSED PyObject *__pyx_self, 
  *     return a
  * 
  */
-    __pyx_t_1 = __pyx_v_b;
-    __Pyx_INCREF(__pyx_t_1);
-    __pyx_t_2 = PyNumber_Add(__pyx_v_a, __pyx_v_b); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 11; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-    __Pyx_GOTREF(__pyx_t_2);
-    __Pyx_DECREF_SET(__pyx_v_a, __pyx_t_1);
-    __pyx_t_1 = 0;
-    __Pyx_DECREF_SET(__pyx_v_b, __pyx_t_2);
-    __pyx_t_2 = 0;
+    __pyx_t_2 = __pyx_v_b;
+    __pyx_t_1 = (__pyx_v_a + __pyx_v_b);
+    __pyx_v_a = __pyx_t_2;
+    __pyx_v_b = __pyx_t_1;
   }
 
   /* "hello.pyx":12
@@ -863,27 +849,26 @@ static PyObject *__pyx_pf_5hello_4fibonacci(CYTHON_UNUSED PyObject *__pyx_self, 
  * def sumOfSquares(int lo, int hi):
  */
   __Pyx_XDECREF(__pyx_r);
-  __Pyx_INCREF(__pyx_v_a);
-  __pyx_r = __pyx_v_a;
+  __pyx_t_4 = __Pyx_PyInt_From_int(__pyx_v_a); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 12; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+  __Pyx_GOTREF(__pyx_t_4);
+  __pyx_r = __pyx_t_4;
+  __pyx_t_4 = 0;
   goto __pyx_L0;
 
   /* "hello.pyx":7
  *     print "say_goodbye was compiled using cython"
  * 
  * def fibonacci(int n):             # <<<<<<<<<<<<<<
- * #     cdef int a, b
+ *     cdef int a, b
  *     a, b = 0, 1
  */
 
   /* function exit code */
   __pyx_L1_error:;
-  __Pyx_XDECREF(__pyx_t_1);
-  __Pyx_XDECREF(__pyx_t_2);
+  __Pyx_XDECREF(__pyx_t_4);
   __Pyx_AddTraceback("hello.fibonacci", __pyx_clineno, __pyx_lineno, __pyx_filename);
   __pyx_r = NULL;
   __pyx_L0:;
-  __Pyx_XDECREF(__pyx_v_a);
-  __Pyx_XDECREF(__pyx_v_b);
   __Pyx_XGIVEREF(__pyx_r);
   __Pyx_RefNannyFinishContext();
   return __pyx_r;
@@ -1108,7 +1093,7 @@ static int __Pyx_InitCachedConstants(void) {
  *     print "say_goodbye was compiled using cython"
  * 
  * def fibonacci(int n):             # <<<<<<<<<<<<<<
- * #     cdef int a, b
+ *     cdef int a, b
  *     a, b = 0, 1
  */
   __pyx_tuple__3 = PyTuple_Pack(4, __pyx_n_s_n, __pyx_n_s_n, __pyx_n_s_a, __pyx_n_s_b); if (unlikely(!__pyx_tuple__3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
@@ -1136,8 +1121,6 @@ static int __Pyx_InitCachedConstants(void) {
 
 static int __Pyx_InitGlobals(void) {
   if (__Pyx_InitStrings(__pyx_string_tab) < 0) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;};
-  __pyx_int_0 = PyInt_FromLong(0); if (unlikely(!__pyx_int_0)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
-  __pyx_int_1 = PyInt_FromLong(1); if (unlikely(!__pyx_int_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 1; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
   return 0;
   __pyx_L1_error:;
   return -1;
@@ -1263,7 +1246,7 @@ PyMODINIT_FUNC PyInit_hello(void)
  *     print "say_goodbye was compiled using cython"
  * 
  * def fibonacci(int n):             # <<<<<<<<<<<<<<
- * #     cdef int a, b
+ *     cdef int a, b
  *     a, b = 0, 1
  */
   __pyx_t_1 = PyCFunction_NewEx(&__pyx_mdef_5hello_5fibonacci, NULL, __pyx_n_s_hello); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 7; __pyx_clineno = __LINE__; goto __pyx_L1_error;}

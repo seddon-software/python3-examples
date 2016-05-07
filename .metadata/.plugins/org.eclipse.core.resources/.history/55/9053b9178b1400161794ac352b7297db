@@ -1,0 +1,91 @@
+
+
+from scipy.stats import norm
+import numpy as np
+from scipy.sparse.linalg.isolve.lgmres import norm2
+print norm.cdf(1.96)
+# 
+# array(0.97500210485177952)
+
+
+def N(d):
+    return norm.cdf(d)
+
+
+stockPrice = S = 31.55
+strikePrice = K = 22.75
+timeUntilOptionExpiresInYears = t = 3.5
+riskFreeInterestRate = r = 5.0 / 100.0
+volitivity_as_percentage_per_annum = sigma = 50.0 / 100.0
+cumulativeStandatdNormalDistribution = N = lambda d : norm.cdf(d)
+days_per_year = T = 365.25
+d1 = ( np.log(S/K) + (r + sigma**2/2.0)*t ) / (sigma * t**0.5)
+d2 = d1 - sigma * t**0.5
+normalProbabilityDensityFunction = npdf = np.exp(-d1**2/2) / (2 * np.pi)**0.5
+
+CallOption = S * N(d1) - K * np.exp(-r*t) * N(d2)
+PutOption = K * np.exp(-r*t) * N(-d2) - S * N(-d1)
+CallDelta = N(d1)
+PutDelta = N(d1) - 1
+PutGamma = (1.0/(S * sigma * t**0.5)) * npdf
+CallTheta = (-S * sigma * npdf / (2 * t**0.5) - r * K * np.exp(-r*t) * N(+d2)) / T
+PutTheta  = (-S * sigma * npdf / (2 * t**0.5) + r * K * np.exp(-r*t) * N(-d2)) / T
+PutVega = S * t**0.5 * npdf / 100
+CallRho =  K * t * np.exp(-r*t) * N(+d2) / 100
+PutRho  = -K * t * np.exp(-r*t) * N(-d2) / 100
+
+def greeks(option, call_or_put, stockPrice, strikePrice, timeUntilExpiry, riskFreeInterestRate, volativity):
+    id = option + " " + call_or_put
+    S = stockPrice
+    K = strikePrice
+    t = timeUntilExpiry
+    r = riskFreeInterestRate / 100.0
+    sigma = volativity / 100.0
+    days_per_year = T = 365.25
+    
+    d1 = ( np.log(S/K) + (r + sigma**2/2.0)*t ) / (sigma * t**0.5)
+    d2 = d1 - sigma * t**0.5
+    normalProbabilityDensityFunction = npdf = np.exp(-d1**2/2) / (2 * np.pi)**0.5
+
+    def format(data):
+        return "{:12s}: {:5f}".format(id, data)
+    
+    def formula():
+        if(call_or_put == "call"): return format(S * N(d1) - K * np.exp(-r*t) * N(d2))
+        if(call_or_put == "put"):  return format(K * np.exp(-r*t) * N(-d2) - S * N(-d1))
+    def delta():
+        if(call_or_put == "call"): return format(N(d1))
+        if(call_or_put == "put"):  return format(N(d1) - 1)
+    def rho():
+        if(call_or_put == "call"): return format(+K * t * np.exp(-r*t) * N(+d2) / 100)
+        if(call_or_put == "put"):  return format(-K * t * np.exp(-r*t) * N(-d2) / 100)
+    def theta():
+        if(call_or_put == "call"): return format((-S * sigma * npdf / (2 * t**0.5) - r * K * np.exp(-r*t) * N(+d2)) / T)
+        if(call_or_put == "put"):  return format((-S * sigma * npdf / (2 * t**0.5) + r * K * np.exp(-r*t) * N(-d2)) / T)
+    def vega():
+        return format(S * t**0.5 * npdf / 100)
+    
+    if option == "": return formula()
+    if option == "rho":  return rho()
+    if option == "theta": return theta()
+    if option == "vega": return vega()
+
+print "CallDelta = {:.3f}".format(CallDelta)
+print greeks("delta", "call", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "PutDelta = {:.3f}".format(PutDelta)
+print greeks("delta", "call", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "PutGamma = {:.6f}".format(PutGamma)
+print greeks("", "call", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "CallOption = {:.3f}".format(CallOption)
+print greeks("", "put", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "PutOption = {:.3f}".format(PutOption)
+print greeks("theta", "call", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "CallTheta = {:.6f}".format(CallTheta)
+print greeks("theta", "put", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "PutTheta = {:.6f}".format(PutTheta)
+print greeks("rho", "call", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "CallRho = {:.6f}".format(CallRho)
+print greeks("rho", "put", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "PutRho = {:.6f}".format(PutRho)
+print greeks("vega", "put", stockPrice = 31.55, strikePrice = 22.75, timeUntilExpiry = 3.5, riskFreeInterestRate = 5.0, volativity = 50.0)
+print "PutVega = {:.6f}".format(PutVega)

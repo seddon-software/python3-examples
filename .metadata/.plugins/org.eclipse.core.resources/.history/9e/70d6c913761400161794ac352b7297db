@@ -1,0 +1,26 @@
+
+
+from scipy.stats import norm
+import numpy as np
+from scipy.sparse.linalg.isolve.lgmres import norm2
+print norm.cdf(1.96)
+# 
+# array(0.97500210485177952)
+
+
+def N(d):
+    return norm.cdf(d)
+
+
+stockPrice = S = 210.59
+timeUntilOptionExpiresInDays = t = 4
+strikePrice = K = 205.0
+riskFreeInterestRate = r = 0.2175
+sigma = volitivity_as_percentage_per_annum = 14.04
+cumulativeStandatdNormalDistribution = N = lambda d : norm.cdf(d)
+d1 = ( np.log(S/K) + (r + sigma**2/2.0)*t ) / (sigma * t**0.5)
+d2 = d1 - sigma * t**0.5
+C = S * N(d1) - K * np.exp(-r*t) * N(d2)
+print d1
+print d2
+print C

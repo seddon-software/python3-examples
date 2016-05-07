@@ -1386,6 +1386,7 @@ _md5
 _multibytecodec|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multibytecodec.so
 _multiprocessing|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/_multiprocessing.so
 _myexample|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_myexample.so
+_myhello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_myhello.so
 _osx_support|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_osx_support.py
 _pyio|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/_pyio.py
 _pytest.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/_pytest/__init__.py
@@ -3508,6 +3509,7 @@ extras.tests.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/pyth
 extras.tests.test_extras|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/extras/tests/test_extras.py
 fcntl|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/lib-dynload/fcntl.so
 features|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/PIL/features.py
+fibonacci|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/fibonacci.so
 filecmp|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/filecmp.py
 fileinput|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/fileinput.py
 findertools|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/findertools.py
@@ -4846,6 +4848,7 @@ mutagen.trueaudio|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.
 mutagen.wavpack|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/mutagen/wavpack.py
 mutex|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/mutex.py
 myexample|/Library/Python/2.7/site-packages/myexample.py
+myhello|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/myhello.py
 names.__init__|/Library/Python/2.7/site-packages/names/__init__.py
 names._version|/Library/Python/2.7/site-packages/names/_version.py
 names.authority|/Library/Python/2.7/site-packages/names/authority.py
