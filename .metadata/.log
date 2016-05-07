@@ -2116,3 +2116,11 @@ java.lang.IllegalArgumentException: Index out of bounds
 !MESSAGE Unhandled event loop exception
 !STACK 0
 java.lang.NullPointerException
+
+!ENTRY org.eclipse.debug.core 4 120 2016-05-07 22:11:58.202
+!MESSAGE Unable to resource a selected resource: ${selected_resource_loc}
+
+!ENTRY org.eclipse.ui 4 0 2016-05-07 22:29:33.066
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
