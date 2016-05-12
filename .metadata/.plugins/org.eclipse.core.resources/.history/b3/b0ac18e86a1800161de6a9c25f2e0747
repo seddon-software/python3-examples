@@ -1,0 +1,9 @@
+import os, shutil
+
+def s(cmd):
+    print ">>>", cmd,
+    raw_input()
+    if cmd[0:2] == "cd":
+        os.chdir('myrepo')
+    else:
+        os.system(cmd)

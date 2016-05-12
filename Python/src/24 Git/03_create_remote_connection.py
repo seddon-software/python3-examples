@@ -1,13 +1,14 @@
-import os
-
-os.chdir('myrepo')
-raw_input("When you have created the remote repo ('myrepo'), hit return")
+from single_step import s
 repo = "myrepo"
 username = "seddon-software"
 password = raw_input("Enter password: ")        # diamond1
 cmd = "git remote add origin https://{0}:{1}@github.com/{0}/{2}.git".format(username, password, repo)
-print cmd
-os.system(cmd)
-os.system('git remote -v')
-os.system('git push -u origin master')
+
+
+
+s('cd myrepo')
+# make sure you have created the remote repo: myrepo
+s(cmd)
+s('git remote -v')
+s('git push -u origin master')
 

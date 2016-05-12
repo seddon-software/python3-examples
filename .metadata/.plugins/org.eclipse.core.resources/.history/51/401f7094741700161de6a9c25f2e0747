@@ -1,0 +1,10 @@
+import copy
+x = [ [10, 20], [30, 40] ]
+y = tuple(x)        # cast => shallow copy
+z = copy.deepcopy(x)
+print x
+print y
+print z
+
+
+

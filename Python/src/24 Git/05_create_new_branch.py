@@ -1,15 +1,14 @@
-import os
+from single_step import s
 
-os.chdir('myrepo')
-
-os.system('git branch mybranch')
-os.system('git checkout mybranch')
+s('cd myrepo')
+s('git branch mybranch')
+s('git checkout mybranch')
  
-os.system('echo "branch file no. 1" > branch1.txt')
-os.system('echo "branch file no. 2" > branch2.txt')
-os.system('echo "branch file no. 3" > branch3.txt')
-os.system('rm hello3.txt')
-os.system('git add .') 
-os.system('git commit -m "created a new branch"')
-os.system('git push --set-upstream origin mybranch')
+s('echo "branch file no. 1" > branch1.txt')
+s('echo "branch file no. 2" > branch2.txt')
+s('echo "branch file no. 3" > branch3.txt')
+s('rm hello3.txt')
+s('git add .') 
+s('git commit -m "created a new branch"')
+s('git push --set-upstream origin mybranch')
 

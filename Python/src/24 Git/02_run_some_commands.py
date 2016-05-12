@@ -1,14 +1,6 @@
-import os
+from single_step import s
+s('cd myrepo')
+s('git status')
+s('git log')
 
-os.chdir('myrepo')
-
-def doit(cmd):
-    print cmd
-    print "========"
-    os.system(cmd)
-    print
-    
-doit('git status')
-doit('git log')
-doit('git show')
 

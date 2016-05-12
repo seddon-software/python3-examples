@@ -1,8 +1,5 @@
-import os
+from single_step import s
 
-os.chdir('myrepo')
-
-os.system('ls')
-os.system('git merge mybranch')
-os.system('ls')
-os.system('git push -u origin master')
+s('cd myrepo')
+s('git merge mybranch')
+s('git push -u origin master')

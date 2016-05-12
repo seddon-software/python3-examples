@@ -17,7 +17,7 @@ class Circle(object):
 circle1 = Circle(10.0)
 circle2 = Circle(20.0)
 circle3 = Circle(30.0)
-print Circle.__dict__
+print circle1.__dict__
 circle1.radius = 15.0
 print circle1.radius
 

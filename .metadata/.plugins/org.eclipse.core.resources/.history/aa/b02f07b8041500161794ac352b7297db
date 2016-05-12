@@ -1,0 +1,9 @@
+salary = { 'bob' : 45000, 
+           'sue' : 55000,
+           'jimmy' : 50000,
+           'zoe' : 47000,
+           'tim' : 34000
+          }
+
+for key, value in salary.iteritems():
+    print key, value

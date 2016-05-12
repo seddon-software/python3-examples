@@ -1,10 +1,10 @@
-import os
+from single_step import s
 
-os.chdir('myrepo')
-
-os.system('echo "hello world" > hello2.txt')
-os.system('echo "hello world" > hello3.txt')
-os.system('git add .') 
-os.system('git commit -m "added more files"')
-os.system('git push -u origin master')
+s('cd myrepo')
+s('echo "hello world" > hello1.txt')
+s('echo "hello world" > hello2.txt')
+s('echo "hello world" > hello3.txt')
+s('git add .') 
+s('git commit -m "added more files"')
+s('git push -u origin master')
 

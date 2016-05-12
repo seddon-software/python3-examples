@@ -1,0 +1,10 @@
+x = [ [10, 20], [30, 40] ]
+y = tuple(x)        # cast
+print x
+print y
+print id(x), id(y)
+print id(x[0]), id(y[0])
+print id(x[1]), id(y[1])
+ 
+
+

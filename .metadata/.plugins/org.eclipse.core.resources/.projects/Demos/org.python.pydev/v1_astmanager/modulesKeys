@@ -1,9 +1,14 @@
 MODULES_MANAGER_V2
+Point|/Users/seddon/home/workspace/Python/Demos/src/Point.py
 arrays|/Users/seddon/home/workspace/Python/Demos/src/arrays.py
 casts|/Users/seddon/home/workspace/Python/Demos/src/casts.py
 functions|/Users/seddon/home/workspace/Python/Demos/src/functions.py
 functions2|/Users/seddon/home/workspace/Python/Demos/src/functions2.py
+hashes|/Users/seddon/home/workspace/Python/Demos/src/hashes.py
+hashesMax|/Users/seddon/home/workspace/Python/Demos/src/hashesMax.py
 lists|/Users/seddon/home/workspace/Python/Demos/src/lists.py
+modules.mylib|/Users/seddon/home/workspace/Python/Demos/src/modules/mylib.py
+modules.use_mylib|/Users/seddon/home/workspace/Python/Demos/src/modules/use_mylib.py
 mutability|/Users/seddon/home/workspace/Python/Demos/src/mutability.py
 mytypes|/Users/seddon/home/workspace/Python/Demos/src/mytypes.py
 quiz|/Users/seddon/home/workspace/Python/Demos/src/quiz.py

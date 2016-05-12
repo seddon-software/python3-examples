@@ -22,6 +22,6 @@ f = y * np.cos(x)
 print f
 fig = plt.figure()
 ax = Axes3D(fig)
-surface = ax.plot_surface(x, y, f) #, rstride=1, cstride=1, cmap=cmap, linewidth=0, antialiased=False)
+surface = ax.plot_surface(x, y, f, cmap="terrain", rstride = 25, cstride = 25) #, rstride=1, cstride=1, cmap=cmap, linewidth=0, antialiased=False)
 plt.show()
 1

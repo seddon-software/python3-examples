@@ -1,0 +1,8 @@
+# working with mutable data
+def addAtEndOfList(y):
+    y.append(99)
+
+
+x = [ 10, 20, 30, 40 ]      # mutable list
+addAtEndOfList(x)
+print x

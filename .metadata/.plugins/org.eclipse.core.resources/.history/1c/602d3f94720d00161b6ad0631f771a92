@@ -1,4 +1,0 @@
-from timeit import timeit
-
-statement = "s = ''.join(['a' for n in range(" + str(count) + ")])"
-print format % ("comprehensions", timeit(statement, "", number=1), statement)

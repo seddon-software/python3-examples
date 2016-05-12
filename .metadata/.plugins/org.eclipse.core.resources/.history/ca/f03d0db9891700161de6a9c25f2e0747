@@ -1,0 +1,8 @@
+def average(*a):
+    for i in a;
+        print a[i],
+    return 0.0
+
+print average(7, 8)
+print average(7, 8, 10)
+

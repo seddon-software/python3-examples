@@ -1,0 +1,14 @@
+import os, shutil
+
+def s(*cmds):
+    print ">>>", cmd,
+    raw_input()
+    if cmd[0:2] == "cd":
+        os.chdir('myrepo')
+    else:
+        os.system(cmd)
+
+def z(*cmds):
+    print " ".join(cmds)
+
+z("aaa", "bbb", "ccc")

@@ -1,0 +1,69 @@
+-- VERSION_4
+-- START DISKCACHE
+/Users/seddon/home/workspace/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/Demos1/com.python.pydev.analysis/v2_indexcache
+slices|1462971116000|/Users/seddon/home/workspace/Python/Demos1/src/slices.py
+hashes2|1462976708000|/Users/seddon/home/workspace/Python/Demos1/src/hashes2.py
+libraries.mylib|1463048890000|/Users/seddon/home/workspace/Python/Demos1/src/libraries/mylib.py
+vectors|1462971985000|/Users/seddon/home/workspace/Python/Demos1/src/vectors.py
+functions2|1462978667000|/Users/seddon/home/workspace/Python/Demos1/src/functions2.py
+functions1|1462977867000|/Users/seddon/home/workspace/Python/Demos1/src/functions1.py
+ifs|1462980571000|/Users/seddon/home/workspace/Python/Demos1/src/ifs.py
+hashes|1462974512000|/Users/seddon/home/workspace/Python/Demos1/src/hashes.py
+functions4|1462980080000|/Users/seddon/home/workspace/Python/Demos1/src/functions4.py
+libraries.use_mylib|1463048899000|/Users/seddon/home/workspace/Python/Demos1/src/libraries/use_mylib.py
+functions3|1462979643000|/Users/seddon/home/workspace/Python/Demos1/src/functions3.py
+arrays|1462970073000|/Users/seddon/home/workspace/Python/Demos1/src/arrays.py
+-- END DISKCACHE
+-- START DICTIONARY
+12
+4=libraries.mylib
+5=slices
+9=vectors
+7=hashes2
+10=functions2
+2=functions1
+12=ifs
+3=libraries.use_mylib
+6=functions4
+8=hashes
+1=functions3
+11=arrays
+-- END DICTIONARY
+-- START TREE 1
+26
+ave|1|average!10@
+cub|1|cube!18@
+dat|0|
+f1|2|f1!26@f1!34@
+f2|1|f2!34@
+f3|1|f3!34@
+f4|1|f4!34@
+p|1|p!43@
+p1|0|
+p2|0|
+p3|0|
+par|1|params!51@
+poi|0|
+pow|1|power!18@
+q|1|q!43@
+qua|1|quad!19@
+r|1|r!43@
+sal|2|salary!59@salary!67@
+squ|1|square!18@
+the|3|theValues!59@theKeys!67@theKeys!59@
+v1|1|v1!75@
+v2|1|v2!75@
+vol|2|volume!82@volume!50@
+x|4|x!91@x!11@x!35@x!99@
+y|1|y!91@
+z|1|z!91@
+-- END TREE
+-- START TREE 2
+6
+dis|0|
+ini|0|
+mov|0|
+nam|0|
+x|0|
+y|0|
+-- END TREE

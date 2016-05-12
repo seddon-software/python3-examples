@@ -1,0 +1,14 @@
+salary = { 'bob' : 45000, 
+           'sue' : 55000,
+           'jimmy' : 50000,
+           'zoe' : 47000,
+           'tim' : 34000
+          }
+
+salary['bob'] = 47000   # update hash
+salary['peter'] = 36000  # add a new entry
+salary['zoe'] = None   # unknown value
+del salary['tim']       # delete key, value pair
+# salary.pop('tim')
+print timsSalary
+print salary

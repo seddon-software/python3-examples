@@ -1,0 +1,7 @@
+def average(x, y):
+    return (x + y) / 2
+
+print average(7, 8)
+
+print 47 / 10
+print 47 % 10

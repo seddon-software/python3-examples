@@ -1,0 +1,5 @@
+p = range(20, 40)
+q = p[:]
+print id(p)
+print id(q)
+

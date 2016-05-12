@@ -1,0 +1,15 @@
+import os, shutil
+import cleanup
+
+raw_input("Make sure you have deleted previously created remote repo ('myrepo'), and the hit return")
+
+
+# create local repo
+os.system('mkdir myrepo')
+os.chdir('myrepo')
+os.system('git init')
+
+# add a README file and commit
+os.system('echo "This is my new repo" > README.txt')
+os.system('git add README.txt') 
+os.system('git commit -m "first commit"')

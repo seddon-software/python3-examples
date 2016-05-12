@@ -9,7 +9,8 @@ INTERPRETER_PATH_NEW=<xml>\n<name>Python 2.7.6</name>\n<version>2.7</version>\n<
 PYDEV_FUNDING_SHOWN_2014=true
 PYDEV_NEW_PROJECT_CREATE_PREFERENCES=0
 SOURCE_LOCATION_PATHS=/Users/seddon/home/workspace/PythonForGit/Python/src/17 Extending and Embedding/Creating Modules/common.py,DONTASK\n/Users/seddon/home/workspace/Python/Python/src/06 Modules and Packages/More Complex Example/mylib/package1/package2/ModuleBC.py,DONTASK
-USE_PYLINT=true
+USE_CODECOMPLETION=false
+USE_CODE_COMPLETION_ON_DEBUG_CONSOLES=false
 eclipse.preferences.version=1
 org.python.pydev.editor.templates.PyTemplatePreferencesPage=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
 synch_ignore_entries_75xaarq3qsyveunq8p1czj7nb=/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/midi-0.2.3-py2.7.egg

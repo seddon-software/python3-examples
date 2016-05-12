@@ -1,0 +1,12 @@
+# working with mutable data
+def addAtEndOfList(y):
+    print "id of y (before) =", id(y)
+    y.append(99)
+    print "id of y (after) =", id(y)
+
+
+
+x = [ 10, 20, 30, 40 ]      # mutable list
+print "id of x =", id(x)
+addAtEndOfList(x)
+print x

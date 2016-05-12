@@ -5,7 +5,7 @@
 ############################################################
 
 import numpy as np
-# from scisoftpy import *
+# import scisoftpy as dnp
 
 
 # one dimensional arrays
@@ -18,7 +18,7 @@ print
 # multi-dimensional arrays
 a = np.arange(24).reshape(4,3,2); print a
 print a[0:2,0:2,0:2]
-print a[0:2][0:2][0:2]  # alternative notation
+print a[0:2][0:2][0:2]  # NOT alternative notation
 
 # iterate (works on first dimension)
 print "iteration"

@@ -1,0 +1,14 @@
+salary = { 'bob' : 45000, 
+           'sue' : 55000,
+           'jimmy' : 50000,
+           'zoe' : 47000,
+           'tim' : 34000
+          }
+
+biggestSalary = 0
+for key, value in salary.iteritems():
+    if value > biggestSalary:
+        biggestSalary = value
+        print biggestSalary, value
+
+    

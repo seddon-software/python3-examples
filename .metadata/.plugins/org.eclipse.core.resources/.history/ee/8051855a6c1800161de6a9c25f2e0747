@@ -1,0 +1,10 @@
+from single_step import s
+
+s('cd myrepo')
+s('touch f1 f2 f3 f4')
+s('git add .')
+s('git commit -m "added files begnning with f"')
+s('git log --pretty=oneline')
+# commitId = raw_input('enter the first 10 characters of the commit id to tag: ')
+# s('git tag 1.0.0', commitId)
+s('git show-ref --tags')

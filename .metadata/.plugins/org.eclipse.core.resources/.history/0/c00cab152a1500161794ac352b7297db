@@ -1,0 +1,27 @@
+class Point:
+    def initialize(self, x0, y0, name):
+        self.x = x0
+        self.y = y0
+        self.name = name
+    def display(self):
+        print self.x, self.y, self.name
+    def moveBy(self, dx, dy):
+        self.x = self.x + dx
+        self.y = self.y + dy
+# create 3 point objects
+p1 = Point()
+p2 = Point()
+p3 = Point()
+
+p1.initialize(100, 200, 'darwin')
+p2.initialize(150, 170, 'tesla')
+p3.initialize(250, 175, 'feynman')
+p1.moveBy(1, 1)
+p2.moveBy(1, 2)
+p3.moveBy(1, 3)
+p1.display()
+p2.display()
+p3.display()
+
+1
+

@@ -5805,8 +5805,6 @@ pimp|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/plat-mac/pi
 pip.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/__init__.py
 pip.__main__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/__main__.py
 pip._vendor.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/__init__.py
-pip._vendor._markerlib.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/_markerlib/__init__.py
-pip._vendor._markerlib.markers|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/_markerlib/markers.py
 pip._vendor.cachecontrol.__init__|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/cachecontrol/__init__.py
 pip._vendor.cachecontrol._cmd|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/cachecontrol/_cmd.py
 pip._vendor.cachecontrol.adapter|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/cachecontrol/adapter.py
@@ -5960,6 +5958,7 @@ pip._vendor.requests.packages.urllib3.contrib.__init__|/Library/Frameworks/Pytho
 pip._vendor.requests.packages.urllib3.contrib.appengine|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/appengine.py
 pip._vendor.requests.packages.urllib3.contrib.ntlmpool|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/ntlmpool.py
 pip._vendor.requests.packages.urllib3.contrib.pyopenssl|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/pyopenssl.py
+pip._vendor.requests.packages.urllib3.contrib.socks|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/contrib/socks.py
 pip._vendor.requests.packages.urllib3.exceptions|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/exceptions.py
 pip._vendor.requests.packages.urllib3.fields|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/fields.py
 pip._vendor.requests.packages.urllib3.filepost|/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages/pip/_vendor/requests/packages/urllib3/filepost.py

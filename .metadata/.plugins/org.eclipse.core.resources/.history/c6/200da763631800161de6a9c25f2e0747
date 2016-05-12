@@ -1,0 +1,12 @@
+import os, shutil
+import cleanup
+
+raw_input("Make sure you have deleted previously created remote repo ('myrepo'), and the hit return")
+
+def s(cmd):
+    print ">>>", cmd
+    raw_input()
+    if cmd[0:2] == "cd":
+        os.chdir('myrepo')
+    else:
+        os.system(cmd)

@@ -1,5 +1,0 @@
-class A:
-    #     self.r
-    #     self.name
-
-a = A()

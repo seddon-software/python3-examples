@@ -1,6 +1,7 @@
 -- VERSION_4
 -- START DISKCACHE
 /Users/seddon/home/workspace/Python/.metadata/.plugins/org.eclipse.core.resources/.projects/Demos/com.python.pydev.analysis/v2_indexcache
+hashesMax|1462703111000|/Users/seddon/home/workspace/Python/Demos/src/hashesMax.py
 quiz|1461505378000|/Users/seddon/home/workspace/Python/Demos/src/quiz.py
 mytypes|1461491402000|/Users/seddon/home/workspace/Python/Demos/src/mytypes.py
 slices|1461509034000|/Users/seddon/home/workspace/Python/Demos/src/slices.py
@@ -8,36 +9,55 @@ casts|1461509643000|/Users/seddon/home/workspace/Python/Demos/src/casts.py
 functions|1461507360000|/Users/seddon/home/workspace/Python/Demos/src/functions.py
 functions2|1461510532000|/Users/seddon/home/workspace/Python/Demos/src/functions2.py
 lists|1461498982000|/Users/seddon/home/workspace/Python/Demos/src/lists.py
+hashes|1462701823000|/Users/seddon/home/workspace/Python/Demos/src/hashes.py
+Point|1462722859000|/Users/seddon/home/workspace/Python/Demos/src/Point.py
 arrays|1461504017000|/Users/seddon/home/workspace/Python/Demos/src/arrays.py
 mutability|1461505520000|/Users/seddon/home/workspace/Python/Demos/src/mutability.py
 -- END DISKCACHE
 -- START DICTIONARY
-9
-5=quiz
-7=mytypes
-8=slices
+14
+5=hashesMax
+8=quiz
+11=slices
 2=functions
-9=casts
+14=Point.moveBy
+4=Point
+10=mytypes
+13=Point.__init__
+12=casts
 3=functions2
-4=lists
+7=lists
+6=hashes
 1=mutability
-6=arrays
+9=arrays
 -- END DICTIONARY
 -- START TREE 1
-12
+18
 a|1|a!11@
 add|1|addOne!18@
 app|1|appendToList!18@
 b|1|b!11@
 f|1|f!26@
-tot|1|total!35@
-win|1|wine!43@
-x|5|x!51@x!19@x!59@x!67@x!35@
-x1|1|x1!75@
-x2|1|x2!75@
-y|1|y!67@
-z|1|z!67@
+p1|1|p1!35@
+p2|1|p2!35@
+p3|1|p3!35@
+poi|1|Point!33@
+sal|2|salary!43@salary!51@
+top|1|topSalaries!43@
+tot|1|total!59@
+win|1|wine!67@
+x|5|x!75@x!19@x!83@x!91@x!59@
+x1|1|x1!99@
+x2|1|x2!99@
+y|1|y!91@
+z|1|z!91@
 -- END TREE
 -- START TREE 2
-0
+6
+__i|1|__init__!4&34@
+dis|1|display!4&34@
+mov|1|moveBy!4&34@
+nam|1|name!13&35@
+x|2|x!13&35@x!14&35@
+y|2|y!13&35@y!14&35@
 -- END TREE

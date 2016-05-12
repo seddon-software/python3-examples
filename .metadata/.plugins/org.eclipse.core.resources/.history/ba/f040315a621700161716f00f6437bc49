@@ -1,0 +1,12 @@
+import sys
+
+x = 200
+print id(x)
+x = x + 1
+print id(x)
+y = x
+print id(y)
+print sys.getrefcount(x)
+# print sys.getrefcount(y)
+
+
