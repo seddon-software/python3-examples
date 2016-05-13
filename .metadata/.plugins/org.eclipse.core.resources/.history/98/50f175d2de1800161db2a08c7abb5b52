@@ -1,7 +1,0 @@
-from time import sleep
-
-x = [ sleep(1), sleep(3), sleep(5) ]
-print "List complete"
-
-x = ( sleep(1), sleep(3), sleep(5) )
-print "Tuple complete"

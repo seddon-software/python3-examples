@@ -1,4 +1,0 @@
-data = range(20, 40)
-print data[5:-5:2]
-print data[-1]
-

@@ -1,4 +1,0 @@
-# 4 types of comprehension
-
-# list comprehension
-print [x**2 for x in range(10)]

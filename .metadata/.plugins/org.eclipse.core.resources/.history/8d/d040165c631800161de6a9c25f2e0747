@@ -1,7 +1,0 @@
-import shutil
-
-# clean up previous runs
-try:
-    shutil.rmtree("myrepo")
-except:
-    pass    # no problem if repo doesn't exist

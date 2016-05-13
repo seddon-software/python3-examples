@@ -1,4 +1,0 @@
-import numpy as np
-
-v1 = np.array([20.5, 13.6, 2.0])
-print v1

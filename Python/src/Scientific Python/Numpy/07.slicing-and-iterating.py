@@ -5,8 +5,6 @@
 ############################################################
 
 import numpy as np
-# import scisoftpy as dnp
-
 
 # one dimensional arrays
 a = np.arange(20); print a
@@ -18,7 +16,6 @@ print
 # multi-dimensional arrays
 a = np.arange(24).reshape(4,3,2); print a
 print a[0:2,0:2,0:2]
-print a[0:2][0:2][0:2]  # NOT alternative notation
 
 # iterate (works on first dimension)
 print "iteration"
@@ -32,9 +29,14 @@ print
 
 # Fortran arrays     -> first dimension varies fastest
 # C arrays (default) -> last dimension varies fastest 
+a = np.arange(24).reshape( (4,3,2), order="C" ) # create Fortran array
+for element in a.flat:
+    print element,
+print
+
 a = np.arange(24).reshape( (4,3,2), order="F" ) # create Fortran array
 for element in a.flat:
     print element,
+print
 
 
-1

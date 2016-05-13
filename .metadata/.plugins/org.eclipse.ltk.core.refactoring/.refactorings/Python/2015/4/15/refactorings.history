@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Python/src/Additional Topics/Antigravity/braces.py&apos; to &apos;02-braces.py&apos;" description="Rename resource &apos;braces.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Additional Topics/Antigravity/braces.py" name="02-braces.py" stamp="1428495285826" updateReferences="true"/>
-</session>

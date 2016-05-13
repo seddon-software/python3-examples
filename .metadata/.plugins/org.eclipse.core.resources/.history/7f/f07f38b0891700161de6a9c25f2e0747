@@ -1,7 +1,0 @@
-def average(*a):
-    print sum(a)
-    return 0.0
-
-print average(7, 8)
-print average(7, 8, 10)
-

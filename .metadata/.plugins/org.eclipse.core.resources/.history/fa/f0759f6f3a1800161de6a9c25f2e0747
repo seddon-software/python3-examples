@@ -1,5 +1,0 @@
-from single_step import s
-s('git status')
-s('git log')
-s('git show')
-

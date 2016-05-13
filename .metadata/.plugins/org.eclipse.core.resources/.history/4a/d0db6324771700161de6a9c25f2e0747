@@ -1,7 +1,0 @@
-p = range(20, 40)
-q = p[:]
-r = p
-print id(p)
-print id(q)
-print id(r)
-

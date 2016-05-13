@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;Python/src/_Play/02_printing&apos; to &apos;02_printing.py&apos;" description="Rename resource &apos;02_printing&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/_Play/02_printing" name="02_printing.py" stamp="1431115918214" updateReferences="true"/>
-</session>

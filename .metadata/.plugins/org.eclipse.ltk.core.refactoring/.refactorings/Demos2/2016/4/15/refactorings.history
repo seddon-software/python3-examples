@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Demos2/src/cats&apos; to &apos;casts.py&apos;" description="Rename resource &apos;cats&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/cats" name="casts.py" stamp="1460553910015" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Demos2/src/libraries/test-mylib.py&apos; to &apos;use_mylib.py&apos;" description="Rename resource &apos;test-mylib.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/libraries/test-mylib.py" name="use_mylib.py" stamp="1460642464340" updateReferences="true"/>
-</session>
