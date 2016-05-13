@@ -1,4 +1,5 @@
 MODULES_MANAGER_V2
+Points|/Users/seddon/home/workspace/Python/Demos1/src/Points.py
 arrays|/Users/seddon/home/workspace/Python/Demos1/src/arrays.py
 functions1|/Users/seddon/home/workspace/Python/Demos1/src/functions1.py
 functions2|/Users/seddon/home/workspace/Python/Demos1/src/functions2.py
@@ -6,5 +7,6 @@ functions3|/Users/seddon/home/workspace/Python/Demos1/src/functions3.py
 functions4|/Users/seddon/home/workspace/Python/Demos1/src/functions4.py
 hashes|/Users/seddon/home/workspace/Python/Demos1/src/hashes.py
 hashes2|/Users/seddon/home/workspace/Python/Demos1/src/hashes2.py
+ifs|/Users/seddon/home/workspace/Python/Demos1/src/ifs.py
 slices|/Users/seddon/home/workspace/Python/Demos1/src/slices.py
 vectors|/Users/seddon/home/workspace/Python/Demos1/src/vectors.py

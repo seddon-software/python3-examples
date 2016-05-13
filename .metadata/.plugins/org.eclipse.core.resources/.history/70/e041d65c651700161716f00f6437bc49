@@ -1,3 +1,0 @@
-wine = "MiXeD CaSe"
-x = wine.upper()
-print x

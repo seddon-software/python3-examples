@@ -1,8 +1,0 @@
-
-
-for i in range(50, 27, -2):
-    print i,
-
-x = range(50, 27, -2)
-print type(x)
-print x

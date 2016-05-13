@@ -1,0 +1,26 @@
+class MyIterator:
+    def __init__(self):
+        self.x = 1
+        self.y = 1
+    
+    def __iter__(self):
+        return self
+    
+    def next(self): 
+        oldX = self.x
+        self.x = self.x + self.y
+        self.y = oldX
+        return self.x
+
+# create iterator object
+f = MyIterator()
+f.__iter__()
+print f.next()
+print f.next()
+print f.next()
+print f.next()
+print f.next()
+print f.next()
+
+
+    

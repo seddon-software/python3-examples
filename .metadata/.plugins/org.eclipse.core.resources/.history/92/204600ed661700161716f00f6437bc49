@@ -1,4 +1,0 @@
-
-
-for i in range(27, 50, 2):
-    print i,

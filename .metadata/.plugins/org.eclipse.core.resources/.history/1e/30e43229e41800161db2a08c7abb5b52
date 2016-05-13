@@ -1,0 +1,16 @@
+def trace(fn):
+    def enhance(n):
+        print "calling square({})".format(n)
+        return fn(n)
+    return enhance
+
+    
+    
+def square(n):
+    return n**2
+
+def cub(n):
+    return n**3
+
+print trace(square)(7)
+print trace(cube)(3)

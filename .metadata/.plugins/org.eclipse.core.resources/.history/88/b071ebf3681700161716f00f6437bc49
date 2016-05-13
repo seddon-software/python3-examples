@@ -1,7 +1,0 @@
-import decimal as d
-
-getcontext().prec = 6
-print d.Decimal('1') / d.Decimal('7')
-
-# getcontext().prec = 1280
-# print Decimal(1) / Decimal(7)

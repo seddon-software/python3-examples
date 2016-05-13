@@ -1,0 +1,12 @@
+def fib():
+    x = 0
+    y = 1
+    
+    while(x < 100):
+        x, y = x + y, x
+        yield x  # return of the iterator
+    return       # StopIteration of the iterator
+
+for x in fib():
+    print x,
+    

@@ -1,0 +1,17 @@
+def trace(fn):
+    def enhance(n):
+        fn.param1 = 100
+        print "calling {}({})".format(fn.__dict__, n)
+        return fn(n)
+    return enhance
+
+    
+    
+def square(n):
+    return n**2
+
+def cube(n):
+    return n**3
+
+print trace(square)(7)
+print trace(cube)(3)

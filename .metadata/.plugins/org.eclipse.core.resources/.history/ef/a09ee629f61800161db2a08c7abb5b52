@@ -1,0 +1,2 @@
+a = [ x**2 for x in (2, 3, 5, 7, 11, 13) ]  # list comprehension
+print a
