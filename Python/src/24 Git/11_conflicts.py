@@ -16,6 +16,12 @@ s('git commit -m "adding a file to master demonstrating conflicts"')
 s('git push -u origin master')
 
 s('git merge mybranch')
-s('cat conflict_file')
+
+
+if sys.platform == "win32":
+    s('type conflict_file')
+else:
+    s('cat conflict_file')    
+
 
 

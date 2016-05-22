@@ -1,9 +1,13 @@
+import sys
 from single_step import s
 
 # create local repo
-s('rm -rf myrepo')
-s('mkdir myrepo')
-# s('md myrepo')
+if sys.platform == "win32":
+    s('deltree myrepo')
+    s('md myrepo')
+else:
+    s('rm -rf myrepo')
+    s('mkdir myrepo')
 s('cd myrepo')
 s('git init')
 
