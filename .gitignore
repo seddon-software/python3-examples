@@ -1,6 +1,7 @@
 **/.ipynb_checkpoints
 .metadata/**
 *.pyc
+*.xslx
 DLS/**
 Demos/**
 

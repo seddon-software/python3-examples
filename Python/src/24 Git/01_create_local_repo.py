@@ -3,6 +3,7 @@ from single_step import s
 # create local repo
 s('rm -rf myrepo')
 s('mkdir myrepo')
+# s('md myrepo')
 s('cd myrepo')
 s('git init')
 

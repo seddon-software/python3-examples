@@ -35,7 +35,7 @@ xData = Reference(ws, min_col=1, min_row=2, max_row=7)
 yData = Reference(ws, min_col=2, max_col=3, min_row=1, max_row=7)
 chart.add_data(yData, titles_from_data=True)
 chart.set_categories(xData)
-ws.add_chart(chart, "B10")
+ws.add_chart(chart, "C10")
 
 
 chart = AreaChart3D()

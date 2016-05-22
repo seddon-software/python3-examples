@@ -26,8 +26,8 @@ data = np.array(
 # duplicate image
 data = np.vstack((data, data))
 data = np.hstack((data, data))
-# data = np.vstack((data, data))
-# data = np.hstack((data, data))
+data = np.vstack((data, data))
+data = np.hstack((data, data))
 
 set_title("plot uses interpolation by default")
 plt.imshow(data)
