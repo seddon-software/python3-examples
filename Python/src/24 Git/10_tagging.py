@@ -1,6 +1,5 @@
 from single_step import s
 
-s('cd myrepo')
 
 def tagIt(tagId):
     s('git add .')
@@ -10,7 +9,8 @@ def tagIt(tagId):
     s('git tag', tagId, commitId)
     s('git show-ref --tags')
     
-if sys.platform == "win32":
+def windows():
+    s('cd myrepo')
     s('copy nul > f1')
     s('copy nul > f2')
     s('copy nul > f3')
@@ -26,7 +26,9 @@ if sys.platform == "win32":
     s('copy nul > h3')
     s('copy nul > h4')
     tagIt('1.0.2')
-else:
+
+def unix():
+    s('cd myrepo')
     s('touch f1 f2 f3 f4')
     tagIt('1.0.0')
     s('touch g1 g2 g3 g4')
@@ -35,4 +37,7 @@ else:
     tagIt('1.0.2')
 
 
-
+if sys.platform == "win32":
+    windows()
+else:
+    unix()
