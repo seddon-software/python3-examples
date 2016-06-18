@@ -8,8 +8,8 @@ def writeFileContents(filename, data):
     try: 
         f = open(filename, "w+")
         f.writelines(data)
-    except IOError,e:
-        print e
+    except IOError as e:
+        print(e)
     finally:
         try: 
             f.close()

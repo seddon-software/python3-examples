@@ -1,16 +1,14 @@
 ############################################################
 #
-#    while statements
+#    range
 #
 ############################################################
 
-formula = 0
-x = 0
+x = list(range(10))
+y = list(range(20,0,-3))
 
-while formula < 1000:
-    formula = 2*x*(x + 1)
-    x = x + 1
-    print(x, formula)
+print(type(x))
+print(x)
+print(y)
 
-
-
+z = range(2000)

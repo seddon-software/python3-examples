@@ -8,9 +8,9 @@ x = True
 y = False
 
 z = x or y
-print z
+print(z)
 
 z = x and y
-print z
-print type(z)
+print(z)
+print((type(z)))
 

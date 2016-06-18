@@ -22,25 +22,25 @@ value = salary.pop("kilas")
 
 # read and write
 salary["pedro"] = 53000
-print salary["pedro"]
+print(salary["pedro"])
 
 # print all the keys
-for key in salary.iterkeys():
-    print key,
-print
+for key in salary.keys():
+    print(key, end=' ')
+print()
 
 # print all the values
-for value in salary.itervalues():
-    print value,
-print
+for value in salary.values():
+    print(value, end=' ')
+print()
 
 # print all <key,value> pairs
-for key, value in salary.iteritems():
-    print key, value
+for key, value in salary.items():
+    print(key, value)
 
 # check if key in dictionary
-if salary.has_key("george"): print "george is in dictionary"
+if "george" in salary: print("george is in dictionary")
 
-if "sara" in salary: print "sara is in dictionary"
+if "sara" in salary: print("sara is in dictionary")
 
 1

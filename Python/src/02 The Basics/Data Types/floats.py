@@ -7,6 +7,6 @@
 # floating point
 x = 1e4 + 0.1e-4
 format = "%32.20g"
-print type(x)
-print (format % x) 
+print(type(x))
+print((format % x)) 
 

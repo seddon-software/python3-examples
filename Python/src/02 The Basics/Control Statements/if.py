@@ -5,14 +5,14 @@
 ############################################################
 
 
-x = int(raw_input("Please enter an integer: "))
+x = int(input("Please enter an integer: "))
 
 if x < 0:
-    print "Negative"  # comment
-    print 'Negative'
+    print("Negative")  # comment
+    print('Negative')
 else:   
-    print 'positive'
+    print('positive')
     
-print 'Finished'
+print('Finished')
 
 1

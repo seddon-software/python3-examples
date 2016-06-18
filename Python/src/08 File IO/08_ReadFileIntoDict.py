@@ -5,8 +5,8 @@ def getFileContents(filename):
         f = open(filename, "r")
         allLines = f.readlines()
         return allLines
-    except IOError,e:
-        print e
+    except IOError as e:
+        print(e)
     finally:
         try: 
             f.close()
@@ -23,16 +23,20 @@ for line in lines:
     value = value.strip()
     salary[key] = value
 
-# perform a lookup on (Zoe:23900)    
-print "Zoe : ", salary["Zoe"]
+print("perform a lookup on Zoe")
+print("=======================")
+print("Zoe : ", salary["Zoe"])
+print()
 
-# print dictionary in lexical order
-sortedKeys = salary.keys()
-sortedKeys.sort()
+
+print("print dictionary in lexical order")
+print("=================================")
+keys = list(salary.keys())
+keys.sort()
 
 # print out salaries in lexical order
-for key in sortedKeys:
-    print key, ":", salary[key]
+for key in keys:
+    print(key, ":", salary[key])
 
 1
 

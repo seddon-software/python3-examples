@@ -20,6 +20,7 @@ class Fibonacci:
         self.x, self.y = self.y, self.x + self.y
         return self.x
 
+
 # create an instance of class and invoke iterator methods
 # __iter__(self) will be called once
 # next(self) will be called until loop terminates

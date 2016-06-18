@@ -11,5 +11,5 @@ weekend = {
            }
 
 week.update(weekend)
-print week
+print(week)
 

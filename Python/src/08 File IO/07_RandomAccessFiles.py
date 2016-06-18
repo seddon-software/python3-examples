@@ -19,6 +19,4 @@ myFile.seek(2560240, 0)
 myFile.write("X")
 
 myFile.close()
-# import subprocess
-# subprocess.call("hexdump data/myfile2.bin".split())
 

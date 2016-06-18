@@ -8,12 +8,12 @@
 # integers
 x = 100
 x += 1
-print type(x)
-print x
+print(type(x))
+print(x)
 
-x = 053
-print x
+x = 0o53
+print(x)
 
 x = 0xFF
-print x
+print(x)
 

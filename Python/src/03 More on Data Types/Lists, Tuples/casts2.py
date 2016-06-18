@@ -9,17 +9,17 @@ aList  = [2, 3, 5, 7, 11, 13, 17, 19, 17, 19]
 aString = "ABCDEFGABC"
 
 myList = list(aTuple)
-print myList
+print(myList)
 
 myTuple = tuple(aList)
-print myTuple
+print(myTuple)
 
 mySet = set(aTuple)
-print mySet
+print(mySet)
 
 myList = list(aString)
-print myList
+print(myList)
 
 mySet = set(aString)
-print mySet
+print(mySet)
 

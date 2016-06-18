@@ -29,7 +29,7 @@ print
 
 # Fortran arrays     -> first dimension varies fastest
 # C arrays (default) -> last dimension varies fastest 
-a = np.arange(24).reshape( (4,3,2), order="C" ) # create Fortran array
+a = np.arange(24).reshape( (4,3,2), order="C" ) 
 for element in a.flat:
     print element,
 print

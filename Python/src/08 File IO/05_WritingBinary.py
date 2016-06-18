@@ -13,8 +13,8 @@ def writeBinary(filename, data):
     try: 
         f = open(filename, "wb")
         f.write(data)
-    except IOError,e:
-        print e
+    except IOError as e:
+        print(e)
     finally:
         try: 
             f.close()
@@ -22,8 +22,8 @@ def writeBinary(filename, data):
             pass    # can't do anything if close throws
 
 
-# use a str
-data = "\x5F\x9D\x3E\x5F\x00\x00\x00\x00\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E"
+# use bytes
+data = b"\x5F\x9D\x3E\x5F\x00\x00\x00\x00\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E"
 writeBinary('data/myfile-1.bin', data)
 
 
@@ -37,14 +37,14 @@ import binascii
 import ctypes
 
 dataFormat = '{0}s'.format(len(data))
-print 'struct format: {0}'.format(dataFormat)
+print('struct format: {0}'.format(dataFormat))
 rawBuffer = struct.Struct(dataFormat)
 stringBuffer = ctypes.create_string_buffer(rawBuffer.size)
 
-print 'Before  :', binascii.hexlify(stringBuffer.raw)
-data = "\x5F\x9D\x3E\x5F\x00\x00\x00\x00\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E"
+print('Before  :', binascii.hexlify(stringBuffer.raw))
+data = b"\x5F\x9D\x3E\x5F\x00\x00\x00\x00\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E"
 rawBuffer.pack_into(stringBuffer, 0, data)
-print 'After  :', binascii.hexlify(stringBuffer.raw)
+print('After  :', binascii.hexlify(stringBuffer.raw))
 
 writeBinary('data/myfile-3.bin', stringBuffer)
 

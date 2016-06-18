@@ -5,11 +5,10 @@ mydict = {}
 
 for line in mylist:
     key, value = line.split(",")
-    print value
     mydict[key] = int(value)
 
+print(mydict)
+print(mydict["Bill"])
 
-print mydict["Bill"]
-1
 
     

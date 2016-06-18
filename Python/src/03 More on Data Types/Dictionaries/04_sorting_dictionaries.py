@@ -16,11 +16,11 @@ salary["sara"] = 28000
 salary["george"] = 37000
 
 
-mylist = salary.keys()
+mylist = list(salary.keys())
 mylist.sort()
 
 for key in mylist:
-    print key, salary[key]
+    print(key, salary[key])
     
      
 1

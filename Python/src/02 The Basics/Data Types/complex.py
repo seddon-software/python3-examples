@@ -7,9 +7,9 @@
 
 # complex
 x = (+2.5-3.4j) - (-1.4+1.0j)
-print type(x)
-print x
+print((type(x)))
+print(x)
 
-print x.real
-print x.imag
+print((x.real))
+print((x.imag))
 

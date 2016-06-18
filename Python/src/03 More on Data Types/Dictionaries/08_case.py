@@ -7,9 +7,9 @@ def convert(n):
     return case.get(n, "nothing")
 
 
-print convert(1)
-print convert(2)
-print convert(5)
+print(convert(1))
+print(convert(2))
+print(convert(5))
 
 
 def arithmetic(expr):
@@ -23,7 +23,7 @@ def arithmetic(expr):
     }
     return case[op]()
 
-print arithmetic('15 + 3')
-print arithmetic('15 - 3')
-print arithmetic('15 * 3')
-print arithmetic('15 / 3')
+print(arithmetic('15 + 3'))
+print(arithmetic('15 - 3'))
+print(arithmetic('15 * 3'))
+print(arithmetic('15 / 3'))

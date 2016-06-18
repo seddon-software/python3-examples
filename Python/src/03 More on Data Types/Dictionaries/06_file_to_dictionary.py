@@ -12,22 +12,21 @@ phones = {}
 try:
     f = open("data/codes.txt", "r")
     for line in f:
-        list = line.rstrip().split(' ')
-        value = list[0]
-        key = " ".join(list[1:])
+        theList = line.rstrip().split(' ')
+        value = theList[0]
+        key = " ".join(theList[1:])
         phones[key] = value
-except IOError, e:
-    print "Reading data from file failed!"
-    print e
+except IOError as e:
+    print("Reading data from file failed!")
+    print(e)
 finally: 
     f.close()
 
 # 2. Sort the keys
-
-sortedKeys = phones.keys()
+sortedKeys = list(phones.keys())
 sortedKeys.sort()
 
 # 3. Iterate through sorted list
 for key in sortedKeys:
-    print key + ":" + phones[key]
+    print(key + ":" + phones[key])
     

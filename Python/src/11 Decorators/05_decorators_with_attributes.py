@@ -32,7 +32,7 @@ def circle():
 def square():
     return "This is a square"
 
- 
+
 circle()
 square()
 

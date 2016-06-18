@@ -11,10 +11,10 @@ hash = {
             3496: ('Orange', 'Purple', 'Yellow')
        }
 
-print hash[672]
+print(hash[672])
 
 try:
-    print hash[7845]
-except KeyError, e:
-    print "Key error: " + str(e)
+    print(hash[7845])
+except KeyError as e:
+    print("Key error: " + str(e))
 1

@@ -9,8 +9,8 @@ def getFileContents(filename):
         f = open(filename, "r")
         allLines = f.readlines()
         return allLines
-    except IOError,e:
-        print e
+    except IOError as e:
+        print(e)
     finally:
         try: 
             f.close()
@@ -19,4 +19,5 @@ def getFileContents(filename):
 
 lines = getFileContents("data/hello.txt")
 for line in lines:
-    print "--" + line,
+    print("--{}".format(line), end="")
+    

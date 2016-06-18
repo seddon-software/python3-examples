@@ -10,11 +10,11 @@ myset.add("Wednesday")
 myset.add("Thursday")
 myset.add("Friday")
 
-print myset
+print(myset)
 
-if "Wednesday" in myset: print "member"
+if "Wednesday" in myset: print("member")
 myset.remove("Wednesday")
-if "Wednesday" not in myset: print "not a member"
+if "Wednesday" not in myset: print("not a member")
 
 
 1

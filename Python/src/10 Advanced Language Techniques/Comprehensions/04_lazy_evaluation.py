@@ -14,6 +14,7 @@ print "list comprehension DONE"
 # generator comprehensions are evaluated in a lazy way
 myIterator = (time.sleep(n) for n in [0, 5, 5])
 myIterator.next()
+myIterator.next()
 print "generator comprehension DONE"
 
 # lambdas are not evaluated until called - lazy evaution
