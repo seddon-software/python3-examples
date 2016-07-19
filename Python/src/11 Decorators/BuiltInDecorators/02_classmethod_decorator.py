@@ -3,7 +3,7 @@ class Point:
 		pass
 	
 	def Print(self): 
-		print str(self.x) + "," + str(self.y)
+		print(str(self.x) + "," + str(self.y))
 			
 	@classmethod
 	def initialize(theClass, x, y):

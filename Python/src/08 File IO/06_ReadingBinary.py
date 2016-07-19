@@ -26,9 +26,9 @@ def readBinary(filename):
 
 intList = readBinary('data/myfile-1.bin')
 
-print("{:>10s}{:>10s}".format("Decimal", "Hex"))
+print(("{:>10s}{:>10s}".format("Decimal", "Hex")))
 for i in intList:
-    print("{:10d}{:>10s}".format(i, hex(i)))
+    print(("{:10d}{:>10s}".format(i, hex(i))))
 
 
 1

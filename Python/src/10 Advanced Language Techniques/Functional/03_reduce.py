@@ -1,12 +1,13 @@
+from functools import reduce
 ############################################################
 #
 #    reduce
 #
 ############################################################
 
-numbers = range(1, 11)
+numbers = list(range(1, 11))
 sum = reduce(lambda x, y: x + y, numbers)
-print sum
+print(sum)
 
 
 

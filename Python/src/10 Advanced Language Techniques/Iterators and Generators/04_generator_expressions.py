@@ -15,29 +15,29 @@ roots = (sqrt(x) for x in range(10))
 
 # iterate using the generator
 for r in roots:
-    print "{0:6.2f}".format(r),
-print
+    print("{0:6.2f}".format(r), end=' ')
+print()
 
 
 # comprehensions behave like generator expressions (but are evaluated immediately)
 roots = [sqrt(x) for x in range(10)]
 for r in roots:
-    print "{0:6.2f}".format(r),
-print
+    print("{0:6.2f}".format(r), end=' ')
+print()
 
 
 # a tuple is a generator, hence the syntax:
 generator = (2,3,4,5)
 for n in generator:
-    print n,
-
+    print(n, end=' ')
+print()
 
 
 # the following summation code will build a full list of squares in memory, iterate over those values, 
 # and when the reference is no longer needed, delete the list:
-print sum([x*x for x in range(10)]),
+print(sum([x*x for x in range(10)]), end=' ')
 
 # memory is conserved by using a generator expression instead:
-print sum(x*x for x in range(10))
+print(sum(x*x for x in range(10)))
 
 1

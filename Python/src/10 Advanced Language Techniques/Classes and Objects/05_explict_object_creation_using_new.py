@@ -5,7 +5,7 @@
 ############################################################
 
 
-class A(object):
+class A:
     def __new__(clazz, arg):        # implicitly static
         # only create objects with non negative x attribute
         if arg < 0:
@@ -19,8 +19,8 @@ class A(object):
 try:
     a1 = A(42)   # calls static method __new__ and then __init__
     a2 = A(-42)
-except Exception, error:
-    print error
+except Exception as error:
+    print(error)
 
 
 

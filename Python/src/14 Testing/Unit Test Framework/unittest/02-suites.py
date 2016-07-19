@@ -41,7 +41,7 @@ def suite():
     suite.addTest(testPoint('testConstructor'))
     suite.addTest(testPoint('testMoveBy5and2'))
     suite.addTest(testPoint('testDistanceIs5'))
-    print(str(suite.countTestCases()) + " test cases in suite")
+    print((str(suite.countTestCases()) + " test cases in suite"))
     return suite
 
 

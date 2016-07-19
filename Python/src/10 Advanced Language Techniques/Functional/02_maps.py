@@ -11,17 +11,17 @@ def cube(x):
 
 
 # set up a sequence
-sequence = range(1, 20)
+sequence = list(range(1, 20))
 
 # apply a map to entire sequence
-roots = map(sqrt, sequence)
+roots = list(map(sqrt, sequence))
 for value in roots:
-    print "%6.2f" % value, 
-print
+    print("%6.2f" % value, end=' ') 
+print()
 
-cubes = map(cube, sequence)
+cubes = list(map(cube, sequence))
 for value in cubes:
-    print "%6i" % value, 
-print
+    print("%6i" % value, end=' ') 
+print()
 
 1

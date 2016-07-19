@@ -14,7 +14,7 @@ for oldTag in tags:
     newTag.insert(0, "text #" + str(i))
     oldTag.replaceWith(newTag)
 
-print soup.prettify()
+print(soup.prettify())
 
 
 1

@@ -19,12 +19,12 @@ b = B()
 c = C()
 
 if isinstance(a, (A,B,C)):
-    print "instance of A, B, or C"
+    print("instance of A, B, or C")
 
 if isinstance(b, (A,B,C)):
-    print "instance of A, B, or C"
+    print("instance of A, B, or C")
     
 if isinstance(c, C):
-    print "instance of C"
+    print("instance of C")
     
 1

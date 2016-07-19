@@ -25,7 +25,7 @@ def toggleable(decorator):
 @toggleable
 def trace(fn):
     def enhance(x):
-        print "calling " + fn.func_name + "(" + str(x) + ")"
+        print("calling " + fn.__name__ + "(" + str(x) + ")")
         return fn(x)
     return enhance
     
@@ -42,14 +42,14 @@ def cube(x):
 def quad(x):
     return x * x * x * x
     
-print square(4)
-print cube(5)
+print(square(4))
+print(cube(5))
 
 trace.disable()
-print quad(10)
+print(quad(10))
 
 trace.enable()
-print square(6)
-print cube(7)
+print(square(6))
+print(cube(7))
 
 

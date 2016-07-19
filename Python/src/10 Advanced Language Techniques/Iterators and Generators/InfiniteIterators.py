@@ -5,24 +5,27 @@ from itertools import *
 # once called they iterate forever
 
 iter = count(10)
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()
+print(next(iter))
+print(next(iter))
+print(next(iter))
+print(next(iter))
+print(next(iter))
+print(next(iter))
 
 iter = cycle('ABCD')
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()
+print(next(iter))
+print(next(iter))
+print(next(iter))
+print(next(iter))
+print(next(iter))
+print(next(iter))
 
 # this only iterates 3 times
 iter = repeat(10, 3)
-print iter.next()
-print iter.next()
-print iter.next()
-print iter.next()   # this fails
+try:
+    print(next(iter))
+    print(next(iter))
+    print(next(iter))
+    print(next(iter))   # this fails
+except:
+    print("too many iterations")

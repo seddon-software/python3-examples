@@ -1,6 +1,6 @@
 # encapsulate attributes
 
-class MyClass(object):
+class MyClass:
     def __init__(self):
         # data is fully encapsulated - can't be seen outside the class
         data = {}
@@ -21,7 +21,7 @@ m1.dosetX(100)
 m1.dosetY(101)
 m2.dosetX(200)
 m2.dosetY(201)
-print m1.dogetX()
-print m1.dogetY()
-print m2.dogetX()
-print m2.dogetY()
+print(m1.dogetX())
+print(m1.dogetY())
+print(m2.dogetX())
+print(m2.dogetY())

@@ -14,9 +14,9 @@ class SalesPerson(Employee):
     
 def Check(A, B):
     if issubclass(A, B): 
-        print str(A) + " is subclass of " + str(B)
+        print(str(A) + " is subclass of " + str(B))
     else:
-        print str(A) + " is NOT subclass of " + str(B)
+        print(str(A) + " is NOT subclass of " + str(B))
     
     
 

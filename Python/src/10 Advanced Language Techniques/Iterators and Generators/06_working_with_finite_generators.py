@@ -7,13 +7,13 @@ def fibonacci(max):
 
 # use generator in a loop
 for x in fibonacci(100):
-    print x,
-print
+    print(x, end=' ')
+print()
 
 # generator can be evaluated to a tuple
 t = tuple(fibonacci(100))
-print t
+print(t)
 
 # generator can be evaluated to a list
 l = list(fibonacci(100))
-print l
+print(l)

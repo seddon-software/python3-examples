@@ -3,7 +3,6 @@ class Point:
     count = 0
     
     # define class (static) method
-    @staticmethod
     def getCount():
         return Point.count
     
@@ -19,15 +18,15 @@ class Point:
         self.y += dy
     
     def display(self):
-        print "Point {} is at ({},{})".format(self.name, self.x, self.y)
+        print("Point {} is at ({},{})".format(self.name, self.x, self.y))
 
-print "No of objects:", Point.getCount()
+print("No of objects:", Point.getCount())
 # create objects
 q = Point('origin')
 p1 = Point('point-1', 100, 200)
 p2 = Point('point-2', 200, 300)
 p3 = Point('point-3', 300, 500)
-print "No of objects:", Point.getCount()
+print("No of objects:", Point.getCount())
 
 p1.moveBy(1, 1)
 p2.moveBy(2, 3)

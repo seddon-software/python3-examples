@@ -14,11 +14,11 @@ def primesFilter(x):
     return True
 
 # set up a sequence
-sequence = range(14, 200)
+sequence = list(range(14, 200))
 
 # filter out all non primes
-primes = filter(primesFilter, sequence)
-print primes
+primes = list(filter(primesFilter, sequence))
+print(primes)
 
 
 

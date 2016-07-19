@@ -7,7 +7,7 @@ soup =  BeautifulSoup(doc)
 # extract fragments
 tags = soup.findAll("author")
 newSoup = BeautifulSoup(str(tags))
-print newSoup.prettify()
+print(newSoup.prettify())
 
 1
     

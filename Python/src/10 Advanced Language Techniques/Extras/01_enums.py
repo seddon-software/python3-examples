@@ -1,8 +1,8 @@
 # define symbols names
-MON, TUE, WED, THU, FRI, SAT, SUN = range(7)
+MON, TUE, WED, THU, FRI, SAT, SUN = list(range(7))
 
 # use as enum
-print WED
+print(WED)
 
 def isWeekend(day):
     if day in (SAT, SUN):
@@ -10,10 +10,10 @@ def isWeekend(day):
     else:
         return False
         
-if isWeekend(MON): print "weekend"
-if isWeekend(TUE): print "weekend"
-if isWeekend(WED): print "weekend"
-if isWeekend(THU): print "weekend"
-if isWeekend(FRI): print "weekend"
-if isWeekend(SAT): print "weekend"
-if isWeekend(SUN): print "weekend"
+if isWeekend(MON): print("weekend")
+if isWeekend(TUE): print("weekend")
+if isWeekend(WED): print("weekend")
+if isWeekend(THU): print("weekend")
+if isWeekend(FRI): print("weekend")
+if isWeekend(SAT): print("weekend")
+if isWeekend(SUN): print("weekend")

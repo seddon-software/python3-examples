@@ -4,5 +4,5 @@ s = (
      "a multi-line "
      "string"
     )
-print s
+print(s)
 

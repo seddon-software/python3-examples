@@ -6,21 +6,19 @@
 
 # set up a dictionary
 salary = {
- 		  "zak":   34000, 
+          "john":  34000, 
           "sara":  27000,
           "pedro": 52000,
-          "kilas": 12500,
+          "tim":   12500,
           "zoe":   66000
          }
-salary["sara"] = 28000
-salary["george"] = 37000
 
 
 mylist = list(salary.keys())
 mylist.sort()
 
 for key in mylist:
-    print(key, salary[key])
+    print("{:>6s}{:6d}".format(key, salary[key]))
     
      
-1
+

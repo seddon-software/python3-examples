@@ -15,7 +15,7 @@ class TestExceptions(unittest.TestCase):
         self.assertRaises(MyException, f, 6, 3)
         
     def testMyExceptionIsRaisedWithCorrectMessage(self):
-        self.assertRaisesRegexp(MyException, 'args must not be equal.*', f, 6, 6)
+        self.assertRaisesRegex(MyException, 'args must not be equal.*', f, 6, 6)
 
 if __name__ == '__main__':
     unittest.main()

@@ -25,7 +25,7 @@ for line in lines:
 
 print("perform a lookup on Zoe")
 print("=======================")
-print("Zoe : ", salary["Zoe"])
+print(("Zoe : ", salary["Zoe"]))
 print()
 
 
@@ -36,7 +36,7 @@ keys.sort()
 
 # print out salaries in lexical order
 for key in keys:
-    print(key, ":", salary[key])
+    print((key, ":", salary[key]))
 
 1
 

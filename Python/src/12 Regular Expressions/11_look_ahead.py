@@ -12,17 +12,17 @@ import re
 
 def test(pattern):
     splitPattern = re.compile(r";[ ]+")
-    for key, value in  (tests.iteritems()):
+    for key, value in  (iter(tests.items())):
         text, expected = splitPattern.split(value, 1)
         compiledPattern = re.compile(pattern, re.X)
         matcher = compiledPattern.search(text)
         if (matcher is not None and expected == "VALID"):
-            print "PASS",
+            print("PASS", end=' ')
         elif(matcher is None and expected == "INVALID"):
-            print "PASS",            
+            print("PASS", end=' ')            
         else:
-            print "FAIL",
-    print
+            print("FAIL", end=' ')
+    print()
 
 
 tests = {

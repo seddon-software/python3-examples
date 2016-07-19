@@ -5,7 +5,7 @@
 ############################################################
 
 
-class A(object):
+class A:
     def __new__(clazz, *args):
         obj = object.__new__(clazz)
         
@@ -33,8 +33,8 @@ try:
     a1 = A(42)
     a2 = A(42, 52)
     a3 = A("5 12")
-except Exception, error:
-    print error
+except Exception as error:
+    print(error)
 
 
 

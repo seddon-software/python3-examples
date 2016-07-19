@@ -8,7 +8,7 @@ class MyClass:
 
 	@staticmethod
 	def PrintHits():
-		print "hits = " + str(MyClass.hits)
+		print("hits = " + str(MyClass.hits))
 
 m1 = MyClass()
 m2 = MyClass()

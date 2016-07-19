@@ -10,17 +10,17 @@ class Point(object):
         self.y = y
 
     def display(self):
-        print "x, y = ", self.x, self.y        
+        print("x, y = ", self.x, self.y)        
 
 p = Point(10, 20)
 p.display()
-print p.__slots__
+print(p.__slots__)
 p.x = 50
 p.y = 50
 
-try: print p.__dict__
-except: print "dictionary does not exist"
+try: print(p.__dict__)
+except: print("dictionary does not exist")
 
 try: p.z = 50
-except: print "attribute not allowed"
+except: print("attribute not allowed")
 

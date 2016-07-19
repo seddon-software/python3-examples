@@ -5,8 +5,8 @@ def readFile(filename):
         data = "".join(all) # convert to string
         f.close()
         return data
-    except Exception, e:
-        print "Invalid File"
+    except Exception as e:
+        print("Invalid File")
         return []
 
 

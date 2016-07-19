@@ -2,8 +2,8 @@ from itertools import *
 
 def doit(iter):
     for x in iter:
-        print x,
-    print
+        print(x, end=' ')
+    print()
 
 
 doit( product('ABCD', repeat=3) )

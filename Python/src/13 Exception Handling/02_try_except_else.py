@@ -6,15 +6,15 @@
 
 from math import sqrt
  
-x = int(raw_input("Enter positive integer: "))
+x = int(input("Enter positive integer: "))
 
 try:
     root = sqrt(x)
 except:
-    print "sqrt() failed ..."
+    print("sqrt() failed ...")
 else:
-    print "sqrt() succeeded ..."
-    print root
+    print("sqrt() succeeded ...")
+    print(root)
  
 
 1

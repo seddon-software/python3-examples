@@ -12,5 +12,3 @@ dis.dis(square)
 
 
 
-
-    

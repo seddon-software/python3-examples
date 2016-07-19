@@ -6,7 +6,7 @@ class Point:
         self.x = x
         self.y = y
     def display(self):
-        print "Point:", self.x, ":", self.y
+        print("Point:", self.x, ":", self.y)
 
 class My3Tuple:
     def __init__(self, x1, x2, x3):
@@ -14,7 +14,7 @@ class My3Tuple:
         self.x2 = x2
         self.x3 = x3
     def display(self):
-        print "My3Tuple:", self.x1, self.x2, self.x3
+        print("My3Tuple:", self.x1, self.x2, self.x3)
 
 # JSON encoder
 class MyEncoder(json.JSONEncoder):
@@ -36,12 +36,12 @@ class MyDecoder(json.JSONDecoder):
             class_name = d.pop('__class__')
             module_name = d.pop('__module__')
             module = __import__(module_name)
-            print 'MODULE:', module
+            print('MODULE:', module)
             class_ = getattr(module, class_name)
-            print 'CLASS:', class_
-            args = dict( (key.encode('ascii'), value) for key, value in d.items())
-            print 'INSTANCE ARGS:', args
-            print
+            print('CLASS:', class_)
+            args = dict( (key, value) for key, value in list(d.items()))
+            print('INSTANCE ARGS:', args)
+            print()
             
             # this assumes constructor takes parameters with the same names as fields
             inst = class_(**args)
@@ -62,15 +62,15 @@ t1 = My3Tuple(2,4,6)
 lJSON = encoder.encode(l1)
 pJSON = encoder.encode(p1)
 tJSON = encoder.encode(t1)
-print lJSON
-print pJSON
-print tJSON
+print(lJSON)
+print(pJSON)
+print(tJSON)
 
 # decode JSON strings
 l2 = decoder.decode(lJSON)
 p2 = decoder.decode(pJSON)
 t2 = decoder.decode(tJSON)
-print l2
+print(l2)
 p2.display()
 t2.display()
 

@@ -1,7 +1,7 @@
 def Grow(theList, item = 0, extra = []):
     extra.append(item)
     theList.extend(extra)
-    print theList
+    print(theList)
     
 
 theList = []

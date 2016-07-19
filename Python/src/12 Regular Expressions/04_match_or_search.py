@@ -11,10 +11,10 @@ pattern = r"\w+"
 pattern = re.compile(pattern)
 
 match = pattern.match(test)
-print match
+print(match)
 
 match = pattern.search(test)
-print match.group()
+print(match.group())
 
 1
 

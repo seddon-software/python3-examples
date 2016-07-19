@@ -6,11 +6,11 @@
 
 def basicSorting():
     weekdays = [ "monday", "Tuesday", "wednesday", "Thursday", "friday", "Saturday", "sunday"]
-    print sorted(weekdays)
+    print(sorted(weekdays))
 
 def sortingWithAKey():
     weekdays = [ "monday", "Tuesday", "wednesday", "Thursday", "friday", "Saturday", "sunday"]
-    print sorted(weekdays, key=str.lower)
+    print(sorted(weekdays, key=str.lower))
 
 def sortingDictionaryUsingAKeyAndFunction():
     salary = {
@@ -24,8 +24,8 @@ def sortingDictionaryUsingAKeyAndFunction():
         return salary[key]
     
     for key in sorted(salary, key=getSalary):
-        print key, salary[key],
-    print
+        print(key, salary[key], end=' ')
+    print()
 
 def sortingDictionaryUsingAKeyAndLambda():
     salary = {
@@ -36,13 +36,16 @@ def sortingDictionaryUsingAKeyAndLambda():
               "zoe": 46000
              }
     for key in sorted(salary, key=lambda key:salary[key]):
-        print key, salary[key],
-    print
+        print(key, salary[key], end=' ')
+    print()
     
 def usingACompareFunction():
-    def numeric_compare(x, y):
-            return x - y
-    print sorted([5, 2, 4, 1, 3], cmp=numeric_compare)
+    def rank(card):
+        pip = card[0]
+        suit = card[1]
+        suits = "CDHS"
+        return suits.find(suit) * 13 + pip
+    print(sorted([(8,'H'), (5,'H'), (2,'S'), (4,'D'), (7,'D'), (7,'C'), (3,'H')], key=rank))
 
 ####################################################################
 

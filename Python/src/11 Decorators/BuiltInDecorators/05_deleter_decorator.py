@@ -2,7 +2,7 @@ import math
 
 class Circle(object):
     def __init__(self, radius):
-		self.theRadius = radius
+        self.theRadius = radius
 
     @property
     def radius(self):
@@ -15,8 +15,8 @@ class Circle(object):
 try:
     circle = Circle(10.0)
     del circle.radius
-except TypeError, e:
-	print e
+except TypeError as e:
+	print(e)
 
 
 1

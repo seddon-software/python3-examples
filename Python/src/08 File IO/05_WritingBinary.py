@@ -37,14 +37,14 @@ import binascii
 import ctypes
 
 dataFormat = '{0}s'.format(len(data))
-print('struct format: {0}'.format(dataFormat))
+print(('struct format: {0}'.format(dataFormat)))
 rawBuffer = struct.Struct(dataFormat)
 stringBuffer = ctypes.create_string_buffer(rawBuffer.size)
 
-print('Before  :', binascii.hexlify(stringBuffer.raw))
+print(('Before  :', binascii.hexlify(stringBuffer.raw)))
 data = b"\x5F\x9D\x3E\x5F\x00\x00\x00\x00\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E\x5F\x9D\x3E"
 rawBuffer.pack_into(stringBuffer, 0, data)
-print('After  :', binascii.hexlify(stringBuffer.raw))
+print(('After  :', binascii.hexlify(stringBuffer.raw)))
 
 writeBinary('data/myfile-3.bin', stringBuffer)
 

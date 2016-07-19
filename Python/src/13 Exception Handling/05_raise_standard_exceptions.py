@@ -10,9 +10,9 @@ try:
     for x in array:
         if x < 0: 
             raise ValueError("array index is negative!")
-        print x,
-except ValueError, value:
-    print
-    print "... entering except block: " + str(value)
+        print(x, end=' ')
+except ValueError as value:
+    print()
+    print("... entering except block: " + str(value))
 
 

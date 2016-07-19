@@ -11,7 +11,7 @@ class Point:
         self.y = y
 
     def WhereAmI(self):
-        print "Point(%i) is at %i,%i" % (id(self), self.x, self.y)
+        print("Point({}) is at {},{}".format(id(self), self.x, self.y))
 
     def MoveBy(self, dx, dy):
         self.x += dx
@@ -27,7 +27,7 @@ class ColoredPoint(Point):
     
     def Display(self):
         self.WhereAmI()
-        print " ... and color is %s" % self.color
+        print(" ... and color is %s" % self.color)
         
 
 def WhereAreYou(p):

@@ -12,7 +12,7 @@ import sys
 def log(level):
     def logit(fn):
         def enhance(x):
-            message = "calling " + fn.func_name + "(" + str(x) + ")"
+            message = "calling " + fn.__name__ + "(" + str(x) + ")"
             if(level == logging.DEBUG):    logging.debug(message)
             if(level == logging.INFO):     logging.info(message)
             if(level == logging.WARNING):  logging.warning(message)
@@ -44,7 +44,7 @@ logging.basicConfig(level=logging.DEBUG)
 # logging.basicConfig(level=logging.CRITICAL)
 
 # print log(logging.WARNING)(square)(4)
-print square(4)
-print cube(5)
-print quad(10)
+print(square(4))
+print(cube(5))
+print(quad(10))
 1

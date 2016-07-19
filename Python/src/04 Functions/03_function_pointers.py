@@ -7,9 +7,9 @@
 def fib(n):
     a, b = 0, 1
     while b < n:
-        print b,
+        print(b, end=' ')
         a, b = b, a+b
-    print
+    print()
 
 fib(1000)
 
@@ -20,7 +20,7 @@ f(100)
 
 # change the original reference
 fib = 56.3
-print fib
+print(fib)
 
 # we can still call the function with the new reference
 f(50)

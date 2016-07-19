@@ -1,6 +1,6 @@
 def f(x):
     for i in range(x):
-        print i
+        print(i)
 
 
 f(5)

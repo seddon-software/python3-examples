@@ -10,7 +10,7 @@ class Point:
         self.y += dy
     
     def display(self):
-        print "Point {} is at ({},{})".format(self.name, self.x, self.y)
+        print("Point {} is at ({},{})".format(self.name, self.x, self.y))
         
 # create objects
 q = Point('origin')

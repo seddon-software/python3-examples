@@ -1,7 +1,7 @@
 def mycoroutine(func):
     def start():
         cr = func() # create the iterator
-        cr.next()   # get to first yield
+        next(cr)   # get to first yield
         return cr   # return the iterator
     return start
 
@@ -39,7 +39,7 @@ def format():   # a generator
         for decorator in parameters:
             g = decorator() # return the iterator
             message = g.send(message)
-        print message
+        print(message)
     
 g = format()        # return an iterator
 g.send(["MiXeD", upper, bold, italic])

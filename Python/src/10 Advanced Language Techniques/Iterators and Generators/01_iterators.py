@@ -13,7 +13,7 @@ class Fibonacci:
     def __iter__(self):
         return self  # the object on which to call next() - usually ourself
 
-    def next(self):
+    def __next__(self):
         if self.x > 100:
             raise StopIteration     # indicate end of iteration
         
@@ -25,7 +25,7 @@ class Fibonacci:
 # __iter__(self) will be called once
 # next(self) will be called until loop terminates
 for f in Fibonacci():
-    print f,
+    print(f, end=' ')
 
 
 1

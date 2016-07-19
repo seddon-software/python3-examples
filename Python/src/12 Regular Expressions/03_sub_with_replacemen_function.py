@@ -17,7 +17,7 @@ f.pre = "--"
 f.post = "++"
 repl = f
 newText = re.sub(pattern, repl, string)
-print "<", string
-print ">", newText
+print("<", string)
+print(">", newText)
 
 1

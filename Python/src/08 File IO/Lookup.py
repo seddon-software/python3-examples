@@ -8,7 +8,7 @@ for line in mylist:
     mydict[key] = int(value)
 
 print(mydict)
-print(mydict["Bill"])
+print((mydict["Bill"]))
 
 
     

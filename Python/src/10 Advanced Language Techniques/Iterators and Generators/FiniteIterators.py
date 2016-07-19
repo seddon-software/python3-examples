@@ -3,9 +3,9 @@ from itertools import *
 
 def doit(iter):
     for x in iter:
-        print x,
+        print(x, end=' ')
         if x == 30: break
-    print
+    print()
     
 # combine the arguments in series
 doit( chain("ABCDEF", "1234") )

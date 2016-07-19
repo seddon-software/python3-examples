@@ -9,12 +9,12 @@
 
 class MyClass(object):
     def __init__(self, fn):
-        print "class decorator CTOR called"
+        print("class decorator CTOR called")
         self.fn = fn        # save function pointer or later use
     
     # must be callable
     def __call__(self):
-        print "decorator called"
+        print("decorator called")
         self.fn()
 
 
@@ -22,7 +22,7 @@ class MyClass(object):
 # and then call the CTOR with f as a parameter
 @MyClass
 def f(): 
-    print "f()"
+    print("f()")
 
 # since f is decorated, the call f()
 # is replaced with a call to anon.__call__()

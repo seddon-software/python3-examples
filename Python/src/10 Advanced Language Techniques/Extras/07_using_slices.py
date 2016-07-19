@@ -38,15 +38,15 @@ class mylist(object):
 
 # define slices
 mySlice = slice(3,9,2)
-print mySlice
+print(mySlice)
 
 # define lists
-myList = range(100)
-print myList[mySlice]
+myList = list(range(100))
+print((myList[mySlice]))
 
 # define an instance of a class supporting []
-c = mylist(range(10, 30))
-print c[10:13]
-print c[10:13, ..., 5:7, ..., -2]
+c = mylist(list(range(10, 30)))
+print((c[10:13]))
+print((c[10:13, ..., 5:7, ..., -2]))
 
 

@@ -5,7 +5,7 @@
 ############################################################
 
 import sys
-print sys.path
+print((sys.path))
 sys.path.append("mylib")
 
 import package1.package2.ModuleA as A

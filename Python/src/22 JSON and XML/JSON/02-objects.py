@@ -7,13 +7,13 @@ myDict = {
          'wed' : 'Wednesday', 
          'thu' : 'Thursday', 
          'fri' : 'Friday' }
-print type(myDict), myDict
+print(type(myDict), myDict)
 
 # convert to JSON object
 obj = json.dumps(myDict)
-print "JSON object:", obj
+print("JSON object:", obj)
 
 # convert back to Python dict
 newDict = json.loads(obj)
-print type(newDict), newDict
+print(type(newDict), newDict)
 

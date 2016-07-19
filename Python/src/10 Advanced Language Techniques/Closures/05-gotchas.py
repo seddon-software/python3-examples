@@ -5,20 +5,20 @@
 funcs = []
 for i in range(4):
     def f():
-        print i,    # this closes over the (single) variable i
+        print(i, end=' ')    # this closes over the (single) variable i
     funcs.append(f)
 
 for f in funcs:
     f()             # i is now 4, so it prints 4 each time
 
-print
+print()
 
 ############################################################
 # Part 2 - create extra instances of i for the closure
 funcs = []
 for i in range(4):
     def f(i=i):     # new i with local scope
-        print i,    # each i takes on a different value
+        print(i, end=' ')    # each i takes on a different value
     funcs.append(f)
     
 for f in funcs:

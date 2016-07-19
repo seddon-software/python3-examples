@@ -38,11 +38,11 @@ def getBoldUsDate():
     return getDate()
 
 
-print "original", getDate()
-print "bold    ", getBoldDate()
-print "us      ", getUsDate()
-print "bold+us ", getBoldUsDate()
+print("original", getDate())
+print("bold    ", getBoldDate())
+print("us      ", getUsDate())
+print("bold+us ", getBoldUsDate())
 # what is happening under the covers
-print bold(us(getDate))()
+print(bold(us(getDate))())
 
 1

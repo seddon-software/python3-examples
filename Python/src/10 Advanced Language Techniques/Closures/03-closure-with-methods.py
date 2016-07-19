@@ -18,7 +18,7 @@ class Point:
         self.y *= yzoom
     
     def display(self):
-        print self.x, self.y    
+        print((self.x, self.y))    
     
 p1 = Point(5, 6)
 p2 = Point(15, 16)

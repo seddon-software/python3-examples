@@ -6,7 +6,7 @@
 
     
 def Display(a, b=10, c=100):
-    print "a = {:6.2f}, b = {:6.2f}, c = {:6.2f}".format(a, b, c)
+    print("a = {:6.2f}, b = {:6.2f}, c = {:6.2f}".format(a, b, c))
 
 
 Display(a=19, b=-6.2, c=4.8)

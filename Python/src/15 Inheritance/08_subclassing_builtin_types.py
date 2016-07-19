@@ -1,6 +1,6 @@
 ############################################################
 # 
-# Subclassing built in tyoes - e.g. dict
+# Subclassing built in types - e.g. dict
 # 
 ############################################################
 
@@ -12,9 +12,9 @@ class DistinctError(Exception):
 class DictionaryWithUniqueValues(dict):
     def __setitem__(self, key, value):
         try:
-            values = self.values()  # get existing values
+            values = list(self.values())  # get existing values
             value_index = values.index(value) # this should fail if value doesn't exist
-            existing_key = self.keys()[value_index]
+            existing_key = list(self.keys())[value_index]
             if existing_key != key:
                 message = "This value already exists for '{0}'".format(self[existing_key])
                 raise DistinctError(message)
@@ -31,6 +31,6 @@ d['key4'] = 'value4'
 d['key5'] = 'value5'
 try:
     d['other_key'] = 'value4'   # this will cause problems
-except Exception, e:
-    print e
+except Exception as e:
+    print(e)
 

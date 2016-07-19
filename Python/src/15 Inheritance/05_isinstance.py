@@ -13,10 +13,10 @@ class SalesPerson(Employee):
         self.region = region
     
 def Check(obj):
-    if isinstance(obj, object): print obj.name + ": object"
-    if isinstance(obj, Person): print obj.name + ": Person"
-    if isinstance(obj, Employee): print obj.name + ": Employee"
-    if isinstance(obj, SalesPerson): print obj.name + ": SalesPerson"
+    if isinstance(obj, object): print(obj.name + ": object")
+    if isinstance(obj, Person): print(obj.name + ": Person")
+    if isinstance(obj, Employee): print(obj.name + ": Employee")
+    if isinstance(obj, SalesPerson): print(obj.name + ": SalesPerson")
     
     
 p = Person("Anne")

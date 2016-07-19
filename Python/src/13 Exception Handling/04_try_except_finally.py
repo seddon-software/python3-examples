@@ -12,11 +12,10 @@ def f():
 
 try:
     f()
-except Exception, e:
-    print 'caught exception ...'
-    print e.message
-    print e
+except Exception as e:
+    print('caught exception ...')
+    print(e)
 finally:
-    print 'finally block ...'
+    print('finally block ...')
 
 1

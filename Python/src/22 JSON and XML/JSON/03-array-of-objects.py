@@ -31,10 +31,10 @@ obj = '''
 
 # convert to Python
 x = json.loads(obj)
-print type(x), x
+print(type(x), x)
 
 # convert back to JSON
 s = json.dumps(x)
-print "complex JSON object:", s
+print("complex JSON object:", s)
 
 

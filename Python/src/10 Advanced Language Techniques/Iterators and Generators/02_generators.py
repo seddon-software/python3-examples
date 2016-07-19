@@ -23,12 +23,12 @@ class Fibonacci:
 f = Fibonacci()             # create object
 gen_iter = f.myGeneratorFunction()      # call generator function to create an iterable
 
-print "Type of gen-iter:", type(gen_iter)
-print "Does gen-iter have an '__iter__' function:", hasattr(gen_iter, "__iter__")
-print "Does gen-iter have an 'next' function:", hasattr(gen_iter, "next")
+print("Type of gen-iter:", type(gen_iter))
+print("Does gen-iter have an '__iter__' function:", hasattr(gen_iter, "__iter__"))
+print("Does gen-iter have an 'next' function:", hasattr(gen_iter, "next"))
 
 for n in gen_iter:   # invoke the iterable
-    print n,
+    print(n, end=' ')
 
 
 

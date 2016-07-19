@@ -16,9 +16,9 @@ class SalesPerson(Employee):
 p = Person("Anne")
 e = Employee("Beth", 7468)
 s = SalesPerson("Carol", 4712, "NE")
-print p.__dict__
-print e.__dict__
-print s.__dict__
+print(p.__dict__)
+print(e.__dict__)
+print(s.__dict__)
 
 
 

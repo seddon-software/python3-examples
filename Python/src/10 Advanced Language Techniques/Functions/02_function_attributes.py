@@ -9,7 +9,7 @@ import inspect
 import dis
 import re
 import sys
-import StringIO
+import io
 
 'how to access an attribute of a function, independent of original function name'
 
@@ -21,7 +21,7 @@ def f():
     caller = inspect.stack()[1][0]
     
     # disassemble the stack frame and pick out the call
-    sys.stdout = StringIO.StringIO()
+    sys.stdout = io.StringIO()
     dis.disassemble(caller.f_code, caller.f_lasti)
     text = sys.stdout.getvalue()
     sys.stdout = sys.__stdout__
@@ -37,12 +37,12 @@ def f():
 
 # set up a function with an attribute x
 f.x = 'foo'
-print 'call f():', f()
+print(('call f():', f()))
 
 # change the object reference
 g = f
 del f       # reference f is now invalid
 
 # now call the function through the new reference
-print 'call g():', g()
-print g.x
+print(('call g():', g()))
+print((g.x))

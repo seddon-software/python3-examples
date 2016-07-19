@@ -9,10 +9,10 @@ class MyClass(A,B,C): pass
 m = MyClass()
 
 # what is the class of an object
-print m.__class__
+print(m.__class__)
 
 # what are the immediate super classes
-print MyClass.__bases__
+print(MyClass.__bases__)
 
 
 1

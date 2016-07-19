@@ -12,12 +12,12 @@ class MyClass(object):
 
     def div(self, fn):
         def inner():
-            print '<div class="{0}">{1}</div>'.format(self.color, fn())
+            print('<div class="{0}">{1}</div>'.format(self.color, fn()))
         return inner
 
     def span(self, fn):
         def inner():
-            print '<span class="{0}">{1}</span>'.format(self.color, fn())
+            print('<span class="{0}">{1}</span>'.format(self.color, fn()))
         return inner
 
         

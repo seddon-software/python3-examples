@@ -7,14 +7,14 @@ soup =  BeautifulSoup(doc)
 subtree = soup.book.author
 subtree.extract()   # extract first author
 
-print soup.prettify()
+print(soup.prettify())
 
 # extract all authors
 tags = soup.findAll("author")
 for tag in tags:
     tag.extract()
     
-print soup.prettify()
+print(soup.prettify())
 
 
 1
