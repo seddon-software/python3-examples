@@ -1,2 +1,3 @@
 install:
-	easy_install BeautifulSoup
+    pip install beautifulsoup4
+    conda install beautifulsoup4

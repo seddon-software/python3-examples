@@ -1,8 +1,8 @@
 from ReadFile import readFile
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 doc = readFile("xml/book.xml")
-soup =  BeautifulSoup(doc)
+soup =  BeautifulSoup(doc, 'lxml')
 
 subtree = soup.book.author
 subtree.extract()   # extract first author

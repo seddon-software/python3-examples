@@ -4,7 +4,7 @@
 #
 ############################################################
 
-# iterators must support two methods: __iter__ and next
+# iterators must support two methods: __iter__ and __next__
 
 class Fibonacci:
     def __init__(self):
@@ -23,9 +23,9 @@ class Fibonacci:
 
 # create an instance of class and invoke iterator methods
 # __iter__(self) will be called once
-# next(self) will be called until loop terminates
+# __next__(self) will be called until loop terminates
 for f in Fibonacci():
-    print(f, end=' ')
+    print(f)
 
 
 1

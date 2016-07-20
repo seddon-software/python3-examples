@@ -1,7 +1,7 @@
 from ReadFile import readFile
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 doc = readFile("xml/book.xml")
-soup =  BeautifulSoup(''.join(doc))
+soup =  BeautifulSoup(''.join(doc), 'lxml')
 print(soup.prettify())
 

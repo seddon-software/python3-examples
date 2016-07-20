@@ -1,17 +1,30 @@
-from BeautifulSoup import BeautifulSoup, Tag, NavigableString
+from bs4 import BeautifulSoup, NavigableString
 
 
-soup =  BeautifulSoup()
+soup =  BeautifulSoup(features='lxml-xml')
+soup =  BeautifulSoup(features='lxml')
 
-tag1 = Tag(soup, "person")
-tag2 = Tag(soup, "name", [("first","John"),("last","Smith")])
-tag3 = Tag(soup, "location", [("country", "uk")])
+# create tags
+tag1 = soup.new_tag("person")
+tag2 = soup.new_tag("name")
+tag3 = soup.new_tag("location")
+
+# add attributes
+tag2['first'] = 'John'
+tag2['last'] = 'Smith'
+tag3['country'] = 'uk'
+
+# add text
+text = NavigableString("John Gary Smith")
+
+# build soup
 soup.insert(0, tag1)
 tag1.insert(0, tag2)
 tag1.insert(1, tag3)
-print(soup)
-text = NavigableString("John Gary Smith")
 tag2.insert(0, text)
+
+print(soup)
+print("----------------")
 print(soup.prettify())
 
 

@@ -1,5 +1,5 @@
 from ReadFile import readFile
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 
 doc = readFile("xml/book.xml")
 soup =  BeautifulSoup(doc)

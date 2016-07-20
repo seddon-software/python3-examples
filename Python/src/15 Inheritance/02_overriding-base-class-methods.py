@@ -1,3 +1,0 @@
-# example removed
-
-1
