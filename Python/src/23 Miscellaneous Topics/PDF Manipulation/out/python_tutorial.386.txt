@@ -1,0 +1,94 @@
+ 
+Python
+ 
+ 
+ 
+ 
+374
+ 
+ 
+ 
+6.
+ 
+Label
+ 
+This widget implements a display box where you can place text or images. The text 
+displayed by this widget can be updated at any time you want.
+ 
+It is also possible to underline part of the 
+text (like to identify a keyboard shortcut) 
+and span the text across multiple lines.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+ 
+w 
+=
+ 
+Label
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list 
+of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+anchor
+ 
+This options controls where the text is positioned if the widget has 
+more space than the text needs. The default is 
+anchor=CENTER, 
+which centers the text in the available space.
+ 
+bg
+ 
+The normal background color displayed behind the label and 
+indicator.
+ 
+bitmap
+ 
+Set this option equal to a bitmap or image object and the label will 
+display that graphic.
+ 
+bd
+ 
+The size of the 
+border around the indicator. Default is 2 pixels.
+ 
+cursor
+ 
+If you set this option to a cursor name (
+arrow, dot etc.
+), the mouse 
+cursor will change to that pattern when it is over the checkbutton.
+ 

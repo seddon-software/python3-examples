@@ -1,0 +1,64 @@
+ 
+Python
+ 
+ 
+ 
+ 
+407
+ 
+ 
+index(index)
+ 
+Returns the absolute value of an index based on the given index.
+ 
+insert(index [,string]...)
+ 
+This method inserts strings at the specified index location.
+ 
+see(index)
+ 
+This method returns true if the text located at the index position is visible.
+ 
+Text widgets support three distinct helper structures: Marks, Tabs, and Indexes:
+ 
+Marks are used to bookmark positions between two characters within a given text. 
+We have the following methods available when handling marks:
+ 
+Methods & Description
+ 
+index(mark)
+ 
+Returns the line and column location of a specific mark.
+ 
+mark_gravity(mark [,gravity])
+ 
+Returns the gravity of the given mark. If the second argument is 
+provided, the 
+gravity is set for the given mark.
+ 
+mark_names()
+ 
+Returns all marks from the Text widget.
+ 
+mark_set(mark, index)
+ 
+Informs a new position to the given mark.
+ 
+mark_unset(mark)
+ 
+Removes the given mark from the Text widget.
+ 
+ 
+Tags are used to 
+associate names to regions of text which makes easy the task of 
+modifying the display settings of specific text areas. Tags are also used to bind event 
+callbacks to specific ranges of text.
+ 
+Following are the available methods for handling tabs:
+ 
+Methods 
+an
+d
+ 
+Description
+ 

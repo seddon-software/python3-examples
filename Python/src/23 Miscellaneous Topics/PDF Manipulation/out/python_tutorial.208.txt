@@ -1,0 +1,122 @@
+ 
+Python
+ 
+ 
+ 
+ 
+196
+ 
+ 
+ 
+# Function definition is here
+ 
+def
+ 
+printme
+(
+ 
+str 
+):
+ 
+   
+"This prints 
+a passed string into this function"
+ 
+   
+print
+ 
+str
+;
+ 
+   
+return
+;
+ 
+ 
+# Now you can call printme function
+ 
+printme
+();
+ 
+When the above code is executed, it produces the following result:
+ 
+Traceback
+ 
+(
+most recent call 
+last
+):
+ 
+  
+File
+ 
+"test.py"
+,
+ 
+line 
+11
+,
+ 
+in
+ 
+<module>
+ 
+    
+pr
+intme
+();
+ 
+TypeError
+:
+ 
+printme
+()
+ 
+takes exactly 
+1
+ 
+argument 
+(
+0
+ 
+given
+)
+ 
+Keyword Arguments
+ 
+Keyword arguments are related to the function calls. When you use keyword 
+arguments in a function call, the caller identifies the arguments by the parameter 
+name.
+ 
+This 
+allows you to skip arguments or place them out of order because the Python 
+interpreter is able to use the keywords provided to match the values with parameters. 
+You can also make keyword calls to the
+ 
+printme()
+ 
+function in the following ways:
+ 
+#!/usr/bin/pyt
+hon
+ 
+ 
+# Function definition is here
+ 
+def
+ 
+printme
+(
+ 
+str 
+):
+ 
+   
+"This prints a passed string into this function"
+ 
+   
+print
+ 
+str
+;
+ 

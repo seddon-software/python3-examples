@@ -1,0 +1,87 @@
+ 
+Python
+ 
+ 
+ 
+ 
+73
+ 
+ 
+
+ 
+Type
+ 
+complex(x, y)
+ 
+to convert 
+x and y to a complex number with real part x 
+and imaginary part y. x and y are numeric expressions
+ 
+Mathematical Functions
+ 
+Python includes following functions that perform mathematical calculations.
+ 
+Function
+ 
+Returns ( description )
+ 
+abs(x)
+ 
+The absolute value of x: the (positive) distance between x and 
+zero.
+ 
+ceil(x)
+ 
+The ceiling of x: the smallest integer not less than x
+ 
+cmp(x, y)
+ 
+-
+1 if x < y, 0 if x == y, or 1 if x > y
+ 
+exp(x)
+ 
+The exponential of x: e
+x
+ 
+fabs(x)
+ 
+The absolute value of x.
+ 
+floor(x)
+ 
+The floor of x: the largest integer not greater than x
+ 
+log(x)
+ 
+The natural logarithm of x, for x> 0
+ 
+log10(x)
+ 
+The base
+-
+10 logarithm of x for x> 0
+.
+ 
+max(x1, x2,...)
+ 
+The largest of its arguments: the value closest to positive infinity
+ 
+min(x1, x2,...)
+ 
+The smallest of its arguments: the value closest to negative 
+infinity
+ 
+modf(x)
+ 
+The fractional and integer parts of x in a two
+-
+item tuple. Bot
+h 
+parts have the same sign as x. The integer part is returned as a 
+float.
+ 
+pow(x, y)
+ 
+The value of x**y.
+ 

@@ -1,0 +1,112 @@
+ 
+Python
+ 
+ 
+ 
+ 
+178
+ 
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of ctime() method.
+ 
+#!/usr/bin/python
+ 
+import
+ 
+time
+ 
+ 
+print
+ 
+"time.ctime() : %s"
+ 
+%
+ 
+time
+.
+ctime
+()
+ 
+When we run above program, it produces following result:
+ 
+time
+.
+ctime
+()
+ 
+:
+ 
+Tue
+ 
+Feb
+ 
+17
+ 
+10
+:
+00
+:
+18
+ 
+2009
+ 
+75.
+ 
+time.gmtime([secs])
+ 
+Description
+ 
+The method
+ 
+gmtime()
+ 
+converts a time expressed in seconds since the 
+epoch to a 
+struct_time in UTC in which the dst flag is always zero. If secs is not provided or 
+None, the current time as returned by time() is used.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+gmtime()
+ 
+method:
+ 
+time
+.
+gmtime
+([
+ 
+sec 
+])
+ 
+Parameters
+ 
+sec
+ 
+--
+ 
+These are the nu
+mber of seconds to be converted into structure struct_time 
+representation.
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of gmtime() method.
+ 
+#!/usr/bin/python
+ 
+import
+ 
+time
+ 
+ 

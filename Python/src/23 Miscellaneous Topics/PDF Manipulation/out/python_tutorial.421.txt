@@ -1,0 +1,98 @@
+ 
+Python
+ 
+ 
+ 
+ 
+409
+ 
+ 
+text
+.
+tag_config
+(
+"start"
+,
+ 
+background
+=
+"black"
+,
+ 
+foreground
+=
+"green"
+)
+ 
+root
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+15.
+ 
+TopLevel
+ 
+Toplevel widgets work as windows that are directly managed by the window manager. 
+They do not necessar
+ily have a parent widget on top of them.
+ 
+Your application can use any number of top
+-
+level windows.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+w 
+=
+ 
+Toplevel
+ 
+(
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters:
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for 
+this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The background color of the window.
+ 
+bd
+ 
+Border width in pixels; default is 0.
+ 
+cursor
+ 
+The cursor that appears when the mouse is in this window.
+ 
+class_
+ 
+Normally, text selected within a text widget is exported to be the 
+selection in the window manager. Set exportselection=0 if you don't 
+want that behavior.
+ 

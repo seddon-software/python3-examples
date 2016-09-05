@@ -1,0 +1,84 @@
+ 
+Python
+ 
+ 
+ 
+ 
+434
+ 
+ 
+123.
+ 
+columnspan:
+ 
+How many columns 
+widgetoccupies; default 1.
+ 
+124.
+ 
+ipadx, ipady :
+How many pixels to pad widget, 
+horizontally and 
+vertically, inside widget's 
+borders.
+ 
+125.
+ 
+padx, pady :
+ 
+How many pixels to pad widget, 
+horizontally and vertically, outside v's 
+borders.
+ 
+126.
+ 
+row:
+ 
+The row to put widget in; default the first 
+row that is still empty.
+ 
+127.
+ 
+rowspan :
+ 
+How many rowswidget occupies; 
+default 1.
+ 
+128.
+ 
+sticky :
+ 
+What to do if the cell is larger than 
+widget. By default, with sticky='', widget is 
+centered in its cell. sticky may be the string 
+concatenation of zero or more of N, E, S, W, 
+NE, NW, SE, and SW, compass directions 
+indicating the sides and corners
+ 
+of the cell to 
+which widget sticks.
+ 
+Example
+ 
+Try the following example by moving cursor on different buttons:
+ 
+import Tkinter
+ 
+root = Tkinter.Tk(  )
+ 
+for r in range(3):
+ 
+    
+for c in range(4):
+ 
+        
+Tkinter.Label(root, text='R%s/C%s'%(r,c),
+ 
+            
+borde
+rwidth=1 ).grid(row=r,column=c)
+ 
+root.mainloop(  )
+ 
+This would produce the following result displaying 12 labels arrayed in a 3 x 4 grid:
+ 

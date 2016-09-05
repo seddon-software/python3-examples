@@ -1,0 +1,126 @@
+ 
+Python
+ 
+ 
+ 
+ 
+177
+ 
+ 
+# measure process time
+ 
+t0 
+=
+ 
+time
+.
+clock
+()
+ 
+procedure
+()
+ 
+print
+ 
+time
+.
+clock
+()
+ 
+-
+ 
+t0
+,
+ 
+"seconds process time"
+ 
+ 
+# measure wall time
+ 
+t0 
+=
+ 
+time
+.
+time
+()
+ 
+procedure
+()
+ 
+print
+ 
+time
+.
+time
+()
+ 
+-
+ 
+t0
+,
+ 
+"seconds wall time"
+ 
+When we run above program, it produces following result:
+ 
+0.0
+ 
+seconds process time
+ 
+2.50023603439
+ 
+seconds wall time
+ 
+Note:
+ 
+Not all systems can measure the true process time. On such systems (including 
+Windows), clock usually measures the w
+all time since the program was started.
+ 
+74.
+ 
+time.ctime([secs])
+ 
+Description
+ 
+The method
+ 
+ctime()
+ 
+converts a time expressed in seconds since the epoch to a string 
+representing local time. If secs is not provi
+ded or None, the current time as returned 
+by time() is used. This function is equivalent to asctime(localtime(secs)). Locale 
+information is not used by ctime().
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+ctime()
+ 
+method:
+ 
+time
+.
+ctime
+([
+ 
+sec 
+])
+ 
+Parameters
+ 
+
+ 
+sec
+ 
+--
+ 
+These 
+are the number of seconds to be converted into string 
+representation.
+ 
+Return Value
+ 

@@ -1,0 +1,141 @@
+ 
+Python
+ 
+ 
+ 
+ 
+106
+ 
+ 
+ 
+str 
+=
+ 
+"     this is string example....wow!!!     "
+;
+ 
+print
+ 
+str
+.
+lstrip
+();
+ 
+str 
+=
+ 
+"88888888this is string example....wow!!!8888888"
+;
+ 
+print
+ 
+str
+.
+lstrip
+(
+'8'
+);
+ 
+When we run above program, it produces following result:
+ 
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+8888888
+ 
+25.
+ 
+23. 
+maketrans()
+ 
+ 
+Description
+ 
+The method
+ 
+maketrans()
+ 
+returns a translation table that maps each character in 
+the
+ 
+intab
+string 
+into the character at the same position in the
+ 
+outtab
+ 
+string. Then this 
+table is passed to the translate() function.
+ 
+Note:
+ 
+Both intab and outtab must have the same length.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+maketrans()
+ 
+method:
+ 
+str
+.
+maketrans
+(
+intab
+,
+ 
+outtab
+])
+;
+ 
+Parameters
+ 
+
+ 
+intab
+ 
+--
+ 
+This is the string having actual characters.
+ 
+
+ 
+outtab
+ 
+--
+ 
+This is the string having corresponding mapping character.
+ 
+Return Value
+ 
+This method returns a translate table to be used translate() function.
+ 
+Example
+ 
+The following example shows 
+the usage of maketrans() method. Under this, every 
+vowel in a string is replaced by its vowel position:
+ 
+#!/usr/bin/python
+ 
+ 

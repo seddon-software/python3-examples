@@ -1,0 +1,91 @@
+ 
+Python
+ 
+ 
+ 
+ 
+394
+ 
+ 
+selectcolor
+ 
+The color of the radiobutton when it is set. Default is red.
+ 
+selectimage
+ 
+If you are using the image option to display a graphic instead 
+of text when the radiobutton is
+ 
+cleared, you can set the 
+selectimage option to a different image that will be displayed 
+when the radiobutton is set.
+ 
+state
+ 
+The default is state=NORMAL, but you can set 
+state=DISABLED to gray out the control and make it 
+unresponsive. If the cursor is curr
+ently over the radiobutton, 
+the state is ACTIVE.
+ 
+text
+ 
+The label displayed next to the radiobutton. Use newlines 
+("
+\
+n") to display multiple lines of text.
+ 
+textvariable
+ 
+To slave the text displayed in a label widget to a control 
+variable of class
+ 
+StringVar
+,
+ 
+set this option to that variable.
+ 
+underline
+ 
+You can display an underline (_) below the nth letter of the 
+text, counting from 0, by setting this option to n. The default 
+is underline=
+-
+1, which means no underlining.
+ 
+value
+ 
+When a radiobutton is turned on b
+y the user, its control 
+variable is set to its current value option. If the control 
+variable is an
+ 
+IntVar
+, give each radiobutton in the group a 
+different integer value option. If the control variable is 
+a
+ 
+StringVar
+, give each radiobutton a different string
+ 
+value 
+option.
+ 
+variable
+ 
+The control variable that this radiobutton shares with the 
+other radiobuttons in the group. This can be either an IntVar 
+or a StringVar.
+ 
+width
+ 
+Width of the label in characters (not pixels!). If this option is 
+not set, the label wi
+ll be sized to fit its contents.
+ 
+wraplength
+ 
+You can limit the number of characters in each line by setting 
+this option to the desired number. The default value, 0, means 
+that lines will be broken only at newlines.
+ 

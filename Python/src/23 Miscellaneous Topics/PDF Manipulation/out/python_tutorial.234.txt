@@ -1,0 +1,104 @@
+ 
+Python
+ 
+ 
+ 
+ 
+222
+ 
+ 
+The
+ 
+rmdir()
+ 
+Method
+ 
+The
+ 
+rmdir()
+ 
+method deletes the directory, which is passed as an argument in the 
+m
+ethod.
+ 
+Before removing a directory, all the contents in it should be removed.
+ 
+Syntax
+ 
+os.rmdir('dirname')
+ 
+Example
+ 
+Following is the example to remove "/tmp/test" directory. It is required to give fully 
+qualified name of the directory, otherwise it would se
+arch for that directory in the 
+current directory.
+ 
+#!/usr/bin/python
+ 
+import os
+ 
+ 
+# This would  remove "/tmp/test"  directory.
+ 
+os.rmdir( "/tmp/test"  )
+ 
+File 
+and
+ 
+Directory Related Methods
+ 
+There are 
+two
+ 
+important sources, which provide a wide range of utility methods to 
+handle and manipulate files 
+and
+ 
+directories on Windows and Unix operating systems. 
+They are as follows:
+ 
+File Object Methods
+: The
+ 
+f
+ile
+ 
+object provides functions to manipulate files.
+ 
+OS Object Methods
+: This provides methods to process files as well as directories.
+ 
+A
+ 
+file
+ 
+object is created using
+ 
+open
+ 
+function and here is a list
+ 
+of functions which can be called on this object:
+ 
+Sr. No.
+ 
+Methods with Description
+ 
+1
+ 
+file.close()
+ 
+Close the file. A closed file cannot be read or written any more.
+ 
+2
+ 
+file.flush()
+ 
+Flush the internal buffer, like stdio's fflush. This may be a no
+-
+op on some 
+file
+-
+like objects.
+ 

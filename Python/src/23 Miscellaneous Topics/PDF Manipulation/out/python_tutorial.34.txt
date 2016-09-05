@@ -1,0 +1,109 @@
+ 
+Python
+ 
+ 
+ 
+ 
+22
+ 
+ 
+Multiple Assignment
+ 
+Python allows you to assign a single value to several variables simultaneously. For 
+example:
+ 
+a 
+=
+ 
+b 
+=
+ 
+c 
+=
+ 
+1
+ 
+Here, an integer object is created with the value 1, and all three variables are 
+assigned to the same memory location. You can also assign multiple o
+bjects to 
+multiple variables. For example:
+ 
+a
+,
+ 
+b
+,
+ 
+c 
+=
+ 
+1
+,
+ 
+2
+,
+ 
+"john"
+ 
+Here, two integer objects with values 1 and 2 are assigned to variables a and b
+ 
+respectively
+, and one string object with the value "john" is assigned to the variable 
+c.
+ 
+Standard Data Types
+ 
+The data stored in memory can be of many types. For example, a person's age is 
+stored as a numeric value and his or her address is stored as alphanumeric 
+characters. Python has various standard 
+data 
+types that are used to define the 
+operations possible on
+ 
+them and the storage method for each of them.
+ 
+Python has five standard data types:
+ 
+
+ 
+Numbers
+ 
+
+ 
+String
+ 
+
+ 
+List
+ 
+
+ 
+Tuple
+ 
+
+ 
+Dictionary
+ 
+Python Numbers
+ 
+Number data types store numeric values. 
+Number objects are created when you 
+assign a value to them. For example:
+ 
+var1 
+=
+ 
+1
+ 
+var2 
+=
+ 
+10
+ 
+You can also delete the reference to a number object by using the
+ 
+del
+ 
+statement. The 
+syntax of the del statement is:
+ 

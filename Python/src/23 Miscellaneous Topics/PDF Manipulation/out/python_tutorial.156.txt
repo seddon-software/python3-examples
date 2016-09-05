@@ -1,0 +1,137 @@
+ 
+Python
+ 
+ 
+ 
+ 
+144
+ 
+ 
+('Hi!',) * 4
+ 
+('Hi!', 'Hi!', 'Hi!', 'Hi!')
+ 
+Repetition
+ 
+3 in 
+(1, 2, 3)
+ 
+True
+ 
+Membership
+ 
+for x in (1, 2, 3): print x,
+ 
+1 2 3
+ 
+Iteration
+ 
+Indexing, Slicing, and Matrixes
+ 
+Because tuples are sequences, indexing and slicing work the same way for tuples as 
+they do for strings. Assuming following input:
+ 
+L 
+=
+ 
+(
+'spam'
+,
+ 
+'Spam'
+,
+ 
+'SPAM!'
+)
+ 
+No Enclosing Delimiters:
+ 
+Any set of multiple objects, comma
+-
+separated, 
+written without identifying symbols, 
+i.e., brackets for lists, parentheses for tuples, etc., default to tuples, as indicated in 
+these short examples:
+ 
+#!/usr/bin/python
+ 
+ 
+print
+ 
+'abc'
+,
+ 
+-
+4.24e93
+,
+ 
+18
++
+6.6j
+,
+ 
+'xyz'
+;
+ 
+x
+,
+ 
+y 
+=
+ 
+1
+,
+ 
+2
+;
+ 
+print
+ 
+"Value of x , y : "
+,
+ 
+x
+,
+y
+;
+ 
+When the above code is executed, it produces the following result:
+ 
+abc 
+-
+4.24e+93
+ 
+(
+18
++
+6.6j
+)
+ 
+xyz
+ 
+Python Expression
+ 
+Results
+ 
+Description
+ 
+L[2]
+ 
+'SPAM!'
+ 
+Offsets start at zero
+ 
+L[
+-
+2]
+ 
+'Spam'
+ 
+Negative: count from the right
+ 
+L[1:]
+ 
+['Spam', 'SPAM!']
+ 
+Slicing fetches sections
+ 

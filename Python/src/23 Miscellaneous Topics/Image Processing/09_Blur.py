@@ -11,9 +11,9 @@ try:
     img = Image.open(infile)
     # the blur effect is small, so blur multiple times
     for i in range(20):
-        print ".",
+        print(".", end=' ')
         img = img.filter(ImageFilter.BLUR)
     img.show()
     img.save(outfile, "JPEG")
-except IOError, e:
-    print e
+except IOError as e:
+    print(e)

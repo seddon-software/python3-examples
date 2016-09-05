@@ -1,0 +1,70 @@
+ 
+Python
+ 
+ 
+ 
+ 
+221
+ 
+ 
+The
+ 
+chdir()
+ 
+Method
+ 
+You can use the
+ 
+chdir()
+ 
+method to change the current directory. The chdir() method 
+takes an argument, which is the name of the directory that you want to make the 
+current directory.
+ 
+Syntax
+ 
+os.chdir("newdir")
+ 
+Example
+ 
+F
+ollowing is the example to go into "/home/newdir" directory:
+ 
+#!/usr/bin/python
+ 
+import os
+ 
+ 
+# Changing a directory to "/home/newdir"
+ 
+os.chdir("/home/newdir")
+ 
+The
+ 
+getcwd()
+ 
+Method
+ 
+The
+ 
+getcwd()
+ 
+method displays the current working directory.
+ 
+Syntax
+ 
+os.getcwd()
+ 
+Example
+ 
+Following is the example to give current directory:
+ 
+#!/usr/bin/python
+ 
+import os
+ 
+ 
+# This would give location of the current directory
+ 
+os.getcwd()
+ 

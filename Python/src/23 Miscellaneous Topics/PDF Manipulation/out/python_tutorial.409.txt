@@ -1,0 +1,83 @@
+ 
+Python
+ 
+ 
+ 
+ 
+397
+ 
+ 
+bg
+ 
+The background color of the parts of 
+the widget that are 
+outside the trough.
+ 
+bd
+ 
+Width of the 3
+-
+d border around the trough and slider. Default 
+is 2 pixels.
+ 
+command
+ 
+A procedure to be called every time the slider is moved. This 
+procedure will be passed one argument, the new scale value. 
+If the
+ 
+slider is moved rapidly, you may not get a callback for 
+every possible position, but you'll certainly get a callback 
+when it settles.
+ 
+cursor
+ 
+If you set this option to a cursor name (
+arrow, dot etc.
+), the 
+mouse cursor will change to that pattern when it i
+s over the 
+scale.
+ 
+digits
+ 
+The way your program reads the current value shown in a 
+scale widget is through a control variable. The control variable 
+for a scale can be an IntVar, a DoubleVar (float), or a 
+StringVar. If it is a string variable, the digits opt
+ion controls 
+how many digits to use when the numeric scale value is 
+converted to a string.
+ 
+font
+ 
+The font used for the label and annotations.
+ 
+fg
+ 
+The color of the text used for the label and annotations.
+ 
+from_
+ 
+A float or integer value that defines one end
+ 
+of the scale's 
+range.
+ 
+highlightbackground
+ 
+The color of the focus highlight when the scale does not have 
+focus.
+ 
+highlightcolor
+ 
+The color of the focus highlight when the scale has the focus.
+ 
+label
+ 
+You can display a label within the scale widget by 
+setting this 
+option to the label's text. The label appears in the top left 
+corner if the scale is horizontal, or the top right corner if 
+vertical. The default is no label.
+ 

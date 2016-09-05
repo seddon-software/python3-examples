@@ -1,0 +1,138 @@
+ 
+Python
+ 
+ 
+ 
+ 
+142
+ 
+ 
+print
+ 
+"tup2[1:5]: "
+,
+ 
+tup2
+[
+1
+:
+5
+]
+ 
+When the above code is executed, it produces the following 
+result:
+ 
+tup1
+[
+0
+]:
+  
+physics
+ 
+tup2
+[
+1
+:
+5
+]:
+  
+[
+2
+,
+ 
+3
+,
+ 
+4
+,
+ 
+5
+]
+ 
+Updating Tuples
+ 
+Tuples are immutable which means you cannot update or change the values of tuple 
+elements. You are able to take portions of existing tuples to create new tuples as the 
+following example de
+monstrates:
+ 
+#!/usr/bin/python
+ 
+ 
+tup1 
+=
+ 
+(
+12
+,
+ 
+34.56
+);
+ 
+tup2 
+=
+ 
+(
+'abc'
+,
+ 
+'xyz'
+);
+ 
+ 
+# Following action is not valid for tuples
+ 
+# tup1[0] = 100;
+ 
+ 
+# So let's create a new tuple as follows
+ 
+tup3 
+=
+ 
+tup1 
++
+ 
+tup2
+;
+ 
+print
+ 
+tup3
+;
+ 
+When the above code is executed, it produces 
+the following result:
+ 
+(
+12
+,
+ 
+34.56
+,
+ 
+'abc'
+,
+ 
+'xyz'
+)
+ 
+Delet
+ing
+ 
+Tuple Elements
+ 
+Removing individual tuple elements is not possible. There is, of course, nothing wrong 
+with putting together another tuple with the undesired elements discarded.
+ 
+To explicitly remove
+ 
+an entire tuple, just use the
+ 
+del
+ 
+statement. Fo
+r
+ 
+example:
+ 

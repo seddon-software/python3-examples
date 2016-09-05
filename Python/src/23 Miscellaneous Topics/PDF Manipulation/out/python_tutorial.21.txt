@@ -1,0 +1,155 @@
+ 
+Python
+ 
+ 
+ 
+ 
+9
+ 
+ 
+The Python language has many similarities to Perl, C
+,
+ 
+and Java. However, there are 
+some definite differences between the languages. 
+ 
+First Python Program
+ 
+Let us execute programs in different modes of programming.
+ 
+Interactive Mode Programming:
+ 
+Invoking the interpreter without passing a script file as a parameter brings 
+up the 
+following prompt:
+ 
+$ python
+ 
+Python
+ 
+2.4
+.
+3
+ 
+(#
+1
+,
+ 
+Nov
+ 
+11
+ 
+2010
+,
+ 
+13
+:
+34
+:
+43
+)
+ 
+[
+GCC 
+4.1
+.
+2
+ 
+20080704
+ 
+(
+Red
+ 
+Hat
+ 
+4.1
+.
+2
+-
+48
+)]
+ 
+on linux2
+ 
+Type
+ 
+"help"
+,
+ 
+"copyright"
+,
+ 
+"credits"
+ 
+or
+ 
+"license"
+ 
+for
+ 
+more information
+.
+ 
+>>>
+ 
+Type the following text 
+at
+ 
+the Python prompt and press the Enter
+:
+ 
+>>>
+ 
+print
+ 
+"Hello, Python!"
+;
+ 
+If you are running new version of Python, then you 
+need to use print statement with 
+parenthesis 
+as in
+ 
+print ("Hello, Python!");
+. However 
+in
+ 
+Python version 2.4.3, this 
+produce
+s the
+ 
+following result:
+ 
+Hello
+,
+ 
+Python
+!
+ 
+Script Mode Programming
+ 
+Invoking the interpreter with a script parameter begins execution of the script and 
+continues until the script is finished. When the script is finished, the interpreter is no 
+longer act
+ive.
+ 
+Let us write a simple Python program in a script. 
+P
+ython files 
+have extension
+ 
+.py
+. 
+Type 
+the following source code in a test.py file
+:
+ 
+print
+ 
+"Hello, Python!"
+;
+ 
+3.
+ 
+BASIC SYNTAX
+ 

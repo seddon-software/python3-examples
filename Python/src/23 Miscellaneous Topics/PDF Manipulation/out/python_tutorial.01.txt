@@ -1,0 +1,98 @@
+ 
+i
+ 
+ 
+ 
+About the Tutorial
+ 
+Python is a general
+-
+purpose interpreted, 
+interactive, object
+-
+oriented
+,
+ 
+and high
+-
+level 
+programming language. 
+It
+ 
+was created by Guido van Rossum 
+during 
+1985
+-
+ 
+1990
+. 
+Like Perl, Python source code is also 
+available under the GNU General Public License 
+(GPL).
+ 
+This tutorial gives enough understanding on Python programming language.
+ 
+Audience
+ 
+This tutorial 
+is
+ 
+designed for software programmers 
+who
+ 
+need to 
+learn
+ 
+Python 
+programming language 
+from scratch. 
+ 
+Prerequisites
+ 
+Y
+ou should have 
+a 
+basic understanding of Computer Programming terminologies. A 
+basic understanding of any of the programming languages 
+is a plus.
+ 
+Disclaimer & Copyright
+ 
+
+ 
+Copy
+right 2014 by Tutorials Point 
+(I) 
+Pvt. Ltd. 
+ 
+All the content and graphics published in this e
+-
+book are the property of Tutorials 
+Point 
+(I) 
+Pvt. Ltd.
+ 
+The user of this e
+-
+book is prohibited to reuse, retain, copy, 
+distribute or republish any contents or a par
+t of contents of this e
+-
+book in any manner 
+without written consent of the publisher.  
+ 
+We strive to update the contents of our website and tutorials as timely and as 
+precisely as 
+possible, however,
+ 
+the contents 
+may contain inaccuracies or errors. 
+Tutorials Point 
+(I) 
+Pvt. Ltd. provides no guarantee regarding the accuracy, timeliness 
+or completeness of our website or its contents including this tutorial. If you discover 
+any errors on
+ 
+our website or in this tutorial, please notify us at 
+contact@tutorialspoint.com
+.

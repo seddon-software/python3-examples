@@ -1,0 +1,89 @@
+ 
+Python
+ 
+ 
+ 
+ 
+413
+ 
+ 
+activebackground
+ 
+The color of the slider and arrowheads when the mo
+use is 
+over them.
+ 
+bg
+ 
+The color of the slider and arrowheads when the mouse is not 
+over them.
+ 
+bd
+ 
+The width of the 3
+-
+d borders around the entire perimeter of 
+the trough, and also the width of the 3
+-
+d effects on the 
+arrowheads and slider. Default is no 
+border around the 
+trough, and a 2
+-
+pixel border around the arrowheads and 
+slider.
+ 
+command
+ 
+A procedure to be called whenever the scrollbar is moved.
+ 
+cursor
+ 
+The cursor that appears when the mouse is over the scrollbar.
+ 
+disabledbackground
+ 
+The background col
+or to use when the widget is disabled.
+ 
+disabledforeground
+ 
+The text color to use when the widget is disabled.
+ 
+fg
+ 
+Text color.
+ 
+font
+ 
+The font to use in this widget.
+ 
+format
+ 
+Format string. No default value.
+ 
+from_
+ 
+The minimum value. Used together with to to 
+limit the 
+spinbox range.
+ 
+justify
+ 
+Default is LEFT
+ 
+relief
+ 
+Default is SUNKEN.
+ 
+repeatdelay
+ 
+Together with repeatinterval, this option controls button 
+auto
+-
+repeat. Both values are given in milliseconds.
+ 
+repeatinterval
+ 
+See repeatdelay.
+ 

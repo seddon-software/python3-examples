@@ -1,0 +1,133 @@
+ 
+Python
+ 
+ 
+ 
+ 
+268
+ 
+ 
+Class Inheritance
+ 
+Instead of starting from scratch, you can create a class by
+ 
+deriving it from a 
+preexisting class by listing the parent class in parentheses after the new class name.
+ 
+The child class inherits the attributes of its parent class, and you can use those 
+attributes as if they were defined in the child class. A child cla
+ss can also override 
+data members and methods from the parent.
+ 
+Syntax
+ 
+Derived classes are declared much like their parent class; however, a list of base 
+classes to inherit from 
+is
+ 
+given after the class name:
+ 
+class
+ 
+SubClassName
+ 
+(
+ParentClass1
+[,
+ 
+ParentClass2
+,
+ 
+...]):
+ 
+   
+'Optional class documentation string'
+ 
+   
+class_suite
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+class
+ 
+Parent
+:
+        
+# define parent class
+ 
+   
+parentAttr 
+=
+ 
+100
+ 
+   
+def
+ 
+__init__
+(
+self
+):
+ 
+      
+print
+ 
+"Calling parent constructor"
+ 
+ 
+   
+def
+ 
+parentMethod
+(
+sel
+f
+):
+ 
+      
+print
+ 
+'Calling parent method'
+ 
+ 
+   
+def
+ 
+setAttr
+(
+self
+,
+ 
+attr
+):
+ 
+      
+Parent
+.
+parentAttr 
+=
+ 
+attr
+ 
+ 
+   
+def
+ 
+getAttr
+(
+self
+):
+ 
+      
+print
+ 
+"Parent attribute :"
+,
+ 
+Parent
+.
+parentAttr
+ 

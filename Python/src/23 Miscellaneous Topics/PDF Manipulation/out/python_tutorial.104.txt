@@ -1,0 +1,176 @@
+ 
+Python
+ 
+ 
+ 
+ 
+92
+ 
+ 
+7.
+ 
+expandtabs(tabsize=8)
+ 
+It 
+returns a copy of the string in which tab characters ie. '
+\
+t' 
+are
+ 
+expanded using 
+spaces, optionally using the given tabsize (default 8).
+ 
+Syntax
+ 
+str
+.
+expandtabs
+(
+tabsize
+=
+8
+)
+ 
+Parameters
+ 
+
+ 
+tabsize
+ 
+--
+ 
+This specifies the number of characters to be replaced for a tab
+ 
+character '
+\
+t'.
+ 
+
+ 
+Return Value
+ 
+
+ 
+This method returns a copy of the string in which tab characters i.e., '
+\
+t' have 
+been expanded using spaces.
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is
+\
+tstring example....wow!!!"
+;
+ 
+ 
+print
+ 
+"Original string: "
+ 
++
+ 
+str
+;
+ 
+print
+ 
+"Defualt exapanded tab: "
+ 
++
+  
+str
+.
+expandtabs
+();
+ 
+print
+ 
+"Double exapanded tab: "
+ 
++
+  
+str
+.
+expandtabs
+(
+16
+);
+ 
+Result
+ 
+Original
+ 
+string
+:
+ 
+this
+ 
+is
+        
+string
+ 
+example
+....
+wow
+!!!
+ 
+Defualt
+ 
+exapanded tab
+:
+ 
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+Double
+ 
+exapanded tab
+:
+ 
+this
+ 
+is
+         
+string
+ 
+example
+....
+wow
+!!!
+ 
+8.
+ 
+find(str, beg=0 end=len(string))
+ 
+It
+ 
+determines if string
+ 
+str
+ 
+occurs in string, or in a substring of string if starting 
+index
+ 
+beg
+ 
+and ending index
+ 
+end
+ 
+are given.
+ 

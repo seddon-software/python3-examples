@@ -1,0 +1,129 @@
+ 
+Python
+ 
+ 
+ 
+ 
+33
+ 
+ 
+==
+ 
+I
+f the value
+s
+ 
+of two operands are equal
+, 
+then 
+the 
+condition becomes true.
+ 
+(a == b) is not true.
+ 
+!=
+ 
+I
+f values 
+of two operands 
+are not equal
+,
+ 
+then condition becomes true.
+ 
+(a != b) is true.
+ 
+<>
+ 
+I
+f values 
+of two operands 
+are not equal
+,
+ 
+then condition becomes true.
+ 
+(a <> b) is true. This is similar 
+to != operator.
+ 
+>
+ 
+I
+f the value of left operand is greater 
+than the value of right operand, 
+then 
+condition becomes true.
+ 
+(a > b) is not true.
+ 
+<
+ 
+I
+f the value of left operand is less than 
+the value of right operand, 
+then 
+condition becomes true.
+ 
+(a < b) is true.
+ 
+>=
+ 
+I
+f the value of left operand is greater 
+than or equal to the value of right 
+operand, 
+then condition becomes true.
+ 
+(
+a >= b) is not true.
+ 
+<=
+ 
+I
+f the value of left operand is less than 
+or equal to the value of right operand, 
+then condition becomes true.
+ 
+(a <= b) is true.
+ 
+Example
+ 
+Assume variable a holds 10 and variable b holds 20, then:
+ 
+#!/usr/bin/python
+ 
+ 
+a 
+=
+ 
+21
+ 
+b 
+=
+ 
+10
+ 
+c 
+=
+ 
+0
+ 
+ 
+if
+ 
+(
+ 
+a 
+==
+ 
+b 
+):
+ 
+   
+print
+ 
+"Line 1 
+-
+ 
+a is equal to b"
+ 

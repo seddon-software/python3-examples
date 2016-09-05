@@ -4,7 +4,7 @@
 #
 ############################################################
 
-from Tkinter import *
+from tkinter import *
 
 def main():
     root = Tk()
@@ -22,8 +22,8 @@ def readInputFile(text):
         for line in f:
             text.insert(END, line)
     
-    except IOError, e:
-        print e
+    except IOError as e:
+        print(e)
     else:
         f.close()
 

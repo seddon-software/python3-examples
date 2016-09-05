@@ -1,0 +1,137 @@
+ 
+Python
+ 
+ 
+ 
+ 
+163
+ 
+ 
+This method return a value for the given key. If key is not available, then returns 
+default value None.
+ 
+Example
+ 
+The following example shows the usage of get() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Za
+b
+ra'
+,
+ 
+'Age'
+:
+ 
+7
+}
+ 
+ 
+print
+ 
+"Value : %s"
+ 
+%
+  
+dict
+.
+get
+(
+'Age'
+)
+ 
+print
+ 
+"Value : %s"
+ 
+%
+  
+dict
+.
+get
+(
+'
+Education
+'
+,
+ 
+"Never"
+)
+ 
+When we run above program, it produces 
+the 
+following result:
+ 
+Value
+ 
+:
+ 
+7
+ 
+Value
+ 
+:
+ 
+Never
+ 
+65.
+ 
+Dict.has_key(key)
+ 
+Description
+ 
+The method
+ 
+has_key()
+ 
+returns true if a given
+ 
+key
+ 
+is available in the dictionary, 
+otherwise it returns a false.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+has_key()
+ 
+method:
+ 
+dict
+.
+has_key
+(
+key
+)
+ 
+Parameters
+ 
+
+ 
+key
+ 
+--
+ 
+This is the Key to be searched in the dictionary.
+ 
+Return Value
+ 
+This method return true if a given key is available in the dictionary, oth
+erwise it 
+returns a false.
+ 
+Example
+ 
+The following example shows the usage of has_key() method.
+ 

@@ -1,0 +1,139 @@
+ 
+Python
+ 
+ 
+ 
+ 
+147
+ 
+ 
+Following is the syntax for
+ 
+len()
+ 
+method:
+ 
+len
+(
+tuple
+)
+ 
+Parameters
+ 
+
+ 
+tuple
+ 
+--
+ 
+This is a tuple for which number of elements to be counted.
+ 
+Return Value
+ 
+This method returns the number of elements in the tuple.
+ 
+Example
+ 
+The following example shows
+ 
+the usage of len() method.
+ 
+#!/usr/bin/python
+ 
+ 
+tuple1
+,
+ 
+tuple2 
+=
+ 
+(
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+),
+ 
+(
+456
+,
+ 
+'abc'
+)
+ 
+ 
+print
+ 
+"First tuple length : "
+,
+ 
+len
+(
+tuple1
+);
+ 
+print
+ 
+"Second tuple length : "
+,
+ 
+len
+(
+tuple2
+);
+ 
+When we run above program, it produces following result:
+ 
+First
+ 
+tuple length 
+:
+  
+3
+ 
+Second
+ 
+tuple length 
+:
+  
+2
+ 
+55.
+ 
+Max(tuple)
+ 
+Description
+ 
+The method
+ 
+max()
+ 
+returns the elements from the tuple with maximum value.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+max()
+ 
+method:
+ 
+max
+(
+tuple
+)
+ 
+Parameters
+ 
+
+ 
+tuple
+ 
+--
+ 
+This is a tuple from which max 
+valued element to be returned.
+ 

@@ -1,0 +1,75 @@
+ 
+Python
+ 
+ 
+ 
+ 
+370
+ 
+ 
+character at position last.
+ 
+If the second argument is 
+omitted, only the single character at position first is 
+deleted.
+ 
+get()
+ 
+Returns the entry's current text as a string.
+ 
+icursor ( index )
+ 
+Set the insertion cursor just before the character at 
+the given index.
+ 
+index ( index )
+ 
+Shift the contents of the entry so that the character 
+at the given index is the leftmost visible character. 
+Has no effect if the text fits entirely within the entry.
+ 
+insert ( index, s )
+ 
+Inserts string s before the character at the given 
+index.
+ 
+select_adjust ( index )
+ 
+This method is used to make sure that the selection 
+includes the character at the specified index.
+ 
+select_clear()
+ 
+Clears the selection. If there isn't currently a 
+selection, has no effect.
+ 
+select_from ( index )
+ 
+Sets the ANCHOR 
+index position to the character 
+selected by index, and selects that character.
+ 
+select_present()
+ 
+If there is a selection, returns true, else returns false.
+ 
+select_range ( start, end )
+ 
+Sets the selection under program control. Selects the 
+text starting at 
+the start index, up to but not 
+including the character at the end index. The start 
+position must be before the end position.
+ 
+select_to ( index )
+ 
+Selects all the text from the ANCHOR position up to 
+but not including the character at the given index.
+ 
+xview
+ 
+( index )
+ 
+This method is useful in linking the Entry widget to a 
+horizontal scrollbar.
+ 

@@ -1,0 +1,96 @@
+ 
+Python
+ 
+ 
+ 
+ 
+417
+ 
+ 
+orient
+ 
+Default is HORIZONTAL.
+ 
+relief
+ 
+Default is FLAT.
+ 
+sashcursor
+ 
+No default value.
+ 
+sashrelief
+ 
+Default is RAISED.
+ 
+sashwidth
+ 
+Default is 2.
+ 
+showhandle
+ 
+No default value
+ 
+width
+ 
+No default value.
+ 
+Methods
+ 
+PanedWindow objects have these methods:
+ 
+Methods 
+and
+ 
+Description
+ 
+add(child, options)
+ 
+Adds a child window to the paned window.
+ 
+get(startindex [,endindex])
+ 
+This method returns a 
+specific character or a range of text.
+ 
+config(options)
+ 
+Modifies one or more widget options. If no options are given, the method returns a 
+dictionary containing all current option values.
+ 
+Example
+ 
+Try the following example yourself. Here's how to create a 
+3
+-
+pane widget:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+m1 
+=
+ 
+PanedWindow
+()
+ 
+m1
+.
+pack
+(
+fill
+=
+BOTH
+,
+ 
+expand
+=
+1
+)
+ 

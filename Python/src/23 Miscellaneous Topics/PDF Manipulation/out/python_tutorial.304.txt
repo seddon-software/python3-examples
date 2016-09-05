@@ -1,0 +1,120 @@
+ 
+Python
+ 
+ 
+ 
+ 
+292
+ 
+ 
+REQUEST_METHOD
+ 
+The method used to make the request. The most common 
+methods are GET and POST.
+ 
+SCRIPT_FILENAME
+ 
+The full path to the CGI script.
+ 
+SCRIPT_NAME
+ 
+The name of the
+ 
+CGI script.
+ 
+SERVER_NAME
+ 
+The server's hostname or IP Address
+ 
+SERVER_SOFTWARE
+ 
+The name and version of the software the server is running.
+ 
+Here is small CGI program to list out all the CGI variables. Click this link to see the 
+result
+ 
+Get Environment
+ 
+#!/usr/bin/python
+ 
+ 
+import
+ 
+os
+ 
+ 
+print
+ 
+"Content
+-
+type: text/html
+\
+r
+\
+n
+\
+r
+\
+n"
+;
+ 
+print
+ 
+"<font size=+1>Environment</font><
+\
+br>"
+;
+ 
+for
+ 
+param 
+in
+ 
+os
+.
+environ
+.
+keys
+():
+ 
+  
+print
+ 
+"<b>
+%20s</b>: %s<
+\
+br>"
+ 
+%
+ 
+(
+param
+,
+ 
+os
+.
+environ
+[
+param
+])
+ 
+GET and POST Methods
+ 
+You must have come across many situations when you need to pass some information 
+from your browser to web server and ultimately to your CGI Program. Most 
+frequently, browser uses two meth
+ods two pass this information to web server. These 
+methods are GET Method and POST Method.
+ 
+Passing Information using GET method:
+ 
+The GET method sends the encoded user information appended to the page request. 
+The page and the encoded information are separa
+ted by the ? character as follows:
+ 
+http
+:
+//www.test.com/cgi
+-
+bin/hello.py?key1=value1&key2=value2
+ 

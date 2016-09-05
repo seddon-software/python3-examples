@@ -1,0 +1,82 @@
+ 
+Python
+ 
+ 
+ 
+ 
+359
+ 
+ 
+image
+ 
+Image to be displayed on the button (in
+stead of text).
+ 
+justify
+ 
+How to show multiple text lines: LEFT to left
+-
+justify each line; 
+CENTER to center them; or RIGHT to right
+-
+justify.
+ 
+padx
+ 
+Additional padding left and right of the text.
+ 
+pady
+ 
+Additional padding above and below the text.
+ 
+relief
+ 
+Relief specifies the type of the border. Some of the values are 
+SUNKEN, RAISED, GROOVE, and RIDGE.
+ 
+state
+ 
+Set this option to DISABLED to gray out the button and make it 
+unresponsive. Has the value ACTIVE when the mouse is over it. 
+Default is NORMAL.
+ 
+under
+line
+ 
+Default is 
+-
+1, meaning that no character of the text on the button 
+will be underlined. If nonnegative, the corresponding text 
+character will be underlined.
+ 
+width
+ 
+Width of the button in letters (if displaying text) or pixels (if 
+displaying an image).
+ 
+wraplength
+ 
+If this value is set to a positive number, the text lines will be 
+wrapped to fit within this length.
+ 
+Methods
+ 
+Following are commonly used methods for this widget:
+ 
+Medthod
+ 
+Description
+ 
+flash()
+ 
+Causes the button to flash several times between 
+active and normal 
+colors. Leaves the button in the state it was in originally. Ignored if 
+the button is disabled.
+ 
+invoke()
+ 
+Calls the button's callback, and returns what that function returns. 
+Has no effect if the button is disabled or there is no 
+callback.
+ 

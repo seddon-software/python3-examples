@@ -1,0 +1,92 @@
+ 
+Python
+ 
+ 
+ 
+ 
+87
+ 
+ 
+Return Value
+ 
+string
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+str = "this is string example....wow!!!";
+ 
+ 
+print "str.capitalize() : ", str.capitalize()
+ 
+Result
+ 
+str.capitalize() :  This is string example....wow!!!
+ 
+2.
+ 
+center(width, fillchar)
+ 
+Method
+ 
+The method
+ 
+center()
+ 
+returns centered in a string of length
+ 
+width. Padding is done using the 
+specified
+ 
+fillchar. Default filler is a space.
+ 
+Syntax
+ 
+str
+.
+center
+(
+width
+[,
+ 
+fillchar
+])
+ 
+Parameters
+ 
+
+ 
+width
+ 
+--
+ 
+This is the total
+ 
+width of the string.
+ 
+
+ 
+fillchar
+ 
+--
+ 
+This is the filler character.
+ 
+Return Value
+ 
+This method returns centered in a string of length width.
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+ 

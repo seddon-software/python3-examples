@@ -1,0 +1,116 @@
+ 
+Python
+ 
+ 
+ 
+ 
+238
+ 
+ 
+ 
+line 
+=
+ 
+fo
+.
+readline
+()
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+# Now truncate remaining file.
+ 
+fo
+.
+truncate
+()
+ 
+ 
+# Try to read file now
+ 
+line 
+=
+ 
+fo
+.
+readline
+()
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+# Close opend 
+file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Read Line: This is 1st line
+ 
+Read Line:
+ 
+12.
+ 
+file.write(str)
+ 
+Description
+ 
+The method
+ 
+write()
+ 
+writes a string
+ 
+str
+ 
+to the file. There is no return value. Due to 
+buffering, the string may not actually show up in the file until the flush() or close() 
+method is called.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+write()
+ 
+method:
+ 
+fileObject
+.
+write
+(
+ 
+str 
+)
+ 
+Parameters
+ 
+str
+ 
+--
+ 
+This is the String to be written in the file.
+ 

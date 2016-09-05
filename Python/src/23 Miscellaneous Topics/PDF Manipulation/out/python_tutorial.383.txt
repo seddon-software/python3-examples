@@ -1,0 +1,114 @@
+ 
+Python
+ 
+ 
+ 
+ 
+371
+ 
+ 
+xview_scroll ( number, what )
+ 
+Used to scroll the entry horizontally. The what 
+argument must be either UNITS, to scroll by 
+character widths, or PAGES, to scroll by 
+chunks the 
+size of the entry widget. The number is positive to 
+scroll left to right, negative to scroll right to left.
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+top 
+=
+ 
+Tk
+()
+ 
+L1 
+=
+ 
+Label
+(
+top
+,
+ 
+text
+=
+"User Name"
+)
+ 
+L1
+.
+pack
+(
+ 
+side 
+=
+ 
+LEFT
+)
+ 
+E1
+ 
+=
+ 
+Entry
+(
+top
+,
+ 
+bd 
+=
+5
+)
+ 
+ 
+E1
+.
+pack
+(
+side 
+=
+ 
+RIGHT
+)
+ 
+ 
+top
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+5.
+ 
+Frame
+ 
+The Frame widget is very important for the process of grouping and organizing other 
+widgets in a somehow friendly way. It
+ 
+works like a container, which is responsible for 
+arranging the position of other widgets.
+ 
+It uses rectangular areas in the screen to organize the layout and to provide padding 
+of these widgets. A frame can also be used as a foundation class to implement 
+c
+omplex widgets.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 

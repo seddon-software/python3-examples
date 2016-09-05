@@ -1,0 +1,72 @@
+ 
+Python
+ 
+ 
+ 
+ 
+312
+ 
+ 
+         
+SEX CHAR(1),
+ 
+         
+INCOME FLOAT )"""
+ 
+ 
+cursor.execute(sql)
+ 
+ 
+# disconnect from server
+ 
+db.close()
+ 
+INSERT Operation
+ 
+It
+ 
+is required when you
+ 
+want to create your records into a database table.
+ 
+Example
+ 
+The 
+f
+ollowing 
+example
+ 
+executes SQL
+ 
+INSERT
+ 
+statement to create a record into 
+EMPLOYEE table:
+ 
+#!/usr/bin/python
+ 
+ 
+import MySQLdb
+ 
+ 
+# Open database connection
+ 
+db = MySQLdb.connect("loc
+alhost","testuser","test123","TESTDB" )
+ 
+ 
+# prepare a cursor object using cursor() method
+ 
+cursor = db.cursor()
+ 
+ 
+# Prepare SQL query to INSERT a record into the database.
+ 
+sql = """INSERT INTO EMPLOYEE(FIRST_NAME,
+ 
+         
+LAST_NAME, AGE, SEX, INCOME)
+ 
+         
+VALUES ('Mac', 'Mohan', 20, 'M', 2000)"""
+ 

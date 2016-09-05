@@ -1,0 +1,103 @@
+ 
+Python
+ 
+ 
+ 
+ 
+448
+ 
+ 
+O
+ 
+PyObject*
+ 
+Passes a Python object and INCREFs it as normal.
+ 
+O&
+ 
+convert+void*
+ 
+Arbitrary conversion
+ 
+s
+ 
+char*
+ 
+C 0
+-
+terminated char* to Python string, or NULL to None.
+ 
+s#
+ 
+char*+int
+ 
+C char* and length to Python string, or NULL to None.
+ 
+u
+ 
+Py_UNICODE*
+ 
+C
+-
+wide, null
+-
+terminated string to Python Unicode, or 
+NULL to None.
+ 
+u#
+ 
+Py_UNICODE*+int
+ 
+C
+-
+wide string and length to Python Unicode, or NULL to 
+None.
+ 
+w#
+ 
+char*+int
+ 
+Read/write single
+-
+segment buffer to C address and 
+length.
+ 
+z
+ 
+char*
+ 
+Like s, also 
+accepts None (sets C char* to NULL).
+ 
+z#
+ 
+char*+int
+ 
+Like s#, also accepts None (sets C char* to NULL).
+ 
+(...)
+ 
+as per ...
+ 
+Builds Python tuple from C values.
+ 
+[...]
+ 
+as per ...
+ 
+Builds Python list from C values.
+ 
+{...}
+ 
+as per ...
+ 
+Builds Python dictionary from C
+ 
+values, alternating keys 
+and values.
+ 
+Code {...} builds dictionaries from an even number of C values, alternately keys and 
+values. For example, Py_BuildValue("{issi}",23,"zig","zag",42) returns a dictionary 
+like Python's {23:'zig','zag':42}.
+ 
+ 

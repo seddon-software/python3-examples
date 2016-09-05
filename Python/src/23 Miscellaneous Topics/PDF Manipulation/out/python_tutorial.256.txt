@@ -1,0 +1,97 @@
+ 
+Python
+ 
+ 
+ 
+ 
+244
+ 
+ 
+23
+ 
+os.isatty(fd)
+ 
+Return True if the file descriptor fd is open and connected to a tty(
+-
+like) 
+device, else False.
+ 
+24
+ 
+os.lchfla
+gs(path, flags)
+ 
+Set the flags of path to the numeric flags, like chflags(), but do not follow 
+symbolic links.
+ 
+25
+ 
+os.lchmod(path, mode)
+ 
+Change the mode of path to the numeric mode.
+ 
+26
+ 
+os.lchown(path, uid, gid)
+ 
+Change the owner and group id of path to the numeric uid and gid. This 
+function will not follow symbolic links.
+ 
+27
+ 
+os.link(src, dst)
+ 
+Create a hard link pointing to src named dst.
+ 
+28
+ 
+os.listdir(path)
+ 
+Return a list containing the names of the entries in the directory given by 
+path.
+ 
+29
+ 
+os.lseek(fd, pos, how)
+ 
+Set the current position of file descriptor fd to position pos, modified by 
+how.
+ 
+30
+ 
+os.lstat(path)
+ 
+L
+ike stat(), but do not follow symbolic links.
+ 
+31
+ 
+os.major(device)
+ 
+Extract the device major number from a raw device number.
+ 
+32
+ 
+os.makedev(major, minor)
+ 
+Compose a raw device number from the major and minor device numbers.
+ 
+33
+ 
+os.makedirs(path[, mode])
+ 
+Recursive directory creation function.
+ 
+34
+ 
+os.minor(device)
+ 
+Extract the device minor number from a raw device number .
+ 
+35
+ 
+os.mkdir(path[, mode])
+ 
+Create a directory na
+med path with numeric mode mode.
+ 

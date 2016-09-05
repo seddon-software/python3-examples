@@ -1,0 +1,85 @@
+ 
+Python
+ 
+ 
+ 
+ 
+311
+ 
+ 
+If a connection is established with the datasource, then a Connection Object is 
+returned and saved into
+ 
+db
+ 
+for further use, otherwise
+ 
+db
+ 
+is set to None. 
+Next,
+ 
+db
+ 
+object is used to create a
+ 
+cursor
+ 
+object, which in turn is used to execute 
+SQL queries. Finally, before coming out, it ensures that database connection is closed 
+and resources are released.
+ 
+Creating Database Table
+ 
+Once a database connection is established, we are ready to create t
+ables or records 
+into the database tables using
+ 
+execute
+ 
+method of the created cursor.
+ 
+Example
+ 
+L
+et
+ 
+u
+s create Database table EMPLOYEE:
+ 
+#!/usr/bin/python
+ 
+ 
+import MySQLdb
+ 
+ 
+# Open database connection
+ 
+db = MySQLdb.connect("localhost","testuser","test12
+3","TESTDB" )
+ 
+ 
+# prepare a cursor object using cursor() method
+ 
+cursor = db.cursor()
+ 
+ 
+# Drop table if it already exist using execute() method.
+ 
+cursor.execute("DROP TABLE IF EXISTS EMPLOYEE")
+ 
+ 
+# Create table as per requirement
+ 
+sql = """CREATE TABLE EMPLOYEE 
+(
+ 
+         
+FIRST_NAME  CHAR(20) NOT NULL,
+ 
+         
+LAST_NAME  CHAR(20),
+ 
+         
+AGE INT,  
+ 

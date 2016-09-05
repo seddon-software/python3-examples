@@ -1,0 +1,131 @@
+ 
+Python
+ 
+ 
+ 
+ 
+148
+ 
+ 
+Return Value
+ 
+This method returns the elements from the tuple with maximum value.
+ 
+Example
+ 
+The following example shows the usage of max() method.
+ 
+#!/usr/bin/python
+ 
+ 
+tuple1
+,
+ 
+tuple2 
+=
+ 
+(
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+),
+ 
+(
+456
+,
+ 
+700
+,
+ 
+200
+)
+ 
+ 
+print
+ 
+"Max value element : "
+,
+ 
+max
+(
+tuple1
+);
+ 
+print
+ 
+"Max value element : "
+,
+ 
+max
+(
+tuple2
+);
+ 
+When we run above program, it produces following result:
+ 
+Max
+ 
+value element 
+:
+  
+zara
+ 
+Max
+ 
+value element 
+:
+  
+700
+ 
+56.
+ 
+Min(tuple)
+ 
+Description
+ 
+The method
+ 
+min()
+ 
+returns the elements 
+from the tuple with minimum value.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+min()
+ 
+method:
+ 
+min
+(
+tuple
+)
+ 
+Parameters
+ 
+
+ 
+tuple
+ 
+--
+ 
+This is a tuple from which min valued element to be returned.
+ 
+Return Value
+ 
+This method returns the elements from the tuple with minimum 
+value.
+ 
+Example
+ 
+The following example shows the usage of min() method.
+ 

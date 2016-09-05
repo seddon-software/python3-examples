@@ -1,0 +1,149 @@
+ 
+Python
+ 
+ 
+ 
+ 
+166
+ 
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+setdefault()
+ 
+method:
+ 
+dict
+.
+setdefault
+(
+key
+,
+ 
+default
+=
+None
+)
+ 
+Parameters
+ 
+
+ 
+key
+ 
+--
+ 
+This is the key to be searched.
+ 
+
+ 
+default
+ 
+--
+ 
+This is the Value to be returned in case key is not found.
+ 
+Return Value
+ 
+This method returns the key value available in the dictionary and if given key is not 
+available then it will return p
+rovided default value.
+ 
+Example
+ 
+The following example shows the usage of setdefault() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+}
+ 
+ 
+print
+ 
+"Value : %s"
+ 
+%
+  
+dict
+.
+setdefault
+(
+'Age'
+,
+ 
+None
+)
+ 
+print
+ 
+"Value : %s"
+ 
+%
+  
+dict
+.
+setdefault
+(
+'Sex'
+,
+ 
+None
+)
+ 
+When we
+ 
+run above program, it produces following result:
+ 
+Value
+ 
+:
+ 
+7
+ 
+Value
+ 
+:
+ 
+None
+ 
+69.
+ 
+dict.update(dict2)
+ 
+Description
+ 
+The method
+ 
+update()
+ 
+adds dictionary dict2's key
+-
+values pairs in to dict. This function 
+does not return anything.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+upda
+te()
+ 
+method:
+ 

@@ -1,0 +1,94 @@
+ 
+Python
+ 
+ 
+ 
+ 
+423
+ 
+ 
+Dimensions
+ 
+Various lengths, widths, and o
+ther dimensions of widgets can be described in many 
+different units.
+ 
+35.
+ 
+If you set a dimension to an integer, it is 
+assumed to be in pixels.
+ 
+36.
+ 
+You can specify units by setting a dimension 
+to a string containing a number followed by.
+ 
+Character
+ 
+Description
+ 
+c
+ 
+Centimeters
+ 
+i
+ 
+Inches
+ 
+m
+ 
+Millimeters
+ 
+p
+ 
+Printer's points (about 1/72")
+ 
+Length options:
+ 
+Tkinter expresses a length as an integer number of pixels. Here is the list of common 
+length options:
+ 
+37.
+ 
+borderwidth:
+ 
+Width of the border which gives a 
+three
+-
+dimensional 
+look to the widget.
+ 
+38.
+ 
+highlightthickness:
+ 
+Width of the highlight 
+rect
+angle when the widget has focus
+.
+ 
+39.
+ 
+padX padY:
+ 
+Extra space the widget requests 
+from its layout manager beyond the minimum 
+the widget needs to display its contents in the 
+x and y directions.
+ 
+40.
+ 
+selectborderwidth:
+ 
+Width of the three
+-
+dimentional border around selected items of 
+the widget.
+ 
+41.
+ 
+wraplength:
+ 
+Maximum line length for widgets 
+that perform word wrapping.
+ 

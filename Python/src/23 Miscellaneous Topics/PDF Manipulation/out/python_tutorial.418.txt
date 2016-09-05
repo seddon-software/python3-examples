@@ -1,0 +1,72 @@
+ 
+Python
+ 
+ 
+ 
+ 
+406
+ 
+ 
+spacing2
+ 
+This option specifies how much extra vertical space to add 
+between displayed lines of text when a logical line wraps. 
+Default is 0.
+ 
+spacing3
+ 
+This option specifies how much extra vertical space is added 
+below each line of text. If a line wraps, this space is added 
+only after the last line it occupies on the display. Default is 0.
+ 
+state
+ 
+Normally, text widgets respond to keyboard and 
+mouse 
+events; set state=NORMAL to get this behavior. If you set 
+state=DISABLED, the text widget will not respond, and you 
+won't be able to modify its contents programmatically either.
+ 
+tabs
+ 
+This option controls how tab characters position text.
+ 
+width
+ 
+The 
+width of the widget in characters (not pixels!), measured 
+according to the current font size.
+ 
+wrap
+ 
+This option controls the display of lines that are too wide. Set 
+wrap=WORD and it will break the line after the last word that 
+will fit. With the default be
+havior, wrap=CHAR, any line that 
+gets too long will be broken at any character.
+ 
+xscrollcommand
+ 
+To make the text widget horizontally scrollable, set this option 
+to the set() method of the horizontal scrollbar.
+ 
+yscrollcommand
+ 
+To make the text widget 
+vertically scrollable, set this option 
+to the set() method of the vertical scrollbar.
+ 
+Methods
+ 
+Text objects have these methods:
+ 
+Methods & Description
+ 
+delete(startindex [,endindex])
+ 
+This method deletes a specific character or a range of text.
+ 
+get(startindex [,endindex])
+ 
+This method returns a specific character or a range of text.
+ 

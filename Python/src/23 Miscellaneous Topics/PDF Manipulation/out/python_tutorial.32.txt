@@ -1,0 +1,65 @@
+ 
+Python
+ 
+ 
+ 
+ 
+20
+ 
+ 
+ 
+if
+ 
+__name__ 
+==
+ 
+"__main__"
+:
+ 
+   
+main
+(
+sys
+.
+argv
+[
+1
+:])
+ 
+Now, run above script as follows:
+ 
+$ test.py 
+-
+h
+ 
+usage: test.py 
+-
+i <inputfile> 
+-
+o <outputfile>
+ 
+ 
+$ test.py 
+-
+i BMP 
+-
+o
+ 
+usage: test.py 
+-
+i <inputfile> 
+-
+o <outputfile>
+ 
+ 
+$ test.py 
+-
+i inputfile
+ 
+Input f
+ile is " inputfile
+ 
+Output file is "
+ 
+ 
+ 

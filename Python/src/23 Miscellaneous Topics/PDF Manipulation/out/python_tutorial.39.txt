@@ -1,0 +1,197 @@
+ 
+Python
+ 
+ 
+ 
+ 
+27
+ 
+ 
+The 
+f
+ollowing 
+code 
+is invalid with tuple, because we attempted to update a tuple, 
+which is not allowed. Similar case is possible with lists:
+ 
+#!/usr/bin/python
+ 
+ 
+tuple 
+=
+ 
+(
+ 
+'abcd'
+,
+ 
+786
+ 
+,
+ 
+2.23
+,
+ 
+'john'
+,
+ 
+70.2
+  
+)
+ 
+list 
+=
+ 
+[
+ 
+'abcd'
+,
+ 
+786
+ 
+,
+ 
+2.23
+,
+ 
+'john'
+,
+ 
+70.2
+  
+]
+ 
+tuple
+[
+2
+]
+ 
+=
+ 
+1000
+    
+# Invalid syntax with tuple
+ 
+list
+[
+2
+]
+ 
+=
+ 
+1000
+     
+# Valid syntax with list
+ 
+Python Dictionary
+ 
+Python's dictionaries are kind of hash table type. They work like associative arrays
+ 
+or hashes found in Perl and consist of key
+-
+value pairs. A dictionary key can be almost 
+any Python type, but are usually numbers or strings. Values, on the other hand, can 
+be any arbitrary Python object.
+ 
+Dictionaries are enclosed by curly braces (
+{ }
+) an
+d values can be assigned and 
+accessed using square braces (
+[]
+). For example:
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{}
+ 
+dict
+[
+'one'
+]
+ 
+=
+ 
+"This is one"
+ 
+dict
+[
+2
+]
+     
+=
+ 
+"This is two"
+ 
+tinydict 
+=
+ 
+{
+'name'
+:
+ 
+'john'
+,
+'code'
+:
+6734
+,
+ 
+'dept'
+:
+ 
+'sales'
+}
+ 
+print
+ 
+dict
+[
+'one'
+]
+       
+# Prints 
+value for 'one' key
+ 
+print
+ 
+dict
+[
+2
+]
+           
+# Prints value for 2 key
+ 
+print
+ 
+tinydict          
+# Prints complete dictionary
+ 
+print
+ 
+tinydict
+.
+keys
+()
+   
+# Prints all the keys
+ 
+print
+ 
+tinydict
+.
+values
+()
+ 
+# Prints all the values
+ 
+This 
+produce
+s
+ 
+the following result:
+ 

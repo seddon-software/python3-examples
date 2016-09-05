@@ -1,0 +1,86 @@
+ 
+Python
+ 
+ 
+ 
+ 
+330
+ 
+ 
+Sending an HTML e
+-
+mail using Python
+ 
+When you send a text message using Python, then all the content 
+are
+ 
+treated as 
+simple text. Even if you 
+include HTML tags in a text messag
+e, it 
+is
+ 
+displayed as simple 
+text and HTML tags will not be formatted according to HTML syntax. But Python 
+provides option to send an HTML message as actual HTML message.
+ 
+While sending an e
+-
+mail message, you can specify a Mime version, content type
+,
+ 
+and 
+character set to send an HTML e
+-
+mail.
+ 
+Example
+ 
+Following is the example to send HTML content as an e
+-
+mail. Try it once:
+ 
+#!/usr/bin/python
+ 
+ 
+import smtplib
+ 
+ 
+message = """From: From Person <from@fromdomain.com>
+ 
+To: To Person <to@todomain.com>
+ 
+MIME
+-
+Version: 1.0
+ 
+Content
+-
+type: text/html
+ 
+Subject: SMTP HTML e
+-
+mail test
+ 
+ 
+This is an e
+-
+mail message to be sent in HTML format
+ 
+ 
+<b>This is HTML message.</b>
+ 
+<h1>This is headline.</h1>
+ 
+"""
+ 
+ 
+try:
+ 
+   
+smtpObj = smtplib.SMTP('localhost')
+ 
+   
+smtpObj.sendmail(send
+er, receivers, message)         
+ 

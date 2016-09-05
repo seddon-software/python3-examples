@@ -1,0 +1,93 @@
+ 
+Python
+ 
+ 
+ 
+ 
+326
+ 
+ 
+ 
+s.connect((host, port))
+ 
+print s.recv(1024)
+ 
+s.close            
+         
+# Close the socket when done
+ 
+Now run this server.py in background and then run above client.py to see the result.
+ 
+# Following would start a server in background.
+ 
+$ python server.py & 
+ 
+ 
+# Once server is started run client as follows:
+ 
+ 
+$ python clie
+nt.py
+ 
+This would produce following result:
+ 
+Got connection from ('127.0.0.1', 48437)
+ 
+Thank you for connecting
+ 
+Python Internet modules
+ 
+A list of some important modules 
+in Python Network/Internet programming
+:
+ 
+Protocol
+ 
+Common function
+ 
+Port
+ 
+No
+ 
+Python module
+ 
+HTTP
+ 
+Web pages
+ 
+80
+ 
+httplib, urllib, xmlrpclib
+ 
+NNTP
+ 
+Usenet news
+ 
+119
+ 
+Nntplib
+ 
+FTP
+ 
+File transfers
+ 
+20
+ 
+ftplib, urllib
+ 
+SMTP
+ 
+Sending email
+ 
+25
+ 
+Smtplib
+ 
+POP3
+ 
+Fetching email
+ 
+110
+ 
+Poplib
+ 

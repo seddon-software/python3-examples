@@ -1,0 +1,81 @@
+ 
+Python
+ 
+ 
+ 
+ 
+415
+ 
+ 
+Identifies the widget element at the given location.
+ 
+index(index)
+ 
+Returns the absolute value of an index based on the given index.
+ 
+insert(index [,string]...)
+ 
+This method inserts
+ 
+strings at the specified index location.
+ 
+invoke(element)
+ 
+Invokes a spinbox button.
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+master 
+=
+ 
+Tk
+()
+ 
+ 
+w 
+=
+ 
+Spinbox
+(
+master
+,
+ 
+from_
+=
+0
+,
+ 
+to
+=
+10
+)
+ 
+w
+.
+pack
+()
+ 
+ 
+mainloop
+()
+ 
+When the above code is 
+executed, it produces the following result:
+ 
+ 
+ 
+17.
+ 
+PanelWindow
+ 

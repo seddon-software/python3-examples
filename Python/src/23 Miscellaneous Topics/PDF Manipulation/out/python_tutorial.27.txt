@@ -1,0 +1,98 @@
+ 
+Python
+ 
+ 
+ 
+ 
+15
+ 
+ 
+print
+ 
+"Hello, Python!"
+;
+  
+# second comment
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Hello
+,
+ 
+Python
+!
+ 
+You can type 
+a
+ 
+comment 
+on the same line after a statement or expre
+ssion:
+ 
+name 
+=
+ 
+"Madisetti"
+ 
+# This is again comment
+ 
+You can comment multiple lines as follows:
+ 
+# This is a comment.
+ 
+# This is a comment, too.
+ 
+# This is a comment, too.
+ 
+# I said that already.
+ 
+Using Blank Lines
+ 
+A line containing only whitespace, possibly with
+ 
+a comment, is known as a blank line 
+and Python totally ignores it.
+ 
+In an interactive interpreter session, you must enter an empty physical line to 
+terminate a multiline statement.
+ 
+Waiting for the User
+ 
+The following line of the program displays the prompt
+, 
+
+Press 
+the enter key to exit
+
+ 
+and waits for the user to 
+take action
+:
+ 
+#!/usr/bin/python
+ 
+raw_input
+(
+"
+\
+n
+\
+nPress the enter key to exit."
+)
+ 
+Here, "
+\
+n
+\
+n" 
+is
+ 
+used to create two new lines before displaying the 
+actual line. Once 
+the user presses the key, the program ends. This is a nice trick to keep a console 
+window open until the user is done with an application.
+ 

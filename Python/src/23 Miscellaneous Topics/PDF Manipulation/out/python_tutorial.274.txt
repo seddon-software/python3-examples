@@ -1,0 +1,160 @@
+ 
+Python
+ 
+ 
+ 
+ 
+262
+ 
+ 
+     
+print
+ 
+"Total Employee %d"
+ 
+%
+ 
+Employee
+.
+empCount
+ 
+ 
+   
+def
+ 
+displayEmployee
+(
+self
+):
+ 
+      
+print
+ 
+"Name : "
+,
+ 
+self
+.
+name
+,
+  
+", Salary: "
+,
+ 
+self
+.
+salary
+ 
+
+ 
+The variable
+ 
+empCount
+ 
+is a class variable whose value 
+is
+ 
+shared among all 
+instances of a this class. This can be accessed as
+ 
+Employee.empCount
+ 
+from 
+inside the class or outside the class.
+ 
+
+ 
+The first method
+ 
+__init__()
+ 
+is a special method, which is called class 
+constructor 
+or initialization method that Python calls when you create a new 
+instance of this class.
+ 
+
+ 
+You declare other class methods like normal functions with the exception that 
+the first argument to each method is
+ 
+self. Python adds the
+ 
+self
+ 
+argument to 
+the list for 
+you; you do
+ 
+n
+o
+t need to include it when you call the methods.
+ 
+Creating 
+I
+nstance 
+O
+bjects
+ 
+To create instances of a class, you call the class using class name and pass in 
+whatever arguments its
+ 
+__init__
+ 
+method accepts.
+ 
+"This would create first object of 
+Employee class"
+ 
+emp1 
+=
+ 
+Employee
+(
+"Zara"
+,
+ 
+2000
+)
+ 
+"This would create second object of Employee class"
+ 
+emp2 
+=
+ 
+Employee
+(
+"Manni"
+,
+ 
+5000
+)
+ 
+Accessing 
+A
+ttributes
+ 
+You access the object's attributes using the dot operator with object. Class variable 
+would be accessed 
+using class name as follows:
+ 
+emp1
+.
+displayEmployee
+()
+ 
+emp2
+.
+displayEmployee
+()
+ 
+print
+ 
+"Total Employee %d"
+ 
+%
+ 
+Employee
+.
+empCount
+ 

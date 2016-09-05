@@ -1,0 +1,118 @@
+ 
+Python
+ 
+ 
+ 
+ 
+293
+ 
+ 
+The GET method is the default method to pass information from browser to web 
+server and it produces a long string that appears in your browser's Location:box. 
+N
+ever use GET method if you have password or other sensitive information to pass 
+to the server. The GET method has size limtation: only 1024 characters can be sent 
+in a request string. The GET method sends information using QUERY_STRING header 
+and will be a
+ccessible in your CGI Program through QUERY_STRING environment 
+variable.
+ 
+You can pass information by simply concatenating key and value pairs along with any 
+URL or you can use HTML <FORM> tags to pass information using GET method.
+ 
+Simple URL Example : Get 
+Method
+ 
+Here is a simple URL, which 
+pass
+es
+ 
+two values to hello_get.py program using GET 
+method.
+ 
+/cgi
+-
+bin/hello_get.py?first_name=ZARA&last_name=ALI
+ 
+Below is
+ 
+hello_get.py
+ 
+script to handle input given by web browser. We are going to 
+use
+ 
+cgi
+ 
+module, which makes it very easy to access passed information:
+ 
+#!/usr/bin/python
+ 
+ 
+# Import modules for CGI handling 
+ 
+import
+ 
+cgi
+,
+ 
+cgitb 
+ 
+ 
+# Create instance of FieldStorage 
+ 
+f
+orm 
+=
+ 
+cgi
+.
+FieldStorage
+()
+ 
+ 
+ 
+# Get data from fields
+ 
+first_name 
+=
+ 
+form
+.
+getvalue
+(
+'first_name'
+)
+ 
+last_name  
+=
+ 
+form
+.
+getvalue
+(
+'last_name'
+)
+ 
+ 
+print
+ 
+"Content
+-
+type:text/html
+\
+r
+\
+n
+\
+r
+\
+n"
+ 
+print
+ 
+"<html>"
+ 
+print
+ 
+"<head>"
+ 

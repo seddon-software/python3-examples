@@ -1,0 +1,143 @@
+ 
+Python
+ 
+ 
+ 
+ 
+257
+ 
+ 
+tuple. This tuple usually contains the error string, the error number, and an error 
+location.
+ 
+Example
+ 
+Fol
+lowing is an example for a single exception:
+ 
+#!/usr/bin/python
+ 
+ 
+# Define a function here.
+ 
+def
+ 
+temp_convert
+(
+var
+):
+ 
+   
+try
+:
+ 
+      
+return
+ 
+int
+(
+var
+)
+ 
+   
+except
+ 
+ValueError
+,
+ 
+Argument
+:
+ 
+      
+print
+ 
+"The argument does not contain numbers
+\
+n"
+,
+ 
+Argument
+ 
+ 
+# Call above 
+function here.
+ 
+temp_convert
+(
+"xyz"
+);
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+The
+ 
+argument does 
+not
+ 
+contain numbers
+ 
+invalid literal 
+for
+ 
+int
+()
+ 
+with
+ 
+base
+ 
+10
+:
+ 
+'xyz'
+ 
+Raising an 
+E
+xception
+ 
+You can raise exceptions in several ways by using the raise statement.
+ 
+The general 
+syntax for the
+ 
+raise
+ 
+statement
+ 
+is as follows
+.
+ 
+Syntax
+ 
+raise
+ 
+[
+Exception
+ 
+[,
+ 
+args 
+[,
+ 
+traceback
+]]]
+ 
+Here,
+ 
+Exception
+ 
+is the type of exception (
+F
+or example, NameError) and
+ 
+argument
+ 
+is 
+a value for the exception argument. The argument is optional; if 
+not supplied, the 
+exception argument is None.
+ 

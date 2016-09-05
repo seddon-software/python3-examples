@@ -1,0 +1,100 @@
+ 
+Python
+ 
+ 
+ 
+ 
+105
+ 
+ 
+Return Value
+ 
+This method returns a copy of the string in which all case
+-
+based characters have been 
+lowercased.
+ 
+Example
+ 
+The following example shows the usage of lower() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"THIS IS STRING EXAMPLE....WOW!!!"
+;
+ 
+ 
+print
+ 
+str
+.
+lower
+();
+ 
+When we run above program, it produces following result:
+ 
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+24.
+ 
+22. 
+lst
+rip()
+ 
+Description
+ 
+The method
+ 
+lstrip()
+ 
+returns a copy of the string in which all chars have been stripped 
+from the beginning of the string (default whitespace characters).
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+lstrip()
+ 
+method:
+ 
+str
+.
+lstrip
+([
+chars
+])
+ 
+Parameters
+ 
+chars
+ 
+--
+ 
+You can supply what chars have to be trimmed.
+ 
+Return Value
+ 
+This method returns a copy of the string in which all chars have been stripped from 
+the beginning of the string (default whitespace characters).
+ 
+Example
+ 
+The following example shows the usa
+ge of lstrip() method.
+ 
+#!/usr/bin/python
+ 

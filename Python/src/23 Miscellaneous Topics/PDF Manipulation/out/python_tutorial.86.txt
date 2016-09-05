@@ -1,0 +1,84 @@
+ 
+Python
+ 
+ 
+ 
+ 
+74
+ 
+ 
+round(x [,n])
+ 
+x
+ 
+rounded to n digits 
+from the decimal point. Python rounds 
+away from zero as a tie
+-
+breaker: round(0.5) is 1.0 and round(
+-
+0.5) is 
+-
+1.0.
+ 
+sqrt(x)
+ 
+The square root of x for x > 0
+ 
+Random Number Functions
+ 
+Random numbers are us
+ed for games, simulations, testing, security, and privacy 
+applications. Python includes following functions that are commonly used.
+ 
+Function
+ 
+Description
+ 
+choice(seq)
+ 
+A random item from a list, 
+tuple, or string.
+ 
+randrange ([start,] stop [,step])
+ 
+A randomly selected element from range(start, stop, 
+step)
+ 
+random()
+ 
+A random float 
+r, such that 0 is less than or equal to r and 
+r is less than 1
+ 
+seed([x])
+ 
+Sets the integer starting value used in generating random 
+numbers. Call this function before calling any other 
+random module f
+unction. Returns None.
+ 
+shuffle(lst)
+ 
+Randomizes the items of a list in place. Returns None.
+ 
+uniform(x, y)
+ 
+A random float r, such that x i
+s less than or equal to r and 
+r is less than y
+ 
+Trigonometric Functions
+ 
+Python includes following functions that perform trigonometric calculations.
+ 
+Function
+ 
+Description
+ 
+acos(x)
+ 
+Return the arc cosine
+ 
+of x, in radians.
+ 

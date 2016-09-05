@@ -34,8 +34,8 @@ class MyFrame(wx.Frame):
             self.SetupEventHandlers()
             self.AddButtons()
             self.AddStaticText()
-        except Exception,e:
-            print e
+        except Exception as e:
+            print(e)
 
     def AddMenu(self):
         self.menubar = wx.MenuBar()

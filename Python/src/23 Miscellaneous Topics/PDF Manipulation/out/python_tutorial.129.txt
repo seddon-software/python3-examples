@@ -1,0 +1,96 @@
+ 
+Python
+ 
+ 
+ 
+ 
+117
+ 
+ 
+str = "this is string 
+example....wow!!!";
+ 
+print str.startswith( 'this' );
+ 
+print str.startswith( 'is', 2, 4 );
+ 
+print str.startswith( 'this', 2, 4 );
+ 
+When we run above program, it produces following result:
+ 
+True
+ 
+True
+ 
+False
+ 
+36.
+ 
+34. 
+strip([chars])
+ 
+Description
+ 
+The method
+ 
+strip()
+ 
+returns a copy of the string in which all chars have been stripped 
+from the beginning and the end of the string (default whitespace characters).
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+strip()
+ 
+method:
+ 
+str
+.
+strip
+(
+[
+chars
+]);
+ 
+Parameters
+ 
+
+ 
+chars
+ 
+--
+ 
+The characters to be removed from beginning or end of the string.
+ 
+Return Value
+ 
+This method returns a copy of the string in which all chars have been stripped from 
+the beginning and the end of the string.
+ 
+Example
+ 
+The following 
+example shows the usage of strip() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"0000000this is string example....wow!!!0000000"
+;
+ 
+print
+ 
+str
+.
+strip
+(
+ 
+'0'
+ 
+);
+ 

@@ -1,0 +1,81 @@
+ 
+Python
+ 
+ 
+ 
+ 
+220
+ 
+ 
+os.remove(file_name)
+ 
+Example
+ 
+Following is the example to delete an existing file
+ 
+test2.txt
+:
+ 
+#!/usr/bin/python
+ 
+import os
+ 
+ 
+# Delete file test2.txt
+ 
+os.remove("text2.txt")
+ 
+Directories in Python
+ 
+All files are contained within various directories, and Python has no problem 
+handling 
+these too. The
+ 
+os
+ 
+module has several methods that help you create, remove
+,
+ 
+and 
+change directories.
+ 
+The
+ 
+mkdir()
+ 
+Method
+ 
+You can use the
+ 
+mkdir()
+ 
+method of the
+ 
+os
+ 
+module to create directories in the current 
+directory. You need to supply an argument t
+o this method which contains the name 
+of the directory to be created.
+ 
+Syntax
+ 
+os.mkdir("newdir")
+ 
+Example
+ 
+Following is the example to create a directory
+ 
+test
+ 
+in the current directory:
+ 
+#!/usr/bin/python
+ 
+import os
+ 
+ 
+# Create a directory "test"
+ 
+os.mkdir("test")
+ 

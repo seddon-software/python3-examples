@@ -1,0 +1,93 @@
+ 
+Python
+ 
+ 
+ 
+ 
+174
+ 
+ 
+9
+ 
+time.strftime(fmt[,tupletime])
+ 
+Accepts an instant expressed as a time
+-
+tuple in local time and returns 
+a string representing the instant as specified by string fmt.
+ 
+10
+ 
+time.strptime(str,fmt='%a %b %d %H:%M:%S %Y')
+ 
+Parses str according to format string fmt and returns the instant in 
+time
+-
+tuple format.
+ 
+11
+ 
+time.time( )
+ 
+Returns the current time instant, a floating
+-
+point 
+number of seconds 
+since the epoch.
+ 
+12
+ 
+time.tzset()
+ 
+Resets the time conversion rules used by the library routines. The 
+environment variable TZ specifies how this is done.
+ 
+ 
+Let us go through the functi
+ons briefly:
+ 
+71.
+ 
+time.altzone
+ 
+Description
+ 
+The method
+ 
+altzone()
+ 
+is the attribute of the
+ 
+time
+ 
+module. This returns the offset of 
+the local DST timezone, in seconds west of UTC, if one is defined. This is 
+negative if 
+the local DST timezone is east of UTC (as in Western Europe, including the UK). Only 
+use this if daylight is nonzero.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+altzone()
+ 
+method:
+ 
+time
+.
+altzone
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns the offset of
+ 
+the local DST timezone, in seconds west of UTC, if 
+one is defined.
+ 
+Example
+ 

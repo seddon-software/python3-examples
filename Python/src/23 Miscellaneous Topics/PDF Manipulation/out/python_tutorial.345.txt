@@ -1,0 +1,51 @@
+ 
+Python
+ 
+ 
+ 
+ 
+333
+ 
+ 
+Content
+-
+Transfer
+-
+Encoding:base64
+ 
+Content
+-
+Disposition: attachment; filename=%s
+ 
+ 
+%s
+ 
+--
+%s
+--
+ 
+""" %(filename, filename, encodedcontent, marker)
+ 
+message = part1 + part2 + part3
+ 
+ 
+try:
+ 
+   
+smtpObj = smtplib.SMTP
+('localhost')
+ 
+   
+smtpObj.sendmail(sender, reciever, message)
+ 
+   
+print "Successfully sent email"
+ 
+except Exception:
+ 
+   
+print "Error: unable to send email"
+ 
+ 
+ 
+ 

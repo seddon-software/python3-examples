@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 
+
 def title(t):
     print("\n")
     print(t)
@@ -12,6 +13,7 @@ pd.set_option('display.precision', 2)
 ##########
 title("create a series")
 s = pd.Series(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], index=['A', 'B', 'C', 'D', 'E'])
+s = pd.Series(['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'], index=range(10, 20, 2))
 print(s)
 
 ##########
@@ -59,10 +61,12 @@ s1 = salaries[['john', 'pedro']]
 s2 = salaries[['zoe']]
 s = s1 + s2
 print(s)
+s = s1.add(s2, fill_value=0)
+print(s)
 
 ##########
 title("check for nulls in series")
 salaries['mary'] = None
-salaries.notnull()
+print(salaries.notnull())
 print(salaries.isnull())
 print(salaries[salaries.isnull()])

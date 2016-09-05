@@ -23,4 +23,4 @@ def make_pdf_file(output_filename):
     
 filename = "pdfs/watermark.pdf"
 make_pdf_file(filename)
-print ("Wrote", filename)
+print(("Wrote", filename))

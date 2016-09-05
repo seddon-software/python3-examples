@@ -1,0 +1,148 @@
+ 
+Python
+ 
+ 
+ 
+ 
+93
+ 
+ 
+Syntax
+ 
+str
+.
+find
+(
+str
+,
+ 
+beg
+=
+0
+ 
+end
+=
+len
+(
+string
+))
+ 
+Parameters
+ 
+
+ 
+str
+ 
+--
+ 
+This specifies the string to be searched.
+ 
+
+ 
+beg
+ 
+--
+ 
+This is the starting index, by default its 0.
+ 
+
+ 
+end
+ 
+--
+ 
+This is the ending index, by default its equal to the lenght of the string.
+ 
+Return Value
+ 
+I
+ndex if found and 
+-
+1 otherwise.
+ 
+Example
+ 
+The following example shows the usage of find() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str1 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+str2 
+=
+ 
+"exam"
+;
+ 
+ 
+print
+ 
+str1
+.
+find
+(
+str2
+);
+ 
+print
+ 
+str1
+.
+find
+(
+str2
+,
+ 
+10
+);
+ 
+print
+ 
+str1
+.
+find
+(
+str2
+,
+ 
+40
+);
+ 
+Result
+ 
+15
+ 
+15
+ 
+-
+1
+ 
+11.
+ 
+9. 
+index(str, beg=0, end=len(string))
+ 
+It
+ 
+determines if string
+ 
+str
+ 
+occurs in string or in a substring of string if starting 
+index
+ 
+beg
+ 
+and ending index
+ 
+end
+ 
+are given. This method is 
+same as find(), but raises 
+an exception if sub is not found.
+ 

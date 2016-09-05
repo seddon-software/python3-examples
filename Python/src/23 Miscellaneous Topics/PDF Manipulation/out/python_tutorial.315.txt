@@ -1,0 +1,186 @@
+ 
+Python
+ 
+ 
+ 
+ 
+303
+ 
+ 
+
+ 
+Expires
+:
+ 
+The date the cookie will expire. If this is blank, the cookie will expire 
+when the visitor quits the browser.
+ 
+
+ 
+Domain
+:
+ 
+The domain name of your site.
+ 
+
+ 
+Path
+:
+ 
+The path to the directory or 
+web page that sets the cookie. This may be 
+blank if you want to retrieve the cookie from any directory or page.
+ 
+
+ 
+Secure
+:
+ 
+If this field contains the word "secure", then the cookie may only be 
+retrieved with a secure server. If this field is blank, no such r
+estriction exists.
+ 
+
+ 
+Name=Value
+:
+ 
+Cookies are set and retrieved in the form of key and value 
+pairs.
+ 
+Setting up Cookies
+ 
+It is very easy to send cookies to browser. These cookies 
+are 
+sent along with HTTP 
+Header before to Content
+-
+type field. Assuming you want to set UserID and Password 
+as cookies. 
+Setting the 
+cookies 
+is
+ 
+done as follows:
+ 
+#!/usr/bin/python
+ 
+ 
+print
+ 
+"Set
+-
+Cookie:UserID=XYZ;
+\
+r
+\
+n"
+ 
+print
+ 
+"Set
+-
+Cookie:Password=XYZ123;
+\
+r
+\
+n"
+ 
+print
+ 
+"Set
+-
+Cookie:Expires=Tuesday, 31
+-
+Dec
+-
+2007 23:12:40 GMT"
+;
+\
+r
+\
+n
+"
+ 
+print "
+Set
+-
+Cookie
+:
+Domain
+=
+www
+.
+tutorialspoint
+.
+com
+;
+\
+r
+\
+n
+"
+ 
+print "
+Set
+-
+Cookie
+:
+Path
+=/
+perl
+;
+\
+n
+"
+ 
+print "
+Content
+-
+type
+:
+text
+/
+html
+\
+r
+\
+n
+\
+r
+\
+n
+"
+ 
+...........Rest of the HTML 
+Content....
+ 
+From this example, you must have understood how to set cookies. We use
+ 
+Set
+-
+Cookie
+ 
+HTTP header to set cookies.
+ 
+I
+t is optional to set cookies attributes like Expires, Domain
+,
+ 
+and Path. It is notable 
+that cookies are set before sending magi
+c line
+ 
+"Content
+-
+type:text/html
+\
+r
+\
+n
+\
+r
+\
+n
+.
+ 

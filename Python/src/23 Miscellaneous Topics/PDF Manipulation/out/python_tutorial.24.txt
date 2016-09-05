@@ -1,0 +1,142 @@
+ 
+Python
+ 
+ 
+ 
+ 
+12
+ 
+ 
+The number of spaces in the indentation is variable, but all statements within the 
+block must be indented the same amount. 
+For example
+:
+ 
+if
+ 
+True
+:
+ 
+    
+print
+ 
+"True"
+ 
+else
+:
+ 
+  
+print
+ 
+"False"
+ 
+However, the 
+following 
+block 
+generate
+s
+ 
+an error:
+ 
+if
+ 
+True
+:
+ 
+    
+print
+ 
+"Answer"
+ 
+    
+print
+ 
+"True"
+ 
+else
+:
+ 
+    
+print
+ 
+"Answer"
+ 
+  
+print
+ 
+"False"
+ 
+Thus, in Python all the 
+continuous
+ 
+lines indented with 
+same 
+number of spaces would 
+form a block. 
+The 
+f
+ollowing 
+example ha
+s
+ 
+various statement blocks:
+ 
+Note:
+ 
+Do
+ 
+n
+o
+t try to understand 
+the 
+logic 
+at this point of time
+. Just make sure you 
+understood various blocks even if they are 
+without braces.
+ 
+#!/usr/bin/python
+ 
+ 
+import
+ 
+sys
+ 
+ 
+try
+:
+ 
+  
+# open file stream
+ 
+  
+file 
+=
+ 
+open
+(
+file_name
+,
+ 
+"w"
+)
+ 
+except
+ 
+IOError
+:
+ 
+  
+print
+ 
+"There was an error writing to"
+,
+ 
+file_name
+ 
+  
+sys
+.
+exit
+()
+ 

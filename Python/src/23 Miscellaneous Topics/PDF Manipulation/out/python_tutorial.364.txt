@@ -1,0 +1,140 @@
+ 
+Python
+ 
+ 
+ 
+ 
+352
+ 
+ 
+*****
+Movie
+*****
+ 
+Title
+:
+ 
+Ishtar
+ 
+Type
+:
+ 
+Comedy
+ 
+Format
+:
+ 
+VHS
+ 
+Rating
+:
+ 
+PG
+ 
+Stars
+:
+ 
+2
+ 
+Description
+:
+ 
+Viewable
+ 
+boredom
+ 
+For a complete detail on SAX API documentation, please refer to standard
+ 
+Python SAX 
+APIs
+.
+ 
+Parsing XML with DOM APIs
+ 
+The Document 
+Object Model
+ 
+(
+DOM
+)
+ 
+is a cross
+-
+language API from the World Wide Web 
+Consortium (W3C) for accessing and modifying XML documents.
+ 
+The DOM is extremely useful for random
+-
+access applications. SAX only allows you a 
+view of one bit of the document at a ti
+me. If you are looking at one SAX element, 
+you have no access to another.
+ 
+Here is the easiest way to quickly load an XML document and to create a minidom 
+object using the xml.dom module. The minidom object provides a simple parser 
+method that 
+quickly 
+create
+s
+ 
+a DOM tree from the XML file.
+ 
+The sample phrase calls the parse( file [,parser] ) function of the minidom object to 
+parse the XML file designated by file into a DOM tree object.
+ 
+#!/usr/bin/python
+ 
+ 
+from
+ 
+xml
+.
+dom
+.
+minidom 
+import
+ 
+parse
+ 
+import
+ 
+xml
+.
+dom
+.
+minidom
+ 
+ 
+# Open XML document using minidom parser
+ 
+DOMTree
+ 
+=
+ 
+xml
+.
+dom
+.
+minidom
+.
+parse
+(
+"movies.xml"
+)
+ 
+collection 
+=
+ 
+DOMTree
+.
+documentElement
+ 
+if
+ 
+collection
+.
+hasAttribute
+(
+"shelf"
+):
+ 

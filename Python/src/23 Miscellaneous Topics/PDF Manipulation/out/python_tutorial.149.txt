@@ -1,0 +1,141 @@
+ 
+Python
+ 
+ 
+ 
+ 
+137
+ 
+ 
+50.
+ 
+list.pop(obj=list[
+-
+1])
+ 
+Description
+ 
+The method
+ 
+pop()
+ 
+removes and returns last object or
+ 
+obj
+ 
+from the list.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+pop()
+ 
+method:
+ 
+list
+.
+pop
+(
+obj
+=
+list
+[
+-
+1
+])
+ 
+Parameters
+ 
+
+ 
+obj
+ 
+--
+ 
+This is an optional parameter, index of the object to be removed from 
+the list.
+ 
+Return Value
+ 
+This method 
+returns the removed object from the list.
+ 
+Example
+ 
+The following example shows the usage of pop() method.
+ 
+#!/usr/bin/python
+ 
+ 
+aList 
+=
+ 
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+];
+ 
+ 
+print
+ 
+"A List : "
+,
+ 
+aList
+.
+pop
+();
+ 
+print
+ 
+"B List : "
+,
+ 
+aList
+.
+pop
+(
+2
+);
+ 
+When we run above program, it
+ 
+produces following result:
+ 
+A 
+List
+ 
+:
+  
+abc
+ 
+B 
+List
+ 
+:
+  
+zara
+ 
+51.
+ 
+List.remove(obj)
+ 
+Parameters
+ 
+
+ 
+obj
+ 
+--
+ 
+This is the object to be removed from the list.
+ 

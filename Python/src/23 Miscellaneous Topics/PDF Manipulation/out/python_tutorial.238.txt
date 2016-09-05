@@ -1,0 +1,106 @@
+ 
+Python
+ 
+ 
+ 
+ 
+226
+ 
+ 
+NA
+ 
+Return Value
+ 
+This method returns the integer file 
+descriptor.
+ 
+Example
+ 
+The following example shows the usage of fileno() method.
+ 
+#!/usr/bin/python
+ 
+ 
+# Open a file
+ 
+fo 
+=
+ 
+open
+(
+"foo.txt"
+,
+ 
+"wb"
+)
+ 
+print
+ 
+"Name of the file: "
+,
+ 
+fo
+.
+name
+ 
+ 
+fid 
+=
+ 
+fo
+.
+fileno
+()
+ 
+print
+ 
+"File Descriptor: "
+,
+ 
+fid
+ 
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+File Descriptor:  3
+ 
+4.
+ 
+File.isatty()
+ 
+Description
+ 
+The method
+ 
+isatty()
+ 
+returns True if the file is connected (is associated with a 
+terminal device) to a tty(
+-
+like) device, else 
+False.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+isatty()
+ 
+method:
+ 
+fileObject
+.
+isatty
+();
+ 
+Parameters
+ 

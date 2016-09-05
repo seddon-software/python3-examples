@@ -1,0 +1,120 @@
+ 
+Python
+ 
+ 
+ 
+ 
+107
+ 
+ 
+from
+ 
+string
+ 
+import
+ 
+maketrans   
+# Required to call maketrans function.
+ 
+ 
+intab 
+=
+ 
+"aeiou"
+ 
+outtab 
+=
+ 
+"12345"
+ 
+trantab 
+=
+ 
+maketrans
+(
+intab
+,
+ 
+outtab
+)
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+print
+ 
+str
+.
+translate
+(
+trantab
+);
+ 
+When we run above program, it produces following result:
+ 
+th3s 
+3s
+ 
+str3ng 
+2x1mpl2.
+...
+w4w
+!!!
+ 
+26.
+ 
+24. 
+max(str)
+ 
+Description
+ 
+The method
+ 
+max()
+ 
+returns the max alphabetical character fro
+m the string
+ 
+str
+.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+max()
+ 
+method:
+ 
+max
+(
+str
+)
+ 
+Parameters
+ 
+
+ 
+str
+ 
+--
+ 
+This is the string from which max alphabetical character needs to be 
+returned.
+ 
+Return Value
+ 
+This method returns the max alphabetical character from the string 
+str.
+ 
+Example
+ 
+The following example shows the usage of max() method.
+ 
+#!/usr/bin/python
+ 
+ 

@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+437
+ 
+ 
+Any code that you write using any 
+compiled language like C, C++
+,
+ 
+or Java can be 
+integrated or imported into another Python script. This code is considered as an 
+"extension."
+ 
+A Python extension module is nothing more than a normal C library. On Unix 
+machines, these libraries usually end in
+ 
+.so
+ 
+(for shared object). On Windows 
+machines, you typically see
+ 
+.dll
+ 
+(for dynamically linked library).
+ 
+Pre
+-
+Requisite
+s
+ 
+for Writing Extensions
+ 
+To start writing your extension, you are going to need the Python header files.
+ 
+136.
+ 
+On Unix machines, this usually req
+uires 
+installing a developer
+-
+specific package such 
+as
+ 
+python2.5
+-
+dev
+.
+ 
+137.
+ 
+Windows users get these headers as part of 
+the package when they use the binary Python 
+installer.
+ 
+Additionally, it is assumed that you have good knowledge of C or C++ to write any 
+Python Extension using C programming.
+ 
+First 
+L
+ook at a Python 
+E
+xtension
+ 
+For your first look at a Python extension module, you
+ 
+need to
+ 
+group
+ 
+your code into 
+four pa
+rt
+:
+ 
+138.
+ 
+The header file
+ 
+Python.h
+.
+ 
+139.
+ 
+The C functions you want to expose as the 
+interface from your module.
+ 
+140.
+ 
+A table mapping the names of your functions 
+as Python developers 
+see them to C functions 
+inside the extension module.
+ 
+141.
+ 
+An initialization function.
+ 
+27.
+ 
+FURTHER
+ 
+EXTENSIONS
+ 

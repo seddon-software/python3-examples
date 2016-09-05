@@ -1,0 +1,51 @@
+ 
+Python
+ 
+ 
+ 
+ 
+191
+ 
+ 
+12
+ 
+calendar.weekday(year,month,day)
+ 
+Returns the weekday code for the given date. Weekday codes are 0 
+(Monday) to 6 (Sunday); month 
+numbers are 1 (January) to 12 
+(December).
+ 
+Other Modules 
+and
+ 
+Functions
+ 
+If you are interested, then here you would find a list of other important modules and 
+functions to play with date & time in Python:
+ 
+
+ 
+The
+ 
+datetime
+ 
+Module
+ 
+
+ 
+The
+ 
+pytz
+ 
+Module
+ 
+
+ 
+T
+he
+ 
+dateutil
+ 
+Module
+ 

@@ -1,0 +1,92 @@
+ 
+Python
+ 
+ 
+ 
+ 
+399
+ 
+ 
+0.75, and 1.00. These lab
+els appear below the scale if 
+horizontal, to its left if vertical. Default is 0, which suppresses 
+display of ticks.
+ 
+to
+ 
+A float or integer value that defines one end of the scale's 
+range; the other end is defined by the from_ option, discussed 
+above. The 
+to value can be either greater than or less than 
+the from_ value. For vertical scales, the to value defines the 
+bottom of the scale; for horizontal scales, the right end.
+ 
+troughcolor
+ 
+The color of the trough.
+ 
+variable
+ 
+The control variable for this scale, 
+if any. Control variables 
+may be from class IntVar, DoubleVar (float), or StringVar. In 
+the latter case, the numerical value will be converted to a 
+string.
+ 
+width
+ 
+The width of the trough part of the widget. This is the x 
+dimension for vertical scales and t
+he y dimension if the scale 
+has orient=HORIZONTAL. Default is 15 pixels.
+ 
+Methods
+ 
+Scale objects have these methods:
+ 
+Methods
+ 
+Description
+ 
+get()
+ 
+This method returns the current value of the scale.
+ 
+set ( value )
+ 
+Sets the scale's value.
+ 
+Example
+ 
+Try the 
+following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+def
+ 
+sel
+():
+ 
+   
+selection 
+=
+ 
+"Value = "
+ 
++
+ 
+str
+(
+var
+.
+get
+())
+ 

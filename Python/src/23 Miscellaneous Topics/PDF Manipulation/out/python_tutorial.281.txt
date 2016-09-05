@@ -1,0 +1,143 @@
+ 
+Python
+ 
+ 
+ 
+ 
+269
+ 
+ 
+ 
+class
+ 
+Child
+(
+Parent
+):
+ 
+# define child class
+ 
+   
+def
+ 
+__init__
+(
+self
+):
+ 
+      
+print
+ 
+"Calling child constructor"
+ 
+ 
+   
+def
+ 
+childMethod
+(
+self
+):
+ 
+      
+print
+ 
+'Calling child method'
+ 
+ 
+c 
+=
+ 
+Child
+()
+          
+# instance of child
+ 
+c
+.
+childMethod
+()
+      
+# child calls its method
+ 
+c
+.
+parentMethod
+()
+     
+# calls parent's method
+ 
+c
+.
+setAttr
+(
+200
+)
+       
+# again call
+ 
+parent's method
+ 
+c
+.
+getAttr
+()
+          
+# again call parent's method
+ 
+When the above code is executed, it produces the following result:
+ 
+Calling
+ 
+child constructor
+ 
+Calling
+ 
+child method
+ 
+Calling
+ 
+parent method
+ 
+Parent
+ 
+attribute 
+:
+ 
+200
+ 
+Similar way, you can drive a c
+lass from multiple parent classes as follows:
+ 
+class
+ 
+A
+:
+        
+# define your class A
+ 
+.....
+ 
+ 
+class
+ 
+B
+:
+         
+# define your calss B
+ 
+.....
+ 
+ 
+class
+ 
+C
+(
+A
+,
+ 
+B
+):
+   
+# subclass of A and B
+ 

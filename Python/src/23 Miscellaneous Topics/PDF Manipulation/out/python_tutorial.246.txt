@@ -1,0 +1,108 @@
+ 
+Python
+ 
+ 
+ 
+ 
+234
+ 
+ 
+If the file is opened in text mode using 't', only offsets returned by tell() are legal. 
+Use of other offsets causes undefined behavior.
+ 
+Note that not all file objects are seekable.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+seek()
+ 
+method:
+ 
+fileObject
+.
+seek
+(
+offset
+[,
+ 
+whence
+])
+ 
+Parameters
+ 
+
+ 
+offset
+ 
+--
+ 
+This is the position of the read/write pointer within the file.
+ 
+
+ 
+whence
+ 
+--
+ 
+This is optional and defaults to 0 which means absolute file positioning, other values 
+are 1 which means seek relative to the current 
+position and 2 means seek relative to the file's end.
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of seek() method.
+ 
+#!/usr/bin/python
+ 
+ 
+# Open a file
+ 
+fo 
+=
+ 
+open
+(
+"foo.txt"
+,
+ 
+"rw+"
+)
+ 
+print
+ 
+"Name of the file: 
+"
+,
+ 
+fo
+.
+name
+ 
+ 
+# Assuming file has following 5 lines
+ 
+# This is 1st line
+ 
+# This is 2nd line
+ 
+# This is 3rd line
+ 
+# This is 4th line
+ 
+# This is 5th line
+ 
+ 
+line 
+=
+ 
+fo
+.
+readline
+()
+ 

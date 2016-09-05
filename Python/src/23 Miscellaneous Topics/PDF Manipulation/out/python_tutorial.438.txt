@@ -1,0 +1,148 @@
+ 
+Python
+ 
+ 
+ 
+ 
+426
+ 
+ 
+64.
+ 
+underline:
+ 
+1 for underlined text, 0 for normal.
+ 
+65.
+ 
+overstrike:
+ 
+1 for overstruck text, 0 for normal.
+ 
+Example
+ 
+helv36 
+=
+ 
+tkFont
+.
+Font
+(
+family
+=
+"Helvetica"
+,
+size
+=
+36
+,
+weight
+=
+"bold"
+)
+ 
+X Window Fonts
+ 
+If you are running under the 
+X Window System, you can use any of the X font names.
+ 
+For example, the font named "
+-
+*
+-
+lucidatypewriter
+-
+medium
+-
+r
+-
+*
+-
+*
+-
+*
+-
+140
+-
+*
+-
+*
+-
+*
+-
+*
+-
+*
+-
+*" is the author's favorite fixed
+-
+width font for onscreen use. Use the
+ 
+xfontsel
+ 
+program 
+to help you select pleasing fonts.
+ 
+66.
+ 
+Anchors
+ 
+Anchors are used to define where text is positioned relative to a reference point.
+ 
+Here is list of possible constants, which can be used for Anchor attribute.
+ 
+67.
+ 
+NW
+ 
+68.
+ 
+N
+ 
+69.
+ 
+NE
+ 
+70.
+ 
+W
+ 
+71.
+ 
+CENTER
+ 
+72.
+ 
+E
+ 
+73.
+ 
+SW
+ 
+74.
+ 
+S
+ 
+75.
+ 
+SE
+ 
+For 
+example, if you use CENTER as a text anchor, the text will be centered 
+horizontally and vertically around the reference point.
+ 
+Anchor NW will position the text so that the reference point coincides with the 
+northwest (top left) corner of the box containing
+ 
+the text.
+ 
+Anchor W will center the text vertically around the reference point, with the left edge 
+of the text box passing through that point, and so on.
+ 
+If you create a small widget inside a large frame and use the anchor=SE option, the 
+widget will be pla
+ced in the bottom right corner of the frame. If you used anchor=N 
+instead, the widget would be centered along the top edge.
+ 
+Example
+ 

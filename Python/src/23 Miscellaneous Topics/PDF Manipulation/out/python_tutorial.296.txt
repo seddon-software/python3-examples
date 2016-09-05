@@ -1,0 +1,104 @@
+ 
+Python
+ 
+ 
+ 
+ 
+284
+ 
+ 
+This matches the smallest number of repetitions:
+ 
+Example
+ 
+Description
+ 
+<.*>
+ 
+Greedy repetition: matches "<python>perl>"
+.
+ 
+<.*?>
+ 
+Nongreedy: matches "<python>" in "<python>perl>"
+.
+ 
+Grouping with 
+P
+arentheses
+ 
+Example
+ 
+Description
+ 
+\
+D
+\
+d+
+ 
+No group: + repeats 
+\
+d
+.
+ 
+(
+\
+D
+\
+d)+
+ 
+Grouped: + repeats 
+\
+D
+\
+d pair
+.
+ 
+([Pp]ython(, )?)+
+ 
+Match "Python", "Python, python, python", etc.
+ 
+Backreferences
+ 
+This matches a previously matched group again:
+ 
+Example
+ 
+Description
+ 
+([Pp])ython&
+\
+1ails
+ 
+Match python&pails or Python&Pails
+.
+ 
+(['"])[^
+\
+1]*
+\
+1
+ 
+Single or double
+-
+quoted string. 
+\
+1 matches whatever the 1st 
+group matched. 
+\
+2 matches whatever the 2nd group matched, 
+etc.
+ 
+Alternatives
+ 
+Example
+ 
+Description
+ 
+python|perl
+ 
+Match "python"
+ 
+or "perl"
+.
+ 

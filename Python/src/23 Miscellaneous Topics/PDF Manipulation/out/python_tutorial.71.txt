@@ -1,0 +1,130 @@
+ 
+Python
+ 
+ 
+ 
+ 
+59
+ 
+ 
+   
+print
+ 
+count
+,
+ 
+" is not less than 5"
+ 
+When the above code is executed, it produces the following result:
+ 
+0
+ 
+is
+ 
+less than 
+5
+ 
+1
+ 
+is
+ 
+less than 
+5
+ 
+2
+ 
+is
+ 
+less than 
+5
+ 
+3
+ 
+is
+ 
+less than 
+5
+ 
+4
+ 
+is
+ 
+less than 
+5
+ 
+5
+ 
+is
+ 
+not
+ 
+less than 
+5
+ 
+Single Statement Suites
+ 
+Similar to the
+ 
+if
+ 
+statement syntax, if your
+ 
+while
+ 
+clause consists only of a single 
+statement, it may be placed on the same line as the while header.
+ 
+Here is the syntax and example of a
+ 
+one
+-
+line while
+ 
+clause:
+ 
+#!/usr/bin/python
+ 
+ 
+flag 
+=
+ 
+1
+ 
+ 
+while
+ 
+(
+flag
+):
+ 
+print
+ 
+'Given flag is really true!'
+ 
+ 
+print
+ 
+"Good bye!"
+ 
+It
+ 
+i
+s better not try above example because it go
+es
+ 
+into infinite loop and you 
+need to 
+press
+ 
+CTRL+C keys to 
+exit
+.
+ 
+For Loop
+ 
+It 
+has the ability to iterate over 
+the items of any sequence, such as a list or a string.
+ 
+Syntax
+ 

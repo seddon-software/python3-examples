@@ -1,0 +1,102 @@
+ 
+Python
+ 
+ 
+ 
+ 
+372
+ 
+ 
+ 
+w 
+=
+ 
+Frame
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters:
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be 
+used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The normal background color displayed behind the label and 
+indicator.
+ 
+bd
+ 
+The size of the border around the indicator. Default is 2 pixels.
+ 
+cursor
+ 
+If you set this option to a cursor name 
+(
+arrow, dot etc.
+), the 
+mouse cursor will change to that pattern when it is over the 
+checkbutton.
+ 
+height
+ 
+The vertical dimension of the new frame.
+ 
+highlightbackground
+ 
+Color of the focus highlight when the frame does not have 
+focus.
+ 
+highlightcolor
+ 
+Color sh
+own in the focus highlight when the frame has the 
+focus.
+ 
+highlightthickness
+ 
+Thickness of the focus highlight.
+ 
+relief
+ 
+With the default value, relief=FLAT, the checkbutton does not 
+stand out from its background. You may set this option to any 
+of the other 
+styles
+ 
+width
+ 
+The default width of a checkbutton is determined by the size 
+of the displayed image or text. You can set this option to a 
+number of characters and the checkbutton will always have 
+room for that many characters.
+ 
+Example
+ 

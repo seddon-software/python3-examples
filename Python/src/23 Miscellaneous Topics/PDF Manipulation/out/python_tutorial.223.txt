@@ -1,0 +1,82 @@
+ 
+Python
+ 
+ 
+ 
+ 
+211
+ 
+ 
+This chapter 
+cover
+s
+ 
+all the basic I/O functions available in Python. For more functions, 
+please refer to standard Python documentation.
+ 
+Printing to the Screen
+ 
+The simplest way to 
+produce output is using the
+ 
+print
+ 
+statement where you can pass 
+zero or more expressions separated by commas. This function converts the 
+expressions you pass into a string and writes the result to standard output as follows:
+ 
+#!/usr/bin/python
+ 
+ 
+print "Python
+ 
+is really a great language,", "isn't it?";
+ 
+This 
+produce
+s
+ 
+the following result on your standard screen:
+ 
+Python is really a great language, isn't it?
+ 
+Reading Keyboard Input
+ 
+Python provides two built
+-
+in functions to read a line of text from standard i
+nput, 
+which by default comes from the keyboard. These functions are:
+ 
+
+ 
+raw_input
+ 
+
+ 
+input
+ 
+The
+ 
+raw_input
+ 
+Function
+ 
+The
+ 
+raw_input([prompt])
+ 
+function reads one line from standard input and returns it 
+as a string (removing the trailing newline).
+ 
+#!/usr/bin/python
+ 
+ 
+str = raw_input("Enter your input: ");
+ 
+print "Received input is : ", str
+ 
+16.
+ 
+FILES I/O
+ 

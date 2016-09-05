@@ -1,0 +1,80 @@
+ 
+Python
+ 
+ 
+ 
+ 
+393
+ 
+ 
+borderwidth
+ 
+The size of the border around the indicator part itself. Default 
+is 2 pixels.
+ 
+command
+ 
+A 
+procedure to be called every time the user changes the state 
+of this radiobutton.
+ 
+cursor
+ 
+If you set this option to a cursor name (
+arrow, dot etc.
+), the 
+mouse cursor will change to that pattern when it is over the 
+radiobutton.
+ 
+font
+ 
+The font used for the t
+ext.
+ 
+fg
+ 
+The color used to render the text.
+ 
+height
+ 
+The number of lines (not pixels) of text on the radiobutton. 
+Default is 1.
+ 
+highlightbackground
+ 
+The color of the focus highlight when the radiobutton does not 
+have focus.
+ 
+highlightcolor
+ 
+The color of the 
+focus highlight when the radiobutton has the 
+focus.
+ 
+image
+ 
+To display a graphic image instead of text for this radiobutton, 
+set this option to an image object.
+ 
+justify
+ 
+If the text contains multiple lines, this option controls how the 
+text is justified: CE
+NTER (the default), LEFT, or RIGHT.
+ 
+padx
+ 
+How much space to leave to the left and right of the 
+radiobutton and text. Default is 1.
+ 
+pady
+ 
+How much space to leave above and below the radiobutton 
+and text. Default is 1.
+ 
+relief
+ 
+Specifies the appearance of a 
+decorative border around the 
+label. The default is FLAT; for other values.
+ 

@@ -1,0 +1,157 @@
+ 
+Python
+ 
+ 
+ 
+ 
+195
+ 
+ 
+   
+"This changes a passed list into this function"
+ 
+   
+mylist 
+=
+ 
+[
+1
+,
+2
+,
+3
+,
+4
+];
+ 
+# This would assig new reference in mylist
+ 
+   
+print
+ 
+"Values inside the function: 
+"
+,
+ 
+mylist
+ 
+   
+return
+ 
+ 
+# Now you can call changeme function
+ 
+mylist 
+=
+ 
+[
+10
+,
+20
+,
+30
+];
+ 
+changeme
+(
+ 
+mylist 
+);
+ 
+print
+ 
+"Values outside the function: "
+,
+ 
+mylist
+ 
+The parameter 
+mylist
+ 
+is local to the function 
+changeme
+. Changing 
+mylist
+ 
+within the 
+function does not affect 
+mylist
+. The function accomplishes nothing and finally this 
+would produce the following result:
+ 
+Values
+ 
+inside the 
+function
+:
+  
+[
+1
+,
+ 
+2
+,
+ 
+3
+,
+ 
+4
+]
+ 
+Values
+ 
+outside the 
+function
+:
+  
+[
+10
+,
+ 
+20
+,
+ 
+30
+]
+ 
+Function Arguments
+ 
+You can call a function by using the following types of f
+ormal arguments:
+ 
+
+ 
+Required arguments
+ 
+
+ 
+Keyword arguments
+ 
+
+ 
+Default arguments
+ 
+
+ 
+Variable
+-
+length arguments
+ 
+Required Arguments
+ 
+Required arguments are the arguments passed to a function in correct positional 
+order. Here, the number of arguments in the function call 
+should match exactly with 
+the function definition.
+ 
+To call the function
+ 
+printme()
+, you definitely need to pass one argument, otherwise 
+it give
+s
+ 
+a syntax error as follows:
+ 
+#!/usr/bin/python
+ 

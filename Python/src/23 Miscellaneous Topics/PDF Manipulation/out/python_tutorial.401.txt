@@ -1,0 +1,80 @@
+ 
+Python
+ 
+ 
+ 
+ 
+389
+ 
+ 
+root
+.
+config
+(
+menu
+=
+menubar
+)
+ 
+root
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+10.
+ 
+Message
+ 
+This widget provides a multiline and noneditable object that displays texts, 
+automatically breaking lines and justifying their contents.
+ 
+Its functionality is very similar to the o
+ne provided by the Label widget, except that 
+it can also automatically wrap the text, maintaining a given width or aspect ratio.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+ 
+w 
+=
+ 
+Message
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+11.
+master:
+ 
+This represents
+ 
+the parent window.
+ 
+12.
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 

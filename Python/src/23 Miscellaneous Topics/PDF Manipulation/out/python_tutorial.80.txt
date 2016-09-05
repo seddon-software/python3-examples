@@ -1,0 +1,81 @@
+ 
+Python
+ 
+ 
+ 
+ 
+68
+ 
+ 
+ 
+Continue Statement
+ 
+It
+ 
+returns the control to the beginning of the while loop. The
+ 
+continue
+ 
+statement 
+rejects 
+all the remaining statements in the current iteration of the loop and moves 
+the control back to the top of the loop.
+ 
+The
+ 
+continue
+ 
+statement can be used in both
+ 
+while
+ 
+and
+ 
+for
+ 
+loops.
+ 
+Syntax
+ 
+continue
+ 
+Flow Diagram
+ 
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+for
+ 
+letter 
+in
+ 
+'Py
+thon'
+:
+     
+# First Example
+ 
+   
+if
+ 
+letter 
+==
+ 
+'h'
+:
+ 
+      
+continue
+ 
+   
+print
+ 
+'Current Letter :'
+,
+ 
+letter
+ 
+ 

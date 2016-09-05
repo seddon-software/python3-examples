@@ -1,0 +1,118 @@
+ 
+Python
+ 
+ 
+ 
+ 
+425
+ 
+ 
+54.
+ 
+highlightcolor:
+ 
+Foreground color of the 
+highlight region when
+ 
+the widget has focus.
+ 
+55.
+ 
+selectbackground:
+ 
+Background color for the 
+selected items of the widget.
+ 
+56.
+ 
+selectforeground:
+ 
+Foreground color for the 
+selected items of the widget.
+ 
+57.
+ 
+Fonts
+ 
+There may be up to three way
+s to specify type style.
+ 
+Simple Tuple Fonts
+ 
+As a tuple whose first element is the font family, followed by a size in points, 
+optionally followed by a string containing one or more of the style modifiers bold, 
+italic, underline and overstrike.
+ 
+Example
+ 
+58.
+ 
+("Hel
+vetica", "16") for a 16
+-
+point Helvetica 
+regular.
+ 
+59.
+ 
+("Times", "24", "bold italic") for a 24
+-
+point 
+Times bold italic.
+ 
+Font object Fonts
+ 
+You can create a "font object" by importing the tkFont module and using its Font 
+class constructor:
+ 
+import
+ 
+tkFont
+ 
+ 
+font 
+=
+ 
+tkFont
+.
+Font
+ 
+(
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Here is the list of options:
+ 
+60.
+ 
+family:
+ 
+The font family name as a string.
+ 
+61.
+ 
+size:
+ 
+The font height as an integer in points. To 
+get a font n pixels high, use 
+-
+n.
+ 
+62.
+ 
+weight:
+ 
+"bold" for boldface, "normal" for 
+regular weight.
+ 
+63.
+ 
+slant:
+ 
+"italic" for italic, "roman" for unslanted.
+ 

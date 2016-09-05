@@ -1,0 +1,93 @@
+ 
+Python
+ 
+ 
+ 
+ 
+173
+ 
+ 
+S
+r. 
+N
+o.
+ 
+Function with Description
+ 
+1
+ 
+time.altzone
+ 
+The offset of the local DST timezone, in seconds west of UTC, if one is 
+defined. This is negative if the local DST timezone is east of UTC (as 
+in Western Europe, including the UK). 
+Only use this if daylight is 
+nonzero.
+ 
+2
+ 
+time.asctime([tupletime])
+ 
+Accepts a time
+-
+tuple and returns a readable 24
+-
+character string such 
+as 'Tue Dec 11 18:07:14 2008'.
+ 
+3
+ 
+time.clock( )
+ 
+Returns the current CPU time as a floating
+-
+point number of seconds. 
+To measure computational costs of different approaches, the value of 
+time.clock is more useful than that of time.time().
+ 
+4
+ 
+time.ctime([secs])
+ 
+Like asctime(localtime(secs)) and without arguments is like asctime( 
+)
+ 
+5
+ 
+time.gmtime([secs])
+ 
+Accepts an instant expressed 
+in seconds since the epoch and returns 
+a time
+-
+tuple t with the UTC time. Note : t.tm_isdst is always 0
+ 
+6
+ 
+time.localtime([secs])
+ 
+Accepts an instant expressed in seconds since the epoch and returns 
+a time
+-
+tuple t with the local time (t.tm_isdst is 0 or 1, depending on 
+whether DST applies to instant secs by local rules).
+ 
+7
+ 
+time.mktime(tupletime)
+ 
+Accepts an instant expressed as a time
+-
+tuple in lo
+cal time and returns 
+a floating
+-
+point value with the instant expressed in seconds since the 
+epoch.
+ 
+8
+ 
+time.sleep(secs)
+ 
+Suspends the calling thread for secs seconds.
+ 

@@ -1,0 +1,106 @@
+ 
+Python
+ 
+ 
+ 
+ 
+421
+ 
+ 
+Some of these functions are showinfo, showwarning, showerror, askquestion, 
+askokcancel, askyesno
+,
+ 
+and askretryignore.
+ 
+Syntax:
+ 
+Here is the simple syntax to create this widget
+:
+ 
+tkMessageBox
+.
+FunctionName
+(
+title
+,
+ 
+message 
+[,
+ 
+options
+])
+ 
+Parameters
+ 
+24.
+ 
+FunctionName:
+ 
+This is the name of the 
+appropriate message box function.
+ 
+25.
+ 
+title:
+ 
+This is the text to be displayed in the title 
+bar of a message box.
+ 
+26.
+ 
+message:
+ 
+This is the text to be displayed 
+as a 
+message.
+ 
+27.
+ 
+options:
+ 
+options are alternative choices that 
+you may use to tailor a standard message 
+box. Some of the options that you can use are 
+default and parent. The default option is used 
+to specify the default button, such as ABORT, 
+RETRY, or IGNORE
+ 
+in the message box. The 
+parent option is used to specify the window 
+on top of which the message box is to be 
+displayed.
+ 
+You could use one of the following functions with dialogue box:
+ 
+28.
+ 
+showinfo()
+ 
+29.
+ 
+showwarning()
+ 
+30.
+ 
+showerror ()
+ 
+31.
+ 
+askquestion()
+ 
+32.
+ 
+askokcancel()
+ 
+33.
+ 
+askye
+sno ()
+ 
+34.
+ 
+askretrycancel ()
+ 
+Example
+ 

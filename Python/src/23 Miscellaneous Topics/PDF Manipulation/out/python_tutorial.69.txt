@@ -1,0 +1,137 @@
+ 
+Python
+ 
+ 
+ 
+ 
+57
+ 
+ 
+The
+ 
+count 
+is
+:
+ 
+3
+ 
+The
+ 
+count 
+is
+:
+ 
+4
+ 
+The
+ 
+count 
+is
+:
+ 
+5
+ 
+The
+ 
+count 
+is
+:
+ 
+6
+ 
+The
+ 
+count 
+is
+:
+ 
+7
+ 
+The
+ 
+count 
+is
+:
+ 
+8
+ 
+Good
+ 
+bye
+!
+ 
+The block here, consisting of the print and increment statements, is 
+executed 
+repeatedly until count is no longer less than 9. With each iteration, the current value 
+of the index count is displayed and then increased by 1.
+ 
+The Inf
+inite Loop
+ 
+A loop becomes infinite loop if a condition never becomes 
+FALSE
+. You must use 
+cautio
+n when using while loops because of the possibility that this condition never 
+resolves to a 
+FALSE 
+value. This results in a loop that never ends. Such a loop is called 
+an infinite loop.
+ 
+An infinite loop might be useful in client/server programming where the
+ 
+server needs 
+to run continuously so that client programs can communicate with it as and when 
+required.
+ 
+#!/usr/bin/python
+ 
+ 
+var
+ 
+=
+ 
+1
+ 
+while
+ 
+var
+ 
+==
+ 
+1
+ 
+:
+  
+# This constructs an infinite loop
+ 
+   
+num 
+=
+ 
+raw_input
+(
+"Enter a number  :"
+)
+ 
+   
+print
+ 
+"You entered: "
+,
+ 
+num
+ 
+ 
+print
+ 
+"Good bye!"
+ 
+When the above code is executed, it produces the following result:
+ 
+Enter
+ 
+a number  
+:
+20
+ 

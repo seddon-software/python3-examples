@@ -1,0 +1,87 @@
+ 
+Python
+ 
+ 
+ 
+ 
+100
+ 
+ 
+str = "       "; 
+ 
+print 
+str.isspace();
+ 
+ 
+str = "This is string example....wow!!!";
+ 
+print str.isspace();
+ 
+When we run above program, it produces following result:
+ 
+True
+ 
+False
+ 
+18.
+ 
+16. 
+istitle()
+ 
+Description
+ 
+The method
+ 
+istitle()
+ 
+che
+cks whether all the case
+-
+based characters in the string 
+following non
+-
+casebased letters are uppercase and all other case
+-
+based characters 
+are lowercase.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+istitle()
+ 
+method:
+ 
+str
+.
+istitle
+()
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return Value
+ 
+This 
+method returns true if the string is a titlecased string and there is at least one 
+character, for example uppercase characters may only follow uncased characters and 
+lowercase characters only cased ones.It returns false otherwise.
+ 
+Example
+ 
+The following exa
+mple shows the usage of istitle() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"This Is String Example...Wow!!!"
+;
+ 

@@ -8,4 +8,4 @@ os.chdir("out")
 
 zipfile.ZipFile("../zips/Perl.zip", "r").extractall()
 
-print os.listdir(".")
+print(os.listdir("."))

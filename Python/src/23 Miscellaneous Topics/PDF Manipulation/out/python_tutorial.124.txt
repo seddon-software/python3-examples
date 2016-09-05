@@ -1,0 +1,119 @@
+ 
+Python
+ 
+ 
+ 
+ 
+112
+ 
+ 
+This method returns last index if found 
+otherwise raises an exception if str is not 
+found.
+ 
+Example
+ 
+The following example shows the usage of rindex() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str1 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+str2 
+=
+ 
+"is"
+;
+ 
+ 
+print
+ 
+str1
+.
+rindex
+(
+str2
+);
+ 
+print
+ 
+str1
+.
+index
+(
+str2
+);
+ 
+When we run ab
+ove program, it produces following result:
+ 
+5
+ 
+2
+ 
+31.
+ 
+29. 
+rjust(width,[, fillchar])
+ 
+Description
+ 
+The method
+ 
+rjust()
+ 
+returns the string right justified in a string of length
+ 
+width
+. 
+Padding is done using the 
+specified
+ 
+fillchar
+ 
+(default is a space). The original string is 
+returned if width is less than len(s).
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+rjust()
+ 
+method:
+ 
+str
+.
+rjust
+(
+width
+[,
+ 
+fillchar
+])
+ 
+Parameters
+ 
+
+ 
+width
+ 
+--
+ 
+This is the string length in total after padding.
+ 
+
+ 
+fillchar
+ 
+--
+ 
+This is the filler character, default is a space.
+ 
+Return Value
+ 

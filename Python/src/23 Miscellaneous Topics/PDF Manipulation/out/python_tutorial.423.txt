@@ -1,0 +1,63 @@
+ 
+Python
+ 
+ 
+ 
+ 
+411
+ 
+ 
+state()
+ 
+Returns the current state of the window. Possible values are normal, iconic, 
+withdrawn and icon.
+ 
+tran
+sient([master])
+ 
+Turns the window into a temporary(transient) window for the given master or to the 
+window's parent, when no argument is given.
+ 
+withdraw()
+ 
+Removes the window from the screen, without destroying it.
+ 
+maxsize(width, height)
+ 
+Defines the 
+maximum size for this window.
+ 
+minsize(width, height)
+ 
+Defines the minimum size for this window.
+ 
+positionfrom(who)
+ 
+Defines the position controller.
+ 
+resizable(width, height)
+ 
+Defines the resize flags, which control whether the window can be resized.
+ 
+sizefr
+om(who)
+ 
+Defines the size controller.
+ 
+title(string)
+ 
+Defines the window title.
+ 
+Example
+ 
+Try following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 

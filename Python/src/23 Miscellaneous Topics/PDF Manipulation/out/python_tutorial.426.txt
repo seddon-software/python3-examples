@@ -1,0 +1,75 @@
+ 
+Python
+ 
+ 
+ 
+ 
+414
+ 
+ 
+state
+ 
+One of NORMAL, 
+DISABLED, or "readonly". Default is 
+NORMAL.
+ 
+textvariable
+ 
+No default value.
+ 
+to
+ 
+See from.
+ 
+validate
+ 
+Validation mode. Default is NONE.
+ 
+validatecommand
+ 
+Validation callback. No default value.
+ 
+values
+ 
+A tuple containing valid values for this widget. Overrides
+ 
+from/to/increment.
+ 
+vcmd
+ 
+Same as validatecommand.
+ 
+width
+ 
+Widget width, in character units. Default is 20.
+ 
+wrap
+ 
+If true, the up and down buttons will wrap around.
+ 
+xscrollcommand
+ 
+Used to connect a spinbox field to a horizontal scrollbar. This 
+option 
+should be set to the set method of the corresponding 
+scrollbar.
+ 
+Methods
+ 
+Spinbox objects have these methods:
+ 
+Methods 
+and
+ 
+Description
+ 
+delete(startindex [,endindex])
+ 
+This method deletes a specific character or a range of text.
+ 
+get(startindex [,endindex])
+ 
+This method returns a specific character or a range of text.
+ 
+identify(x, y)
+ 

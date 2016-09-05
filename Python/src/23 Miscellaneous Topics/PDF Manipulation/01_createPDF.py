@@ -24,5 +24,5 @@ addPage(["Page 4"])
 addPage(["Page 5 - line 1", "line 2", "line 3", "line 4", "line 5", "line 6", "line 7"])
 
 c.save()
-print "{0} created".format(filename)
+print("{0} created".format(filename))
     

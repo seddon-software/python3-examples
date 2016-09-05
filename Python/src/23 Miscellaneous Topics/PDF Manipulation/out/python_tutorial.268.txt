@@ -1,0 +1,152 @@
+ 
+Python
+ 
+ 
+ 
+ 
+256
+ 
+ 
+ 
+try
+:
+ 
+   
+fh 
+=
+ 
+open
+(
+"testfile"
+,
+ 
+"w"
+)
+ 
+   
+try
+:
+ 
+      
+fh
+.
+write
+(
+"This is my test file for exception handling!!"
+)
+ 
+   
+finally
+:
+ 
+      
+print
+ 
+"Going to close the file"
+ 
+      
+fh
+.
+close
+()
+ 
+except
+ 
+IOError
+:
+ 
+   
+print
+ 
+"Error: can
+\
+'t find file or read data"
+ 
+When an exception is thrown in the
+ 
+try
+ 
+block, the execution immediately pass
+es to 
+the
+ 
+finally
+ 
+block. After all the statements in the 
+finally
+ 
+block are executed, the 
+exception is raised again and is handled in the
+ 
+except
+ 
+statements if present in the 
+next higher layer of the
+ 
+try
+-
+except
+ 
+statement.
+ 
+Argument of an Exception
+ 
+An excepti
+on can have an
+ 
+argument
+, which is a value that gives additional information 
+about the problem. The contents of the argument vary by exception. You 
+can 
+capture 
+an exception's argument by supplying a variable in the except clause as follows:
+ 
+try
+:
+ 
+   
+You
+ 
+do
+ 
+your operations here
+;
+ 
+   
+......................
+ 
+except
+ 
+ExceptionType
+,
+ 
+Argument
+:
+ 
+   
+You
+ 
+can 
+print
+ 
+value of 
+Argument
+ 
+here
+...
+ 
+If you 
+writ
+e
+ 
+the code to handle a single exception, you can have a variable follow the 
+name of the exception in the except st
+atement. If you are trapping multiple 
+exceptions, you can have a variable follow the tuple of the exception.
+ 
+This variable 
+receive
+s
+ 
+the value of the exception mostly containing the cause of the 
+exception. The variable can receive a single value or multiple values in the form of a 

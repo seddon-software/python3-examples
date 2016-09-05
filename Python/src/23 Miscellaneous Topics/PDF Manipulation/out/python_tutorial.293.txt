@@ -1,0 +1,119 @@
+ 
+Python
+ 
+ 
+ 
+ 
+281
+ 
+ 
+(?: re)
+ 
+Groups regular expressions without remembering matched text.
+ 
+(?imx: re)
+ 
+Temporarily toggles on i, m, or x options within parentheses.
+ 
+(?
+-
+imx: re)
+ 
+Temporarily toggles off i, m, or x options within 
+parentheses.
+ 
+(?#...)
+ 
+Comment.
+ 
+(?= re)
+ 
+Specifies position using a pattern. Doesn't have a range.
+ 
+(?! re)
+ 
+Specifies position using pattern negation. Does
+ 
+n
+o
+t have a range.
+ 
+(?> re)
+ 
+Matches independent pattern without backtracking.
+ 
+\
+w
+ 
+Matches word 
+characters.
+ 
+\
+W
+ 
+Matches non
+-
+word characters.
+ 
+\
+s
+ 
+Matches whitespace. Equivalent to [
+\
+t
+\
+n
+\
+r
+\
+f].
+ 
+\
+S
+ 
+Matches non
+-
+whitespace.
+ 
+\
+d
+ 
+Matches digits. Equivalent to [0
+-
+9].
+ 
+\
+D
+ 
+Matches non
+-
+digits.
+ 
+\
+A
+ 
+Matches beginning of string.
+ 
+\
+Z
+ 
+Matches end of string. If a 
+newline exists, it matches just before 
+newline.
+ 
+\
+z
+ 
+Matches end of string.
+ 
+\
+G
+ 
+Matches point where last match finished.
+ 
+\
+b
+ 
+Matches word boundaries when outside brackets. Matches 
+backspace (0x08) when inside brackets.
+ 

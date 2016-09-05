@@ -1,0 +1,210 @@
+ 
+Python
+ 
+ 
+ 
+ 
+336
+ 
+ 
+Thread
+-
+1
+:
+ 
+Thu
+ 
+Jan
+ 
+22
+ 
+15
+:
+42
+:
+25
+ 
+2009
+ 
+Thread
+-
+2
+:
+ 
+Thu
+ 
+Jan
+ 
+22
+ 
+15
+:
+42
+:
+27
+ 
+2009
+ 
+Thread
+-
+2
+:
+ 
+Thu
+ 
+Jan
+ 
+22
+ 
+15
+:
+42
+:
+31
+ 
+2009
+ 
+Thread
+-
+2
+:
+ 
+Thu
+ 
+Jan
+ 
+22
+ 
+15
+:
+42
+:
+35
+ 
+2009
+ 
+Although it is very effective for low
+-
+level threading, but the
+ 
+thread
+ 
+module is very 
+limited compared to the newer threading 
+module.
+ 
+The
+ 
+Threading
+ 
+Module:
+ 
+The newer threading module included with Python 2.4 provides much more powerful, 
+high
+-
+level support for threads than the thread module discussed in the previous 
+section.
+ 
+The
+ 
+threading
+ 
+module exposes all the methods of the
+ 
+thre
+ad
+ 
+module and provides 
+some additional methods:
+ 
+
+ 
+threading.activeCount():
+ 
+Returns the number of thread objects that are 
+active.
+ 
+
+ 
+threading.currentThread():
+ 
+Returns the number of thread objects in the 
+caller's thread control.
+ 
+
+ 
+threading.enumerate():
+ 
+Returns a 
+list of all thread objects that are currently 
+active.
+ 
+In addition to the methods, the threading module has the
+ 
+Thread
+ 
+class that 
+implements threading. The methods provided by the
+ 
+Thread
+ 
+class are as follows:
+ 
+
+ 
+run():
+ 
+The run() method is the entry point for a
+ 
+thread.
+ 
+
+ 
+start():
+ 
+The start() method starts a thread by calling the run method.
+ 
+
+ 
+join([time]):
+ 
+The join() waits for threads to terminate.
+ 
+
+ 
+isAlive():
+ 
+The isAlive() method checks whether a thread is still executing.
+ 
+
+ 
+getName():
+ 
+The getName() method returns the
+ 
+name of a thread.
+ 
+
+ 
+setName():
+ 
+The setName() method sets the name of a thread.
+ 
+Creating Thread 
+U
+sing
+ 
+Threading
+ 
+Module:
+ 
+To implement a new thread using the threading module, you have to do the following:
+ 
+
+ 
+Define a new subclass of the
+ 
+Thread
+ 
+class.
+ 

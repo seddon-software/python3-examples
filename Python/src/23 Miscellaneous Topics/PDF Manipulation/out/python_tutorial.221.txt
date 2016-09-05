@@ -1,0 +1,115 @@
+ 
+Python
+ 
+ 
+ 
+ 
+209
+ 
+ 
+Packages in Python
+ 
+A package is a hierarchical file directory 
+structure that defines a single Python 
+application environment that consists of modules and subpackages and sub
+-
+subpackages, and so on.
+ 
+Consider a file
+ 
+Pots.py
+ 
+available in
+ 
+Phone
+ 
+directory. This file has following line of 
+source code:
+ 
+#!/usr/bin/python
+ 
+ 
+def
+ 
+Pots
+():
+ 
+   
+print
+ 
+"I'm Pots Phone"
+ 
+Similar way, we have another two files having different functions with the same name 
+as above:
+ 
+
+ 
+Phone/Isdn.py
+ 
+file having function Isdn()
+ 
+
+ 
+Phone/G3.py
+ 
+file having 
+function G3()
+ 
+Now, create one more file __init__.py in
+ 
+Phone
+ 
+directory:
+ 
+
+ 
+Phone/__init__.py
+ 
+To make all of your functions available when you've imported Phone, you need to put 
+explicit import statements in __init__.py as follows:
+ 
+from
+ 
+Pots
+ 
+import
+ 
+Pots
+ 
+from
+ 
+Isdn
+ 
+import
+ 
+Isdn
+ 
+from
+ 
+G3 
+import
+ 
+G3
+ 
+After you
+ 
+add
+ 
+th
+ese lines to __init__.py, you have all of these classes available when 
+you
+ 
+import
+ 
+the Phone package.
+ 
+#!/usr/bin/python
+ 
+ 
+# Now import your Phone Package.
+ 
+import
+ 
+Phone
+ 
+ 

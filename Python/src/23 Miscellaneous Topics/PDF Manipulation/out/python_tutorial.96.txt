@@ -1,0 +1,103 @@
+ 
+Python
+ 
+ 
+ 
+ 
+84
+ 
+ 
+10
+ 
+isalnum()
+ 
+Returns true if string has at least 1 character and all characters are 
+alphanumeric and false otherwise
+.
+ 
+11
+ 
+isalpha()
+ 
+Returns true if string has at least 1 character and all characters are 
+alphabetic and false otherwise
+.
+ 
+12
+ 
+isdigit()
+ 
+Returns tr
+ue if string contains only digits and false otherwise
+.
+ 
+13
+ 
+islower()
+ 
+Returns true if string has at least 1 cased character and all cased 
+characters are in lowercase and false otherwise
+.
+ 
+14
+ 
+isnumeric()
+ 
+Returns true if a unicode string contains only numeric characters and 
+false otherwise
+.
+ 
+15
+ 
+isspace()
+ 
+Returns true if string contain
+s only whitespace characters and false 
+otherwise
+.
+ 
+16
+ 
+istitle()
+ 
+Returns true if string is properly "titlecased" and false otherwise
+.
+ 
+17
+ 
+isupper()
+ 
+Returns true if string has at least one cased character and all cased 
+characters are in uppercase and false otherwise
+.
+ 
+18
+ 
+join(seq)
+ 
+Merges (concatenates) the string representations of eleme
+nts in 
+sequence seq into a string, with separator string
+.
+ 
+19
+ 
+len(string)
+ 
+Returns the length of the string
+.
+ 
+20
+ 
+ljust(width[, fillchar])
+ 
+Returns
+ 
+a space
+-
+padded string with the original string left
+-
+justified to a 
+total of width columns
+.
+ 

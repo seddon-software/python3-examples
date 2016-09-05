@@ -13,10 +13,10 @@ mySocket.bind (( '', 7002))
 
 # get message from client
 data, client = mySocket.recvfrom(100)
-print 'We have received a datagram from', client, 
+print('We have received a datagram from', client, end=' ') 
 
 # send a response
-mySocket.sendto('This is the response from the server', client )
+mySocket.sendto(b'This is the response from the server', client )
 
 # remove socket object
 del mySocket

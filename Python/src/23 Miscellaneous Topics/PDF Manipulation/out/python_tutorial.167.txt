@@ -1,0 +1,101 @@
+ 
+Python
+ 
+ 
+ 
+ 
+155
+ 
+ 
+S
+r. 
+N
+o.
+ 
+Function with Description
+ 
+1
+ 
+cmp(dict1, dict2)
+ 
+Compares elements of both dict.
+ 
+2
+ 
+len(dict)
+ 
+Gives the total length of the dictionary. This would be equal to the number 
+of items in the dictionary.
+ 
+3
+ 
+str(dict)
+ 
+Produces a pr
+intable string representation of a dictionary
+ 
+4
+ 
+type(variable)
+ 
+Returns the type of the passed variable. If passed variable is dictionary, 
+then it would return a dictionary type.
+ 
+ 
+Let us go throu
+gh these briefly:
+ 
+Cmp(dict1, dict2)
+ 
+Description
+ 
+The method
+ 
+cmp()
+ 
+compares two dictionaries based on key and values.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+cmp()
+ 
+method:
+ 
+cmp
+(
+dict1
+,
+ 
+dict2
+)
+ 
+Parameters
+ 
+
+ 
+dict1
+ 
+--
+ 
+This is the first dictionary to be compared with 
+dict2.
+ 
+
+ 
+dict2
+ 
+--
+ 
+This is the second dictionary to be compared with dict1.
+ 
+Return Value
+ 
+This method returns 0 if both dictionaries are equal, 
+-
+1 if dict1 < dict2, and 1 if dict1 
+> dic2.
+ 
+Example
+ 

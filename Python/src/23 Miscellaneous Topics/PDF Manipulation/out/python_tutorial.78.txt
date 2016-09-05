@@ -1,0 +1,65 @@
+ 
+Python
+ 
+ 
+ 
+ 
+66
+ 
+ 
+pass statement
+ 
+The pass statement in Python is used when a statement is 
+required syntactically but you do not want any command or 
+code to execute.
+ 
+ 
+Let us go through the loop control 
+statements briefly:
+ 
+Break Statement
+ 
+It
+ 
+terminates the current loop and resumes execution at the next statement, just like 
+the traditional break 
+statement 
+in C.
+ 
+The most common use for break is when some external condition is triggered 
+requiring a hasty exi
+t from a loop. The
+ 
+break
+ 
+statement can be used in 
+both
+ 
+while
+ 
+and
+ 
+for
+ 
+loops.
+ 
+If you are using nested loops
+, the break statement stop
+s
+ 
+the execution of the 
+innermost loop and start executing the next line of code after the block.
+ 
+Syntax
+ 
+The syntax for a
+ 
+break
+ 
+statement in Python is as follows:
+ 
+break
+ 
+Flow Diagram
+ 
+ 

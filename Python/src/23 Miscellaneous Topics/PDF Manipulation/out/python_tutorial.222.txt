@@ -1,0 +1,44 @@
+ 
+Python
+ 
+ 
+ 
+ 
+210
+ 
+ 
+Phone
+.
+Pots
+()
+ 
+Phone
+.
+Isdn
+()
+ 
+Phone
+.
+G3
+()
+ 
+When the above code is executed, it produces th
+e following result:
+ 
+I
+'m Pots Phone
+ 
+I'
+m 
+3G
+ 
+Phone
+ 
+I
+'m ISDN Phone
+ 
+In the above example, we have taken example of a single functions in each file, but 
+you can keep multiple functions in your files. You can also define different Python 
+classes in those files 
+and then you can create your packages out of those classes.
+ 

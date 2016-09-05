@@ -1,0 +1,142 @@
+ 
+Python
+ 
+ 
+ 
+ 
+253
+ 
+ 
+   
+fh
+.
+write
+(
+"This is my test fi
+le for exception handling!!"
+)
+ 
+except
+ 
+IOError
+:
+ 
+   
+print
+ 
+"Error: can
+\
+'t find file or read data"
+ 
+else
+:
+ 
+   
+print
+ 
+"Written content in the file successfully"
+ 
+   
+fh
+.
+close
+()
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Written
+ 
+content 
+in
+ 
+the file successfully
+ 
+Example
+ 
+This 
+example
+ 
+tries to open a file where you do not have 
+write 
+permission
+, so it raises 
+an exception:
+ 
+#!/usr/bin/python
+ 
+ 
+try
+:
+ 
+   
+fh 
+=
+ 
+open
+(
+"testfile"
+,
+ 
+"r"
+)
+ 
+   
+fh
+.
+write
+(
+"This is my test file for exception 
+handling!!"
+)
+ 
+except
+ 
+IOError
+:
+ 
+   
+print
+ 
+"Error: can
+\
+'t find file or read data"
+ 
+else
+:
+ 
+   
+print
+ 
+"Written content in the file successfully"
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Error
+:
+ 
+can
+'t find file or read data
+ 
+The
+ 
+except
+ 
+C
+lause with 
+N
+o 
+E
+xceptions
+ 
+You
+ 
+can also use the except statement with no exceptions defined as follows:
+ 

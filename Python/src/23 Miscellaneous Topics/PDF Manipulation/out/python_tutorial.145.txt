@@ -1,0 +1,138 @@
+ 
+Python
+ 
+ 
+ 
+ 
+133
+ 
+ 
+lis
+t
+.
+append
+(
+obj
+)
+ 
+Parameters
+ 
+
+ 
+obj
+ 
+--
+ 
+This is the object to be appended in the list.
+ 
+Return Value
+ 
+This method does not return any value but updates existing list.
+ 
+Example
+ 
+The following example shows the usage of append() method.
+ 
+#!/usr/bin/python
+ 
+ 
+aList 
+=
+ 
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+];
+ 
+aList
+.
+append
+(
+ 
+2009
+ 
+);
+ 
+print
+ 
+"Updated List : "
+,
+ 
+aList
+;
+ 
+When we run abo
+ve program, it produces following result:
+ 
+Updated
+ 
+List
+ 
+:
+  
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+,
+ 
+2009
+]
+ 
+46.
+ 
+list.count(obj)
+ 
+Description
+ 
+The method
+ 
+count()
+ 
+returns count of how many times
+ 
+obj
+ 
+occurs in list.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+count()
+ 
+method:
+ 
+list.count(obj)
+ 
+Parameters
+ 
+
+ 
+obj
+ 
+--
+ 
+This is the object to be counted in the list.
+ 
+Return Value
+ 
+This method returns count of how many times obj occurs in list.
+ 
+Example
+ 

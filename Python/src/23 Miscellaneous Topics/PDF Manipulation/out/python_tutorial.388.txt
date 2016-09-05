@@ -1,0 +1,119 @@
+ 
+Python
+ 
+ 
+ 
+ 
+376
+ 
+ 
+width
+ 
+Width of the label in characters (not pixels!). If this option is not 
+set, the label will be sized to fit its contents.
+ 
+wraplength
+ 
+You 
+can limit the number of characters in each line by setting this 
+option to the desired number. The default value, 0, means that lines 
+will be broken only at newlines.
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+root 
+=
+ 
+Tk
+()
+ 
+ 
+var
+ 
+=
+ 
+Str
+ingVar
+()
+ 
+label 
+=
+ 
+Label
+(
+ 
+root
+,
+ 
+textvariable
+=
+var
+,
+ 
+relief
+=
+RAISED 
+)
+ 
+ 
+var
+.
+set
+(
+"Hey!? How are you doing?"
+)
+ 
+label
+.
+pack
+()
+ 
+root
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+7.
+ 
+Listbox
+ 
+The Listbox widget is used to display a list of 
+items from which a user can select a 
+number of items
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+ 
+w 
+=
+ 
+Listbox
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 

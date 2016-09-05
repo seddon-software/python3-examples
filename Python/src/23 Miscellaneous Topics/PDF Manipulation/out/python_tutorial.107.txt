@@ -1,0 +1,101 @@
+ 
+Python
+ 
+ 
+ 
+ 
+95
+ 
+ 
+shell returned 
+1
+ 
+12.
+ 
+10. 
+isalnum()
+ 
+Method
+ 
+It
+ 
+checks whether the string consists of alphanumeric characters.
+ 
+Syntax
+ 
+str
+.
+isa1num
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+TRUE
+ 
+if all characters in the string are alphanumeric and there is a
+t least one 
+character, 
+FASLE
+ 
+otherwise.
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this2009"
+;
+  
+# No space in this string
+ 
+print
+ 
+str
+.
+isalnum
+();
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+print
+ 
+str
+.
+isalnum
+();
+ 
+Result
+ 
+True
+ 
+False
+ 
+13.
+ 
+1
+1
+. 
+isalpha()
+ 
+Description
+ 
+The method
+ 
+isalpha()
+ 
+checks whether the string consists of alphabetic characters 
+only.
+ 

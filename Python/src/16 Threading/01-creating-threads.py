@@ -12,7 +12,8 @@ from threading import Thread
 
 def myfunc(name):
     for i in range (1, 50):
-        sys.stdout.write(name)        
+        sys.stdout.write(name)
+        sys.stdout.flush()
         time.sleep(random.random() * 0.1)
       
 
@@ -29,7 +30,7 @@ thread1.join()
 thread2.join()
 thread3.join()
 
-print "\nEnd of main Thread" 
+print("\nEnd of main Thread") 
 
 
 

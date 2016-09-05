@@ -1,0 +1,125 @@
+ 
+Python
+ 
+ 
+ 
+ 
+279
+ 
+ 
+print
+ 
+"Phone Num : "
+,
+ 
+num
+ 
+When the above code is executed, it produces the following result:
+ 
+Phone
+ 
+Num
+ 
+:
+  
+2004
+-
+959
+-
+559
+ 
+Phone
+ 
+Num
+ 
+:
+  
+2004959559
+ 
+Regular
+-
+E
+xpression Modifiers
+:
+ 
+Option Flags
+ 
+Regular expression literals may include an optional modifier to control various aspects 
+of matching. The modifiers are specified as an optional flag. You can provide multiple 
+modifiers using exclusive OR (|), a
+s shown previously and may be represented by 
+one of these:
+ 
+Modifier
+ 
+Description
+ 
+re.I
+ 
+Performs case
+-
+insensitive matching.
+ 
+re.L
+ 
+Interprets words according to the current locale. This interpretation 
+affects the alphabetic group (
+\
+w and 
+\
+W), as well as word 
+boundary 
+behavior (
+\
+b and 
+\
+B).
+ 
+re.M
+ 
+Makes $ match the end of a line (not just the end of the string) and 
+makes ^ match the start of any line (not just the start of the string).
+ 
+re.S
+ 
+Makes a period (dot) match any character, including a newline.
+ 
+re.U
+ 
+Int
+erprets letters according to the Unicode character set. This flag 
+affects the behavior of 
+\
+w, 
+\
+W, 
+\
+b, 
+\
+B.
+ 
+re.X
+ 
+Permits "cuter" regular expression syntax. It ignores whitespace 
+(except inside a set [] or when escaped by a backslash) and treats 
+unescaped # 
+as a comment marker.
+ 
+Regular
+-
+E
+xpression 
+P
+atterns
+ 
+Except for control characters,
+ 
+(+ ? . * ^ $ ( ) [ ] { } | 
+\
+)
+, all characters match 
+themselves. You can escape a control character by preceding it with a backslash.
+ 
+Following table lists the regular 
+expression syntax that is available in Python:
+ 

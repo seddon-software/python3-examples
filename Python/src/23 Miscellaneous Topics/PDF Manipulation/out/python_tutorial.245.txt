@@ -1,0 +1,100 @@
+ 
+Python
+ 
+ 
+ 
+ 
+233
+ 
+ 
+# This is 2nd line
+ 
+# This is 3rd line
+ 
+# This is 4th line
+ 
+# This is 5th line
+ 
+ 
+line 
+=
+ 
+fo
+.
+readline
+()
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+line 
+=
+ 
+fo
+.
+readline
+(
+5
+)
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Read Line: This is 1st line
+ 
+Read Line: This
+ 
+9.
+ 
+file.seek(offset[,whence])
+ 
+Description
+ 
+The method
+ 
+seek()
+ 
+sets the file's current position at the offset. The whence argument 
+is 
+optional and defaults to 0, which means absolute file positioning, other values are 
+1 which means seek relative to the current position and 2 means seek relative to the 
+file's end.
+ 
+There is no return value. Note that if the file is opened for appending usi
+ng either 'a' 
+or 'a+', any seek() operations will be undone at the next write.
+ 
+If the file is only opened for writing in append mode using 'a', this method is 
+essentially a no
+-
+op, but it remains useful for files opened in append mode with 
+reading enabled (
+mode 'a+').
+ 

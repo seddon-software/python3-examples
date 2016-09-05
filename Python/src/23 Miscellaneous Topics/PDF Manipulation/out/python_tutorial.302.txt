@@ -1,0 +1,147 @@
+ 
+Python
+ 
+ 
+ 
+ 
+290
+ 
+ 
+Hello Word! This is my first CGI program
+ 
+This hello.py script is a simple Python script, which 
+writ
+es
+ 
+its output on STDOUT file
+,
+ 
+i.e., screen. There is one important and extra feature available which is first line to 
+be printed
+ 
+Content
+-
+type:text/html
+\
+r
+\
+n
+\
+r
+\
+n
+. This line is sent back to the browser 
+and 
+it 
+specifi
+es
+ 
+the content type to be displayed on the browser screen.
+ 
+By 
+n
+ow
+ 
+you
+ 
+must have understood basic concept of CGI and you can write many 
+complicated CGI programs using Python. This script can interact with any other 
+external system also to exchange information such as RDBMS.
+ 
+HTTP Header
+ 
+The line
+ 
+Content
+-
+type:text/html
+\
+r
+\
+n
+\
+r
+\
+n
+ 
+is part of HTTP header which is sent to 
+the browser to understand the content. All the HTTP header will be in the following 
+form:
+ 
+HTTP 
+Field
+ 
+Name
+:
+ 
+Field
+ 
+Content
+ 
+ 
+For
+ 
+Example
+ 
+Content
+-
+type
+:
+ 
+text
+/
+html
+\
+r
+\
+n
+\
+r
+\
+n
+ 
+There are few other important HTTP headers, which
+ 
+you will use frequently in your 
+CGI Programming.
+ 
+Header
+ 
+Description
+ 
+Content
+-
+type:
+ 
+A MIME string defining the format of the file being returned. 
+Example is Content
+-
+type:text/html
+ 
+Expires: Date
+ 
+The date the information becomes invalid. 
+It is
+ 
+used by the 
+browser to decide when a page needs to be refreshed. A valid 
+date string 
+is
+ 
+in the format 01 Jan 1998 12:00:00 GMT.
+ 
+Location: URL
+ 
+The URL that 
+is
+ 
+returned instead of the URL requested. You 
+can use this field to redirect a re
+quest to any file.
+ 
+Last
+-
+modified: Date
+ 
+The date of last modification of the resource.
+ 

@@ -1,0 +1,93 @@
+ 
+Python
+ 
+ 
+ 
+ 
+392
+ 
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+11.
+ 
+Radiobutton
+ 
+This widget implements a multiple
+-
+choice button, which is a way to offer many 
+possible selections to the user and lets user choose only one of them.
+ 
+In order to implement this functionality, each group of radiobuttons must be 
+associated to the 
+same variable and each one of the buttons must symbolize a single 
+value. You can use the Tab key to switch from one radionbutton to another.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+w 
+=
+ 
+Radiobutton
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+  
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. 
+These options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+activebackground
+ 
+The background color when the mouse is over 
+the 
+radiobutton.
+ 
+activeforeground
+ 
+The foreground color when the mouse is over the radiobutton.
+ 
+anchor
+ 
+If the widget inhabits a space larger than it needs, this option 
+specifies where the radiobutton will sit in that space. The 
+default is anchor=CENTER.
+ 
+bg
+ 
+The normal background color behind the indicator and label.
+ 
+bitmap
+ 
+To display a monochrome image on a radiobutton, set this 
+option to a bitmap.
+ 

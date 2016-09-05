@@ -1,0 +1,80 @@
+ 
+Python
+ 
+ 
+ 
+ 
+316
+ 
+ 
+   
+# Fetch all the rows in a list of lists.
+ 
+   
+results = cursor.fetchall()
+ 
+   
+for row in results:
+ 
+      
+fname = row[0]
+ 
+      
+lname = row[1]
+ 
+      
+age = row[2]
+ 
+      
+sex = row[3]
+ 
+      
+income = row[4]
+ 
+      
+# Now print fetched result
+ 
+      
+print "fname=%s,lname=%s,age=%d,sex=%s,income=%d" % 
+\
+ 
+             
+(fname, lname, age, sex, income )
+ 
+except:
+ 
+   
+print "Error: unable to fecth data"
+ 
+ 
+# disconnect from server
+ 
+db
+.close()
+ 
+This will produce the following result:
+ 
+fname=Mac, lname=Mohan, age=20, sex=M, income=2000
+ 
+Update Operation
+ 
+UPDATE Operation on any databas
+e means to update one or more records, which are 
+already available in the database. 
+ 
+The 
+f
+ollowing 
+procedure 
+update
+s
+ 
+all the records having SEX as 'M'. Here, we 
+increase 
+AGE of all the males by one year.
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 

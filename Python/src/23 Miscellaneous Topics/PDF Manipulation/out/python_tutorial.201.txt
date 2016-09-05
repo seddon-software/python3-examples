@@ -1,0 +1,114 @@
+ 
+Python
+ 
+ 
+ 
+ 
+189
+ 
+ 
+13
+:
+00
+:
+40
+ 
+02
+/
+17
+/
+09
+ 
+EST
+ 
+05
+:
+00
+:
+40
+ 
+02
+/
+18
+/
+09
+ 
+AEDT
+ 
+There are 
+following two important attributes available with time module:
+ 
+S
+r. 
+N
+o.
+ 
+Attribute with Description
+ 
+1
+ 
+time.timezone
+ 
+Attribute time.timezone is the offset in seconds of the local time zone 
+(without DST) from UTC (>0 in the Americas; <=0 in most of Europe, 
+Asia, 
+Africa).
+ 
+2
+ 
+time.tzname
+ 
+Attribute time.tzname is a pair of locale
+-
+dependent strings, which are the 
+names of the local time zone without and with DST, respectively.
+ 
+The
+ 
+calendar
+ 
+Module
+ 
+The calendar module supplies calendar
+-
+related functions, 
+including functions to print 
+a text calendar for a given month or year.
+ 
+By default, calendar takes Monday as the first day of the week and Sunday as the 
+last one. To change this, call calendar.setfirstweekday() function.
+ 
+Here is a list of functions availab
+le with the
+ 
+calendar
+ 
+module:
+ 
+S
+r. 
+N
+o.
+ 
+Function with Description
+ 
+1
+ 
+calendar.calendar(year,w=2,l=1,c=6)
+ 
+Returns a multiline string with a calendar for year formatted into three 
+columns separated by c spaces. w is the width in characters of each date; 
+each 
+line has length 21*w+18+2*c. l is the number of lines for each week.
+ 
+2
+ 
+calendar.firstweekday( )
+ 
+Returns the current setting for the weekday that starts each week. By 
+default, when calendar is first imported, this is 0, meaning Monday.
+ 
+3
+ 
+calendar.isleap(year)
+ 

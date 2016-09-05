@@ -7,7 +7,7 @@ def main():
     print(pd.__version__)
     column_names = ['year', 'month', 'tmax', 'tmin', 'air-frost-days', 'rain(mm)', 'sun(hours)', 'comment']
     lerwick_data = pd.read_csv("data/lerwick.txt", 
-                               skiprows = 8, 
+                               skiprows = 7, 
                                names = column_names, 
                                skipinitialspace = True, 
                                sep = '[*# ]+')

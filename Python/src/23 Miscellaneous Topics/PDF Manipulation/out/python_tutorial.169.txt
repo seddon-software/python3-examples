@@ -1,0 +1,146 @@
+ 
+Python
+ 
+ 
+ 
+ 
+157
+ 
+ 
+The following 
+example shows the usage of len() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+print
+ 
+"Length : %d"
+ 
+%
+ 
+len 
+(
+dict
+)
+ 
+When we run above program, it produces following result:
+ 
+Length
+ 
+:
+ 
+2
+ 
+59.
+ 
+str(dict)
+ 
+Description
+ 
+The method
+ 
+str()
+ 
+produces a printable 
+string representation of a dictionary.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+str()
+ 
+method:
+ 
+str
+(
+dict
+)
+ 
+Parameters
+ 
+
+ 
+dict
+ 
+--
+ 
+This is the dictionary.
+ 
+Return Value
+ 
+This method returns string representation.
+ 
+Example
+ 
+The following example shows the usage of str() 
+method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+print
+ 
+"Equivalent String : %s"
+ 
+%
+ 
+str 
+(
+dict
+)
+ 
+When we run above program, it produces following result:
+ 
+Equivalent
+ 
+String
+ 
+:
+ 
+{
+'Age'
+:
+ 
+7
+,
+ 
+'Name'
+:
+ 
+'Zara'
+}
+ 

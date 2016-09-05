@@ -1,0 +1,126 @@
+ 
+Python
+ 
+ 
+ 
+ 
+71
+ 
+ 
+Number data types store numeric values. They are immutable 
+data types, means 
+that changing the value of a number data type results in a newly allocated object.
+ 
+Number objects are created when you assign a value to them. For example:
+ 
+var1 
+=
+ 
+1
+ 
+var2 
+=
+ 
+10
+ 
+You can also delete the reference to a number object by using t
+he
+ 
+del
+ 
+statement. The 
+syntax of the 
+del
+ 
+statement is:
+ 
+del
+ 
+var1
+[,
+var2
+[,
+var3
+[....,
+varN
+]]]]
+ 
+You can delete a single object or multiple objects by using the 
+del
+ 
+statement. For 
+example:
+ 
+del
+ 
+var
+ 
+del
+ 
+var_a
+,
+ 
+var_b
+ 
+Python supports four different numerical types:
+ 
+
+ 
+int (signed integers)
+: 
+They are 
+often called just integers or ints, are positive 
+or negative whole numbers with no decimal point.
+ 
+
+ 
+long (long integers)
+: 
+Also called
+ 
+longs, 
+they 
+are integers of unlimited size, 
+written like integers and followed by an 
+uppercase or lowercase L.
+ 
+
+ 
+float (floating point real values)
+ 
+: 
+Also called 
+floats, 
+they 
+represent real 
+numbers and are written with a decimal point dividing the integer and 
+fractional parts. Floats may also be in scientific notation, with E or e indicating
+ 
+the power of 10 (2.5e2 = 2.5 x 10
+2
+ 
+= 250).
+ 
+
+ 
+complex (complex numbers)
+ 
+: are of the form a + bJ, where a and b are 
+floats and J (or j) represents the square root of 
+-
+1 (which is an imaginary 
+number). 
+T
+he real part of the number
+ 
+is a
+, and the imaginary part
+ 
+is b
+. 
+Complex numbers are not used much in Python programming.
+ 
+8.
+ 
+NUMBERS
+ 

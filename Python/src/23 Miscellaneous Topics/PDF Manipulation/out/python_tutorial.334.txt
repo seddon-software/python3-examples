@@ -1,0 +1,89 @@
+ 
+Python
+ 
+ 
+ 
+ 
+322
+ 
+ 
+Python provides two levels of access to network services. At a low level, you can 
+access the basic socket support in the 
+underlying operating system, which allows you 
+to implement clients and servers for both connection
+-
+oriented and connectionless 
+protocols.
+ 
+Python also has libraries that provide higher
+-
+level access to specific application
+-
+level 
+network protocols, such as FT
+P, HTTP, and so on.
+ 
+This 
+chapter
+ 
+gives you understanding on most famous concept in Networking 
+-
+ 
+Socket 
+Programming
+.
+ 
+What is Sockets?
+ 
+Sockets are the endpoints of a bidirectional communications channel. Sockets may 
+communicate within a process, betw
+een processes on the same machine, or between 
+processes on different continents.
+ 
+Sockets may be implemented over a number of different channel types: Unix domain 
+sockets, TCP, UDP, and so on. The
+ 
+socket
+ 
+library provides specific classes for handling 
+the co
+mmon transports as well as a generic interface for handling the rest.
+ 
+Sockets have their own vocabulary:
+ 
+Term
+ 
+Description
+ 
+domain
+ 
+The family of protocols that 
+is
+ 
+used as the transport mechanism. 
+These values are constants such as AF_INET, PF_INET, P
+F_UNIX, 
+PF_X25, and so on.
+ 
+type
+ 
+The type of communications between the two endpoints, typically 
+SOCK_STREAM for connection
+-
+oriented protocols and SOCK_DGRAM 
+for connectionless protocols.
+ 
+protocol
+ 
+Typically zero, this may be used to identify a variant of 
+a protocol 
+within a domain and type.
+ 
+hostname
+ 
+The identifier of a network interface:
+ 
+22.
+ 
+NETWORK PROGRAMMING
+ 

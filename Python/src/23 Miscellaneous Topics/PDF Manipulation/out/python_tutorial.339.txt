@@ -1,0 +1,65 @@
+ 
+Python
+ 
+ 
+ 
+ 
+327
+ 
+ 
+IMAP4
+ 
+Fetching email
+ 
+143
+ 
+Imaplib
+ 
+Telnet
+ 
+Command lines
+ 
+23
+ 
+telnetlib
+ 
+Gopher
+ 
+Document transfers
+ 
+70
+ 
+gopherlib, urllib
+ 
+ 
+Please check all the libraries mentioned above to work with FTP, SMTP, POP, and 
+IMAP protocols.
+ 
+Further Readings
+ 
+This was a
+ 
+quick start with Socket Programming. It
+ 
+i
+s a 
+vast
+ 
+subject
+. 
+I
+t
+ 
+i
+s 
+recommended to go through the following link to find more detail
+:
+ 
+Unix Socket Programming
+.
+ 
+Python Socket Library and Modules
+.
+ 
+ 
+ 

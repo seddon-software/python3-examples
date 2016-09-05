@@ -1,0 +1,93 @@
+ 
+Python
+ 
+ 
+ 
+ 
+193
+ 
+ 
+Example
+ 
+The following
+ 
+function takes a string as input parameter and prints it on standard 
+screen.
+ 
+def
+ 
+printme
+(
+ 
+str 
+):
+ 
+   
+"This prints a passed string into this 
+function"
+ 
+   
+print
+ 
+str
+ 
+   
+return
+ 
+Calling a Function
+ 
+Defining a function only gives it a name, specifies the parameters that are to be 
+included in the function and structures the blocks of code.
+ 
+Once the basic structure of a function is finalized, you can e
+xecute it by calling it from 
+another function or directly from the Python prompt. Following is the example to call 
+printme() function:
+ 
+#!/usr/bin/python
+ 
+ 
+# Function definition is here
+ 
+def
+ 
+printme
+(
+ 
+str 
+):
+ 
+   
+"This prints a passed string into this function"
+ 
+   
+print
+ 
+str
+;
+ 
+   
+return
+;
+ 
+ 
+# Now you can call printme function
+ 
+printme
+(
+"I'm first call to user defined function!"
+);
+ 
+printme
+(
+"Again second call to the same function"
+);
+ 
+When the above code is executed, it produces the following result:
+ 
+I
+'m first call to user 
+defined function!
+ 
+Again second call to the same function
+ 

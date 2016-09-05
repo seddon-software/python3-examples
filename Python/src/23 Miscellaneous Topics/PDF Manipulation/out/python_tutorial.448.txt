@@ -1,0 +1,38 @@
+ 
+Python
+ 
+ 
+ 
+ 
+436
+ 
+ 
+import tkMessageBox
+ 
+import Tkinter
+ 
+ 
+top = Tkinter.Tk()
+ 
+ 
+def helloCallBack():
+ 
+   
+tkMessageBox.showinfo( "Hello Python", "Hello World")
+ 
+ 
+B = Tkinte
+r.Button(top, text ="Hello", command = helloCallBack)
+ 
+ 
+B.pack()
+ 
+B.place(bordermode=OUTSIDE, height=100, width=100)
+ 
+top.mainloop()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+ 
+ 

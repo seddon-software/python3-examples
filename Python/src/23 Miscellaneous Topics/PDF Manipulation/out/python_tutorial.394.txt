@@ -1,0 +1,82 @@
+ 
+Python
+ 
+ 
+ 
+ 
+382
+ 
+ 
+bitmap
+ 
+To display a bitmap on the menubutton, set this option to a 
+bitmap name.
+ 
+bd
+ 
+The size of the border around the indicator. Default is 2 pixels.
+ 
+cursor
+ 
+The cursor that appears when the mouse is over this 
+menu
+button.
+ 
+direction
+ 
+Set direction=LEFT to display the menu to the left of the 
+button; use direction=RIGHT to display the menu to the right 
+of the button; or use direction='above' to place the menu 
+above the button.
+ 
+disabledforeground
+ 
+The foreground color 
+shown on this menubutton when it is 
+disabled.
+ 
+fg
+ 
+The foreground color when the mouse is not over the 
+menubutton.
+ 
+height
+ 
+The height of the menubutton in lines of text (not pixels!). The 
+default is to fit the menubutton's size to its contents.
+ 
+highlightco
+lor
+ 
+Color shown in the focus highlight when the widget has the 
+focus.
+ 
+image
+ 
+To display an image on this menubutton,
+ 
+justify
+ 
+This option controls where the text is located when the text 
+doesn't fill the menubutton: use justify=LEFT to left
+-
+justify the 
+text (this is the default); use justify=CENTER to center it, or 
+justify=RIGHT to right
+-
+justify.
+ 
+menu
+ 
+To associate the menubutton with a set of choices, set this 
+option to the Menu object containing those choices. That menu 
+object must have been created by
+ 
+passing the associated 
+menubutton to the constructor as its first argument.
+ 
+padx
+ 
+How much space to leave to the left and right of the text of the 
+menubutton. Default is 1.
+ 

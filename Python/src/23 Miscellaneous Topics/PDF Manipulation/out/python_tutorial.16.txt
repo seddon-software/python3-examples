@@ -1,0 +1,146 @@
+ 
+Python
+ 
+ 
+ 
+ 
+4
+ 
+ 
+
+
+
+
+ 
+Python distribution is available for a wide variety of platforms.
+ 
+You need to download 
+only the binary code applicable for your platform and install Python.
+ 
+If the binary code for your platform is not available, you need a C compiler to compile 
+the source code manually. Compiling the source code offers more flexibility 
+in terms 
+of choice of features that you require in your installation.
+ 
+Here is a quick overview of installing Python on various platforms:
+ 
+Unix 
+and
+ 
+Linux Installation
+ 
+Here are the simple steps to install Python on Unix/Linux machine.
+ 
+
+ 
+Open a Web browser an
+d go to
+ 
+http://www.python.org/download/
+.
+ 
+
+ 
+Follow the link to download zipped source code available for Unix/Linux.
+ 
+
+ 
+Download and extract files.
+ 
+
+ 
+Editing the
+ 
+Modules/Setup
+ 
+file if you want to 
+customize some options.
+ 
+
+ 
+run
+ 
+./configure script
+ 
+
+ 
+make
+ 
+
+ 
+make install
+ 
+This 
+install
+s
+ 
+P
+ython 
+at
+ 
+standard location
+ 
+/usr/local/bin
+ 
+and its libraries 
+at
+ 
+/usr/local/lib/pythonXX
+ 
+where XX is the version of Python
+.
+ 
+Windows 
+Installation
+ 
+Here are the steps to install Python on Windows machine.
+ 
+
+ 
+Open a Web browser and go to
+ 
+http://www.python.org/download/
+ 
+
+ 
+Follow the link for the Windows installer
+ 
+python
+-
+XYZ.msi
+ 
+file where XYZ is the 
+version you 
+need 
+to install.
+ 
+
+ 
+To use this installer
+ 
+python
+-
+XYZ.msi
+, the Windows system must support 
+Microsoft Installer 2.0. 
+S
+ave the installer file to your local machine and then 
+run it to find out if your machine 
+supports MSI.
+ 
+
+ 
+Run the downloaded file
+. This brings up the Python install wizard, which is 
+really easy to use. Just accept the default settings, wait until the install is 
+finished, and you
+ 
+a
+re 
+done.
+ 
+M
+acintosh Installation
+ 
+Recent Macs come with Python installed, but it may be several years out of date. See 
+http://www.python.org/download/mac/ for instructions on getting the current 

@@ -4,7 +4,7 @@
 #
 ############################################################
 
-from __future__ import with_statement
+
 from threading import Thread
 from threading import Lock
 import random
@@ -18,7 +18,7 @@ import sys
 class MyClass:
     def __call__(self, name):
         global lock, count1, count2
-        for i in xrange(0, 2*1000*1000):
+        for i in range(0, 2*1000*1000):
             count1 += 1
             with lock: 
                 count2 += 1
@@ -44,7 +44,7 @@ t1.join()
 t2.join()
 t3.join()
 
-print "count1: " + str(count1)
-print "count2: " + str(count2)
+print("count1: " + str(count1))
+print("count2: " + str(count2))
 
-print "\nEnd of main"
+print("\nEnd of main")

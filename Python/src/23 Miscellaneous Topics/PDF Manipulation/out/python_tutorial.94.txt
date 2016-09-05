@@ -1,0 +1,91 @@
+ 
+Python
+ 
+ 
+ 
+ 
+82
+ 
+ 
+the variable assignment will also show up
+.
+ 
+Raw strings do
+ 
+n
+o
+t treat the backslash as a special character at all. Every character 
+you put in
+to a raw string stays the way you wrote it:
+ 
+#!/usr/bin/python
+ 
+print
+ 
+'C:
+\
+\
+nowhere'
+ 
+When the above code is executed, it produces the following result:
+ 
+C
+:
+\
+nowhere
+ 
+Now let's make use of raw string. We would put expression in
+ 
+r'expression'
+ 
+as 
+follows:
+ 
+#!/usr/bin/python
+ 
+print
+ 
+r
+'C:
+\
+\
+nowhere'
+ 
+When the above code is executed, it produces the following result:
+ 
+C
+:
+\
+\
+nowhere
+ 
+Unicode String
+ 
+Normal strings in Python are stored internally as 8
+-
+bit ASCII, while Unicode strings 
+are stored as 16
+-
+bit Unicode. This all
+ows for a more varied set of characters, including 
+special characters from most languages in the world. I'll restrict my treatment of 
+Unicode strings to the following:
+ 
+#!/usr/bin/python
+ 
+print
+ 
+u
+'Hello, world!'
+ 
+When the above code is executed, it produces 
+the following result:
+ 
+Hello
+,
+ 
+world
+!
+ 
+As you can see, Unicode strings use the prefix u, just as raw strings use the prefix r.
+ 

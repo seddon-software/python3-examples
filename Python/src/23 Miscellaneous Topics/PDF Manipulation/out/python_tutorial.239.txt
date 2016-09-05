@@ -1,0 +1,112 @@
+ 
+Python
+ 
+ 
+ 
+ 
+227
+ 
+ 
+NA
+ 
+Return Value
+ 
+This method returns true if the file is connected (is associated with a terminal device) 
+to a tty(
+-
+like) device, else false.
+ 
+Example
+ 
+The following 
+example shows the usage of isatty() method.
+ 
+#!/usr/bin/python
+ 
+ 
+# Open a file
+ 
+fo 
+=
+ 
+open
+(
+"foo.txt"
+,
+ 
+"wb"
+)
+ 
+print
+ 
+"Name of the file: "
+,
+ 
+fo
+.
+name
+ 
+ 
+ret 
+=
+ 
+fo
+.
+isatty
+()
+ 
+print
+ 
+"Return value : "
+,
+ 
+ret
+ 
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it 
+produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Return value :  False
+ 
+5.
+ 
+File.next()
+ 
+Description
+ 
+The method
+ 
+next()
+ 
+is used when a file is used as an iterator, typically in a loop, the 
+next() method is called repeatedly. This method returns the next 
+input line, or 
+raises
+ 
+StopIteration
+ 
+when EOF is hit.
+ 
+Combining next() method with other file methods like
+ 
+readline()
+ 
+does not work right. 
+However, using
+seek()
+ 
+to reposition the file to an absolute position will flush the read
+-
+ahead buffer.
+ 
+Syntax
+ 

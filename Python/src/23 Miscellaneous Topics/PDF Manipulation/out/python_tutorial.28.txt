@@ -1,0 +1,198 @@
+ 
+Python
+ 
+ 
+ 
+ 
+16
+ 
+ 
+Multiple Statements on a Single Line
+ 
+The semicolon ( ; ) allows multiple statements on the single 
+line given that neither 
+statement starts a new code block. Here is a sample snip using the semicolon:
+ 
+import
+ 
+sys
+;
+ 
+x 
+=
+ 
+'foo'
+;
+ 
+sys
+.
+stdout
+.
+write
+(
+x 
++
+ 
+'
+\
+n'
+)
+ 
+Multiple Statement Groups as Suites
+ 
+A group of individual statements, which make a single code block ar
+e called
+ 
+suites
+ 
+in 
+Python. Compound or complex statements
+,
+ 
+such as if, while, def, and class
+ 
+require a 
+header line and a suite.
+ 
+Header lines begin the statement (with the keyword) and terminate with a colon ( : 
+) and are followed by one 
+or more lines which make up the suite. For example:
+ 
+if
+ 
+expression 
+:
+ 
+ 
+   
+suite
+ 
+elif
+ 
+expression 
+:
+ 
+ 
+   
+suite 
+ 
+else
+ 
+:
+ 
+ 
+   
+suite
+ 
+Command Line Arguments
+ 
+M
+any programs can be run 
+to
+ 
+provide you with some basic i
+nformation about how 
+they should be run. Python enables you to do this with 
+-
+h:
+ 
+$ python 
+-
+h
+ 
+usage
+:
+ 
+python 
+[
+option
+]
+ 
+...
+ 
+[
+-
+c cmd 
+|
+ 
+-
+m mod 
+|
+ 
+file 
+|
+ 
+-
+]
+ 
+[
+arg
+]
+ 
+...
+ 
+Options
+ 
+and
+ 
+arguments 
+(
+and
+ 
+corresponding environment variables
+):
+ 
+-
+c cmd 
+:
+ 
+program passed 
+in
+ 
+as
+ 
+string
+ 
+(
+terminates option list
+)
+ 
+-
+d     
+:
+ 
+debug output 
+from
+ 
+parser 
+(
+also PYTHONDEBUG
+=
+x
+)
+ 
+-
+E     
+:
+ 
+ignore environment variables 
+(
+such 
+as
+ 
+PYTHONPATH
+)
+ 
+-
+h     
+:
+ 
+print
+ 
+this
+ 
+help message 
+and
+ 
+exit
+ 

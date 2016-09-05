@@ -1,0 +1,80 @@
+ 
+Python
+ 
+ 
+ 
+ 
+435
+ 
+ 
+ 
+129.
+ 
+3. 
+place()
+ 
+This geometry manager organizes widgets by placing them in a specific position in 
+the parent widget.
+ 
+Synta
+x
+ 
+widget.place( place_options )
+ 
+Here is the list of possible options:
+ 
+130.
+ 
+anchor :
+ 
+The exact spot of widget other options 
+refer to: may be N, E, S, W, NE, NW, SE, or SW, 
+compass directions indicating the corners 
+and sides of widget; default is NW (the upper 
+left corner of widget)
+ 
+131.
+ 
+bordermode :
+ 
+INSIDE (the default) to indicate 
+that other options refer to the parent's inside 
+(ignoring the parent's border); OUTSIDE 
+otherwise.
+ 
+132.
+ 
+height, width :
+ 
+Height and width in pixels.
+ 
+133.
+ 
+relheight, relwidth :
+ 
+Height and width as a 
+float 
+between 0.0 and 1.0, as a fraction of the height 
+and width of the parent widget.
+ 
+134.
+ 
+relx, rely :
+ 
+Horizontal and vertical offset as a 
+float between 0.0 and 1.0, as a fraction of the 
+height and width of the parent widget.
+ 
+135.
+ 
+x, y :
+ 
+Horizontal and vertical of
+fset in pixels.
+ 
+Example
+ 
+Try the following example by moving cursor on different buttons:
+ 
+from Tkinter import *
+ 

@@ -1,0 +1,66 @@
+ 
+Python
+ 
+ 
+ 
+ 
+314
+ 
+ 
+       
+('Mac', 'Mohan', 20, 'M', 2000)
+ 
+try:
+ 
+   
+# Execute the SQL command
+ 
+   
+cursor.execute(sql)
+ 
+   
+# Commit your changes in the database
+ 
+   
+db.commit()
+ 
+except:
+ 
+   
+# Rollback in case there is any error
+ 
+   
+db.rollback()
+ 
+ 
+# disconnect from server
+ 
+db.close()
+ 
+Example
+ 
+Following code segment is anoth
+er form of execution where you can pass parameters 
+directly:
+ 
+..................................
+ 
+user_id = "test123"
+ 
+password = "password"
+ 
+ 
+con.execute('insert into Login values("%s", "%s")' % 
+\
+ 
+             
+(user_id, password))
+ 
+..................................
+ 
+READ Operation
+ 
+READ Operation on any databa
+se means to fetch some useful information from the 
+database.
+ 

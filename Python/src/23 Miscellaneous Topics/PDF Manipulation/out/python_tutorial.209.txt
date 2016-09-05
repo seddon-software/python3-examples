@@ -1,0 +1,111 @@
+ 
+Python
+ 
+ 
+ 
+ 
+197
+ 
+ 
+   
+return
+;
+ 
+ 
+# Now you can call printme function
+ 
+printme
+(
+ 
+str 
+=
+ 
+"My string"
+);
+ 
+When the above code is executed, it produces the following
+ 
+result:
+ 
+My
+ 
+string
+ 
+The f
+ollowing example gives more clear picture. Note
+ 
+that the
+ 
+order of parameter
+s 
+does not matter.
+ 
+#!/usr/bin/python
+ 
+ 
+# Function definition is here
+ 
+def
+ 
+printinfo
+(
+ 
+name
+,
+ 
+age 
+):
+ 
+   
+"This prints a passed info into this function"
+ 
+   
+print
+ 
+"Name: "
+,
+ 
+name
+;
+ 
+   
+print
+ 
+"Age "
+,
+ 
+age
+;
+ 
+   
+return
+;
+ 
+ 
+# Now you can call printinfo function
+ 
+printinfo
+(
+ 
+age
+=
+50
+,
+ 
+name
+=
+"miki"
+ 
+);
+ 
+When the above code is executed, it produces the following result:
+ 
+Name
+:
+  
+miki
+ 
+Age
+  
+50
+ 

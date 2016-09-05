@@ -1,0 +1,103 @@
+ 
+Python
+ 
+ 
+ 
+ 
+240
+ 
+ 
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Line No 0 
+-
+ 
+This is 1st line
+ 
+Line No 1 
+-
+ 
+This is 2nd 
+line
+ 
+Line No 2 
+-
+ 
+This is 3rd line
+ 
+Line No 3 
+-
+ 
+This is 4th line
+ 
+ 
+Line No 4 
+-
+ 
+This is 5th line
+ 
+Line No 5 
+-
+ 
+This is 6th line
+ 
+13.
+ 
+file.writelines(sequence)
+ 
+Description
+ 
+The method
+ 
+writelines()
+ 
+writes a sequence of strings to the file. The sequence can be 
+any 
+iterable object producing strings, typically a list of strings. There is no return 
+value.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+writelines()
+ 
+method:
+ 
+fileObject
+.
+writelines
+(
+ 
+sequence 
+)
+ 
+Parameters
+ 
+sequence
+ 
+--
+ 
+This is the Sequence of the strings.
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of writelines() method.
+ 
+#!/usr/bin/python'
+ 
+ 

@@ -1,0 +1,175 @@
+ 
+Python
+ 
+ 
+ 
+ 
+153
+ 
+ 
+Delete Dictionary Elements
+ 
+You can either remove individual dictionary elements or clear
+ 
+the entire contents of 
+a dictionary. You can also delete entire dictionary in a single operation.
+ 
+To explicitly remove an entire dictionary, just use the
+ 
+del
+ 
+statement. Fo
+r 
+example:
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+,
+ 
+'Class'
+:
+ 
+'First'
+};
+ 
+ 
+del
+ 
+dict
+[
+'Name'
+];
+ 
+# remove entry with key 'Name'
+ 
+dict
+.
+clear
+();
+     
+# remove all entries in dict
+ 
+del
+ 
+dict 
+;
+        
+# delete entire dictionary
+ 
+ 
+print
+ 
+"dict['Age']: "
+,
+ 
+dict
+[
+'Age'
+];
+ 
+print
+ 
+"dict['School']: "
+,
+ 
+dict
+[
+'School'
+];
+ 
+This 
+produce
+s
+ 
+the following result. Note 
+that 
+an exception 
+is 
+raised
+ 
+because after
+ 
+del 
+dict
+,
+ 
+dictionary does not exist any
+more:
+ 
+dict
+[
+'Age'
+]:
+ 
+Traceback
+ 
+(
+most recent call 
+last
+):
+ 
+  
+File
+ 
+"test.py"
+,
+ 
+line 
+8
+,
+ 
+in
+ 
+<module>
+ 
+    
+print
+ 
+"dict['Age']: "
+,
+ 
+dict
+[
+'Age'
+];
+ 
+TypeError
+:
+ 
+'type'
+ 
+object
+ 
+is
+ 
+unsubscriptable
+ 
+Note:
+ 
+del() method is discussed in subsequent section.
+ 
+Properties of Dictionary Keys
+ 
+Dictionary values have no restrictions. They can be any arbitrary Python object, either 
+standard objects or user
+-
+defined ob
+jects. However, same is not true for the keys.
+ 
+There are two important points to remember about dictionary keys:
+ 

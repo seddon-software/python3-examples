@@ -1,0 +1,92 @@
+ 
+Python
+ 
+ 
+ 
+ 
+361
+ 
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as ke
+y
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+bd
+ 
+Border width in pixels. Default is 2.
+ 
+bg
+ 
+Normal background color.
+ 
+confine
+ 
+If true (the default), the canvas cannot be scrolled outside of the 
+scrollregion.
+ 
+cursor
+ 
+Cursor used in the canvas like
+ 
+arrow, circle, dot etc.
+ 
+height
+ 
+Size of the canvas in the Y dimension.
+ 
+highlightcolor
+ 
+Color shown in the focus highlight.
+ 
+relief
+ 
+Relief specifies the type of the border. Some of the values are 
+SUNKEN, RAISED, GROOVE, and RIDGE.
+ 
+scrollregion
+ 
+A tuple (w, 
+n, e, s) that defines over how large an area the canvas 
+can be scrolled, where w is the left side, n the top, e the right 
+side, and s the bottom.
+ 
+width
+ 
+Size of the canvas in the X dimension.
+ 
+xscrollincrement
+ 
+If you set this option to some positive dimens
+ion, the canvas can 
+be positioned only on multiples of that distance, and the value 
+will be used for scrolling by scrolling units, such as when the user 
+clicks on the arrows at the ends of a scrollbar.
+ 
+xscrollcommand
+ 
+If the canvas is scrollable, this attr
+ibute should be the .set() 
+method of the horizontal scrollbar.
+ 
+yscrollincrement
+ 
+Works like xscrollincrement, but governs vertical movement.
+ 

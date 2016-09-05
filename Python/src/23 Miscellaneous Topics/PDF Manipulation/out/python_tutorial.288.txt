@@ -1,0 +1,149 @@
+ 
+Python
+ 
+ 
+ 
+ 
+276
+ 
+ 
+re
+.
+search
+(
+pattern
+,
+ 
+string
+,
+ 
+flags
+=
+0
+)
+ 
+Here is the description of the parameters:
+ 
+Parameter
+ 
+Description
+ 
+pattern
+ 
+This is the regular expression to be matched.
+ 
+string
+ 
+This is the string, which 
+is
+ 
+searched to match the pattern 
+anywhere in the string.
+ 
+flags
+ 
+You can specify different flags using bitwise OR (|). These 
+are modifiers, which are listed in the table below.
+ 
+The
+ 
+re.search
+ 
+function returns a
+ 
+match
+ 
+object on success,
+ 
+n
+one
+ 
+on failure. We 
+use
+ 
+group(num)
+ 
+or
+ 
+groups()
+ 
+function of
+ 
+match
+ 
+object to get matched expression.
+ 
+Match Object 
+Methods
+ 
+Description
+ 
+group(num=0)
+ 
+This method returns entire match (or specific subgroup num)
+.
+ 
+groups()
+ 
+This method returns all matching subgroups in a tuple 
+(empty if 
+there weren't any)
+.
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+import
+ 
+re
+ 
+ 
+line 
+=
+ 
+"Cats are smarter than dogs"
+;
+ 
+ 
+searchObj 
+=
+ 
+re
+.
+search
+(
+ 
+r
+'(.*) are (.*?) .*'
+,
+ 
+line
+,
+ 
+re
+.
+M
+|
+re
+.
+I
+)
+ 
+ 
+if
+ 
+searchObj
+:
+ 
+   
+print
+ 
+"searchObj.group() : "
+,
+ 
+searchObj
+.
+group
+()
+ 

@@ -1,0 +1,87 @@
+ 
+Python
+ 
+ 
+ 
+ 
+214
+ 
+ 
+wb+
+ 
+Opens a file for both writing and reading in binary format. Overwrites the 
+existing file if the file exists. If the file does not exist, creates 
+a new file for 
+reading and writing.
+ 
+a
+ 
+Opens a file for appending. The file pointer is at the end of the file if the file 
+exists. That is, the file is in the append mode. If the file does not exist, it 
+creates a new file for writing.
+ 
+ab
+ 
+Opens a file for a
+ppending in binary format. The file pointer is at the end of 
+the file if the file exists. That is, the file is in the append mode. If the file 
+does not exist, it creates a new file for writing.
+ 
+a+
+ 
+Opens a file for both appending and reading. The file poin
+ter is at the end 
+of the file if the file exists. The file opens in the append mode. If the file 
+does not exist, it creates a new file for reading and writing.
+ 
+ab+
+ 
+Opens a file for both appending and reading in binary format. The file pointer 
+is at the en
+d of the file if the file exists. The file opens in the append mode. 
+If the file does not exist, it creates a new file for reading and writing.
+ 
+The
+ 
+file
+ 
+O
+bject 
+A
+ttributes
+ 
+Once a file is opened and you have one
+ 
+file
+ 
+object, you can get various 
+information 
+related to that file.
+ 
+Here is a list of all attributes related to file object:
+ 
+Attribute
+ 
+Description
+ 
+file.closed
+ 
+Returns true if file is closed, false otherwise.
+ 
+file.mode
+ 
+Returns access mode with which file was opened.
+ 
+file.name
+ 
+Returns 
+name of the file.
+ 
+file.softspace
+ 
+Returns false if space explicitly required with print, true otherwise.
+ 
+Example
+ 
+#!/usr/bin/python
+ 

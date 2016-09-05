@@ -8,4 +8,4 @@ subprocess.call("python setup.py sdist --formats=zip".split())
 
 # copy to local repo
 shutil.copy("dist/mymodule-1.0.zip", "../server/repo")
-print "\n", "mymodule-1.0.zip", "copied to local repo"
+print("\n", "mymodule-1.0.zip", "copied to local repo")

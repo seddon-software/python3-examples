@@ -1,0 +1,84 @@
+ 
+Python
+ 
+ 
+ 
+ 
+398
+ 
+ 
+length
+ 
+The length of the scale widget. This is the x dimension if the 
+scale is hori
+zontal, or the y dimension if vertical. The default 
+is 100 pixels.
+ 
+orient
+ 
+Set orient=HORIZONTAL if you want the scale to run along 
+the x dimension, or orient=VERTICAL to run parallel to the y
+-
+axis. Default is horizontal.
+ 
+relief
+ 
+Specifies the appearance o
+f a decorative border around the 
+label. The default is FLAT; for other values.
+ 
+repeatdelay
+ 
+This option controls how long button 1 has to be held down in 
+the trough before the slider starts moving in that direction 
+repeatedly. Default is repeatdelay=300, a
+nd the units are 
+milliseconds.
+ 
+resolution
+ 
+Normally, the user will only be able to change the scale in 
+whole units. Set this option to some other value to change the 
+smallest increment of the scale's value. For example, if 
+from_=
+-
+1.0 and to=1.0, and you se
+t resolution=0.5, the scale 
+will have 5 possible values: 
+-
+1.0, 
+-
+0.5, 0.0, +0.5, and +1.0.
+ 
+showvalue
+ 
+Normally, the current value of the scale is displayed in text 
+form by the slider (above it for horizontal scales, to the left 
+for vertical scales). Set 
+this option to 0 to suppress that label.
+ 
+sliderlength
+ 
+Normally the slider is 30 pixels along the length of the scale. 
+You can change that length by setting the sliderlength option 
+to your desired length.
+ 
+state
+ 
+Normally, scale widgets respond to mouse eve
+nts, and when 
+they have the focus, also keyboard events. Set 
+state=DISABLED to make the widget unresponsive.
+ 
+takefocus
+ 
+Normally, the focus will cycle through scale widgets. Set this 
+option to 0 if you don't want this behavior.
+ 
+tickinterval
+ 
+To display per
+iodic scale values, set this option to a number, 
+and ticks will be displayed on multiples of that value. For 
+example, if from_=0.0, to=1.0, and tickinterval=0.25, labels 
+will be displayed along the scale at values 0.0, 0.25, 0.50, 

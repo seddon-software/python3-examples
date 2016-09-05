@@ -1,0 +1,113 @@
+ 
+Python
+ 
+ 
+ 
+ 
+224
+ 
+ 
+Description
+ 
+The method
+ 
+close()
+ 
+closes the opened file. A closed file cannot be read or written any more. Any 
+operation, which requires 
+that the file be opened will raise a
+ 
+ValueError
+ 
+after the file has been closed. 
+Calling close() more than once is allowed.
+ 
+Python automatically closes a file when the reference object of a file is reassigned to another file. It is 
+a good practice to use th
+e close() method to close a file.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+close()
+ 
+method:
+ 
+fileObject
+.
+close
+();
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of close() method.
+ 
+#!/usr/bin/python
+ 
+# 
+Open a file
+ 
+fo 
+=
+ 
+open
+(
+"foo.txt"
+,
+ 
+"wb"
+)
+ 
+print
+ 
+"Name of the file: "
+,
+ 
+fo
+.
+name
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+2.
+ 
+File.flush()
+ 
+Description
+ 
+The method
+ 
+flush()
+ 
+flushes the internal 
+buffer, like stdio's fflush. This may be a no
+-
+op on some file
+-
+like objects.
+ 
+Python automatically flushes the files when closing them. But you may want to flush 
+the data before closing any file.
+ 
+Syntax
+ 

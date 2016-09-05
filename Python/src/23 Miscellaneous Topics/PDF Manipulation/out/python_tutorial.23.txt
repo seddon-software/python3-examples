@@ -1,0 +1,114 @@
+ 
+Python
+ 
+ 
+ 
+ 
+11
+ 
+ 
+
+ 
+Starting an identifier with two leading underscores indicates a strongly private 
+identifier.
+ 
+
+ 
+If the identifier also ends with two trailing underscores, the identifier is a 
+lan
+guage
+-
+defined special name.
+ 
+Python Keywords
+ 
+The following list shows the 
+Python
+ 
+keywords
+. These 
+are 
+reserved words 
+and 
+you 
+cannot use them 
+as constant or variable or any other identifier names. All the Pytho
+n 
+keywords contain lowercase letters only.
+ 
+A
+nd
+ 
+exec
+ 
+N
+ot
+ 
+A
+ssert
+ 
+finally
+ 
+or
+ 
+B
+reak
+ 
+for
+ 
+pass
+ 
+C
+lass
+ 
+from
+ 
+print
+ 
+C
+ontinue
+ 
+global
+ 
+raise
+ 
+def
+ 
+if
+ 
+return
+ 
+del
+ 
+import
+ 
+try
+ 
+elif
+ 
+in
+ 
+while
+ 
+else
+ 
+is
+ 
+with
+ 
+except
+ 
+lambda
+ 
+yield
+ 
+Lines and Indentation
+ 
+Python 
+provides
+ 
+no braces to indicate blocks of code for class and function definitions 
+or flow control. Blocks of code are denoted by line indentation, which is rigidly
+ 
+enforced.
+ 

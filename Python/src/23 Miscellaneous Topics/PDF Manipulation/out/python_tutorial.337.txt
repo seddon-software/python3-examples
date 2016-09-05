@@ -1,0 +1,85 @@
+ 
+Python
+ 
+ 
+ 
+ 
+325
+ 
+ 
+ 
+s = socket.socket()         # Create a socket object
+ 
+host = socket.gethostname() # Get local machine name
+ 
+port = 12
+345                # Reserve a port for your service.
+ 
+s.bind((host, port))        # Bind to the port
+ 
+ 
+s.listen(5)                 # Now wait for client connection.
+ 
+while True:
+ 
+   
+c, addr = s.accept()     # Establish connection with client.
+ 
+   
+print 'Got co
+nnection from', addr
+ 
+   
+c.send('Thank you for connecting')
+ 
+   
+c.close()                # Close the connection
+ 
+A Simple Client
+ 
+Let us
+ 
+write a very simple client program which 
+open
+s
+ 
+a connection to a given port 
+12345 and given host. This is 
+very simple to create a socket client using 
+Python's
+ 
+socket
+module function.
+ 
+The
+ 
+socket.connect(hosname, port )
+ 
+opens a TCP connection to
+ 
+hostname
+ 
+on 
+the
+ 
+port
+. Once you have a socket open, you can read from it like any IO object. When 
+done, remember to clos
+e it, as you would close a file.
+ 
+The following code is a very simple client that connects to a given host and port, 
+reads any available data from the socket, and then exits:
+ 
+#!/usr/bin/python           # This is client.py file
+ 
+ 
+import socket               
+# Import socket module
+ 
+ 
+s = socket.socket()         # Create a socket object
+ 
+host = socket.gethostname() # Get local machine name
+ 
+port = 12345                # Reserve a port for your service.
+ 

@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+83
+ 
+ 
+Built
+-
+in String Methods
+ 
+Python includes the following built
+-
+in methods to manipulate strings:
+ 
+S
+r. 
+N
+o.
+ 
+Methods with Description
+ 
+1
+ 
+capitalize()
+ 
+Capitalizes first letter of string
+.
+ 
+2
+ 
+center(width, fillchar)
+ 
+Returns a space
+-
+padded string with the original string 
+centered to a total 
+of width columns
+.
+ 
+3
+ 
+count(str, beg= 0,end=len(string))
+ 
+Counts how many times str occurs in string or in a substring of string if 
+starting index beg and ending index end are given
+.
+ 
+4
+ 
+decode(encoding='UTF
+-
+8',errors='strict')
+ 
+Decodes the string using the codec registered for encoding. encoding 
+defaults to the default string encoding.
+ 
+5
+ 
+encode(encoding='UTF
+-
+8',errors='strict')
+ 
+Returns encoded string version of string; on error, default is to raise a 
+ValueError unless errors is given with 'ignore' or 'replace'.
+ 
+6
+ 
+endswith(suffix,
+ 
+beg=0, end=len(string))
+ 
+Determines if string or a substring of string (if starting index beg and 
+ending index end are given) ends with suffix; returns true if so and false 
+otherwise
+.
+ 
+7
+ 
+expandtabs(tabsize=8)
+ 
+Expands tabs in string to multiple spaces; defaults to 8 spaces per tab if 
+tabsize not provided
+.
+ 
+8
+ 
+find(str, b
+eg=0 end=len(string))
+ 
+Determine if str occurs in string or in a substring of string if starting 
+index beg and ending index end are given returns index if found and 
+-
+1 
+otherwise
+.
+ 
+9
+ 
+index(str, beg=0, 
+end=len(string))
+ 
+Same as find(), but raises an exception if str not found
+.
+ 

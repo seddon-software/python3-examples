@@ -1,0 +1,99 @@
+ 
+Python
+ 
+ 
+ 
+ 
+368
+ 
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+w 
+=
+ 
+Entry
+(
+ 
+ma
+ster
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The normal 
+background color displayed behind the label and 
+indicator.
+ 
+bd
+ 
+The size of the border around the indicator. Default is 2 pixels.
+ 
+command
+ 
+A procedure to be called every time the user changes the state 
+of this checkbutton.
+ 
+cursor
+ 
+If you set this option to 
+a cursor name (
+arrow, dot etc.
+), the 
+mouse cursor will change to that pattern when it is over the 
+checkbutton.
+ 
+font
+ 
+The font used for the text.
+ 
+exportselection
+ 
+By default, if you select text within an Entry widget, it is 
+automatically exported to the cli
+pboard. To avoid this 
+exportation, use exportselection=0.
+ 
+fg
+ 
+The color used to render the text.
+ 
+highlightcolor
+ 
+The color of the focus highlight when the checkbutton has the 
+focus.
+ 
+justify
+ 
+If the text contains multiple lines, this option controls how the
+ 
+text is justified: CENTER, LEFT, or RIGHT.
+ 

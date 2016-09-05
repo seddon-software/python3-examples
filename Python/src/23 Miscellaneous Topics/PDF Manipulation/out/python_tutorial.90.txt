@@ -1,0 +1,143 @@
+ 
+Python
+ 
+ 
+ 
+ 
+78
+ 
+ 
+\
+r
+ 
+0x0d
+ 
+Carriage return
+ 
+\
+s
+ 
+0x20
+ 
+Space
+ 
+\
+t
+ 
+0x09
+ 
+Tab
+ 
+\
+v
+ 
+0x0b
+ 
+Vertical tab
+ 
+\
+x
+ 
+ 
+ 
+Character x
+ 
+\
+xnn
+ 
+ 
+ 
+Hexadecimal notation, where n is in the range 
+0.9, a.f, or A.F
+ 
+String
+ 
+Special Operators
+ 
+Assume string variable 
+a
+ 
+holds 'Hello' and variable 
+b
+ 
+holds 'Python', then:
+ 
+Operator
+ 
+Description
+ 
+Example
+ 
++
+ 
+Concatenation 
+-
+ 
+Adds values on either side of 
+the operator
+ 
+a + b will give 
+HelloPython
+ 
+*
+ 
+Repetition 
+-
+ 
+Creates new strings, 
+concatenating multiple copies of the same 
+string
+ 
+a*2 will give 
+-
+HelloHello
+ 
+[]
+ 
+Slice 
+-
+ 
+Gives the character from the given 
+index
+ 
+a[1] will give
+ 
+e
+ 
+[ : ]
+ 
+Range Slice 
+-
+ 
+Gives the characters from the 
+given range
+ 
+a[1:4] will give
+ 
+ell
+ 
+in
+ 
+Membership 
+-
+ 
+Returns tr
+ue if a character 
+exists in the given string
+ 
+H in a
+ 
+will give 1
+ 
+not in
+ 
+Membership 
+-
+ 
+Returns true if a character 
+does not exist in the given string
+ 
+M not in a
+ 
+will give 1
+ 

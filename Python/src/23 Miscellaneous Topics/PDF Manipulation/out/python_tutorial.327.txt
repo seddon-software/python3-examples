@@ -1,0 +1,108 @@
+ 
+Python
+ 
+ 
+ 
+ 
+315
+ 
+ 
+Once our database connection is established, 
+you
+ 
+are ready to make a query into this 
+database. 
+You
+ 
+can use either
+ 
+fetchone()
+ 
+method to fetch single record 
+or
+ 
+fetchall()
+ 
+method to fet
+ch multiple values from a database table.
+ 
+
+ 
+fetchone():
+ 
+It
+ 
+fetches the next row of a query result set. A result set is an 
+object that is returned when a cursor ob
+ject is used to query a table.
+ 
+
+ 
+fetchall():
+ 
+It
+ 
+fetches all the rows in a result set. If some rows have already 
+been extracted from the result set, the
+n
+ 
+it
+ 
+retrieves the remaining rows from 
+the result set.
+ 
+
+ 
+rowcount:
+ 
+This is a read
+-
+only attribute and returns the number of rows that 
+were affected by an execute() method.
+ 
+Example
+ 
+The 
+f
+ollowing 
+procedure 
+quer
+ries
+ 
+all the records from EMPLOYEE table having salary 
+more than 1000:
+ 
+#!/usr/bin/python
+ 
+ 
+import MySQLdb
+ 
+ 
+# Open data
+base connection
+ 
+db = MySQLdb.connect("localhost","testuser","test123","TESTDB" )
+ 
+ 
+# prepare a cursor object using cursor() method
+ 
+cursor = db.cursor()
+ 
+ 
+# Prepare SQL query to INSERT a record into the database.
+ 
+sql = "SELECT * FROM EMPLOYEE 
+\
+ 
+       
+WHERE I
+NCOME > '%d'" % (1000)
+ 
+try:
+ 
+   
+# Execute the SQL command
+ 
+   
+cursor.execute(sql)
+ 

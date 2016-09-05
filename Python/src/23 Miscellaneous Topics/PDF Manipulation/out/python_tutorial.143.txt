@@ -1,0 +1,140 @@
+ 
+Python
+ 
+ 
+ 
+ 
+131
+ 
+ 
+Max
+ 
+value element 
+:
+  
+zara
+ 
+Max
+ 
+value element 
+:
+  
+700
+ 
+45.
+ 
+min(list)
+ 
+Description
+ 
+The method
+ 
+min()
+ 
+returns the elements from the
+ 
+list
+ 
+with minimum value.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+min()
+ 
+method:
+ 
+min
+(
+list
+)
+ 
+Parameters
+ 
+
+ 
+list
+ 
+--
+ 
+This is a list from which min valued element to be returned.
+ 
+Return Value
+ 
+This method returns the elements from the list with minimum value.
+ 
+Example
+ 
+The 
+following example shows the usage of min() method.
+ 
+#!/usr/bin/python
+ 
+ 
+list1
+,
+ 
+list2 
+=
+ 
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+],
+ 
+[
+456
+,
+ 
+700
+,
+ 
+200
+]
+ 
+ 
+print
+ 
+"min value element : "
+,
+ 
+min
+(
+list1
+);
+ 
+print
+ 
+"min value element : "
+,
+ 
+min
+(
+list2
+);
+ 
+When we run above program, it produces 
+following result:
+ 
+min value element 
+:
+  
+123
+ 
+min value element 
+:
+  
+200
+ 
+Python includes following list methods
+:
+ 

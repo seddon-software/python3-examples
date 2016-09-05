@@ -15,9 +15,9 @@ class MyClass:
     def __call__(self, name):
         global semaphore
         semaphore.acquire()
-        print(name + " claimed semaphore");
+        print((name + " claimed semaphore"));
         time.sleep(5)
-        print("\t" + name + " released semaphore");
+        print(("\t" + name + " released semaphore"));
         semaphore.release()
 
 
@@ -56,6 +56,6 @@ t5.join()
 t6.join()
 t7.join()
 
-print "\nEnd of main"
+print("\nEnd of main")
 
 1

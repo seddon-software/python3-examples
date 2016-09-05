@@ -1,0 +1,106 @@
+ 
+Python
+ 
+ 
+ 
+ 
+242
+ 
+ 
+Line No 1 
+-
+ 
+This is 2nd line
+ 
+Line No 2 
+-
+ 
+This is 3rd line
+ 
+Line No 3 
+-
+ 
+This is 4th line
+ 
+Line No 4 
+-
+ 
+This is 5th line
+ 
+Line No 5 
+-
+ 
+This is 6th line
+ 
+Line No 6 
+-
+ 
+This is 7th line
+ 
+OS Object Methods
+ 
+This provides methods to process files as well 
+as directories.
+ 
+S
+r. 
+N
+o.
+ 
+Methods with Description
+ 
+1
+ 
+os.access(path,mode)
+ 
+Use the real uid/gid to test for access to path.
+ 
+2
+ 
+os.chdir(path)
+ 
+Change the current working directory to path
+ 
+3
+ 
+os.chflags(path, flags)
+ 
+Set the flags of path to the numeric flags.
+ 
+4
+ 
+os.chmod(path, mode)
+ 
+Change the mode of path to the numeric mode.
+ 
+5
+ 
+os.chown(path, uid, gid)
+ 
+Change the owner and group id of path to the numeric uid and gid.
+ 
+6
+ 
+os.chroot(path)
+ 
+Change the root directory of the current process to path.
+ 
+7
+ 
+os.close(fd)
+ 
+Close file descriptor fd.
+ 
+8
+ 
+os.closerange(fd_low, fd_high)
+ 
+Close all file descriptors from fd_low (inclusive) to fd_high (exclusive), 
+ignoring errors.
+ 
+9
+ 
+os.dup(fd)
+ 
+Return a duplicate of file descriptor fd.
+ 

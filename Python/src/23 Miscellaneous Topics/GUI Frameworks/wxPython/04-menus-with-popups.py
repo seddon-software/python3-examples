@@ -26,10 +26,10 @@ class MyFrame(wx.Frame):
         self.edit = wx.Menu()
         self.help = wx.Menu()
 
-        self.open = wx.MenuItem(self.file, idGenerator.next(), "Open")
-        self.save = wx.MenuItem(self.file, idGenerator.next(), "Save")
-        self.quit = wx.MenuItem(self.file, idGenerator.next(), "Quit")
-        self.exit = wx.MenuItem(self.file, idGenerator.next(), "Exit")
+        self.open = wx.MenuItem(self.file, next(idGenerator), "Open")
+        self.save = wx.MenuItem(self.file, next(idGenerator), "Save")
+        self.quit = wx.MenuItem(self.file, next(idGenerator), "Quit")
+        self.exit = wx.MenuItem(self.file, next(idGenerator), "Exit")
 
         self.file.AppendItem(self.open)
         self.file.AppendItem(self.save)

@@ -1,0 +1,116 @@
+ 
+Python
+ 
+ 
+ 
+ 
+391
+ 
+ 
+relief
+ 
+Specifies the appearance of a decorative border around the label. The 
+default is FLAT; for other values.
+ 
+text
+ 
+To display one or more lines of text in a label widget, set 
+this option 
+to a string containing the text. Internal newlines ("
+\
+n") will force a 
+line break.
+ 
+textvariable
+ 
+To slave the text displayed in a label widget to a control variable of 
+class
+ 
+StringVar
+, set this option to that variable.
+ 
+underline
+ 
+You can displa
+y an underline (_) below the nth letter of the text, 
+counting from 0, by setting this option to n. The default is 
+underline=
+-
+1, which means no underlining.
+ 
+width
+ 
+Width of the label in characters (not pixels!). If this option is not set, 
+the label will be 
+sized to fit its contents.
+ 
+wraplength
+ 
+You can limit the number of characters in each line by setting this 
+option to the desired number. The default value, 0, means that lines 
+will be broken only at newlines.
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+root 
+=
+ 
+Tk
+()
+ 
+ 
+var
+ 
+=
+ 
+StringVar
+()
+ 
+label 
+=
+ 
+Message
+(
+ 
+root
+,
+ 
+textvariable
+=
+var
+,
+ 
+relief
+=
+RAISED 
+)
+ 
+ 
+var
+.
+set
+(
+"Hey!? How are you doing?"
+)
+ 
+label
+.
+pack
+()
+ 
+root
+.
+mainloop
+()
+ 

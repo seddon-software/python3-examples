@@ -8,7 +8,7 @@ class Computer:
     
     def getResponse(self):
         for button in self.buttons:
-            if button.text() == Qt.QString(""):
+            if button.text() == "":
                 button.setText("O")
                 break
 
@@ -31,7 +31,7 @@ class MainLayout(QtGui.QWidget):
             
     def initUI(self):
         self.setWindowTitle('tic-tac-toe')
-        self.setWindowIcon(QtGui.QIcon('web.png'))
+        #self.setWindowIcon(QtGui.QIcon('web.png'))
         
         gridLayout = QtGui.QGridLayout()
         gridLayout.setContentsMargins(25, 25, 25, 25)

@@ -1,0 +1,154 @@
+ 
+Python
+ 
+ 
+ 
+ 
+51
+ 
+ 
+if
+ 
+var2
+:
+ 
+   
+print
+ 
+"2 
+-
+ 
+Got a true expression value"
+ 
+   
+print
+ 
+var2
+ 
+else
+:
+ 
+   
+print
+ 
+"2 
+-
+ 
+Got a false expression value"
+ 
+   
+print
+ 
+var2
+ 
+print
+ 
+"Good bye!"
+ 
+When the above code is executed, it produces the following result:
+ 
+1
+ 
+-
+ 
+Got
+ 
+a 
+true
+ 
+expression value
+ 
+100
+ 
+2
+ 
+-
+ 
+Got
+ 
+a 
+false
+ 
+expression value
+ 
+0
+ 
+Good
+ 
+bye
+!
+ 
+The
+ 
+elif
+ 
+Statement
+ 
+The
+ 
+elif
+ 
+statement allows you to check multiple expressions for 
+TRUE 
+and execute a 
+block of code as soon as one of the conditions evaluates to TRUE.
+ 
+Similar to
+ 
+the
+ 
+else
+, the
+ 
+elif
+ 
+statement is optional. However, unlike
+ 
+else
+, for which 
+there can be at most one statem
+ent, there can be an arbitrary number 
+of
+ 
+elif
+ 
+statements following an
+ 
+if
+.
+ 
+Syntax
+ 
+if
+ 
+expression1
+:
+ 
+   
+statement
+(
+s
+)
+ 
+elif
+ 
+expression2
+:
+ 
+   
+statement
+(
+s
+)
+ 
+elif
+ 
+expression3
+:
+ 
+   
+statement
+(
+s
+)
+ 

@@ -1,0 +1,92 @@
+ 
+Python
+ 
+ 
+ 
+ 
+377
+ 
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options 
+for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The normal background color displayed behind the label and 
+indicator.
+ 
+bd
+ 
+The size of the border around the indicator. Default is 2 
+pixels.
+ 
+cursor
+ 
+The cursor that appears when the mouse is over the listbox.
+ 
+font
+ 
+The font used for the text in the listbox.
+ 
+fg
+ 
+The color used for the text in the listbox.
+ 
+height
+ 
+Number of lines (not pixels!) shown in the listbox. Default 
+is 10.
+ 
+highlightcolor
+ 
+Color sh
+own in the focus highlight when the widget has the 
+focus.
+ 
+highlightthickness
+ 
+Thickness of the focus highlight.
+ 
+relief
+ 
+Selects three
+-
+dimensional border shading effects. The 
+default is SUNKEN.
+ 
+selectbackground
+ 
+The background color to use displaying 
+selected text.
+ 
+selectmode
+ 
+Determines how many items can be selected, and how 
+mouse drags affect the selection:
+ 
+BROWSE:
+ 
+Normally, you can only select one line out of a 
+listbox. If you click on an item and then drag to a different 
+line, the selection will f
+ollow the mouse. This is the default.
+ 

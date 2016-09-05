@@ -1,0 +1,114 @@
+ 
+Python
+ 
+ 
+ 
+ 
+127
+ 
+ 
+['Hi!'] * 4
+ 
+['Hi!', 'Hi!', 'Hi!', 'Hi!']
+ 
+Repetition
+ 
+3 in [1, 2, 3]
+ 
+True
+ 
+Membership
+ 
+for x in [1, 2, 3]: print x,
+ 
+1
+ 
+2 3
+ 
+Iteration
+ 
+Indexing, Slicing, and Matrixes
+ 
+Because lists are sequences, indexing and slicing work the same way for lists as they 
+do for strings.
+ 
+Assum
+e the
+ 
+following input:
+ 
+L 
+=
+ 
+[
+'spam'
+,
+ 
+'Spam'
+,
+ 
+'SPAM!'
+]
+ 
+ 
+Python Expression
+ 
+Results
+ 
+Description
+ 
+L[2]
+ 
+'SPAM!'
+ 
+Offsets start at zero
+ 
+L[
+-
+2]
+ 
+'Spam'
+ 
+Negative: count from the right
+ 
+L[1:]
+ 
+['Spam', 'SPAM!']
+ 
+Slicing fetches sections
+ 
+Buil
+t
+-
+in List Functions 
+and
+ 
+Methods
+ 
+Python includes the following list functions:
+ 
+S
+r. 
+N
+o.
+ 
+Function with Description
+ 
+1
+ 
+cmp(list1, list2)
+ 
+Compares elements of both lists.
+ 
+2
+ 
+len(list)
+ 
+Gives the total length of the list.
+ 
+3
+ 
+max(list)
+ 
+Returns item from the list with max value.
+ 

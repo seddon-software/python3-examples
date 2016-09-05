@@ -1,0 +1,136 @@
+ 
+Python
+ 
+ 
+ 
+ 
+283
+ 
+ 
+[^0
+-
+9]
+ 
+Match anything other than a digit
+ 
+Special Character Classes
+ 
+Example
+ 
+Description
+ 
+.
+ 
+Match any character except newline
+ 
+\
+d
+ 
+Match a digit: [0
+-
+9]
+ 
+\
+D
+ 
+Match a non
+-
+digit: [^0
+-
+9]
+ 
+\
+s
+ 
+Match a whitespace character: [ 
+\
+t
+\
+r
+\
+n
+\
+f]
+ 
+\
+S
+ 
+Match non
+-
+whitespace: [^ 
+\
+t
+\
+r
+\
+n
+\
+f]
+ 
+\
+w
+ 
+Match a single word character: [A
+-
+Za
+-
+z0
+-
+9_]
+ 
+\
+W
+ 
+Match 
+a non
+-
+word character: [^A
+-
+Za
+-
+z0
+-
+9_]
+ 
+Repetition Cases
+ 
+Example
+ 
+Description
+ 
+ruby?
+ 
+Match "rub" or "ruby": the y is optional
+.
+ 
+ruby*
+ 
+Match "rub" plus 0 or more ys
+.
+ 
+ruby+
+ 
+Match "rub" plus 1 or more ys
+.
+ 
+\
+d{3}
+ 
+Match exactly 3 digits
+.
+ 
+\
+d{3,}
+ 
+Match 3 or more 
+digits
+.
+ 
+\
+d{3,5}
+ 
+Match 3, 4, or 5 digits
+.
+ 
+Nongreedy repetition
+ 

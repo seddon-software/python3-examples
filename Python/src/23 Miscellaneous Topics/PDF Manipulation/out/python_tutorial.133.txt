@@ -1,0 +1,122 @@
+ 
+Python
+ 
+ 
+ 
+ 
+121
+ 
+ 
+outtab 
+=
+ 
+"12345"
+ 
+trantab 
+=
+ 
+maketrans
+(
+intab
+,
+ 
+outtab
+)
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+print
+ 
+str
+.
+translate
+(
+trantab
+,
+ 
+'xm'
+);
+ 
+This will produce 
+following result:
+ 
+th3s 
+3s
+ 
+str3ng 
+21pl2.
+...
+w4w
+!!!
+ 
+40.
+ 
+38. 
+upper()
+ 
+ 
+Description
+ 
+The method
+ 
+upper()
+ 
+returns a copy of the string in which all case
+-
+based characters 
+have been uppercased.
+ 
+Syntax
+ 
+Following is 
+the syntax for
+ 
+upper()
+ 
+method:
+ 
+str
+.
+upper
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns a copy of the string in which all case
+-
+based characters have been 
+uppercased.
+ 
+Example
+ 
+The following example shows the usage of upper() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+ 
+print
+ 
+"str.capitalize() : "
+,
+ 
+str
+.
+upper
+()
+ 

@@ -1,0 +1,126 @@
+ 
+Python
+ 
+ 
+ 
+ 
+65
+ 
+ 
+37
+ 
+is
+ 
+prime
+ 
+41
+ 
+is
+ 
+prime
+ 
+43
+ 
+is
+ 
+prime
+ 
+47
+ 
+is
+ 
+prime
+ 
+53
+ 
+is
+ 
+prime
+ 
+59
+ 
+is
+ 
+prime
+ 
+61
+ 
+is
+ 
+prime
+ 
+67
+ 
+is
+ 
+prime
+ 
+71
+ 
+is
+ 
+prime
+ 
+73
+ 
+is
+ 
+prime
+ 
+79
+ 
+is
+ 
+prime
+ 
+83
+ 
+is
+ 
+prime
+ 
+89
+ 
+is
+ 
+prime
+ 
+97
+ 
+is
+ 
+prime
+ 
+Good
+ 
+bye
+!
+ 
+Loop Control Statements
+ 
+Loop control 
+statements change execution from its normal sequence. When execution 
+leaves a scope, all automatic objects that were created in that scope are destroyed.
+ 
+Python supports the following control statements. Click the following links to check 
+their detail.
+ 
+Con
+trol Statement
+ 
+Description
+ 
+break statement
+ 
+Terminates the
+ 
+loop
+ 
+statement and transfers execution to 
+the statement immediately following the loop.
+ 
+continue statement
+ 
+Causes the loop to skip the remainder of its body and 
+immediately retest its condition prior to reiterating.
+ 

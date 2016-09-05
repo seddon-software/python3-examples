@@ -1,0 +1,100 @@
+ 
+Python
+ 
+ 
+ 
+ 
+416
+ 
+ 
+A PanedWindow is a container widget that may contain any number of panes, 
+arranged horizontally or vertically.
+ 
+Each pane contains one widget and each pair of panes is separated by a moveable 
+(via m
+ouse movements) sash. Moving a sash causes the widgets on either side of the 
+sash to be resized.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+w 
+=
+ 
+PanedWindow
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+18.
+ 
+master:
+ 
+This represents the parent window.
+ 
+19.
+ 
+options:
+ 
+Here is the list of most commonly 
+used options for this widget. These options 
+can be used as key
+-
+value pairs separated by 
+commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The color of the slider and arrowheads when the mouse is not over 
+them.
+ 
+bd
+ 
+The width of the 3
+-
+d 
+borders around the entire perimeter of the 
+trough, and also the width of the 3
+-
+d effects on the arrowheads and 
+slider. Default is no border around the trough, and a 2
+-
+pixel border 
+around the arrowheads and slider.
+ 
+borderwidth
+ 
+Default is 2.
+ 
+cursor
+ 
+The cur
+sor that appears when the mouse is over the window.
+ 
+handlepad
+ 
+Default is 8.
+ 
+handlesize
+ 
+Default is 8.
+ 
+height
+ 
+No default value.
+ 

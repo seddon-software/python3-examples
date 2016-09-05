@@ -1,0 +1,76 @@
+ 
+Python
+ 
+ 
+ 
+ 
+98
+ 
+ 
+Return Value
+ 
+This method returns true if all cased characters in the string are lowercase and there 
+is at least one cased character, false otherwise.
+ 
+Example
+ 
+The following example sh
+ows the usage of islower() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str = "THIS is string example....wow!!!"; 
+ 
+print str.islower();
+ 
+ 
+str = "this is string example....wow!!!";
+ 
+print str.islower();
+ 
+When we run above program, it produces following result:
+ 
+False
+ 
+True
+ 
+16.
+ 
+14
+. 
+isnumeric()
+ 
+Description
+ 
+The method
+ 
+isnumeric()
+ 
+checks whether the string consists of only numeric 
+characters. This method is present only on unicode objects.
+ 
+Note:
+ 
+To define a string as Unicode, on
+e simply prefixes a 'u' to the opening 
+quotation mark of the assignment. Below is the example.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+isnumeric()
+ 
+method:
+ 
+str.isnumeric()
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return Value
+ 

@@ -1,0 +1,172 @@
+ 
+Python
+ 
+ 
+ 
+ 
+251
+ 
+ 
+   
+assert
+ 
+(
+Temperature
+ 
+>=
+ 
+0
+),
+"Colder than absolute zero!"
+ 
+   
+return
+ 
+((
+Temperature
+-
+273
+)*
+1.8
+)+
+32
+ 
+ 
+print
+ 
+KelvinToFahrenheit
+(
+273
+)
+ 
+print
+ 
+int
+(
+KelvinToFahrenheit
+(
+505.78
+))
+ 
+print
+ 
+KelvinToFahrenheit
+(
+-
+5
+)
+ 
+When 
+the above code is executed, it produces the following result:
+ 
+32.0
+ 
+451
+ 
+Traceback
+ 
+(
+most recent call 
+last
+):
+ 
+  
+File
+ 
+"test.py"
+,
+ 
+line 
+9
+,
+ 
+in
+ 
+<module>
+ 
+    
+print
+ 
+KelvinToFahrenheit
+(
+-
+5
+)
+ 
+  
+File
+ 
+"test.py"
+,
+ 
+line 
+4
+,
+ 
+in
+ 
+KelvinToFahrenheit
+ 
+    
+assert
+ 
+(
+Temperature
+ 
+>=
+ 
+0
+),
+"Colder than absolute zero!"
+ 
+AssertionError
+:
+ 
+Colder
+ 
+than absolute zero
+!
+ 
+What is Exception?
+ 
+An exception is an event, which occurs during the execution of a program
+ 
+that 
+d
+isrupts the normal flow of the program's instructions. In general, when a Python 
+script encounters a situation that it can
+no
+t cope with, it raises an exception. An 
+exception is a Python object that represents an error.
+ 
+When a Python script raises an excep
+tion, it must either handle the exception 
+immediately otherwise it 
+terminate
+s
+ 
+and 
+quits
+.
+ 
+Handling an 
+E
+xception
+ 
+If you have some
+ 
+suspicious
+ 
+code that may raise an exception, you can defend your 
+program by placing the suspicious code in a
+ 
+try:
+ 
+block. After the try: block, include 
+an
+ 
+except:
+ 
+statement, followed by a block of code which handles the problem as 
+elegantly as possible.
+ 

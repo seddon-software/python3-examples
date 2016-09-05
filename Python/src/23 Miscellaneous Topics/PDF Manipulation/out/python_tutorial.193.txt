@@ -1,0 +1,142 @@
+ 
+Python
+ 
+ 
+ 
+ 
+181
+ 
+ 
+The method
+ 
+sleep()
+ 
+suspends execution for the given number of seconds. The 
+argument may be a floating point number to indicate a more precise sleep time.
+ 
+The actual suspension time may be less than that requested because any caught 
+signal will 
+terminate the sleep() following execution of that signal's catching routine.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+sleep()
+ 
+method:
+ 
+time
+.
+sleep
+(
+t
+)
+ 
+Parameters
+ 
+t
+ 
+--
+ 
+This is the number of seconds execution to be suspended.
+ 
+Return Value
+ 
+This method does not return 
+any value.
+ 
+Example
+ 
+The following example shows the usage of sleep() method.
+ 
+#!/usr/bin/python
+ 
+import
+ 
+time
+ 
+ 
+print
+ 
+"Start : %s"
+ 
+%
+ 
+time
+.
+ctime
+()
+ 
+time
+.
+sleep
+(
+ 
+5
+ 
+)
+ 
+print
+ 
+"End : %s"
+ 
+%
+ 
+time
+.
+ctime
+()
+ 
+When we run above program, it produces following result:
+ 
+Start
+ 
+:
+ 
+Tue
+ 
+Feb
+ 
+17
+ 
+10
+:
+19
+:
+18
+ 
+2009
+ 
+End
+ 
+:
+ 
+Tue
+ 
+Feb
+ 
+17
+ 
+10
+:
+19
+:
+23
+ 
+2009
+ 
+79.
+ 
+time.strftime(fmt[,tupletime])
+ 
+Description
+ 
+The method
+ 
+strftime()
+ 
+converts a tuple or struct_time representing a time as 
+returned by gmtime() o
+r localtime() to a string as specified by the format argument.
+ 

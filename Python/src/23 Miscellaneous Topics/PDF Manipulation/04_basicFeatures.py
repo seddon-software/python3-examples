@@ -1,6 +1,6 @@
 from PyPDF2 import PdfFileWriter, PdfFileReader
 
-inputFile = "pdfs/sample.pdf"
+inputFile = "pdfs/simple.pdf"
 output = PdfFileWriter()
 input = PdfFileReader(open(inputFile, "rb"))
     
@@ -39,5 +39,5 @@ password = "secret"
 output.encrypt(password)
 
 # finally, write "output" to document-output.pdf
-outputStream = file("pdfs/sample-with-watermark.pdf", "wb")
+outputStream = open("pdfs/sample-with-watermark.pdf", "wb")
 output.write(outputStream)

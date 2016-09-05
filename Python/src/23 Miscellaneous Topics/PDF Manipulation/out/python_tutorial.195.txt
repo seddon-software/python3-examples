@@ -1,0 +1,196 @@
+ 
+Python
+ 
+ 
+ 
+ 
+183
+ 
+ 
+
+ 
+%R 
+-
+ 
+time in 24 hour notation
+ 
+
+ 
+%S 
+-
+ 
+second
+ 
+
+ 
+%
+t 
+-
+ 
+tab character
+ 
+
+ 
+%T 
+-
+ 
+current time, equal to %H:%M:%S
+ 
+
+ 
+%u 
+-
+ 
+weekday as a number (1 to 7), Monday=1. Warning: In Sun Solaris 
+Sunday=1
+ 
+
+ 
+%U 
+-
+ 
+week number of the current year, starting with the first Sunday as the 
+first day of the first week
+ 
+
+ 
+%V 
+-
+ 
+The ISO 8601 
+week number of the current year (01 to 53), where week 
+1 is the first week that has at least 4 days in the current year, and with Monday 
+as the first day of the week
+ 
+
+ 
+%W 
+-
+ 
+week number of the current year, starting with the first Monday as the 
+first day of t
+he first week
+ 
+
+ 
+%w 
+-
+ 
+day of the week as a decimal, Sunday=0
+ 
+
+ 
+%x 
+-
+ 
+preferred date representation without the time
+ 
+
+ 
+%X 
+-
+ 
+preferred time representation without the date
+ 
+
+ 
+%y 
+-
+ 
+year without a century (range 00 to 99)
+ 
+
+ 
+%Y 
+-
+ 
+year including the century
+ 
+
+ 
+%Z or %z 
+-
+ 
+time z
+one or name or abbreviation
+ 
+
+ 
+%% 
+-
+ 
+a literal % character
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of strftime() method.
+ 
+#!/usr/bin/python
+ 
+import
+ 
+time
+ 
+ 
+t 
+=
+ 
+(
+2009
+,
+ 
+2
+,
+ 
+17
+,
+ 
+17
+,
+ 
+3
+,
+ 
+38
+,
+ 
+1
+,
+ 
+48
+,
+ 
+0
+)
+ 
+t 
+=
+ 
+time
+.
+mk
+time
+(
+t
+)
+ 
+print
+ 
+time
+.
+strftime
+(
+"%b %d %Y %H:%M:%S"
+,
+ 
+time
+.
+gmtime
+(
+t
+))
+ 

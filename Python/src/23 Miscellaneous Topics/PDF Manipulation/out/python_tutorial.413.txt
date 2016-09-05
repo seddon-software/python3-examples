@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+401
+ 
+ 
+ 
+w 
+=
+ 
+Scrollbar
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+activebackground
+ 
+The color of the slider and arrowheads when 
+the mouse is over 
+them.
+ 
+bg
+ 
+The color of the slider and arrowheads when the mouse is not 
+over them.
+ 
+bd
+ 
+The width of the 3
+-
+d borders around the entire perimeter of 
+the trough, and also the width of the 3
+-
+d effects on the 
+arrowheads and slider. Default is 
+no border around the 
+trough, and a 2
+-
+pixel border around the arrowheads and 
+slider.
+ 
+command
+ 
+A procedure to be called whenever the scrollbar is moved.
+ 
+cursor
+ 
+The cursor that appears when the mouse is over the scrollbar.
+ 
+elementborderwidth
+ 
+The width of th
+e borders around the arrowheads and slider. 
+The default is elementborderwidth=
+-
+1, which means to use 
+the value of the borderwidth option.
+ 
+highlightbackground
+ 
+The color of the focus highlight when the scrollbar does not 
+have focus.
+ 
+highlightcolor
+ 
+The 
+color of the focus highlight when the scrollbar has the 
+focus.
+ 
+highlightthickness
+ 
+The thickness of the focus highlight. Default is 1. Set to 0 to 
+suppress display of the focus highlight.
+ 

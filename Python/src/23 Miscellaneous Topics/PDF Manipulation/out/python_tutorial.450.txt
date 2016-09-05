@@ -1,0 +1,204 @@
+ 
+Python
+ 
+ 
+ 
+ 
+438
+ 
+ 
+The 
+H
+eader 
+F
+ile
+ 
+Python.h
+ 
+You need to
+ 
+includ
+e
+ 
+Python.h
+ 
+header file in your C source file, which 
+give
+s
+ 
+you access 
+to the internal Python API used to hook your module into the interpreter.
+ 
+Make
+ 
+sure to include Python.h before any other headers you might need. You
+ 
+need 
+to
+ 
+follow the includes with the functions you want to call from Python.
+ 
+The C 
+F
+unctions
+ 
+The signatures of the C implementation
+ 
+of your functions 
+always take
+s
+ 
+one of the 
+f
+ollowing three forms:
+ 
+static
+ 
+PyObject
+ 
+*
+MyFunction
+(
+ 
+PyObject
+ 
+*
+self
+,
+ 
+PyObject
+ 
+*
+args 
+);
+ 
+static
+ 
+PyObject
+ 
+*
+MyFunctionWithKeywords
+(
+PyObject
+ 
+*
+self
+,
+ 
+                                 
+PyObject
+ 
+*
+args
+,
+ 
+                                 
+PyObject
+ 
+*
+kw
+);
+ 
+ 
+static
+ 
+PyObject
+ 
+*
+MyFunctionWithNoArgs
+(
+ 
+PyObject
+ 
+*
+self
+ 
+);
+ 
+Each one of the preceding declarations returns a Python object. There
+ 
+i
+s no such 
+thing as a
+void
+ 
+function in Python as there is in C. If you do
+ 
+n
+o
+t want your functions 
+to return a value, return the C equivalent of 
+Python's
+ 
+None
+ 
+value. The Python 
+headers define a macro, Py_RETURN_NONE, that does this for us.
+ 
+The names of your C functions can be whatever you like as they 
+are
+ 
+never 
+seen 
+outside of the extension module. 
+T
+hey 
+are
+ 
+defined as
+ 
+static
+ 
+func
+tion.
+ 
+Your C functions usually are named by combining the Python module and function 
+names together, as shown here:
+ 
+static
+ 
+PyObject
+ 
+*
+module_func
+(
+PyObject
+ 
+*
+self
+,
+ 
+PyObject
+ 
+*
+args
+)
+ 
+{
+ 
+   
+/* Do your stuff here. */
+ 
+   
+Py_RETURN_NONE
+;
+ 
+}
+ 
+This 
+is
+ 
+a Python function called
+ 
+func
+ 
+inside of the module
+ 
+module
+. You
+ 
+wi
+ll be putting 
+pointers to your C functions into the method table for the module that usually comes 
+next in your source code.
+ 

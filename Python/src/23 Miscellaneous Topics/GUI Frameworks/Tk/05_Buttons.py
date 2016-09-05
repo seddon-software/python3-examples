@@ -4,7 +4,7 @@
 #
 ############################################################
 
-from Tkinter import *
+from tkinter import *
 
 def main():
     root = Tk()
@@ -16,7 +16,7 @@ def main():
     root.mainloop()
 
 def calculate():
-    print "Button clicked"
+    print("Button clicked")
     
 def draw(frame):
     Button(frame, 

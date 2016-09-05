@@ -1,0 +1,76 @@
+ 
+Python
+ 
+ 
+ 
+ 
+379
+ 
+ 
+index ( i )
+ 
+If possible, positions the visible part of the listbox 
+so that the line containing index i is at the top of the 
+widget.
+ 
+insert ( index, *elements )
+ 
+Insert one or more new lines into the listbox before 
+the line specified by index. Use END as the first 
+argument if you want to add new lines to the end of 
+the listbox.
+ 
+nearest ( y )
+ 
+Return the index of the visible line
+ 
+closest to the y
+-
+coordinate y relative to the listbox widget.
+ 
+see ( index )
+ 
+Adjust the position of the listbox so that the line 
+referred to by index is visible.
+ 
+size()
+ 
+Returns the number of lines in the listbox.
+ 
+xview()
+ 
+To make the listbox horizontally
+ 
+scrollable, set the 
+command option of the associated horizontal 
+scrollbar to this method.
+ 
+xview_moveto ( fraction )
+ 
+Scroll the listbox so that the leftmost fraction of the 
+width of its longest line is outside the left side of the 
+listbox. Fraction is in 
+the range [0,1].
+ 
+xview_scroll ( number, what )
+ 
+Scrolls the listbox horizontally. For the what 
+argument, use either UNITS to scroll by characters, 
+or PAGES to scroll by pages, that is, by the width of 
+the listbox. The number argument tells how many 
+to scro
+ll.
+ 
+yview()
+ 
+To make the listbox vertically scrollable, set the 
+command option of the associated vertical scrollbar 
+to this method.
+ 
+yview_moveto ( fraction )
+ 
+Scroll the listbox so that the top fraction of the width 
+of its longest line is outside the left 
+side of the 
+listbox. Fraction is in the range [0,1].
+ 

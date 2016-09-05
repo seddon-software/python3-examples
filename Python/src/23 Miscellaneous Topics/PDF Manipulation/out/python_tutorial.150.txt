@@ -1,0 +1,141 @@
+ 
+Python
+ 
+ 
+ 
+ 
+138
+ 
+ 
+Return Value
+ 
+This method does not return any value but removes the given object from the list.
+ 
+Example
+ 
+The following
+ 
+example shows the usage of remove() method.
+ 
+#!/usr/bin/python
+ 
+ 
+aList 
+=
+ 
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+,
+ 
+'xyz'
+];
+ 
+ 
+aList
+.
+remove
+(
+'xyz'
+);
+ 
+print
+ 
+"List : "
+,
+ 
+aList
+;
+ 
+aList
+.
+remove
+(
+'abc'
+);
+ 
+print
+ 
+"List : "
+,
+ 
+aList
+;
+ 
+When we run above program, it produces following result:
+ 
+List
+ 
+:
+  
+[
+123
+,
+ 
+'zara'
+,
+ 
+'abc'
+,
+ 
+'xyz'
+]
+ 
+List
+ 
+:
+  
+[
+123
+,
+ 
+'zara'
+,
+ 
+'xyz'
+]
+ 
+52.
+ 
+List.reverse()
+ 
+Description
+ 
+The method
+ 
+reverse()
+ 
+reverses objects of list in place.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+reverse()
+ 
+method:
+ 
+list
+.
+reverse
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method 
+does not return any value but reverse the given object from the list.
+ 
+Example
+ 

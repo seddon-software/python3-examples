@@ -1,0 +1,123 @@
+ 
+Python
+ 
+ 
+ 
+ 
+81
+ 
+ 
+m.n.
+ 
+m is the minimum total width and n is the number of digits 
+to display after the decimal point (if appl.)
+ 
+Triple Quotes
+ 
+Python's triple quotes comes to the rescue by allowing strings to span multiple lines, 
+including
+ 
+verbatim NEWLINEs, TABs, and any other special characters.
+ 
+The syntax for triple quotes consists of three consecutive
+ 
+single or double
+ 
+quotes.
+ 
+#!/usr/bin/python
+ 
+ 
+para_str 
+=
+ 
+"""this is a long string that is made up of
+ 
+several lines and non
+-
+printable 
+characters such as
+ 
+TAB ( 
+\
+t ) and they will show up that way when displayed.
+ 
+NEWLINEs within the string, whether explicitly given like
+ 
+this within the brackets [ 
+\
+n ], or just a NEWLINE within
+ 
+the variable assignment will also show up.
+ 
+"""
+ 
+print
+ 
+para_str
+;
+ 
+When the above code is executed, it produces the following result. Note how every 
+single special character has been converted to its printed form, right down to the last 
+NEWLINE at the end of the string between the "up." and closing triple quotes. Also 
+not
+e that NEWLINEs occur either with an explicit carriage return at the end of a line 
+or its escape code (
+\
+n):
+ 
+this
+ 
+is
+ 
+a 
+long
+ 
+string
+ 
+that 
+is
+ 
+made up of
+ 
+several lines 
+and
+ 
+non
+-
+printable characters such 
+as
+ 
+TAB 
+(
+    
+)
+ 
+and
+ 
+they will show up that way 
+when
+ 
+displayed
+.
+ 
+NEWLINEs
+ 
+within the 
+string
+,
+ 
+whether explicitly given like
+ 
+this
+ 
+within the brackets 
+[
+ 
+ 
+],
+ 
+or
+ 
+just a NEWLINE within
+ 

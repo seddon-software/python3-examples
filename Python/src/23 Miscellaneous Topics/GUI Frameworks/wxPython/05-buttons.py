@@ -35,9 +35,9 @@ class MyFrame(wx.Frame):
     def AddButtons(self):
         self.panel = wx.Panel(self, -1)
         self.box = wx.BoxSizer(wx.HORIZONTAL)
-        self.button1 = wx.Button(self.panel, idGenerator.next(), 'Button1')
-        self.button2 = wx.Button(self.panel, idGenerator.next(), 'Button2')
-        self.button3 = wx.Button(self.panel, idGenerator.next(), 'Button3')
+        self.button1 = wx.Button(self.panel, next(idGenerator), 'Button1')
+        self.button2 = wx.Button(self.panel, next(idGenerator), 'Button2')
+        self.button3 = wx.Button(self.panel, next(idGenerator), 'Button3')
         self.box.Add(self.button1, 1 )
         self.box.Add(self.button2, 1 )
         self.box.Add(self.button3, 1 )

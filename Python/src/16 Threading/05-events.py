@@ -14,9 +14,9 @@ import sys
 class MyClass:
     def __call__(self, name):
         global event
-        print(name + " waiting for event");
+        print((name + " waiting for event"));
         event.wait()
-        print("\t" + name + " proceeding after event");
+        print(("\t" + name + " proceeding after event"));
 
 
 event = Event()
@@ -33,16 +33,16 @@ t1.start()
 t2.start()
 t3.start()
 
-print "... main waiting for 15 seconds"
+print("... main waiting for 15 seconds")
 time.sleep(15)
-print "... main clearing event flag"
+print("... main clearing event flag")
 event.set()
 
 t1.join()
 t2.join()
 t3.join()
 
-print "\nEnd of main"
+print("\nEnd of main")
 
 
 1

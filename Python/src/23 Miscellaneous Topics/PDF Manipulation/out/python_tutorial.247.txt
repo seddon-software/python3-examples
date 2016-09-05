@@ -1,0 +1,106 @@
+ 
+Python
+ 
+ 
+ 
+ 
+235
+ 
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+# Again set the pointer to the beginning
+ 
+fo
+.
+seek
+(
+0
+,
+ 
+0
+)
+ 
+line 
+=
+ 
+fo
+.
+readline
+()
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Read Line: This is 1st line
+ 
+Read Line: This is 1st line
+ 
+10.
+ 
+file.tell()
+ 
+Description
+ 
+The 
+method
+ 
+tell()
+ 
+returns the current position of the file read/write pointer within the 
+file.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+tell()
+ 
+method:
+ 
+fileObject
+.
+tell
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns the current position of the file read/write 
+pointer within the file.
+ 
+Example
+ 
+The following example shows the usage of tell() method.
+ 

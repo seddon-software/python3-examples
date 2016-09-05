@@ -1,0 +1,59 @@
+ 
+Python
+ 
+ 
+ 
+ 
+310
+ 
+ 
+
+ 
+You have gone through MySQL tutorial to understand
+ 
+MySQL Basics.
+ 
+Example
+ 
+Following is the example 
+of connecting with MySQL database "TESTDB"
+ 
+#!/usr/bin/python
+ 
+ 
+import MySQLdb
+ 
+ 
+# Open database connection
+ 
+db = MySQLdb.connect("localhost","testuser","test123","TESTDB" )
+ 
+ 
+# prepare a cursor object using cursor() method
+ 
+cursor = db.cursor()
+ 
+ 
+# execute SQL 
+query using execute() method.
+ 
+cursor.execute("SELECT VERSION()")
+ 
+ 
+# Fetch a single row using fetchone() method.
+ 
+data = cursor.fetchone()
+ 
+ 
+print "Database version : %s " % data
+ 
+ 
+# disconnect from server
+ 
+db.close()
+ 
+While running this script, it is producing 
+the following result in my Linux machine.
+ 
+Database version : 5.0.45
+ 

@@ -14,5 +14,5 @@ try:
     img = Image.merge("RGB", (b, g, r))
     img.show();
     img.save(outfile, "JPEG")
-except IOError, e:
-    print e
+except IOError as e:
+    print(e)

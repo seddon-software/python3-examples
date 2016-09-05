@@ -1,0 +1,82 @@
+ 
+Python
+ 
+ 
+ 
+ 
+412
+ 
+ 
+root 
+=
+ 
+Tk
+()
+ 
+top 
+=
+ 
+Toplevel
+()
+ 
+ 
+top
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+16.
+ 
+SpinBox
+ 
+The Spinbox widget is a variant of the standard Tkinter Entry widget, which can be 
+used to select from a fixed number of values.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+w 
+=
+ 
+Spinbox
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Paramet
+ers
+ 
+
+ 
+master:
+ 
+This 
+represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options
+ 
+can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 

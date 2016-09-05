@@ -1,0 +1,88 @@
+ 
+Python
+ 
+ 
+ 
+ 
+383
+ 
+ 
+pady
+ 
+How much space to leave above and below the text of the 
+menubutton. Default 
+is 1.
+ 
+relief
+ 
+Selects three
+-
+dimensional border shading effects. The default 
+is RAISED.
+ 
+state
+ 
+Normally, menubuttons respond to the mouse. Set 
+state=DISABLED to gray out the menubutton and make it 
+unresponsive.
+ 
+text
+ 
+To display text on the menubutton, set 
+this option to the string 
+containing the desired text. Newlines ("
+\
+n") within the string 
+will cause line breaks.
+ 
+textvariable
+ 
+You can associate a control variable of class StringVar with this 
+menubutton. Setting that control variable will change the 
+displ
+ayed text.
+ 
+underline
+ 
+Normally, no underline appears under the text on the 
+menubutton. To underline one of the characters, set this option 
+to the index of that character.
+ 
+width
+ 
+The width of the widget in characters. The default is 20.
+ 
+wraplength
+ 
+Normally, lines are not wrapped. You can set this option to a 
+number of characters and all lines will be broken into pieces no 
+longer than that number.
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+import
+ 
+tkMessageBox
+ 
+import
+ 
+Tkinter
+ 
+ 
+top 
+=
+ 
+Tk
+()
+ 
+ 

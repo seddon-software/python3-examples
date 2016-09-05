@@ -14,7 +14,7 @@ df["Status"].cat.set_categories(["won","pending","presented","declined"],inplace
 print(df.head())
 print("============================================================================================================")
 
-# display the total, average and numbr of "Price" entries for each Manager-Rep pair
+# display the total, average and number of "Price" entries for each Manager-Rep pair
 pivot = pd.pivot_table(df,index=["Manager", "Rep"], values = "Price", aggfunc = [np.sum, np.mean, len])
 pivot.columns = ['total', 'average', 'number']
 print(pivot)

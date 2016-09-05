@@ -1,0 +1,84 @@
+ 
+Python
+ 
+ 
+ 
+ 
+364
+ 
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+activebackground
+ 
+Background color when the checkbutton is under the cursor.
+ 
+activeforeground
+ 
+Foreground color when the checkbutton is under the cursor.
+ 
+bg
+ 
+The normal background color displayed behind the label and 
+indicator.
+ 
+bitmap
+ 
+To 
+display a monochrome image on a button.
+ 
+bd
+ 
+The size of the border around the indicator. Default is 2 pixels.
+ 
+command
+ 
+A procedure to be called every time the user changes the state 
+of this checkbutton.
+ 
+cursor
+ 
+If you set this option to a cursor name (
+arrow, dot etc.), the 
+mouse cursor will change to that pattern when it is over the 
+checkbutton.
+ 
+disabledforeground
+ 
+The foreground color used to render the text of a disabled 
+checkbutton. The default is a stippled version of the default 
+foreground color.
+ 
+font
+ 
+The font used for the text.
+ 
+fg
+ 
+The color used to render the text.
+ 
+height
+ 
+The number of lines of text on the checkbutton. Default is 1.
+ 
+highlightcolor
+ 
+The color of the focus highlight when the checkbutton has the 
+focus.
+ 
+image
+ 
+To display a graphic 
+image on the button.
+ 

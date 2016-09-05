@@ -1,0 +1,129 @@
+ 
+Python
+ 
+ 
+ 
+ 
+396
+ 
+ 
+ 
+R3 
+=
+ 
+Radiobutton
+(
+root
+,
+ 
+text
+=
+"Option 3"
+,
+ 
+variable
+=
+var
+,
+ 
+value
+=
+3
+,
+ 
+                  
+command
+=
+sel
+)
+ 
+R3
+.
+pack
+(
+ 
+anchor 
+=
+ 
+W
+)
+ 
+ 
+label 
+=
+ 
+Label
+(
+root
+)
+ 
+label
+.
+pack
+()
+ 
+root
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+12.
+ 
+Scale
+ 
+The Scale widget
+ 
+provides a graphical slider object that allows you to select values 
+from a specific scale.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+ 
+w 
+=
+ 
+Scale
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is 
+the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+activebackground
+ 
+The background color when the mouse is over the scale.
+ 

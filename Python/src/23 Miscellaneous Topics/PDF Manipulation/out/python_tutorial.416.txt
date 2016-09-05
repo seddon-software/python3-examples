@@ -1,0 +1,96 @@
+ 
+Python
+ 
+ 
+ 
+ 
+404
+ 
+ 
+You can also use elegant structures like tabs and 
+marks to locate specific sections of 
+the text, and apply changes to those areas. Moreover, you can embed windows and 
+images in the text because this widget was designed to handle both plain and 
+formatted text.
+ 
+Syntax
+ 
+Here is the simple syntax to create thi
+s widget:
+ 
+w 
+=
+ 
+Text
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+master:
+ 
+This represents the parent window.
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The default background color of the text widget.
+ 
+bd
+ 
+The width of the border around the text widget. Default is 2 
+pixels.
+ 
+cursor
+ 
+The cursor that will appear when the mouse is over the text 
+widget.
+ 
+exportselection
+ 
+Normally, text selected within a text 
+widget is exported to be 
+the selection in the window manager. Set exportselection=0 
+if you don't want that behavior.
+ 
+font
+ 
+The default font for text inserted into the widget.
+ 
+fg
+ 
+The color used for text (and bitmaps) within the widget. You 
+can change the c
+olor for tagged regions; this option is just the 
+default.
+ 
+height
+ 
+The height of the widget in lines (not pixels!), measured 
+according to the current font size.
+ 
+highlightbackground
+ 
+The color of the focus highlight when the text widget does not 
+have focus.
+ 

@@ -1,0 +1,128 @@
+ 
+Python
+ 
+ 
+ 
+ 
+160
+ 
+ 
+Following is the syntax for
+ 
+clear()
+ 
+method:
+ 
+dict
+.
+clear
+()
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return Value
+ 
+This method does not 
+return any value.
+ 
+Example
+ 
+The following example shows the usage of clear() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+ 
+print
+ 
+"Start Len : %d"
+ 
+%
+  
+len
+(
+dict
+)
+ 
+dict
+.
+clear
+()
+ 
+print
+ 
+"End Len : %d"
+ 
+%
+  
+len
+(
+dict
+)
+ 
+When we run above program, it 
+produces following result:
+ 
+Start
+ 
+Len
+ 
+:
+ 
+2
+ 
+End
+ 
+Len
+ 
+:
+ 
+0
+ 
+62.
+ 
+Dict.copy()
+ 
+Description
+ 
+The method
+ 
+copy()
+ 
+returns a shallow copy of the dictionary.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+copy()
+ 
+method:
+ 
+dict
+.
+copy
+()
+ 
+Parameters
+ 

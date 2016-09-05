@@ -48,7 +48,7 @@ class Customers:
     
     def listing(self):
         theList = []
-        for c in self.mylist.values():
+        for c in list(self.mylist.values()):
             theList.append(c.details())
         return theList
             

@@ -1,0 +1,91 @@
+ 
+Python
+ 
+ 
+ 
+ 
+217
+ 
+ 
+The above method would create
+ 
+foo.txt
+ 
+file and would write given content in that file 
+and finally it would close that file. If you would open this file, it would have following 
+content.
+ 
+Python is a great language.
+ 
+Yeah its great!!
+ 
+The
+ 
+read()
+ 
+Method
+ 
+The
+ 
+read()
+ 
+method reads a string from an open file. It is important to note that 
+Python stri
+ngs can have binary data
+, 
+apart from
+ 
+text
+ 
+data
+.
+ 
+Syntax
+ 
+fileObject.read([count]);
+ 
+Here, passed parameter is the number of bytes to be read from the opened file. This 
+method starts reading from the beginning of the file and if
+ 
+count
+ 
+is missing,
+ 
+then it 
+tries to read as much as possible, maybe until the end of file.
+ 
+Example
+ 
+Let
+ 
+u
+s take a file
+ 
+foo.txt
+, which we 
+created above.
+ 
+#!/usr/bin/python
+ 
+ 
+# Open a file
+ 
+fo = open("foo.txt", "r+")
+ 
+str = fo.read(10);
+ 
+print "Read String is : ", str
+ 
+# 
+Close opend file
+ 
+fo.close()
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Read String is :  Python is
+ 

@@ -1,0 +1,133 @@
+ 
+Python
+ 
+ 
+ 
+ 
+387
+ 
+ 
+delete( startindex [, endindex ])
+ 
+De
+letes the menu items ranging from startindex 
+to endindex.
+ 
+entryconfig( index, options )
+ 
+Allows you to modify a menu item, which is 
+identified by the index, and change its options.
+ 
+index(item)
+ 
+Returns the index number of the given menu item 
+label.
+ 
+insert_separator ( index )
+ 
+Insert a new separator at the position specified by 
+index.
+ 
+invoke ( index )
+ 
+Calls the command callback associated with the 
+choice at position index. If a checkbutton, its state 
+is toggled between set and cleared; if a 
+radiobutto
+n, that choice is set.
+ 
+type ( index )
+ 
+Returns the type of the choice specified by index: 
+either "cascade", "checkbutton", "command", 
+"radiobutton", "separator", or "tearoff".
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+def
+ 
+donothing
+():
+ 
+   
+filewin 
+=
+ 
+Toplevel
+(
+root
+)
+ 
+   
+button 
+=
+ 
+Button
+(
+filewin
+,
+ 
+text
+=
+"Do nothing button"
+)
+ 
+   
+button
+.
+pack
+()
+ 
+   
+ 
+root 
+=
+ 
+Tk
+()
+ 
+menubar 
+=
+ 
+Menu
+(
+root
+)
+ 
+filemenu 
+=
+ 
+Menu
+(
+menubar
+,
+ 
+tearoff
+=
+0
+)
+ 
+filemenu
+.
+add_command
+(
+label
+=
+"New"
+,
+ 
+command
+=
+donothing
+)
+ 

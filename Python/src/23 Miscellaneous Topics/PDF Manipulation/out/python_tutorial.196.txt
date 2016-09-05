@@ -1,0 +1,152 @@
+ 
+Python
+ 
+ 
+ 
+ 
+184
+ 
+ 
+When we run above program, it produces following result:
+ 
+Feb
+ 
+18
+ 
+2009
+ 
+00
+:
+03
+:
+38
+ 
+80.
+ 
+time.strptime(str,fmt='%a %b %d %H:%M:%S 
+%Y')
+ 
+Description
+ 
+The method
+ 
+strptime()
+ 
+parses a string representing a time according to a format. 
+The return value is a struct_time as returned by gmtime() or localtime().
+ 
+The format parameter uses the same directives as those used by strftime(); it 
+defaults to
+ 
+"%a %b %d %H:%M:%S %Y" which matches the formatting returned by 
+ctime().
+ 
+If string cannot be parsed according to format, or if it has excess data after parsing, 
+ValueError is raised.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+strptime()
+ 
+method:
+ 
+time
+.
+strptime
+(
+string
+[,
+ 
+format
+])
+ 
+Parameters
+ 
+
+ 
+string
+ 
+--
+ 
+This is the time in string format which would be parsed based on the 
+given format.
+ 
+
+ 
+format
+ 
+--
+ 
+This is the directive which would be used to parse the given string.
+ 
+The following directives can be embedded in the format 
+string:
+ 
+Directive
+ 
+
+ 
+%a 
+-
+ 
+abbreviated weekday name
+ 
+
+ 
+%A 
+-
+ 
+full weekday name
+ 
+
+ 
+%b 
+-
+ 
+abbreviated month name
+ 
+
+ 
+%B 
+-
+ 
+full month name
+ 
+
+ 
+%c 
+-
+ 
+preferred date and time representation
+ 
+
+ 
+%C 
+-
+ 
+century number (the year divided by 100, range 00 to 99)
+ 
+
+ 
+%d 
+-
+ 
+day of the month (01 to 
+31)
+ 
+
+ 
+%D 
+-
+ 
+same as %m/%d/%y
+ 
+
+ 
+%e 
+-
+ 
+day of the month (1 to 31)
+ 

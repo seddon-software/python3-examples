@@ -1,0 +1,117 @@
+ 
+Python
+ 
+ 
+ 
+ 
+158
+ 
+ 
+60.
+ 
+type()
+ 
+Description
+ 
+The method
+ 
+type()
+ 
+returns 
+the type of the passed variable. If passed variable is 
+dictionary then it would return a dictionary type.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+type()
+ 
+method:
+ 
+type
+(
+dict
+)
+ 
+Parameters
+ 
+
+ 
+dict
+ 
+--
+ 
+This is the dictionary.
+ 
+Return Value
+ 
+This method returns the type of 
+the passed variable.
+ 
+Example
+ 
+The following example shows the usage of type() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+print
+ 
+"Variable Type : %s"
+ 
+%
+  
+type 
+(
+dict
+)
+ 
+When we run above program, it produces following result:
+ 
+Variable
+ 
+Type
+ 
+:
+ 
+<
+type 
+'dict'
+>
+ 
+ 
+Python includes following dictionary methods
+:
+ 
+S
+r. 
+N
+o.
+ 
+Methods with Description
+ 
+1
+ 
+dict.clear()
+ 
+Removes all elements of dictionary
+ 
+dict
+ 

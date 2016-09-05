@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+118
+ 
+ 
+When we run above program, it produces following result:
+ 
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+37.
+ 
+35. 
+swapcase()
+ 
+Description
+ 
+The method
+ 
+swapcase()
+ 
+returns a copy of the string in which all the case
+-
+based 
+characters have had their case swapped.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+swapcase()
+ 
+method:
+ 
+st
+r
+.
+swapcase
+();
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns a copy of the string in which all the case
+-
+based characters have 
+had their case swapped.
+ 
+Example
+ 
+The following example shows the usage of swapcase() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is stri
+ng example....wow!!!"
+;
+ 
+print
+ 
+str
+.
+swapcase
+();
+ 
+ 
+str 
+=
+ 
+"THIS IS STRING EXAMPLE....WOW!!!"
+;
+ 
+print
+ 
+str
+.
+swapcase
+();
+ 
+When we run above program, it produces following result:
+ 
+38.
+ 
+36. 
+title()
+ 
+Description
+ 

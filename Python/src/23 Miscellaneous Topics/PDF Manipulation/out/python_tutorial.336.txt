@@ -1,0 +1,90 @@
+ 
+Python
+ 
+ 
+ 
+ 
+324
+ 
+ 
+Client Socket Methods
+ 
+Method
+ 
+Description
+ 
+s.connect()
+ 
+This method actively initiates TCP server connection.
+ 
+General Socket 
+Methods
+ 
+Method
+ 
+Description
+ 
+s.recv()
+ 
+This method receives TCP message
+ 
+s.send()
+ 
+This method transmits TCP message
+ 
+s.recvfrom()
+ 
+This method receives UDP message
+ 
+s.sendto()
+ 
+This method transmits UDP message
+ 
+s.close()
+ 
+This method closes socket
+ 
+socket.gethostname()
+ 
+Returns the hostname.
+ 
+A Simple Server
+ 
+To write Internet servers, we use the
+ 
+socket
+ 
+function available in socket module to 
+create a socket object. A socket object is then used to call other functions to setup a 
+socket server.
+ 
+Now call
+ 
+bind(hostname, port
+)
+ 
+function to specify a
+ 
+port
+ 
+for your service on the 
+given host.
+ 
+Next, call the
+ 
+accept
+ 
+method of the returned object. This method waits until a client 
+connects to the port you specified, and then returns a
+ 
+connection
+ 
+object that 
+represe
+nts the connection to that client.
+ 
+#!/usr/bin/python           # This is server.py file
+ 
+ 
+import socket               # Import socket module
+ 

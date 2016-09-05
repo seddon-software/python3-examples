@@ -1,0 +1,83 @@
+ 
+Python
+ 
+ 
+ 
+ 
+390
+ 
+ 
+anchor
+ 
+This options controls where the text is positioned if the widget has 
+more space than the text needs. The default is anchor=CENTER, 
+which centers the text in the available space.
+ 
+bg
+ 
+The normal background color displayed behind the label and 
+indicator.
+ 
+bitmap
+ 
+Set this option equal to a bitmap or image object and the label 
+will 
+display that graphic.
+ 
+bd
+ 
+The size of the border around the indicator. Default is 2 pixels.
+ 
+cursor
+ 
+If you set this option to a cursor name (
+arrow, dot etc.
+), the mouse 
+cursor will change to that pattern when it is over the checkbutton.
+ 
+font
+ 
+If you a
+re displaying text in this label (with the text or textvariable 
+option, the font option specifies in what font that text will be 
+displayed.
+ 
+fg
+ 
+If you are displaying text or a bitmap in this label, this option 
+specifies the color of the text. If you are di
+splaying a bitmap, this is 
+the color that will appear at the position of the 1
+-
+bits in the bitmap.
+ 
+height
+ 
+The vertical dimension of the new frame.
+ 
+image
+ 
+To display a static image in the label widget, set this option to an 
+image object.
+ 
+justify
+ 
+Specifies
+ 
+how multiple lines of text will be aligned with respect to 
+each other: LEFT for flush left, CENTER for centered (the default), or 
+RIGHT for right
+-
+justified.
+ 
+padx
+ 
+Extra space added to the left and right of the text within the widget. 
+Default is 1.
+ 
+pady
+ 
+E
+xtra space added above and below the text within the widget. 
+Default is 1.
+ 

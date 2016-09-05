@@ -1,0 +1,76 @@
+ 
+Python
+ 
+ 
+ 
+ 
+378
+ 
+ 
+SINGLE:
+ 
+You can only select one line, and you can't drag the 
+mouse.wherever you click button 1, that line is selected.
+ 
+MULTIPLE:
+ 
+You can select any number of lines at once. 
+Clicking on any line toggles whether or not i
+t is selected.
+ 
+EXTENDED:
+ 
+You can select any adjacent group of lines at 
+once by clicking on the first line and dragging to the last 
+line.
+ 
+width
+ 
+The width of the widget in characters. The default is 20.
+ 
+xscrollcommand
+ 
+If you want to allow the user to 
+scroll the listbox 
+horizontally, you can link your listbox widget to a horizontal 
+scrollbar.
+ 
+yscrollcommand
+ 
+If you want to allow the user to scroll the listbox vertically, 
+you can link your listbox widget to a vertical scrollbar.
+ 
+Methods
+ 
+Methods on listb
+ox objects include:
+ 
+Option
+ 
+Description
+ 
+activate ( index )
+ 
+Selects the line specifies by the given index.
+ 
+curselection()
+ 
+Returns a tuple containing the line numbers of the 
+selected element or elements, counting from 0. If 
+nothing is selected, returns an 
+empty tuple.
+ 
+delete ( first, last=None )
+ 
+Deletes the lines whose indices are in the range 
+[first, last]. If the second argument is omitted, the 
+single line with index first is deleted.
+ 
+get ( first, last=None )
+ 
+Returns a tuple containing the text of the l
+ines with 
+indices from first to last, inclusive. If the second 
+argument is omitted, returns the text of the line 
+closest to first.
+ 

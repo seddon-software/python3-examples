@@ -1,0 +1,79 @@
+ 
+Python
+ 
+ 
+ 
+ 
+320
+ 
+ 
+ROLLBACK Operation
+ 
+If you are not satisfied with one or more of the changes and you want to revert back 
+those changes completely, then use
+ 
+r
+ollback()
+ 
+method.
+ 
+Here is a simple example to call
+ 
+rollback()
+ 
+method.
+ 
+ 
+db.rollback()
+ 
+Disconnecting Database
+ 
+To disconnect Database connection, use close() method.
+ 
+ 
+db.close()
+ 
+If the connection to a database is closed by the user with the close() method, a
+ny 
+outstanding transactions are rolled back by the DB. However, instead of depending 
+on any of DB lower level implementation details, your application would be better off 
+calling commit or rollback explicitly.
+ 
+Handling Errors
+ 
+There are many sources of err
+ors. A few examples are a syntax error in an executed 
+SQL statement, a connection failure, or calling the fetch method for an already 
+canceled or finished statement handle.
+ 
+The DB API defines a number of errors that must exist in each database module. The 
+following table lists these exceptions.
+ 
+Exception
+ 
+Description
+ 
+Warning
+ 
+Used for non
+-
+fatal issues. Must subclass StandardError.
+ 
+Error
+ 
+Base class for errors. Must subclass StandardError.
+ 
+InterfaceError
+ 
+Used for errors in the database module, not the 
+database itself. 
+Must subclass Error.
+ 
+DatabaseError
+ 
+Used for errors in the database. Must subclass Error.
+ 
+DataError
+ 
+Subclass of DatabaseError that refers to errors in the data.
+ 

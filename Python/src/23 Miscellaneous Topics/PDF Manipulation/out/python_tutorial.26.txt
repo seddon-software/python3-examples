@@ -1,0 +1,108 @@
+ 
+Python
+ 
+ 
+ 
+ 
+14
+ 
+ 
+Multi
+-
+Line Statements
+ 
+Statements in Python
+ 
+typically end with a new line. Python does, however, allow the 
+use of the line continuation character (
+\
+) to denote that the line should continue. For 
+example:
+ 
+total 
+=
+ 
+item_one 
++
+ 
+\
+ 
+        
+item_two 
++
+ 
+\
+ 
+        
+item_three
+ 
+Statements contained within the []
+, {}
+,
+ 
+or () brackets do not need to use the line 
+continuation character. For example:
+ 
+days 
+=
+ 
+[
+'Monday'
+,
+ 
+'Tuesday'
+,
+ 
+'Wednesday'
+,
+ 
+        
+'Thursday'
+,
+ 
+'Friday'
+]
+ 
+Quotation in Python
+ 
+Python accepts single ('), double (") and triple (''' or """) quotes to denot
+e string 
+literals, as long as the same type of quote starts and ends the string.
+ 
+The triple quotes 
+are 
+used to span the string across multiple lines. For example, all 
+the following are legal:
+ 
+word 
+=
+ 
+'word'
+ 
+sentence 
+=
+ 
+"This is a sentence."
+ 
+paragraph 
+=
+ 
+"""This is a paragraph. It is
+ 
+made up of multiple lines and sentences."""
+ 
+Comments in Python
+ 
+A hash sign (#) that is not inside a string literal begins a comment. All characters 
+after the # and up to the 
+end of the 
+physical line 
+are part of the 
+comment and the 
+Python interpreter ignores them.
+ 
+#!/usr/bin/python
+ 
+ 
+# First comment
+ 

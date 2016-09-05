@@ -1,0 +1,70 @@
+ 
+Python
+ 
+ 
+ 
+ 
+215
+ 
+ 
+ 
+# Open a file
+ 
+fo = open("foo.txt", "wb")
+ 
+print "Name of the file: ", fo.name
+ 
+print "Closed or not : ", fo.closed
+ 
+print 
+"Opening mode : ", fo.mode
+ 
+print "Softspace flag : ", fo.softspace
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Name of the file:  foo.txt
+ 
+Closed or not :  False
+ 
+Opening mode :  wb
+ 
+Softspace flag :  0
+ 
+The
+ 
+close()
+ 
+Method
+ 
+The close() method of a
+ 
+file
+ 
+object fl
+ushes any unwritten information and closes the 
+file object, after which no more writing can be done.
+ 
+Python automatically closes a file when the reference object of a file is reassigned to 
+another file. It is a good practice to use the close() method to cl
+ose a file.
+ 
+Syntax
+ 
+fileObject.close();
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+# Open a file
+ 
+fo = open("foo.txt", "wb")
+ 
+print "Name of the file: ", fo.name
+ 

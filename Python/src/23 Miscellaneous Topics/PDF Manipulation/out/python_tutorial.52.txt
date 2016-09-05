@@ -1,0 +1,168 @@
+ 
+Python
+ 
+ 
+ 
+ 
+40
+ 
+ 
+print
+ 
+"Line 6 
+-
+ 
+Value of c is "
+,
+ 
+c
+ 
+When you execute the above program it produces the following result:
+ 
+Line
+ 
+1
+ 
+-
+ 
+Value
+ 
+of c 
+is
+ 
+12
+ 
+Line
+ 
+2
+ 
+-
+ 
+Value
+ 
+of c 
+is
+ 
+61
+ 
+Line
+ 
+3
+ 
+-
+ 
+Value
+ 
+of c 
+is
+ 
+49
+ 
+Line
+ 
+4
+ 
+-
+ 
+Value
+ 
+of c 
+is
+ 
+-
+61
+ 
+Line
+ 
+5
+ 
+-
+ 
+Value
+ 
+of c 
+is
+ 
+240
+ 
+Line
+ 
+6
+ 
+-
+ 
+Value
+ 
+of c 
+is
+ 
+15
+ 
+Python Logical Operators
+ 
+There are following logical operators supported by Python language. Assume variable 
+a holds 10 and variable b holds 20 then:
+ 
+ 
+Operator
+ 
+Description
+ 
+Example
+ 
+and
+ 
+ 
+Logical AND
+ 
+If both the operands are true 
+then condition 
+becomes true.
+ 
+(a and b) is true.
+ 
+or
+ 
+ 
+Logical OR
+ 
+If any of the two operands are non
+-
+zero 
+then condition becomes true.
+ 
+(a or b) is true.
+ 
+not
+ 
+ 
+Logical NOT
+ 
+Use
+d
+ 
+to reverse
+ 
+the logical state of its 
+operand
+.
+ 
+N
+ot
+ 
+(a and b) is false.
+ 
+Python Me
+mbership Operators
+ 
+Python
+
+ 
+membership operators
+ 
+test for membership in a sequence, such as strings, 
+lists, or tuples. There are two membership operators 
+as 
+explained below:
+ 
+ 

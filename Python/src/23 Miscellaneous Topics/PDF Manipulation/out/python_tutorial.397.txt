@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+385
+ 
+ 
+It is also possible to use other extended widgets to implement new typ
+es of menus, 
+such as the
+ 
+OptionMenu
+ 
+widget, which implements a special type that generates a 
+pop
+-
+up list of items within a selection.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+ 
+w 
+=
+ 
+Menu
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This 
+represents the parent window.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+activebackground
+ 
+The background color that will appear on a choice 
+when it is 
+under the mouse.
+ 
+activeborderwidth
+ 
+Specifies the width of a border drawn around a choice when it 
+is under the mouse. Default is 1 pixel.
+ 
+activeforeground
+ 
+The foreground color that will appear on a choice when it is 
+under the mouse.
+ 
+bg
+ 
+The 
+background color for choices not under the mouse.
+ 
+bd
+ 
+The width of the border around all the choices. Default is 1.
+ 
+cursor
+ 
+The cursor that appears when the mouse is over the choices, 
+but only when the menu has been torn off.
+ 
+disabledforeground
+ 
+The color 
+of the text for items whose state is DISABLED.
+ 
+font
+ 
+The default font for textual choices.
+ 
+fg
+ 
+The foreground color used for choices not under the mouse.
+ 

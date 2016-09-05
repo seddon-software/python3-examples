@@ -1,0 +1,136 @@
+ 
+Python
+ 
+ 
+ 
+ 
+442
+ 
+ 
+};
+ 
+ 
+void
+ 
+inithelloworld
+(
+void
+)
+ 
+{
+ 
+    
+Py_InitModule3
+(
+"helloworld"
+,
+ 
+helloworld_funcs
+,
+ 
+                   
+"Extension module example!"
+);
+ 
+}
+ 
+Here the
+ 
+Py_BuildValue
+ 
+function is used to build a Python value. Save above code in 
+hello.c file. We would see how to
+ 
+compile and install this module to be called from 
+Python script.
+ 
+Bui
+lding and Installing Extensions
+ 
+The
+ 
+distutils
+ 
+package makes it very easy to distribute Python modules, both pure 
+Python and extension modules, in a standard way. Modules are distributed 
+in source 
+form and built and installed via a setup script usually called
+ 
+setup.py
+ 
+as follows.
+ 
+For the above module, you 
+need
+ 
+to prepare following setup.py script:
+ 
+from
+ 
+distutils
+.
+core 
+import
+ 
+setup
+,
+ 
+Extension
+ 
+setup
+(
+name
+=
+'helloworld'
+,
+ 
+version
+=
+'1.0'
+,
+  
+\
+ 
+      
+ext_modules
+=[
+Extension
+(
+'helloworld'
+,
+ 
+[
+'hello.c'
+])])
+ 
+Now, use the following command, which would perform all needed compilation and 
+linking steps, with the right compiler and linker commands and flags, and copies the 
+resulting dynamic library into
+ 
+an appropriate directory:
+ 
+$ python setup
+.
+py install
+ 
+On Unix
+-
+based systems, you'll most likely need to run this command as root in order 
+to have permissions to write to the site
+-
+packages directory. This usually is
+ 
+n
+o
+t a 
+problem on Windows
+.
+ 
+Import
+ing
+ 
+Extensions
+ 
+Once you installed your extension, you would be able to import and call that extension 
+in your Python script as follows:
+ 

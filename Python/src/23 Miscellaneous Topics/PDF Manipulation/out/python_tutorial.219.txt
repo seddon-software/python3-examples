@@ -1,0 +1,99 @@
+ 
+Python
+ 
+ 
+ 
+ 
+207
+ 
+ 
+variable. However, we accessed the va
+lue of the local variable
+ 
+Money
+ 
+before setting 
+it, so an UnboundLocalError is the result. Uncommenting the global statement fixes 
+the problem.
+ 
+#!/usr/bin/python
+ 
+ 
+Money
+ 
+=
+ 
+2000
+ 
+def
+ 
+AddMoney
+():
+ 
+   
+# Uncomment the following line to fix the code:
+ 
+   
+# global 
+Money
+ 
+   
+Money
+ 
+=
+ 
+Money
+ 
++
+ 
+1
+ 
+ 
+print
+ 
+Money
+ 
+AddMoney
+()
+ 
+print
+ 
+Money
+ 
+The dir( ) Function
+ 
+The dir() built
+-
+in function returns a sorted list of strings containing the names defined 
+by a module.
+ 
+The list contains the names of all the modules, variables and functio
+ns that are 
+defined in a module. Following is a simple example:
+ 
+#!/usr/bin/python
+ 
+ 
+# Import built
+-
+in module math
+ 
+import
+ 
+math
+ 
+ 
+content 
+=
+ 
+dir
+(
+math
+)
+ 
+ 
+print
+ 
+content
+;
+ 

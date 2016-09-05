@@ -13,4 +13,4 @@ try:
     img.show()
     img.save(outfile, "JPEG")
 except IOError:
-    print e
+    print(e)

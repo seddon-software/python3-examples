@@ -1,0 +1,47 @@
+ 
+Python
+ 
+ 
+ 
+ 
+321
+ 
+ 
+OperationalError
+ 
+Subclass of DatabaseError that refers to errors such as the
+ 
+loss 
+of a connection to the database. These errors are generally 
+outside of the control of the Python scripter.
+ 
+IntegrityError
+ 
+Subclass of DatabaseError for situations that would damage the 
+relational integrity, such as uniqueness constraints or foreign 
+keys.
+ 
+InternalError
+ 
+Subclass of DatabaseError that refers to errors internal to the 
+database module, such as a cursor no longer being active.
+ 
+ProgrammingError
+ 
+Subclass of DatabaseError that refers to errors such as a bad 
+table name and other things that 
+can safely be blamed on you.
+ 
+NotSupportedError
+ 
+Subclass of DatabaseError that refers to trying to call 
+unsupported functionality.
+ 
+ 
+Your Python scripts should handle these errors, but before using any of the above 
+exceptions, make sure your MySQLdb has 
+support for that exception. You can get 
+more information about them by reading the DB API 2.0 specification.
+ 
+ 
+ 

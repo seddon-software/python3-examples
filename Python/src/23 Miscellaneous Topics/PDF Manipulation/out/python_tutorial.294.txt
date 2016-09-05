@@ -1,0 +1,103 @@
+ 
+Python
+ 
+ 
+ 
+ 
+282
+ 
+ 
+\
+B
+ 
+Matches non
+-
+word boundaries.
+ 
+\
+n, 
+\
+t, etc.
+ 
+Matches newlines, carriage returns, tabs, etc.
+ 
+\
+1...
+\
+9
+ 
+Matches nth grouped subexpression.
+ 
+\
+10
+ 
+Matches nth grouped subexpression if it matched already. 
+Otherwise refers to the octal representation of a character code.
+ 
+Regular
+-
+E
+xpression Example
+s
+ 
+Literal characters
+ 
+Example
+ 
+Description
+ 
+python
+ 
+Match "python".
+ 
+Character classes
+ 
+Example
+ 
+Description
+ 
+[Pp]ython
+ 
+Match "Python" or "python"
+ 
+rub[ye]
+ 
+Match "ruby" or "rube"
+ 
+[aeiou]
+ 
+Match any one lowercase vowel
+ 
+[0
+-
+9]
+ 
+Match any digit; same as 
+[0123456789]
+ 
+[a
+-
+z]
+ 
+Match any lowercase ASCII letter
+ 
+[A
+-
+Z]
+ 
+Match any uppercase ASCII letter
+ 
+[a
+-
+zA
+-
+Z0
+-
+9]
+ 
+Match any of the above
+ 
+[^aeiou]
+ 
+Match anything other than a lowercase vowel
+ 

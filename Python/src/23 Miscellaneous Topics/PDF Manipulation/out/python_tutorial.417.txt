@@ -1,0 +1,85 @@
+ 
+Python
+ 
+ 
+ 
+ 
+405
+ 
+ 
+highlightcolor
+ 
+The color of the focus highlight when the text widget has the 
+focus.
+ 
+highlightthickness
+ 
+The thickness of the focus highlight. Default is 1. Set 
+highlightthickness=0 to suppress display of the focus 
+highlight.
+ 
+insertbackground
+ 
+The color of
+ 
+the insertion cursor. Default is black.
+ 
+insertborderwidth
+ 
+Size of the 3
+-
+D border around the insertion cursor. Default is 
+0.
+ 
+insertofftime
+ 
+The number of milliseconds the insertion cursor is off during 
+its blink cycle. Set this option to zero to suppress 
+blinking. 
+Default is 300.
+ 
+insertontime
+ 
+The number of milliseconds the insertion cursor is on during 
+its blink cycle. Default is 600.
+ 
+insertwidth
+ 
+Width of the insertion cursor (its height is determined by the 
+tallest item in its line). Default is 2 pixels
+.
+ 
+padx
+ 
+The size of the internal padding added to the left and right of 
+the text area. Default is one pixel.
+ 
+pady
+ 
+The size of the internal padding added above and below the 
+text area. Default is one pixel.
+ 
+relief
+ 
+The 3
+-
+D appearance of the text widget. 
+Default is 
+relief=SUNKEN.
+ 
+selectbackground
+ 
+The background color to use displaying selected text.
+ 
+selectborderwidth
+ 
+The width of the border to use around selected text.
+ 
+spacing1
+ 
+This option specifies how much extra vertical space is put 
+above each line o
+f text. If a line wraps, this space is added 
+only before the first line it occupies on the display. Default is 
+0.
+ 

@@ -1,0 +1,85 @@
+ 
+Python
+ 
+ 
+ 
+ 
+381
+ 
+ 
+ 
+8.
+ 
+MenuButton
+ 
+A menubutton is the part of a drop
+-
+down menu that stays on the screen all the time. 
+Every menubutton is 
+associated with a Menu widget that can display the choices for 
+that menubutton when the user clicks on it.
+ 
+Syntax
+ 
+Here is the simple syntax to create this widget:
+ 
+  
+w 
+=
+ 
+Menubutton
+ 
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+
+ 
+master:
+ 
+This represents the parent window
+.
+ 
+
+ 
+options:
+ 
+Here is the list of most commonly used options for this widget. These 
+options can be used as key
+-
+value pairs separated by commas.
+ 
+Option
+ 
+Description
+ 
+activebackground
+ 
+The background color when the mouse is over the menubutton.
+ 
+activeforeground
+ 
+The foreground color when the mouse is over the menubutton.
+ 
+anchor
+ 
+This options controls where the text is positioned if the widget 
+has more space than the text needs. The default is 
+anchor=CENTER, which centers the text.
+ 
+bg
+ 
+The normal background color d
+isplayed behind the label and 
+indicator.
+ 

@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+213
+ 
+ 
+Here 
+are
+ 
+param
+e
+ter
+ 
+detail
+s
+:
+ 
+
+ 
+file_name:
+ 
+The file_name argument is a string value that contains the name 
+of the file that you want to access.
+ 
+
+ 
+access_mode:
+ 
+The access_mode determines 
+the mode in which the file has 
+to be opened, i.e., read, write, append, etc. A complete list of possible values 
+is given below in the table. This is optional parameter and the default file 
+access mode is read (r).
+ 
+
+ 
+buffering:
+ 
+If the buffering value is set t
+o 0, no buffering 
+take
+s
+ 
+place. If the 
+buffering value is 1, line buffering 
+is 
+performed while accessing a file. If you 
+specify the buffering value as an integer greater than 1, then buffering action 
+is 
+performed with the indicated buff
+er size. If negative, the buffer size is the 
+system default
+ 
+(default behavior).
+ 
+Here is a list of the different modes of opening a file:
+ 
+Modes
+ 
+Description
+ 
+r
+ 
+Opens a file for reading only. The file pointer is placed at the beginning of 
+the file. This is 
+the default mode.
+ 
+rb
+ 
+Opens a file for reading only in binary format. The file pointer is placed at 
+the beginning of the file. This is the default mode.
+ 
+r+
+ 
+Opens a file for both reading and writing. The file pointer 
+is placed
+ 
+at the 
+beginning of the file.
+ 
+rb+
+ 
+Opens a file for both reading and writing in binary format. The file pointer 
+is 
+placed 
+at the beginning of the file.
+ 
+w
+ 
+Opens a file for writing only. Overwrites the file if the file exists. If the file 
+does not 
+exist, creates a new file for writing.
+ 
+wb
+ 
+Opens a file for writing only in binary format. Overwrites the file if the file 
+exists. If the file does not exist, creates a new file for writing.
+ 
+w+
+ 
+Opens a file for both writing and reading. Overwrites the 
+existing file if the 
+file exists. If the file does not exist, creates a new file for reading and writing.
+ 

@@ -1,0 +1,155 @@
+ 
+Python
+ 
+ 
+ 
+ 
+154
+ 
+ 
+(a)
+ 
+More than one entry per key not allowed. Which means no duplicate key is 
+allowed. When duplicate keys encountered during assignment, the la
+st assignment 
+wins. Fo
+r
+ 
+example:
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+,
+ 
+'Name'
+:
+ 
+'Manni'
+};
+ 
+ 
+print
+ 
+"dict['Name']: "
+,
+ 
+dict
+[
+'Name'
+];
+ 
+When the above code is executed, it produces the following result:
+ 
+dict
+[
+'Name'
+]:
+  
+Manni
+ 
+(b)
+ 
+Keys must be immutable. Which means you can use strings, numbers or tuples 
+as dictionary keys but something like ['key'] is not allowed. Following is a simple 
+example:
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{[
+'Name'
+]:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+ 
+print
+ 
+"dict['Name']: "
+,
+ 
+dict
+[
+'N
+ame'
+];
+ 
+When the above code is executed, it produces the following result:
+ 
+Traceback
+ 
+(
+most recent call 
+last
+):
+ 
+  
+File
+ 
+"test.py"
+,
+ 
+line 
+3
+,
+ 
+in
+ 
+<module>
+ 
+    
+dict 
+=
+ 
+{[
+'Name'
+]:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+TypeError
+:
+ 
+list objects are unhashable
+ 
+Built
+-
+in Dictionary Functions 
+and
+ 
+Methods
+ 
+Python includes the following dictionary functions:
+ 

@@ -1,0 +1,136 @@
+ 
+Python
+ 
+ 
+ 
+ 
+261
+ 
+ 
+
+ 
+Object
+:
+ 
+A unique instance of a data structure that's defined by its class. An 
+object comprises both data members (class variables and instance
+ 
+variables) 
+and methods.
+ 
+
+ 
+Operator overloading:
+ 
+The assignment of more than one function to a 
+particular operator.
+ 
+Creating Classes
+ 
+The
+ 
+class
+ 
+statement creates a new class definition. The name of the class immediately 
+follows the keyword
+ 
+class
+ 
+followed by 
+a colon as follows:
+ 
+class
+ 
+ClassName
+:
+ 
+   
+'Optional class documentation string'
+ 
+   
+class_suite
+ 
+
+ 
+The class has a documentation string, which can be accessed 
+via
+ClassName.__doc__
+.
+ 
+
+ 
+The
+ 
+class_suite
+ 
+consists of all the component statements defining class 
+members, 
+data attributes and functions.
+ 
+Example
+ 
+Following is the example of a simple Python class:
+ 
+class
+ 
+Employee
+:
+ 
+   
+'Common base class for all employees'
+ 
+   
+empCount 
+=
+ 
+0
+ 
+ 
+   
+def
+ 
+__init__
+(
+self
+,
+ 
+name
+,
+ 
+salary
+):
+ 
+      
+self
+.
+name 
+=
+ 
+name
+ 
+      
+self
+.
+salary 
+=
+ 
+salary
+ 
+      
+Employee
+.
+empCount 
++=
+ 
+1
+ 
+   
+ 
+   
+def
+ 
+displayCount
+(
+self
+):
+ 

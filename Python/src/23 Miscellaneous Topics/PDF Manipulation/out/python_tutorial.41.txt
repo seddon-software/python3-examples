@@ -1,0 +1,48 @@
+ 
+Python
+ 
+ 
+ 
+ 
+29
+ 
+ 
+list(s)
+ 
+Converts s to a list.
+ 
+set(s)
+ 
+Converts s to a set.
+ 
+dict(d)
+ 
+Creates a dictionary. d must be a sequence of (key,value) 
+tuples.
+ 
+frozenset(s)
+ 
+Converts s to a frozen set.
+ 
+chr(x)
+ 
+Converts an 
+integer to a character.
+ 
+unichr(x)
+ 
+Converts an integer to a Unicode character.
+ 
+ord(x)
+ 
+Converts a single character to its integer value.
+ 
+hex(x)
+ 
+Converts an integer to a hexadecimal string.
+ 
+oct(x)
+ 
+Converts an integer to an octal string.
+ 
+ 

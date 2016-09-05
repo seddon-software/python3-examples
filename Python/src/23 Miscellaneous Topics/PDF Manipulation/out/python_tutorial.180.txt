@@ -1,0 +1,62 @@
+ 
+Python
+ 
+ 
+ 
+ 
+168
+ 
+ 
+This method returns a list of all the values available in a given dictionary.
+ 
+Example
+ 
+The followi
+ng example shows the usage of values() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+}
+ 
+ 
+print
+ 
+"Value : %s"
+ 
+%
+  
+dict
+.
+values
+()
+ 
+When we run above program, it produces following result:
+ 
+Value
+ 
+:
+ 
+[
+7
+,
+ 
+'Zara'
+]
+ 
+ 
+ 

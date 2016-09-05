@@ -1,0 +1,97 @@
+ 
+Python
+ 
+ 
+ 
+ 
+86
+ 
+ 
+33
+ 
+startswith(s
+tr, beg=0,end=len(string))
+ 
+Determines if string or a substring of string (if starting index beg and 
+ending index end are given) starts with substring str; returns true if so 
+and false otherwise
+.
+ 
+34
+ 
+strip([chars])
+ 
+Performs both lstrip() and rstrip() on string
+.
+ 
+35
+ 
+swapcase()
+ 
+Inverts case for all letters in string
+.
+ 
+36
+ 
+title()
+ 
+Returns 
+"titlecased" version of string, that is, all words begin with 
+uppercase and the rest are lowercase
+.
+ 
+37
+ 
+translate(table, deletechars="")
+ 
+Translates string according to translation table str(256 c
+hars), removing 
+those in the del string
+.
+ 
+38
+ 
+upper()
+ 
+Converts lowercase letters in string to uppercase
+.
+ 
+39
+ 
+zfill (width)
+ 
+Returns original 
+string leftpadded with zeros to a total of width 
+characters; intended for numbers, zfill() retains any sign given (less one 
+zero)
+.
+ 
+40
+ 
+isdecimal()
+ 
+Returns true if a unicode string contains only d
+ecimal characters and 
+false otherwise
+.
+ 
+Let us study them in detail:
+ 
+1.
+ 
+capitalize()
+ 
+Method
+ 
+It
+ 
+returns a copy of the string with only its first character capitalized. 
+ 
+Syntax
+ 
+str.capitalize()
+ 
+Parameters
+ 
+NA
+ 

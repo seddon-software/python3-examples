@@ -1,0 +1,92 @@
+ 
+Python
+ 
+ 
+ 
+ 
+331
+ 
+ 
+   
+print "Successfully sent email"
+ 
+except SMTPException:
+ 
+   
+print "Error: unable to send email"
+ 
+Sending Attachments as an 
+E
+-
+mail
+ 
+To send an e
+-
+mail with mixed content requires to set
+ 
+Content
+-
+type
+ 
+header 
+to
+multipart/mixed
+. 
+Then, text and attachment sections can be specified 
+within
+ 
+boundaries
+.
+ 
+A boundary is started with two hyphens followed by a unique number, which can
+not 
+appear in the message part of the e
+-
+mail. A final boundary denoting the e
+-
+mail's final 
+section must als
+o end with two hyphens.
+ 
+Attached files should be encoded with the
+ 
+pack("m")
+ 
+function to have base64 
+encoding before transmission.
+ 
+Example
+ 
+Following is the example, which 
+send
+s
+ 
+a file
+ 
+/tmp/test.txt
+ 
+as an attachment. Try it 
+once:
+ 
+#!/usr/bin/python
+ 
+ 
+import smtplib
+ 
+import base64
+ 
+ 
+filename = "/tmp/test.txt"
+ 
+ 
+# Read a file and encode it into base64 format
+ 
+fo = open(filename, "rb")
+ 
+filecontent = fo.read()
+ 
+encodedcontent = base64.b64encode(filecontent)  # base64
+ 
+ 
+sender = 'webmaster@tutorialpoint.com'
+ 

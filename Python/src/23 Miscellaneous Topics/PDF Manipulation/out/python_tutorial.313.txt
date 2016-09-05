@@ -1,0 +1,116 @@
+ 
+Python
+ 
+ 
+ 
+ 
+301
+ 
+ 
+print
+ 
+"</body>"
+ 
+Passing Drop Down Box Data to CGI Program
+ 
+Drop Down Box is used when we have many options available but only one or two 
+will be selected.
+ 
+Here is example HTML code for a form with 
+one drop down box:
+ 
+<form
+ 
+action
+=
+"/cgi
+-
+bin/dropdown.py"
+ 
+method
+=
+"post"
+ 
+target
+=
+"_blank"
+>
+ 
+<select
+ 
+name
+=
+"dropdown"
+>
+ 
+<option
+ 
+value
+=
+"Maths"
+ 
+selected
+>
+Maths
+</option>
+ 
+<option
+ 
+value
+=
+"Physics"
+>
+Physics
+</option>
+ 
+</select>
+ 
+<input
+ 
+type
+=
+"submit"
+ 
+value
+=
+"Submit"
+/>
+ 
+</form>
+ 
+The result of this code is the following form:
+ 
+  
+ 
+ 
+Bottom of Form
+ 
+Below is dropdown.py script to handle input given by web browser.
+ 
+#!/usr/bin/python
+ 
+ 
+# Import modules for CGI handling 
+ 
+import
+ 
+cgi
+,
+ 
+cgitb 
+ 
+ 
+# Create instance of FieldStorage 
+ 
+form 
+=
+ 
+cgi
+.
+FieldStorage
+()
+ 
+ 
+ 
+# Get data from fields
+ 

@@ -1,0 +1,142 @@
+ 
+Python
+ 
+ 
+ 
+ 
+24
+ 
+ 
+
+ 
+Python allows you to use a lowercase L with long, but it is recommended that 
+you use only an 
+uppercase L to avoid confusion with the number 1. Python 
+displays long integers with an uppercase L.
+ 
+
+ 
+A complex number consists of an ordered pair of real floating
+-
+point numbers 
+denoted by 
+x
+ 
++ 
+y
+j, where 
+x
+ 
+is the real part and b is the imaginary part of t
+he 
+complex number.
+ 
+Python Strings
+ 
+Strings in Python are identified as a contiguous set of characters 
+represented in
+ 
+the
+ 
+quotation marks. Python allows for either pairs of single or double quotes. Subsets 
+of strings can be taken using the slice 
+operator (
+[ ] and [
+:
+] ) with indexes starting at 
+0 in the beginning of the string and working their way from 
+-
+1 at the end.
+ 
+The plus (
++
+) sign is the string concatenation operator and the asterisk (
+*
+) is the 
+repetition operator. For example:
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+'Hello World!'
+ 
+print
+ 
+str          
+# Prints complete string
+ 
+print
+ 
+str
+[
+0
+]
+       
+# Prints first character of the string
+ 
+print
+ 
+str
+[
+2
+:
+5
+]
+     
+# Prints characters starting from 3rd to 5th
+ 
+print
+ 
+str
+[
+2
+:]
+      
+# Prints string starting from 
+3rd character
+ 
+print
+ 
+str 
+*
+ 
+2
+      
+# Prints string two times
+ 
+print
+ 
+str 
++
+ 
+"TEST"
+ 
+# Prints concatenated string
+ 
+This will produce the following result:
+ 
+Hello
+ 
+World
+!
+ 
+H
+ 
+llo
+ 
+llo 
+World
+!
+ 
+Hello
+ 
+World
+!
+Hello
+ 
+World
+!
+ 

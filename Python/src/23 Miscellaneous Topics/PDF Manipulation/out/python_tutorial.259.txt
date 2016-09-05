@@ -1,0 +1,27 @@
+ 
+Python
+ 
+ 
+ 
+ 
+247
+ 
+ 
+62
+ 
+os.walk(top[, topdown=True[, onerror=None[, followlinks=False]]])
+ 
+Generate the file names in a di
+rectory tree by walking the tree either top
+-
+down or bottom
+-
+up.
+ 
+63
+ 
+os.write(fd, str)
+ 
+Write the string str to file descriptor fd. Return the number of bytes 
+actually written.
+ 

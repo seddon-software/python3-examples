@@ -1,0 +1,132 @@
+ 
+Python
+ 
+ 
+ 
+ 
+347
+ 
+ 
+   
+<type>
+Comedy
+</type>
+ 
+   
+<format>
+VHS
+</format>
+ 
+   
+<rating>
+PG
+</rating>
+ 
+   
+<stars>
+2
+</stars>
+ 
+   
+<description>
+Viewable boredom
+<
+/description>
+ 
+</movie>
+ 
+</collection>
+ 
+Parsing XML with SAX APIs
+ 
+SAX is a standard interface for event
+-
+driven XML parsing. Parsing XML with SAX 
+generally requires you to create your own ContentHandler by subclassing 
+xml.sax.ContentHandler.
+ 
+Your
+ 
+ContentHandl
+er
+ 
+handles the particular tags and attributes of your flavor(s) of 
+XML. A ContentHandler object provides methods to handle various parsing events. 
+Its owning parser calls ContentHandler methods as it parses the XML file.
+ 
+The methods
+ 
+startDocument
+ 
+and
+ 
+endDo
+cument
+ 
+are called at the start and the end of 
+the XML file. The method
+ 
+characters(text)
+ 
+is passed character data of the XML file via 
+the parameter text.
+ 
+The ContentHandler is called at the start and end of each element. If the parser is 
+not in namespace mo
+de, the methods
+ 
+startElement(tag, 
+attributes)
+ 
+and
+ 
+endElement(tag)
+ 
+are called; otherwise, the corresponding 
+methods
+ 
+startElementNS
+ 
+and
+ 
+endElementNS
+ 
+are called. Here, tag is the element tag, 
+and attributes is an Attributes object.
+ 
+Here are other important me
+thods to understand before proceeding:
+ 
+The
+ 
+make_parser
+ 
+Method
+ 
+Following method creates a new parser object and returns it. The parser object 
+created will be of the first parser type the system finds.
+ 
+xml
+.
+sax
+.
+make_parser
+(
+ 
+[
+parser_list
+]
+ 
+)
+ 
+Here is the detail
+ 
+of the parameters:
+ 
+
+ 
+parser_list:
+ 
+The optional argument consisting of a list of parsers to use which 
+must all implement the make_parser method.
+ 

@@ -1,0 +1,128 @@
+ 
+Python
+ 
+ 
+ 
+ 
+165
+ 
+ 
+When we run above program, it produces following result:
+ 
+Value
+ 
+:
+ 
+[(
+'Age'
+,
+ 
+7
+),
+ 
+(
+'Name'
+,
+ 
+'Zara'
+)]
+ 
+67.
+ 
+Dict.keys()
+ 
+Description
+ 
+The method
+ 
+keys()
+ 
+returns a list of all the available keys in the dictionary.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+keys()
+ 
+method:
+ 
+dict
+.
+keys
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns a list of all 
+the available keys in the dictionary.
+ 
+Example
+ 
+The following example shows the usage of keys() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+}
+ 
+ 
+print
+ 
+"Value : %s"
+ 
+%
+  
+dict
+.
+keys
+()
+ 
+When we run above program, it produces following result:
+ 
+Value
+ 
+:
+ 
+[
+'Age'
+,
+ 
+'Name'
+]
+ 
+68.
+ 
+dict.setdefault(key, default=None)
+ 
+Description
+ 
+The method
+ 
+setdefault()
+ 
+is similar to get(), but will set
+ 
+dict[key]=default
+ 
+if key is 
+not already in dict.
+ 

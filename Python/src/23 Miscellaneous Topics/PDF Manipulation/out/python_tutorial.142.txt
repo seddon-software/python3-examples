@@ -1,0 +1,152 @@
+ 
+Python
+ 
+ 
+ 
+ 
+130
+ 
+ 
+ 
+print
+ 
+"First list length : "
+,
+ 
+len
+(
+list1
+);
+ 
+print
+ 
+"Second list length : "
+,
+ 
+len
+(
+list2
+);
+ 
+When we run above program, it produces following result:
+ 
+First
+ 
+list length 
+:
+  
+3
+ 
+Second
+ 
+lsit length 
+:
+  
+2
+ 
+44.
+ 
+max(list)
+ 
+Description
+ 
+The method
+ 
+max
+ 
+returns the elements from the
+ 
+list
+ 
+with maximum value.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+max()
+ 
+method:
+ 
+max
+(
+list
+)
+ 
+Parameters
+ 
+
+ 
+list
+ 
+--
+ 
+This is a list from which max valued element
+ 
+to be returned.
+ 
+Return Value
+ 
+This method returns the elements from the list with maximum value.
+ 
+Example
+ 
+The following example shows the usage of max() method.
+ 
+#!/usr/bin/python
+ 
+ 
+list1
+,
+ 
+list2 
+=
+ 
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+],
+ 
+[
+456
+,
+ 
+700
+,
+ 
+200
+]
+ 
+ 
+print
+ 
+"Max value
+ 
+element : "
+,
+ 
+max
+(
+list1
+);
+ 
+print
+ 
+"Max value element : "
+,
+ 
+max
+(
+list2
+);
+ 
+When we run above program, it produces following result:
+ 

@@ -5,7 +5,7 @@
 ############################################################
 
 
-from Tkinter import *
+from tkinter import *
 
 def main():
     root = Tk()

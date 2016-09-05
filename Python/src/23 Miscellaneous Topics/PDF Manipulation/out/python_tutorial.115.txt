@@ -1,0 +1,112 @@
+ 
+Python
+ 
+ 
+ 
+ 
+103
+ 
+ 
+21.
+ 
+19. 
+len(string)
+ 
+ 
+Description
+ 
+The method
+ 
+len()
+ 
+returns the length of the string.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+len()
+ 
+method:
+ 
+len
+(
+ 
+str 
+)
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns the length of the string.
+ 
+Example
+ 
+The following example shows the usage of len() method.
+ 
+#!/usr/bi
+n/python
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+ 
+print
+ 
+"Length of the string: "
+,
+ 
+len
+(
+str
+);
+ 
+When we run above program, it produces following result:
+ 
+Length
+ 
+of the 
+string
+:
+  
+32
+ 
+22.
+ 
+20. 
+ljust(width[, 
+fillchar])
+ 
+Description
+ 
+The method
+ 
+ljust()
+ 
+returns the string left justified in a string of length
+ 
+width
+. Padding 
+is done using the specified
+ 
+fillchar
+ 
+(default is a space). The original string is returned 
+if width is less than len(s).
+ 
+Syntax
+ 
+Following is th
+e syntax for
+ 
+ljust()
+ 
+method:
+ 

@@ -16,7 +16,7 @@ def writeFileContents(filename, data):
         except: 
             pass    # can't do anything if close throws
 
-data = ("line 1\n", "line 2\n", "line 3\n", "line 4\n")
+data = ("line 1\n", "line 2\n", "line 3\n", "line 4\n", "line 5\n")
 writeFileContents("data/text.txt", data)
 
 

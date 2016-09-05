@@ -1,0 +1,100 @@
+ 
+Python
+ 
+ 
+ 
+ 
+245
+ 
+ 
+36
+ 
+os.mkfifo(path[, mode])
+ 
+Create a FIFO (a named pipe) named path with numeric mode mode. The 
+default mode is 0666 (octal).
+ 
+37
+ 
+os.mknod(filename[, mode=0600, device])
+ 
+Create a filesystem node (file, device special file or named pipe) named 
+filename.
+ 
+38
+ 
+os.open(file, flags[, mode]
+)
+ 
+Open the file file and set various flags according to flags and possibly its 
+mode according to mode.
+ 
+39
+ 
+os.openpty()
+ 
+Open a new pseudo
+-
+terminal pair. Return a pair of file 
+descriptors 
+(master, slave) for the pty and the tty, respectively.
+ 
+40
+ 
+os.pathconf(path, name)
+ 
+Return system configuration information relevant to a named file.
+ 
+41
+ 
+os.pipe()
+ 
+Create a pipe. Return a pair of file descriptors (r, w) usable for reading 
+and writing, respectively.
+ 
+42
+ 
+os.popen(command[, mode[, bufsize]
+])
+ 
+Open a pipe to or from command.
+ 
+43
+ 
+os.read(fd, n)
+ 
+Read at most n bytes from file descriptor fd. Return a string containing 
+the bytes read. If the end of the file referred to by fd has 
+been reached, 
+an empty string is returned.
+ 
+44
+ 
+os.readlink(path)
+ 
+Return a string representing the path to which the symbolic link points.
+ 
+45
+ 
+os.remove(path)
+ 
+Remove the file path.
+ 
+46
+ 
+os.removedirs(path)
+ 
+Remove directories recursively.
+ 
+47
+ 
+os.rename(src, dst)
+ 
+Rename the file or directory src to dst.
+ 
+48
+ 
+os.renames(old, new)
+ 
+Recursive directory or file renaming function.
+ 

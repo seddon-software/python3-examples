@@ -1,0 +1,99 @@
+ 
+Python
+ 
+ 
+ 
+ 
+230
+ 
+ 
+ 
+# Assuming file has following 5 lines
+ 
+# This is 1st line
+ 
+# This is 2nd line
+ 
+# This is 3rd line
+ 
+# This is 4th line
+ 
+# This is 5th line
+ 
+ 
+line 
+=
+ 
+fo
+.
+read
+(
+10
+)
+ 
+print
+ 
+"Read Line: %s"
+ 
+%
+ 
+(
+line
+)
+ 
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Read Line: This is 1s
+ 
+7.
+ 
+File.readline([size])
+ 
+Description
+ 
+The method
+ 
+readline()
+ 
+reads one entire line from the file. A trailing newline 
+character is kept in the string. If 
+the
+ 
+size
+ 
+argument is present and non
+-
+negative, it is 
+a maximum byte count including the trailing newline and an incomplete line may be 
+returned.
+ 
+An empty string is returned only when EOF is encountered immediately.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+readline()
+ 
+method:
+ 
+fileObject
+.
+readline
+(
+ 
+size 
+);
+ 
+Parameters
+ 

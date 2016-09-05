@@ -1,0 +1,131 @@
+ 
+Python
+ 
+ 
+ 
+ 
+294
+ 
+ 
+print
+ 
+"<title>Hello 
+-
+ 
+Second CGI Program</title>"
+ 
+print
+ 
+"</head>"
+ 
+print
+ 
+"<body>"
+ 
+print
+ 
+"<h2>Hello %s %s</h2>"
+ 
+%
+ 
+(
+first_name
+,
+ 
+last_name
+)
+ 
+print
+ 
+"</body>"
+ 
+print
+ 
+"</html>"
+ 
+This would generate the following result:
+ 
+Hello ZARA ALI
+ 
+Simple FORM Example: GET Method
+ 
+This
+ 
+example 
+passes two values 
+using HTML FORM and submit button. We 
+use same 
+CGI script hello_get.py to handle this imput.
+ 
+<form
+ 
+action
+=
+"/cgi
+-
+bin/hello_get.py"
+ 
+method
+=
+"get"
+>
+ 
+First Name: 
+<input
+ 
+type
+=
+"text"
+ 
+name
+=
+"first_name"
+>
+  
+<br
+ 
+/>
+ 
+ 
+Last Name: 
+<input
+ 
+type
+=
+"text"
+ 
+name
+=
+"last_name"
+ 
+/>
+ 
+<input
+ 
+type
+=
+"submit"
+ 
+value
+=
+"Submit"
+ 
+/>
+ 
+</form>
+ 
+Here is the actual output of the above form, 
+y
+ou enter First and Last Name and then 
+click submit button to see the result.
+ 
+First Name:
+ 
+ 
+Last Name:
+ 
+ 
+ 
+ 
+Bottom of Form
+ 

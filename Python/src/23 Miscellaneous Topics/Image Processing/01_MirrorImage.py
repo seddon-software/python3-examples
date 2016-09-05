@@ -9,6 +9,6 @@ try:
     img = Image.open(infile)
     img = img.transpose(Image.FLIP_LEFT_RIGHT)
     img.show()
-except IOError, e:
-    print e
+except IOError as e:
+    print(e)
     

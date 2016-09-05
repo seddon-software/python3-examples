@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+420
+ 
+ 
+text
+ 
+Specifies a string to be displayed inside the widget.
+ 
+width
+ 
+Specifies the desired 
+width for the window.
+ 
+Example
+ 
+Try the following example yourself. Here
+ 
+i
+s how to create a labelframe widget:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+ 
+root 
+=
+ 
+Tk
+()
+ 
+ 
+labelframe 
+=
+ 
+LabelFrame
+(
+root
+,
+ 
+text
+=
+"This is a LabelFrame"
+)
+ 
+labelframe
+.
+pack
+(
+fill
+=
+"both"
+,
+ 
+expand
+=
+"yes"
+)
+ 
+ 
+ 
+left 
+=
+ 
+Label
+(
+labelframe
+,
+ 
+text
+=
+"Inside the LabelFrame"
+)
+ 
+left
+.
+pack
+()
+ 
+ 
+ 
+root
+.
+mainloop
+()
+ 
+When the above code is executed, it produces the following result:
+ 
+ 
+23.
+ 
+tkMessageBox
+ 
+The tkMessageBox module is used to display message boxes in your applications. 
+This module 
+provides a number of functions that you can use to display an 
+appropriate message.
+ 

@@ -1,0 +1,122 @@
+ 
+Python
+ 
+ 
+ 
+ 
+445
+ 
+ 
+c
+ 
+char
+ 
+A Python string of length 1 becomes a C char.
+ 
+d
+ 
+double
+ 
+A Python float becomes a C double.
+ 
+f
+ 
+float
+ 
+A Python float becomes a C float.
+ 
+i
+ 
+int
+ 
+A Python int becomes a C int.
+ 
+l
+ 
+long
+ 
+A Python int becomes a C 
+long.
+ 
+L
+ 
+long long
+ 
+A Python int becomes a C long long
+ 
+O
+ 
+PyObject*
+ 
+Gets non
+-
+NULL borrowed reference to Python argument.
+ 
+s
+ 
+char*
+ 
+Python string without embedded nulls to C char*.
+ 
+s#
+ 
+char*+int
+ 
+Any Python string to C address and length.
+ 
+t#
+ 
+char*+int
+ 
+Read
+-
+only single
+-
+segment buffer to C address and 
+length.
+ 
+u
+ 
+Py_UNICODE*
+ 
+Python Unicode without embedded nulls to C.
+ 
+u#
+ 
+Py_UNICODE*+int
+ 
+Any Python Unicode C address and length.
+ 
+w#
+ 
+char*+int
+ 
+Read/write single
+-
+segment buffer to C address and 
+length.
+ 
+z
+ 
+char*
+ 
+Like s, also accepts None (sets C char* to NULL).
+ 
+z#
+ 
+char*+int
+ 
+Like s#, also accepts None (sets C char* to NULL).
+ 
+(...)
+ 
+as per ...
+ 
+A Python sequence is treated as one argument per item.
+ 
+|
+ 
+ 
+ 
+The following arguments are optional.
+ 

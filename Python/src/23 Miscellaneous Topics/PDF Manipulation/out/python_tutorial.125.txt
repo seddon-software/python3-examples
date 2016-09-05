@@ -1,0 +1,107 @@
+ 
+Python
+ 
+ 
+ 
+ 
+113
+ 
+ 
+This method returns the string right justified in a string of length width. Padding is 
+done using the specified fillchar (default is a space). The original string is returned if 
+wid
+th is less than len(s).
+ 
+Example
+ 
+The following example shows the usage of rjust() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+ 
+print
+ 
+str
+.
+rjust
+(
+50
+,
+ 
+'0'
+);
+ 
+When we run above program, it produces following result:
+ 
+000000000000000000this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+32.
+ 
+30. 
+rstrip()
+ 
+Description
+ 
+The method
+ 
+rstrip()
+ 
+returns a copy of the string in which all
+ 
+chars
+ 
+have been stripped 
+from the end of the string (default whitespace character
+s).
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+rstrip()
+ 
+method:
+ 
+str
+.
+rstrip
+([
+chars
+])
+ 
+Parameters
+ 
+chars
+ 
+--
+ 
+You can supply what chars have to be trimmed.
+ 
+Return Value
+ 
+This method returns a copy of the string in which all chars have been stripped from 
+the end of the 
+string (default whitespace characters).
+ 
+Example
+ 
+The following example shows the usage of rstrip() method.
+ 
+#!/usr/bin/python
+ 

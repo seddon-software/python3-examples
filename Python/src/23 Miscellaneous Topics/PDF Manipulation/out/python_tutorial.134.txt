@@ -1,0 +1,121 @@
+ 
+Python
+ 
+ 
+ 
+ 
+122
+ 
+ 
+When we run above program, it produces following result:
+ 
+THIS IS STRING EXAMPLE
+....
+WOW
+!!!
+ 
+41.
+ 
+39. 
+zfill (width)
+ 
+ 
+Description
+ 
+The method
+ 
+zfill()
+ 
+pads string on the left with zeros to fill width.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+zfill()
+ 
+method:
+ 
+str
+.
+zfill
+(
+width
+)
+ 
+Parameters
+ 
+width
+ 
+--
+ 
+This is final width of the string. This is the width which we would get after 
+filling z
+eros.
+ 
+Return Value
+ 
+This method returns padded string.
+ 
+Example
+ 
+The following example shows the usage of zfill() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+ 
+print
+ 
+str
+.
+zfill
+(
+40
+);
+ 
+print
+ 
+str
+.
+zfill
+(
+50
+);
+ 
+When we run above program, it 
+produces following result:
+ 
+00000000this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+000000000000000000this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+42.
+ 
+40. 
+isdecimal()
+ 

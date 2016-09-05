@@ -1,0 +1,101 @@
+ 
+Python
+ 
+ 
+ 
+ 
+309
+ 
+ 
+How do I 
+I
+nstall 
+MySQLdb?
+ 
+Be
+fore proceeding, you make sure you have MySQLdb installed on your machine. 
+Just type the following in your Python script and execute it:
+ 
+#!/usr/bin/python
+ 
+ 
+import MySQLdb
+ 
+If it produces the following result, then it means MySQLdb module is not installed:
+ 
+T
+raceback (most recent call last):
+ 
+  
+File "test.py", line 3, in <module>
+ 
+    
+import MySQLdb
+ 
+ImportError: No module named MySQLdb
+ 
+To install MySQLdb module, download it from
+ 
+MySQLdb 
+Download
+ 
+page and proceed as 
+follows:
+ 
+$ gunzip MySQL
+-
+python
+-
+1.2.2.tar.gz
+ 
+$ tar 
+-
+xvf MySQL
+-
+python
+-
+1.2.2.tar
+ 
+$ cd MySQL
+-
+python
+-
+1.2.2
+ 
+$ python setup.py build
+ 
+$ python setup.py install
+ 
+Note:
+ 
+Make sure you have root privilege to install above module.
+ 
+Database C
+onnection
+ 
+Before connecting to a MySQL database, make sure of the followings:
+ 
+
+ 
+You have created a database TESTDB.
+ 
+
+ 
+You have created a table EMPLOYEE in TESTDB.
+ 
+
+ 
+This table 
+has
+ 
+fields FIRST_NAME, LAST_NAME, AGE, SEX and INCOME.
+ 
+
+ 
+User ID "testuser" an
+d password "test123" are set to access TESTDB.
+ 
+
+ 
+Python module MySQLdb is installed properly on your machine.
+ 

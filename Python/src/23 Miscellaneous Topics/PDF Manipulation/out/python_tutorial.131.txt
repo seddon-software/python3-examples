@@ -1,0 +1,117 @@
+ 
+Python
+ 
+ 
+ 
+ 
+119
+ 
+ 
+The 
+method
+ 
+title()
+ 
+returns a copy of the string in which first characters of all the 
+words are capitalized.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+title()
+ 
+method:
+ 
+str
+.
+title
+();
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method returns a copy of the string in which first 
+characters of all the words are 
+capitalized.
+ 
+Example
+ 
+The following example shows the usage of title() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+print
+ 
+str
+.
+title
+();
+ 
+When we run above program, it produces following result:
+ 
+This
+ 
+Is
+ 
+S
+tring
+ 
+Example
+....
+Wow
+!!!
+ 
+39.
+ 
+37. 
+translate(table, deletechars="")
+ 
+ 
+Description
+ 
+The method
+ 
+translate()
+ 
+returns a copy of the string in which all characters have 
+been translated using
+ 
+table
+ 
+(constructed with the maketrans() function in the string 
+module), optionally deleting all characters found in the string
+ 
+deletechars
+.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+translate()
+ 
+method:
+ 
+str
+.
+translate
+(
+table
+[,
+ 
+deletechars
+]);
+ 
+Parameters
+ 

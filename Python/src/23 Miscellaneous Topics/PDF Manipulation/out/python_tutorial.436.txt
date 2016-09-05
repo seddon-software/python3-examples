@@ -1,0 +1,112 @@
+ 
+Python
+ 
+ 
+ 
+ 
+424
+ 
+ 
+42.
+ 
+height:
+ 
+Desired height of the widget; must be 
+greater than or equal to 1.
+ 
+43.
+ 
+underline:
+ 
+Index
+ 
+of the character to underline 
+in the widget's text (0 is the first character, 1 
+the second one, and so on).
+ 
+44.
+ 
+width:
+ 
+Desired width of the widget.
+ 
+45.
+ 
+Colors
+ 
+Tkinter represents colors with strings. There are 
+two general ways to specify colors 
+in Tkinter:
+ 
+46.
+ 
+You can use a string specifying the proportion 
+of red, green and blue in hexadecimal digits. 
+For example, "#fff" is white, "#000000" is 
+black, "#000fff000" is pure green, and "#00ffff" 
+is pure cyan (green plus
+ 
+blue).
+ 
+47.
+ 
+You can also use any locally defined standard 
+color name. The colors "white", "black", 
+"red", "green", "blue", "cyan", "yellow", and 
+"magenta" will always be available.
+ 
+Color options
+ 
+The common color options are:
+ 
+48.
+ 
+activebackground:
+ 
+Background color 
+for the 
+widget when the widget is active.
+ 
+49.
+ 
+activeforeground:
+ 
+Foreground color for the 
+widget when the widget is active.
+ 
+50.
+ 
+background:
+ 
+Background color for the widget. 
+This can also be represented as
+ 
+bg
+.
+ 
+51.
+ 
+disabledforeground:
+ 
+Foreground color for the 
+widget when
+ 
+the widget is disabled.
+ 
+52.
+ 
+foreground:
+ 
+Foreground color for the widget. 
+This can also be represented as
+ 
+fg
+.
+ 
+53.
+ 
+highlightbackground:
+ 
+Background color of the 
+highlight region when the widget has focus.
+ 

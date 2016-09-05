@@ -1,0 +1,124 @@
+ 
+Python
+ 
+ 
+ 
+ 
+302
+ 
+ 
+if
+ 
+form
+.
+getvalue
+(
+'dropdown'
+):
+ 
+   
+subject 
+=
+ 
+form
+.
+getvalue
+(
+'dropdown'
+)
+ 
+else
+:
+ 
+   
+subject 
+=
+ 
+"Not entered"
+ 
+ 
+print
+ 
+"Content
+-
+type:text/html
+\
+r
+\
+n
+\
+r
+\
+n"
+ 
+print
+ 
+"<html>"
+ 
+print
+ 
+"<head>"
+ 
+print
+ 
+"<title>Dropdown Box 
+-
+ 
+Sixth CGI Program</title>"
+ 
+print
+ 
+"</head>"
+ 
+print
+ 
+"<body>"
+ 
+print
+ 
+"<h2> Selected Subject is %s</h2>"
+ 
+%
+ 
+subject
+ 
+print
+ 
+"</body>"
+ 
+print
+ 
+"</html>"
+ 
+Using Cookies in CGI
+ 
+HTTP protocol is a stateless protocol. 
+F
+or a commercial website, it is required to 
+mainta
+in session information among different pages. For example, one user 
+registration ends after completing many pages. 
+H
+ow to maintain user's session 
+information across all the web pages
+?
+ 
+In many situations, using cookies is the most efficient method of 
+remembering and 
+tracking preferences, purchases, commissions, and other information required for 
+better visitor experience or site statistics.
+ 
+How It Works?
+ 
+Your server sends some data to the visitor's browser in the form of a cookie. The 
+browser may accep
+t the cookie. If it does, it is stored as a plain text record on the 
+visitor's hard drive. Now, when the visitor arrives at another page on your site, the 
+cookie is available for retrieval. Once retrieved, your server knows/remembers what 
+was stored.
+ 
+Cooki
+es are a plain text data record of 5 variable
+-
+length fields:
+ 

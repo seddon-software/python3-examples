@@ -1,0 +1,126 @@
+ 
+Python
+ 
+ 
+ 
+ 
+6
+ 
+ 
+Pyth
+on Environment Variables
+ 
+Here are important environment variables, which can be recognized by Python:
+ 
+Variable
+ 
+Description
+ 
+PYTHONPATH
+ 
+It 
+h
+as a role similar to PATH. This variable tells the Python 
+interpreter where to locate the module files 
+import
+ed
+ 
+into a 
+program. 
+It
+ 
+should include the Python source library 
+directory and the directories containing 
+Python source code. 
+PYTHONPATH is sometimes preset by the Python installer.
+ 
+PYTHONSTARTUP
+ 
+It 
+c
+ontains the path of an initialization file 
+containing Python 
+source code
+.
+ 
+It
+ 
+is executed every time you start the 
+interpreter
+.
+ 
+It is
+ 
+named 
+as 
+.pythonrc.py in Unix
+ 
+and it
+ 
+contains commands that load utilities or modify 
+PYTH
+ONPATH.
+ 
+PYTHONCASEOK
+ 
+It is 
+u
+sed in Windows to instruct Python to find the first case
+-
+insensitive match in an import statement. Set this variable 
+to any value to activate it.
+ 
+PYTHONHOME
+ 
+It is 
+a
+n alternative module search path. It
+ 
+i
+s usually 
+embedded in
+ 
+the PYTHONSTARTUP or PYTHONPATH 
+directories to make switching module libraries easy.
+ 
+Running Python
+ 
+There are three different ways to start Python:
+ 
+(1) Interactive Interpreter
+ 
+You can 
+start
+ 
+Python from Unix, DOS, or any other system
+ 
+that
+ 
+provides you a 
+command
+-
+line interpreter or shell window.
+ 
+E
+nter
+ 
+python
+ 
+the command line.
+ 
+S
+tart coding right away in the interactive interpreter
+.
+ 
+ 
+$python             
+# Unix/Linux
+ 
+or
+ 
+ 
+python
+%
+             
+# Unix/Linux
+ 

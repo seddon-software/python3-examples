@@ -1,0 +1,125 @@
+ 
+Python
+ 
+ 
+ 
+ 
+146
+ 
+ 
+Return Value
+ 
+If elements are of the same type, perform the compare and return the result. If 
+elements are different types, check to see if they 
+are numbers.
+ 
+
+ 
+If numbers, perform numeric coercion if necessary and compare.
+ 
+
+ 
+If either element is a number, then the other element is "larger" (numbers are 
+"smallest").
+ 
+
+ 
+Otherwise, types are sorted alphabetically by name.
+ 
+If we reached the end of one of the 
+tuples, the longer tuple is "larger." If we exhaust 
+both tuples and share the same data, the result is a tie, meaning that 0 is returned.
+ 
+Example
+ 
+The following example shows the usage of cmp() method.
+ 
+#!/usr/bin/python
+ 
+ 
+tuple1
+,
+ 
+tuple2 
+=
+ 
+(
+123
+,
+ 
+'xyz'
+),
+ 
+(
+456
+,
+ 
+'abc'
+)
+ 
+ 
+print
+ 
+cmp
+(
+tuple1
+,
+ 
+tuple2
+);
+ 
+print
+ 
+cmp
+(
+tuple2
+,
+ 
+tuple1
+);
+ 
+tuple3 
+=
+ 
+tuple2 
++
+ 
+(
+786
+,);
+ 
+print
+ 
+cmp
+(
+tuple2
+,
+ 
+tuple3
+)
+ 
+When we run above program, it produces following result:
+ 
+-
+1
+ 
+1
+ 
+-
+1
+ 
+54.
+ 
+Len(tuple)
+ 
+Description
+ 
+The method
+ 
+len()
+ 
+returns the number of elements in 
+the tuple.
+ 
+Syntax
+ 

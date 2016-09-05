@@ -1,0 +1,124 @@
+ 
+Python
+ 
+ 
+ 
+ 
+3
+ 
+ 
+Python is available on a wide variety of platforms including Linux and Mac
+ 
+OS X. L
+et's 
+understand how to set up our Python environment. 
+ 
+Local Environment Setup
+ 
+O
+pen
+ 
+a terminal window and type "python" to find out if it
+ 
+i
+s already installed and 
+which version 
+is installed.
+ 
+
+ 
+Unix (Solaris, Linux, FreeBSD, AIX, HP/UX, SunOS, IRIX, etc.)
+ 
+
+ 
+Win 9x/NT/2000
+ 
+
+ 
+Macintosh (Intel, PPC, 68K)
+ 
+
+ 
+OS/2
+ 
+
+ 
+DOS (multiple versions)
+ 
+
+ 
+PalmOS
+ 
+
+ 
+Nokia mobile phones
+ 
+
+ 
+Windows CE
+ 
+
+ 
+Acorn/RISC OS
+ 
+
+ 
+Be
+OS
+ 
+
+ 
+Amiga
+ 
+
+ 
+VMS/OpenVMS
+ 
+
+ 
+QNX
+ 
+
+ 
+VxWorks
+ 
+
+ 
+Psion
+ 
+
+ 
+Python has also been ported to the Java and .NET virtual machines
+ 
+Getting Python
+ 
+The most up
+-
+to
+-
+date and current source code, binaries, documentation, news, etc.
+,
+ 
+is available 
+on
+ 
+the official website of Python:
+ 
+http://www.python.org/
+.
+ 
+You can download Python documentation from 
+www.python.org/doc/
+.
+ 
+The 
+documentation 
+is available in HTML, PDF
+,
+ 
+and PostScript formats.
+ 
+2.
+ 
+ENVIRONMENT 
+ 

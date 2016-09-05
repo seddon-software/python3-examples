@@ -1,0 +1,99 @@
+ 
+Python
+ 
+ 
+ 
+ 
+134
+ 
+ 
+The following example shows the usage of count() method.
+ 
+#!/usr/bin/python
+ 
+ 
+aList = [123, 
+'xyz', 'zara', 'abc', 123];
+ 
+ 
+print "Count for 123 : ", aList.count(123);
+ 
+print "Count for zara : ", aList.count('zara');
+ 
+When we run above program, it produces following result:
+ 
+Count for 123 :  2
+ 
+Count for zara :  1
+ 
+47.
+ 
+list.extend(seq)
+ 
+Description
+ 
+The method
+ 
+extend()
+ 
+appends the contents of
+ 
+seq
+ 
+to list.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+extend()
+ 
+method:
+ 
+list
+.
+extend
+(
+seq
+)
+ 
+Parameters
+ 
+
+ 
+seq
+ 
+--
+ 
+This is the list of elements
+ 
+Return Value
+ 
+This method does not return any value but add the content to existing list.
+ 
+Example
+ 
+The following example shows the usage of extend() method.
+ 
+#!/usr/bin/python
+ 
+ 
+aList 
+=
+ 
+[
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+,
+ 
+123
+];
+ 

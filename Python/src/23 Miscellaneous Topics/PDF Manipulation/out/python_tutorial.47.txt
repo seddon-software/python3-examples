@@ -1,0 +1,184 @@
+ 
+Python
+ 
+ 
+ 
+ 
+35
+ 
+ 
+   
+print
+ 
+"Line 6 
+-
+ 
+a is either less than or equal to  b"
+ 
+else
+:
+ 
+   
+print
+ 
+"Line 6 
+-
+ 
+a is neither less than nor equal to  b"
+ 
+ 
+if
+ 
+(
+ 
+b 
+>=
+ 
+a 
+):
+ 
+   
+print
+ 
+"Line 7 
+-
+ 
+b is either greater than  or equal to b"
+ 
+else
+:
+ 
+   
+print
+ 
+"Line 7 
+-
+ 
+b is neither greater than  nor equal to b"
+ 
+When you execute the above program it produces the following result:
+ 
+Line
+ 
+1
+ 
+-
+ 
+a 
+is
+ 
+not
+ 
+equal to b
+ 
+Line
+ 
+2
+ 
+-
+ 
+a 
+is
+ 
+not
+ 
+equal to b
+ 
+Line
+ 
+3
+ 
+-
+ 
+a 
+is
+ 
+not
+ 
+equal to b
+ 
+Line
+ 
+4
+ 
+-
+ 
+a 
+is
+ 
+not
+ 
+less than b
+ 
+Line
+ 
+5
+ 
+-
+ 
+a 
+is
+ 
+greater than b
+ 
+Line
+ 
+6
+ 
+-
+ 
+a 
+is
+ 
+either less than 
+or
+ 
+equal to b
+ 
+Line
+ 
+7
+ 
+-
+ 
+b 
+is
+ 
+either greater than 
+or
+ 
+equal to b
+ 
+Python Assignment Operators
+ 
+Assume variable a holds 10 and variable b holds 20, then:
+ 
+ 
+Operator
+ 
+Description
+ 
+Example
+ 
+=
+ 
+Assigns values from right side operands to 
+left side operand
+ 
+c = a + b 
+assign
+s
+ 
+value of a + b into c
+ 
++=
+ 
+ 
+Add AND
+ 
+It adds right operand to the left operand 
+and assign the result to left operand
+ 
+c += a is equivalent 
+to c = c + a
+ 

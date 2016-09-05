@@ -1,0 +1,75 @@
+ 
+Python
+ 
+ 
+ 
+ 
+410
+ 
+ 
+font
+ 
+The default font for text inserted into the widget.
+ 
+fg
+ 
+The color used for text (and bitmaps) w
+ithin the widget. You can 
+change the color for tagged regions; this option is just the default.
+ 
+height
+ 
+Window height.
+ 
+relief
+ 
+Normally, a top
+-
+level window will have no 3
+-
+d borders around it. To 
+get a shaded border, set the bd option larger that its 
+default value 
+of zero, and set the relief option to one of the constants.
+ 
+width
+ 
+The desired width of the window.
+ 
+Methods
+ 
+Toplevel objects have these methods:
+ 
+Methods 
+and
+ 
+Description
+ 
+deiconify()
+ 
+Displays the window, after using either the iconify or the
+ 
+withdraw methods.
+ 
+frame()
+ 
+Returns a system
+-
+specific window identifier.
+ 
+group(window)
+ 
+Adds the window to the window group administered by the given window.
+ 
+iconify()
+ 
+Turns the window into an icon, without destroying it.
+ 
+protocol(name, function)
+ 
+Registers a function as a callback which will be called for the given protocol.
+ 
+iconify()
+ 
+Turns the window into an icon, without destroying it.
+ 

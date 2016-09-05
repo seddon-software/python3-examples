@@ -1,0 +1,103 @@
+ 
+Python
+ 
+ 
+ 
+ 
+291
+ 
+ 
+Content
+-
+length: N
+ 
+The length, in bytes, of the data being returned. The browser 
+uses this value to report the estimated download time for a 
+file.
+ 
+Set
+-
+Cookie: String
+ 
+Set the cookie passed through the
+ 
+string
+.
+ 
+CGI Environment Variables
+ 
+All the CGI program
+s
+ 
+have access to the following environment variables. These 
+variables play an important role while writing any CGI program.
+ 
+Variable Name
+ 
+Description
+ 
+CONTENT_TYPE
+ 
+The data type of the content. Used when the client is sending 
+attached content to the server. For example, file upload
+.
+ 
+CONTENT_LENGTH
+ 
+The length of the query information. It
+ 
+i
+s available only for 
+POST requests.
+ 
+HTTP_COOKIE
+ 
+Returns the set cookies
+ 
+in the form of key & value pair.
+ 
+HTTP_USER_AGENT
+ 
+The User
+-
+Agent request
+-
+header field contains information 
+about the user agent originating the request. It
+ 
+i
+s name of the 
+web browser.
+ 
+PATH_INFO
+ 
+The path for the CGI script.
+ 
+QUERY_STRING
+ 
+The URL
+-
+encoded i
+nformation that is sent with GET method 
+request.
+ 
+REMOTE_ADDR
+ 
+The IP address of the remote host making the request. This
+ 
+is
+ 
+useful for logging or 
+authentication
+.
+ 
+REMOTE_HOST
+ 
+The fully qualified name of the host making the request. If 
+this 
+information is not available
+,
+ 
+then REMOTE_ADDR can be used 
+to get IR address.
+ 

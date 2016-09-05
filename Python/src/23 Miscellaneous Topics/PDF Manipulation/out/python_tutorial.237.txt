@@ -1,0 +1,109 @@
+ 
+Python
+ 
+ 
+ 
+ 
+225
+ 
+ 
+Following is the syntax for
+ 
+flush()
+ 
+method:
+ 
+fileObject
+.
+flush
+();
+ 
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of flush() method.
+ 
+#!/usr/bin/python
+ 
+# Open a file
+ 
+fo 
+=
+ 
+open
+(
+"foo.txt"
+,
+ 
+"wb"
+)
+ 
+print
+ 
+"Name of the file: "
+,
+ 
+fo
+.
+name
+ 
+# Here it does 
+nothing, but you can call it with read operation.
+ 
+fo
+.
+flush
+()
+ 
+# Close opend file
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+3.
+ 
+File.fileno()
+ 
+ 
+Description
+ 
+The method
+ 
+fileno()
+ 
+returns the integer file 
+descriptor that is used by the underlying 
+implementation to request I/O operations from the operating system.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+fileno()
+ 
+method:
+ 
+fileObject
+.
+fileno
+();
+ 
+ 
+Parameters
+ 

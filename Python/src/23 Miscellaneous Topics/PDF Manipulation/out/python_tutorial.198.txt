@@ -1,0 +1,127 @@
+ 
+Python
+ 
+ 
+ 
+ 
+186
+ 
+ 
+This return value is struct_time as returned by gmtime() or localtime().
+ 
+Example
+ 
+The following example shows the usage of strptime() method.
+ 
+#!/usr/bin/python
+ 
+import
+ 
+time
+ 
+ 
+struct_time 
+=
+ 
+time
+.
+strptime
+(
+"30 Nov 00"
+,
+ 
+"%d %b %y"
+)
+ 
+print
+ 
+"returned tuple: %s "
+ 
+%
+ 
+struct_time
+ 
+When we run above program, it produces following result:
+ 
+returned tuple
+:
+ 
+(
+2000
+,
+ 
+11
+,
+ 
+30
+,
+ 
+0
+,
+ 
+0
+,
+ 
+0
+,
+ 
+3
+,
+ 
+335
+,
+ 
+-
+1
+)
+ 
+81.
+ 
+time.time( )
+ 
+Description
+ 
+The method
+ 
+time()
+ 
+returns the time as a floating point number expressed in seconds 
+since the epoch, in UTC.
+ 
+Note:
+ 
+Even though the time is always returned as a floating point number, not all 
+systems provide time with a better precision than 1 second. While this functi
+on 
+normally returns non
+-
+decreasing values, it can return a lower value than a previous 
+call if the system clock has been set back between the two calls.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+time()
+ 
+method:
+ 
+time
+.
+time
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method re
+turns the time as a floating point number expressed in seconds since 
+the epoch, in UTC.
+ 
+Example
+ 
+The following example shows the usage of time() method.
+ 

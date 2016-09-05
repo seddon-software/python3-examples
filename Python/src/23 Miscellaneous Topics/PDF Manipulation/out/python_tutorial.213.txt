@@ -1,0 +1,142 @@
+ 
+Python
+ 
+ 
+ 
+ 
+201
+ 
+ 
+print
+ 
+"Value of total : "
+,
+ 
+sum
+(
+ 
+20
+,
+ 
+20
+ 
+)
+ 
+When the above code is executed, it produces the following result:
+ 
+Value
+ 
+of total 
+:
+  
+30
+ 
+Value
+ 
+of total 
+:
+  
+40
+ 
+The
+ 
+return
+ 
+Statement
+ 
+The statement return [expression] exits a function, optionally passing back an 
+expression to the caller. A return statement with no arguments is the same as return 
+None.
+ 
+All the above examples are not returning any value
+. Y
+ou can 
+return a value from a 
+function as follows:
+ 
+#!/usr/bin/python
+ 
+ 
+# Function definition is here
+ 
+def
+ 
+sum
+(
+ 
+arg1
+,
+ 
+arg2 
+):
+ 
+   
+# Add both the parameters and return them."
+ 
+   
+total 
+=
+ 
+arg1 
++
+ 
+arg2
+ 
+   
+print
+ 
+"Inside the function : "
+,
+ 
+total
+ 
+   
+return
+ 
+total
+;
+ 
+ 
+# Now you 
+can call sum function
+ 
+total 
+=
+ 
+sum
+(
+ 
+10
+,
+ 
+20
+ 
+);
+ 
+print
+ 
+"Outside the function : "
+,
+ 
+total 
+ 
+When the above code is executed, it produces the following result:
+ 
+Inside
+ 
+the 
+function
+ 
+:
+  
+30
+ 
+Outside
+ 
+the 
+function
+ 
+:
+  
+30
+ 

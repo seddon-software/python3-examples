@@ -1,0 +1,76 @@
+ 
+Python
+ 
+ 
+ 
+ 
+369
+ 
+ 
+relief
+ 
+With the default value, relief=FLAT, the checkbutton does not 
+stand out from its background. You may set this option to any 
+of the other styles
+ 
+selectbackground
+ 
+The background color to use displaying sel
+ected text.
+ 
+selectborderwidth
+ 
+The width of the border to use around selected text. The default 
+is one pixel.
+ 
+selectforeground
+ 
+The foreground (text) color of selected text.
+ 
+show
+ 
+Normally, the characters that the user types appear in the entry. 
+To make a 
+.password. entry that echoes each character as an 
+asterisk, set show="*".
+ 
+state
+ 
+The default is state=NORMAL, but you can use state=DISABLED 
+to gray out the control and make it unresponsive. If the cursor 
+is currently over the checkbutton, the state is ACT
+IVE.
+ 
+textvariable
+ 
+In order to be able to retrieve the current text from your entry 
+widget, you must set this option to an instance of the StringVar 
+class.
+ 
+width
+ 
+The default width of a checkbutton is determined by the size of 
+the displayed image or text. 
+You can set this option to a number 
+of characters and the checkbutton will always have room for that 
+many characters.
+ 
+xscrollcommand
+ 
+If you expect that users will often enter more text than the 
+onscreen size of the widget, you can link your entry widget 
+to a 
+scrollbar.
+ 
+Methods
+ 
+Following are commonly used methods for this widget:
+ 
+Medthod
+ 
+Description
+ 
+delete ( first, last=None )
+ 
+Deletes characters from the widget, starting with the 
+one at index first, up to but not including the 

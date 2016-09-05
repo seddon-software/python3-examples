@@ -1,0 +1,119 @@
+ 
+Python
+ 
+ 
+ 
+ 
+120
+ 
+ 
+
+ 
+table
+ 
+--
+ 
+You can us
+e the maketrans() helper function in the string module to 
+create a translation table.
+ 
+
+ 
+deletechars
+ 
+--
+ 
+The list of characters to be removed from the source string.
+ 
+Return Value
+ 
+This method returns a translated copy of the string.
+ 
+Example
+ 
+The following exampl
+e shows the usage of translate() method. Under this every vowel 
+in a string is replaced by its vowel position:
+ 
+#!/usr/bin/python
+ 
+ 
+from
+ 
+string
+ 
+import
+ 
+maketrans   
+# Required to call maketrans function.
+ 
+ 
+intab 
+=
+ 
+"aeiou"
+ 
+outtab 
+=
+ 
+"12345"
+ 
+trantab 
+=
+ 
+maketrans
+(
+intab
+,
+ 
+outtab
+)
+ 
+ 
+str 
+=
+ 
+"this is string example....wow!!!"
+;
+ 
+print
+ 
+str
+.
+translate
+(
+trantab
+);
+ 
+When we run above program, it produces following result:
+ 
+th3s 
+3s
+ 
+str3ng 
+2x1mpl2.
+...
+w4w
+!!!
+ 
+Following is the example to delete 'x' and 'm' characters from the string:
+ 
+#!/
+usr/bin/python
+ 
+ 
+from
+ 
+string
+ 
+import
+ 
+maketrans   
+# Required to call maketrans function.
+ 
+ 
+intab 
+=
+ 
+"aeiou"
+ 

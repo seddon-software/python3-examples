@@ -1,0 +1,110 @@
+ 
+Python
+ 
+ 
+ 
+ 
+285
+ 
+ 
+rub(y|le))
+ 
+Match "ruby" or "ruble"
+.
+ 
+Python(!+|
+\
+?)
+ 
+"Python" followed by one or more ! or one ?
+ 
+Anchors
+ 
+This needs to specify match position.
+ 
+Example
+ 
+Description
+ 
+^Python
+ 
+Match "Python" at the start of a string or internal line
+.
+ 
+Python$
+ 
+Match "Python" at the end of a string or line
+.
+ 
+\
+APython
+ 
+Match "Python" at the start of a string
+.
+ 
+Python
+\
+Z
+ 
+Match "Python" at the end of a string
+.
+ 
+\
+bPython
+\
+b
+ 
+Match "Python" at a word boundary
+.
+ 
+\
+brub
+\
+B
+ 
+\
+B is non
+-
+word boundary: match "rub" in "rube" and "r
+uby" but 
+not alone
+.
+ 
+Python(?=!)
+ 
+Match "Python", if followed by an exclamation point
+.
+ 
+Python(?!!)
+ 
+Match "Python", if not followed by an exclamation point
+.
+ 
+Special 
+S
+yntax with 
+P
+arentheses
+ 
+Example
+ 
+Description
+ 
+R(?#comment)
+ 
+Matches "R". All the rest is a
+ 
+comment
+.
+ 
+R(?i)uby
+ 
+Case
+-
+insensitive while matching "uby"
+.
+ 
+R(?i:uby)
+ 
+Same as above
+ 

@@ -1,0 +1,135 @@
+ 
+Python
+ 
+ 
+ 
+ 
+49
+ 
+ 
+Example
+ 
+#!/usr/bin/python
+ 
+ 
+var1 
+=
+ 
+100
+ 
+if
+ 
+var1
+:
+ 
+   
+print
+ 
+"1 
+-
+ 
+Got a true expression value"
+ 
+   
+print
+ 
+var1
+ 
+ 
+var2 
+=
+ 
+0
+ 
+if
+ 
+var2
+:
+ 
+   
+print
+ 
+"2 
+-
+ 
+Got a true expression value"
+ 
+   
+print
+ 
+var2
+ 
+print
+ 
+"Good bye!"
+ 
+When the above code is executed, it produces the 
+following result:
+ 
+1
+ 
+-
+ 
+Got
+ 
+a 
+true
+ 
+expression value
+ 
+100
+ 
+Good
+ 
+bye
+!
+ 
+If
+
+else 
+S
+tatement
+ 
+An
+ 
+else
+ 
+statement can be combined with an
+ 
+if
+ 
+statement. An
+ 
+else
+ 
+statement contains 
+the block of code that executes if the conditional expression in the if statement 
+resolves 
+to 0 or a FALSE value.
+ 
+The
+ 
+else
+ 
+statement is an optional statement and there could be at most only one
+ 
+else
+ 
+statement following
+ 
+if
+.
+ 
+Syntax
+ 
+The syntax of the
+ 
+if...else
+ 
+statement is:
+ 
+if
+ 
+expression
+:
+ 

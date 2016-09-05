@@ -1,0 +1,133 @@
+ 
+Python
+ 
+ 
+ 
+ 
+439
+ 
+ 
+The 
+M
+ethod 
+M
+apping 
+T
+able
+ 
+This method table is a simple array 
+of PyMethodDef structures. That structure looks 
+something like this:
+ 
+struct
+ 
+PyMethodDef
+ 
+{
+ 
+   
+char
+ 
+*
+ml_name
+;
+ 
+   
+PyCFunction
+ 
+ml_meth
+;
+ 
+   
+int
+ 
+ml_flags
+;
+ 
+   
+char
+ 
+*
+ml_doc
+;
+ 
+};
+ 
+Here is the description of the members of this structure:
+ 
+142.
+ 
+ml_name:
+ 
+This is the name of the function as 
+the Python interpreter 
+present
+s
+ 
+when it is 
+used in Python programs.
+ 
+143.
+ 
+ml_meth:
+ 
+This must be the address to a 
+function that has any one of the signatures 
+described in previous seection.
+ 
+144.
+ 
+ml_flags:
+ 
+This tells the inte
+rpreter which of the 
+three signatures ml_meth is using.
+ 
+o
+ 
+This flag 
+usually ha
+s
+ 
+a value of METH_VARARGS.
+ 
+o
+ 
+This flag can be bitwise 
+OR
+'ed with METH_KEYWORDS if you want to 
+allow keyword arguments into your function.
+ 
+o
+ 
+This can also have a value of METH_
+NOARGS that indicates you do
+ 
+n
+o
+t 
+want to accept any arguments.
+ 
+145.
+ 
+ml_doc:
+ 
+This is the docstring for the function, 
+which could be NULL if you do
+ 
+n
+o
+t feel like 
+writing one
+.
+ 
+This table needs to be terminated with a sentinel that consists of NULL and 0 values 
+for the appropriate members.
+ 
+Example
+ 
+For the above
+-
+defined function, we 
+have following method mapping table:
+ 

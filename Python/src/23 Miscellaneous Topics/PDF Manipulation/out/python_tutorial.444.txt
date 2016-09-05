@@ -1,0 +1,89 @@
+ 
+Python
+ 
+ 
+ 
+ 
+432
+ 
+ 
+117.
+ 
+The
+ 
+grid()
+ 
+Method
+ 
+-
+ 
+This geometry manager 
+organizes widgets in a table
+-
+like structure in 
+the parent widget.
+ 
+118.
+ 
+The
+ 
+place()
+ 
+Method
+ 
+-
+This geometry manager 
+organizes widgets by placing them in a 
+specific position in the parent wi
+dget.
+ 
+Let us study the geometry management methods briefly:
+ 
+pack()
+ 
+This geometry manager organizes widgets in blocks before placing them in the parent 
+widget.
+ 
+Syntax
+ 
+widget.pack( pack_options )
+ 
+Here is the list of possible options:
+ 
+119.
+ 
+expand:
+ 
+When set to true
+, widget expands to 
+fill any space not otherwise used in widget's 
+parent.
+ 
+120.
+ 
+fill:
+ 
+Determines whether widget fills any extra 
+space allocated to it by the packer, or keeps 
+its own minimal dimensions: NONE (default), 
+X (fill only horizontally), Y (fill only ver
+tically), 
+or BOTH (fill both horizontally and vertically).
+ 
+121.
+ 
+side:
+ 
+Determines which side of the parent 
+widget packs against: TOP (default), 
+BOTTOM, LEFT, or RIGHT.
+ 
+Example
+ 
+Try the following example by moving cursor on different buttons:
+ 
+from Tkinter import *
+ 
+ 
+root = Tk()
+ 

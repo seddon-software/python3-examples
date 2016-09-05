@@ -1,0 +1,121 @@
+ 
+Python
+ 
+ 
+ 
+ 
+79
+ 
+ 
+r/R
+ 
+Raw String 
+-
+ 
+Suppresses actual meaning of 
+Escape characters. The syntax for raw 
+strings 
+is exactly the same as for normal strings with 
+the exception of the raw string operator, the 
+letter "r," which precedes the quotation 
+marks. The "r" can be lowercase (r) or 
+uppercase (R) and must be placed 
+immediately preceding the first quote mark
+.
+ 
+print r'
+\
+n'
+ 
+prints 
+\
+n 
+and
+ 
+print R'
+\
+n'prints 
+\
+n
+ 
+%
+ 
+Format 
+-
+ 
+Performs String formatting
+ 
+See at next section
+ 
+String Formatting Operator
+ 
+One of Python's coolest features is the string format operator
+ 
+%
+. This operator is 
+unique to strings and makes up for 
+the pack of having functions from C's printf() 
+family. Following is a simple example:
+ 
+#!/usr/bin/python
+ 
+print
+ 
+"My name is %s and weight is %d kg!"
+ 
+%
+ 
+(
+'Zara'
+,
+ 
+21
+)
+ 
+ 
+When the above code is executed, it produces the following result:
+ 
+My
+ 
+name 
+is
+ 
+Zara
+ 
+and
+ 
+weight 
+is
+ 
+21
+ 
+kg
+!
+ 
+Here is the list of complete set of symbols which can be used along with %:
+ 
+Format Symbol
+ 
+Conversion
+ 
+%c
+ 
+character
+ 
+%s
+ 
+string conversion via str() prior to formatting
+ 
+%i
+ 
+signed decimal integer
+ 
+%d
+ 
+signed decimal integer
+ 
+%u
+ 
+unsigned 
+decimal integer
+ 

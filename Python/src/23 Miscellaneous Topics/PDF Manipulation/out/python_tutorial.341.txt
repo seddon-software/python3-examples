@@ -1,0 +1,109 @@
+ 
+Python
+ 
+ 
+ 
+ 
+329
+ 
+ 
+receivers = ['to@todomain.com']
+ 
+ 
+message = """From: From Person <from@fromdomain.com>
+ 
+To: To Person <to@todomain.com>
+ 
+Subject: SMTP e
+-
+mail test
+ 
+ 
+This is a test e
+-
+mail message.
+ 
+"""
+ 
+ 
+try:
+ 
+   
+smtpObj = smtplib.SMTP('localhost')
+ 
+   
+smtpObj.sendmail(sender, receivers, message)         
+ 
+   
+print "Successfully sent email"
+ 
+except SMTPException:
+ 
+   
+print "Error: unable to send email"
+ 
+Here, you have placed a basic e
+-
+mail in message, using a triple 
+quote, taking care to 
+format the headers correctly. An e
+-
+mail requires a
+ 
+From
+,
+ 
+To
+, and
+ 
+Subject
+ 
+header, 
+separated from the body of the e
+-
+mail with a blank line.
+ 
+To send the mail you use
+ 
+smtpObj
+ 
+to connect to the SMTP server on the local machine 
+and then use
+ 
+the
+ 
+sendmail
+ 
+method along with the message, the from address, and 
+the destination address as parameters (even though the from and to addresses are 
+within the e
+-
+mail itself, these aren't always used to route mail).
+ 
+If you
+ 
+a
+re not running an SMTP server on
+ 
+your local machine, you can 
+use
+ 
+smtplib
+ 
+client to communicate with a remote SMTP server. Unless you
+ 
+a
+re using 
+a webmail service (such as Hotmail or Yahoo! Mail), your e
+-
+mail provider 
+must
+ 
+have 
+provided you with outgoing mail server details that you c
+an supply them, as follows:
+ 
+smtplib.SMTP('mail.your
+-
+domain.com', 25)
+ 

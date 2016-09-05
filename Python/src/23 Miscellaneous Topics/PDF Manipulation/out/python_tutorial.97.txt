@@ -1,0 +1,102 @@
+ 
+Python
+ 
+ 
+ 
+ 
+85
+ 
+ 
+21
+ 
+lower()
+ 
+Converts all uppercase letters in string to lowercase
+.
+ 
+22
+ 
+lstrip()
+ 
+Removes all leading whitespace in string
+.
+ 
+23
+ 
+maketrans()
+ 
+Returns a translation table to be used in translate function.
+ 
+24
+ 
+max(str)
+ 
+Returns the max alphabetical character from the string str
+.
+ 
+25
+ 
+min(str)
+ 
+Returns the min alphabetical character from the string str
+.
+ 
+26
+ 
+replace(old, new [, max])
+ 
+Replaces all occurrences of old in string with new or at most max 
+occurrences if max given
+.
+ 
+27
+ 
+rfind(str, beg=0,end
+=len(string))
+ 
+Same as find(), but search backwards in string
+.
+ 
+28
+ 
+rindex( str, beg=0, end=len(string))
+ 
+Same as index(), but search backwards in string
+.
+ 
+29
+ 
+rjust(width,[, fillchar])
+ 
+Returns a space
+-
+padded string with the original string right
+-
+justified to a 
+total of width columns.
+ 
+30
+ 
+rstrip()
+ 
+Removes all trailing whitespace of string
+.
+ 
+31
+ 
+split(str="", num=string.count(str))
+ 
+Splits string according to delimiter str (space if not provided) and 
+returns list of substrings; split into at most num substrings if given
+.
+ 
+32
+ 
+splitlines( num=string.count('
+\
+n'))
+ 
+Splits string at all (or num) NEWLINEs and returns a list of each line with 
+NEWLINEs removed
+.
+ 

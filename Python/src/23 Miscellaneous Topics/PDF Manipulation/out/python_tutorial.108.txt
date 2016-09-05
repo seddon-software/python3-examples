@@ -1,0 +1,79 @@
+ 
+Python
+ 
+ 
+ 
+ 
+96
+ 
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+islpha()
+ 
+method:
+ 
+str.isalpha()
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return 
+Value
+ 
+This method returns true if all characters in the string are alphabetic and there is at 
+least one character, false otherwise.
+ 
+Example
+ 
+The following example shows the usage of isalpha() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str = "this";  # No space & digit in t
+his string
+ 
+print str.isalpha();
+ 
+ 
+str = "this is string example....wow!!!";
+ 
+print str.isalpha();
+ 
+When we run above program, it produces following result:
+ 
+True
+ 
+False
+ 
+14.
+ 
+12
+. 
+isdigit()
+ 
+Description
+ 
+The 
+method
+ 
+isdigit()
+ 
+checks whether the string consists of digits only.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+isdigit()
+ 
+method:
+ 
+str.isdigit()
+ 

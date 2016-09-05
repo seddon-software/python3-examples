@@ -1,0 +1,94 @@
+ 
+Python
+ 
+ 
+ 
+ 
+248
+ 
+ 
+Pyth
+on provides two very important features to handle any unexpected error in your 
+Python programs and to add debugging capabilities in them:
+ 
+
+ 
+Exception Handling:
+ 
+This would be covered in this tutorial. Here is a list 
+standard Exceptions available in Python: St
+andard Exceptions.
+ 
+
+ 
+Assertions:
+ 
+This would be covered in Assertions in Python tutorial.
+ 
+List of Standard Exceptions:
+ 
+EXCEPTION NAME
+ 
+DESCRIPTION
+ 
+Exception
+ 
+Base class for all exceptions
+ 
+StopIteration
+ 
+Raised when the next() method of an iterator does not 
+point 
+to any object.
+ 
+SystemExit
+ 
+Raised by the sys.exit() function.
+ 
+StandardError
+ 
+Base class for all built
+-
+in exceptions except StopIteration and 
+SystemExit.
+ 
+ArithmeticError
+ 
+Base class for all errors that occur for numeric calculation.
+ 
+OverflowError
+ 
+Raised when a calculation exceeds maximum limit for a 
+numeric type.
+ 
+FloatingPointError
+ 
+Raised when a floating point calculation fails.
+ 
+ZeroDivisonError
+ 
+Raised when division or modulo by zero takes place for all 
+numeric types.
+ 
+AssertionError
+ 
+Raised in ca
+se of failure of the Assert statement.
+ 
+AttributeError
+ 
+Raised in case of failure of attribute reference or assignment.
+ 
+EOFError
+ 
+Raised when there is no input from either the raw_input() or 
+input() function and the end of file is reached.
+ 
+ImportError
+ 
+Raised when an import statement fails.
+ 
+17.
+ 
+EXCEPTIONS
+ 

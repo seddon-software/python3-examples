@@ -1,0 +1,77 @@
+ 
+Python
+ 
+ 
+ 
+ 
+99
+ 
+ 
+This method returns true if all characters in the string are nu
+meric, false otherwise.
+ 
+Example
+ 
+The following example shows the usage of isnumeric() method.
+ 
+#!/usr/bin/python
+ 
+str = u"this2009";  
+ 
+print str.isnumeric();
+ 
+str = u"23443434";
+ 
+print str.isnumeric();
+ 
+When we run above program, it produces following result:
+ 
+Fa
+lse
+ 
+True
+ 
+17.
+ 
+15
+. 
+isspace()
+ 
+Method
+ 
+Description
+ 
+The method
+ 
+isspace()
+ 
+checks whether the string consists of whitespace.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+isspace()
+ 
+method:
+ 
+str.isspace()
+ 
+Parameters
+ 
+
+ 
+NA
+ 
+Return Value
+ 
+This method returns true if there are only whitespace characters in the string and 
+there is at least one character, false otherwise.
+ 
+Example
+ 
+The following example shows the usage of isspace() method.
+ 
+#!/usr/bin/python
+ 
+ 

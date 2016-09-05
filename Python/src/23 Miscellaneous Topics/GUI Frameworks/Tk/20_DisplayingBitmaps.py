@@ -9,11 +9,11 @@
 # use the Python Image Library (PIL) for other image formats
 # free from "http://www.pythonware.com/products/pil/index.htm"
  
-from Tkinter import *
+from tkinter import *
 from PIL import Image, ImageTk
 
 def calculate():
-    print "Button clicked"
+    print("Button clicked")
 
 
 def main():

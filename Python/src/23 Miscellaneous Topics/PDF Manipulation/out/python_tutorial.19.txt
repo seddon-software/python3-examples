@@ -1,0 +1,142 @@
+ 
+Python
+ 
+ 
+ 
+ 
+7
+ 
+ 
+or
+ 
+ 
+C
+:>
+python           
+# Windows/DOS
+ 
+Here is the list of all the available command line options:
+ 
+Option
+ 
+Description
+ 
+-
+d
+ 
+It 
+provide
+s
+ 
+debug output
+.
+ 
+-
+O
+ 
+It 
+generate
+s
+ 
+optimized bytecode (resulting in .pyo files)
+.
+ 
+-
+S
+ 
+D
+o not run import site to look for Python paths on startup
+.
+ 
+-
+v
+ 
+verbose output (detailed trace on import statements)
+.
+ 
+-
+X
+ 
+disable class
+-
+based built
+-
+in exceptions 
+(just use strings); obsolete 
+starting with version 1.6
+.
+ 
+-
+c cmd
+ 
+run Python script sent in as cmd string
+ 
+file
+ 
+run Python script from given file
+ 
+(2) Script from the Command
+-
+line
+ 
+A Python script can be executed at command line by invoking the interpreter 
+on your 
+application, as in the following:
+ 
+$python  script
+.
+py          
+# Unix/Linux
+or
+ 
+ 
+python
+%
+ 
+script
+.
+py           
+# Unix/Linux
+or
+ 
+C
+:>
+python script
+.
+py         
+# 
+Windows/DOS
+ 
+Note:
+ 
+Be sure the file permission mode allows execution.
+ 
+(3) Integrated 
+Development Environment
+ 
+You can run Python from a 
+G
+raphical 
+U
+ser 
+I
+nterface (GUI) environment as well
+, if you 
+have
+ 
+a GUI application on your system that supports Python.
+ 
+
+ 
+Unix:
+ 
+IDLE is the very first Unix IDE for Python.
+ 
+
+ 
+Windows:
+ 
+PythonWi
+n is the first Windows interface for Python and is an IDE 
+with a GUI.
+ 

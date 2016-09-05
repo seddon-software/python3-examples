@@ -1,0 +1,123 @@
+ 
+Python
+ 
+ 
+ 
+ 
+188
+ 
+ 
+o
+ 
+Mm.n.d:
+ 
+The d'th day (0 <= d <= 6) or week n of month m of the year (1 
+<= n <= 5, 1 <= m <= 12, where week 5 means 'the last d day in month 
+m' which may occur in either the fourth or the
+ 
+fifth week). Week 1 is the 
+first week in which the d'th day occurs. Day zero is Sunday.
+ 
+o
+ 
+time:
+ 
+This has the same format as offset except that no leading sign ('
+-
+' or 
+'+') is allowed. The default, if time is not given, is 02:00:00.
+ 
+Syntax
+ 
+Following is the s
+yntax for
+ 
+tzset()
+ 
+method:
+ 
+time
+.
+tzset
+()
+ 
+Parameters
+ 
+NA
+ 
+Return Value
+ 
+This method does not return any value.
+ 
+Example
+ 
+The following example shows the usage of tzset() method.
+ 
+#!/usr/bin/python
+ 
+import
+ 
+time
+ 
+import
+ 
+os
+ 
+ 
+os
+.
+environ
+[
+'TZ'
+]
+ 
+=
+ 
+'EST+05EDT,M4.1.0,M10.5.0'
+ 
+time
+.
+tzset
+()
+ 
+print
+ 
+time
+.
+strftime
+(
+'%X %x %Z'
+)
+ 
+ 
+os
+.
+environ
+[
+'TZ'
+]
+ 
+=
+ 
+'AEST
+-
+10AEDT
+-
+11,M10.5.0,M3.5.0'
+ 
+time
+.
+tzset
+()
+ 
+print
+ 
+time
+.
+strftime
+(
+'%X %x %Z'
+)
+ 
+When we run above program, it produces following result:
+ 

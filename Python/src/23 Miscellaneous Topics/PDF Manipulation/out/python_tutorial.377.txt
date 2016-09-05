@@ -1,0 +1,80 @@
+ 
+Python
+ 
+ 
+ 
+ 
+365
+ 
+ 
+justify
+ 
+If the text contains multiple lines, this option controls how the 
+text is justified: CENTER, LEFT, or RIGHT.
+ 
+offvalue
+ 
+Normally, a checkbutton's associated control variable will be set 
+to 0 when it is cleared (off). You can su
+pply an alternate value 
+for the off state by setting offvalue to that value.
+ 
+onvalue
+ 
+Normally, a checkbutton's associated control variable will be set 
+to 1 when it is set (on). You can supply an alternate value for 
+the on state by setting onvalue to that 
+value.
+ 
+padx
+ 
+How much space to leave to the left and right of the 
+checkbutton and text. Default is 1 pixel.
+ 
+pady
+ 
+How much space to leave above and below the checkbutton and 
+text. Default is 1 pixel.
+ 
+relief
+ 
+With the default value, relief=FLAT, the 
+checkbutton does not 
+stand out from its background. You may set this option to any 
+of the other styles
+ 
+selectcolor
+ 
+The color of the checkbutton when it is set. Default is 
+selectcolor="red".
+ 
+selectimage
+ 
+If you set this option to an image, that image will 
+appear in the 
+checkbutton when it is set.
+ 
+state
+ 
+The default is state=NORMAL, but you can use 
+state=DISABLED to gray out the control and make it 
+unresponsive. If the cursor is currently over the checkbutton, 
+the state is ACTIVE.
+ 
+text
+ 
+The label displayed 
+next to the checkbutton. Use newlines 
+("
+\
+n") to display multiple lines of text.
+ 
+underline
+ 
+With the default value of 
+-
+1, none of the characters of the text 
+label are underlined. Set this option to the index of a character 
+in the text (counting from zero) t
+o underline that character.
+ 

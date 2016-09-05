@@ -1,0 +1,86 @@
+ 
+Python
+ 
+ 
+ 
+ 
+366
+ 
+ 
+variable
+ 
+The control variable that tracks the current state of the 
+checkbutton. Normally this variable is an
+ 
+IntVar
+, and 0 means 
+cleared and 1 means set, but see the offvalue and onvalue 
+options above.
+ 
+width
+ 
+The default width 
+of a checkbutton is determined by the size of 
+the displayed image or text. You can set this option to a number 
+of characters and the checkbutton will always have room for 
+that many characters.
+ 
+wraplength
+ 
+Normally, lines are not wrapped. You can set this 
+option to a 
+number of characters and all lines will be broken into pieces no 
+longer than that number.
+ 
+Methods
+ 
+Following are commonly used methods for this widget:
+ 
+Medthod
+ 
+Description
+ 
+deselect()
+ 
+Clears (turns off) the checkbutton.
+ 
+flash()
+ 
+Flashes the 
+checkbutton a few times between its active and normal 
+colors, but leaves it the way it started.
+ 
+invoke()
+ 
+You can call this method to get the same actions that would occur if 
+the user clicked on the checkbutton to change its state.
+ 
+select()
+ 
+Sets (turns on
+) the checkbutton.
+ 
+toggle()
+ 
+Clears the checkbutton if set, sets it if cleared.
+ 
+Example
+ 
+Try the following example yourself:
+ 
+from
+ 
+Tkinter
+ 
+import
+ 
+*
+ 
+import
+ 
+tkMessageBox
+ 
+import
+ 
+Tkinter
+ 

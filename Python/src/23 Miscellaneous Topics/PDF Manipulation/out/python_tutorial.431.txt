@@ -1,0 +1,102 @@
+ 
+Python
+ 
+ 
+ 
+ 
+419
+ 
+ 
+w 
+=
+ 
+LabelFrame
+(
+ 
+master
+,
+ 
+option
+,
+ 
+...
+ 
+)
+ 
+Parameters
+ 
+21.
+ 
+master:
+ 
+This represents the parent window.
+ 
+22.
+ 
+options:
+ 
+Here is the list of most 
+commonly 
+used options for this widget. These options 
+can be used as key
+-
+value pairs separated by 
+commas.
+ 
+Option
+ 
+Description
+ 
+bg
+ 
+The normal background color displayed behind the label and 
+indicator.
+ 
+bd
+ 
+The size of the border around the indicator. Default 
+is 2 pixels.
+ 
+cursor
+ 
+If you set this option to a cursor name (
+arrow, dot etc.
+), the 
+mouse cursor will change to that pattern when it is over the 
+checkbutton.
+ 
+font
+ 
+The vertical dimension of the new frame.
+ 
+height
+ 
+The vertical dimension of the new frame.
+ 
+l
+abelAnchor
+ 
+Specifies where to place the label.
+ 
+highlightbackground
+ 
+Color of the focus highlight when the frame does not have 
+focus.
+ 
+highlightcolor
+ 
+Color shown in the focus highlight when the frame has the 
+focus.
+ 
+highlightthickness
+ 
+Thickness of the focus
+ 
+highlight.
+ 
+relief
+ 
+With the default value, relief=FLAT, the checkbutton does not 
+stand out from its background. You may set this option to any 
+of the other styles
+ 

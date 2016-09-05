@@ -1,0 +1,117 @@
+ 
+Python
+ 
+ 
+ 
+ 
+229
+ 
+ 
+fo
+.
+close
+()
+ 
+When we run above program, it produces following result:
+ 
+Name of the file:  foo.txt
+ 
+Line No 0 
+-
+ 
+This is 1st line
+ 
+Line No 1 
+-
+ 
+This is 2nd line
+ 
+Line No 2 
+-
+ 
+This is 3rd line
+ 
+Line No 3 
+-
+ 
+This is 4th line
+ 
+Line No 4 
+-
+ 
+This is 5th line
+ 
+6.
+ 
+File.read([size])
+ 
+Description
+ 
+The method
+ 
+read()
+ 
+reads at most
+ 
+size
+ 
+bytes from the file. If the read hits EOF before 
+obtaining size bytes, then it reads only available bytes.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+read()
+ 
+method:
+ 
+fileObject
+.
+read
+(
+ 
+size 
+);
+ 
+Parameters
+ 
+size
+ 
+--
+ 
+This is the number of bytes to be read from the file.
+ 
+Return Value
+ 
+This method returns the bytes read in string.
+ 
+Example
+ 
+The following example shows the usage of read() method.
+ 
+#!/usr/bin/python
+ 
+ 
+# Open a file
+ 
+fo 
+=
+ 
+open
+(
+"foo.txt"
+,
+ 
+"rw+"
+)
+ 
+print
+ 
+"Name of the file: "
+,
+ 
+fo
+.
+name
+ 

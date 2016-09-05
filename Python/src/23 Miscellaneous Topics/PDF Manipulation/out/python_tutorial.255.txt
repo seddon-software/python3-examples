@@ -1,0 +1,97 @@
+ 
+Python
+ 
+ 
+ 
+ 
+243
+ 
+ 
+10
+ 
+os.dup2(fd, fd2)
+ 
+Duplicate file descriptor fd to fd2, closing the latter first if necessary.
+ 
+11
+ 
+os.fchdir(fd)
+ 
+Change the current working directory to the directory represented by the 
+file descriptor fd.
+ 
+12
+ 
+os.fchmod(fd, mode)
+ 
+Change the mode of the 
+file given by fd to the numeric mode.
+ 
+13
+ 
+os.fchown(fd, uid, gid)
+ 
+Change the owner and group id of the file given by fd to the numeric uid 
+and gid.
+ 
+14
+ 
+os.fdatasync(fd)
+ 
+Force write of file with filedescriptor fd to disk.
+ 
+15
+ 
+os.fdopen(fd[, mode[, bufsize]])
+ 
+Return an ope
+n file object connected to the file descriptor fd.
+ 
+16
+ 
+os.fpathconf(fd, name)
+ 
+Return system configuration information relevant to an open file. name 
+specifies the configuration value to 
+retrieve.
+ 
+17
+ 
+os.fstat(fd)
+ 
+Return status for file descriptor fd, like stat().
+ 
+18
+ 
+os.fstatvfs(fd)
+ 
+Return information 
+about the filesystem containing the file associated with 
+file descriptor fd, like statvfs().
+ 
+19
+ 
+os.fsync(fd)
+ 
+Force write of file with filedescriptor fd to disk.
+ 
+20
+ 
+os.ftruncate(fd, length)
+ 
+Truncate the file corresponding to file descriptor fd, so that it is at most 
+length bytes in size.
+ 
+21
+ 
+os.getcwd()
+ 
+Ret
+urn a string representing the current working directory.
+ 
+22
+ 
+os.getcwdu()
+ 
+Return a Unicode object representing the current working directory.
+ 

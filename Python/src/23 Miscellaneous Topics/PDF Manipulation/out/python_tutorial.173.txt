@@ -1,0 +1,146 @@
+ 
+Python
+ 
+ 
+ 
+ 
+161
+ 
+ 
+
+ 
+NA
+ 
+Return Value
+ 
+This method returns a shallow
+ 
+copy of the dictionary.
+ 
+Example
+ 
+The following example shows the usage of copy() method.
+ 
+#!/usr/bin/python
+ 
+ 
+dict1 
+=
+ 
+{
+'Name'
+:
+ 
+'Zara'
+,
+ 
+'Age'
+:
+ 
+7
+};
+ 
+ 
+dict2 
+=
+ 
+dict1
+.
+copy
+()
+ 
+print
+ 
+"New Dictinary : %s"
+ 
+%
+  
+str
+(
+dict2
+)
+ 
+When we run above program, it produces following 
+result:
+ 
+New
+ 
+Dictinary
+ 
+:
+ 
+{
+'Age'
+:
+ 
+7
+,
+ 
+'Name'
+:
+ 
+'Zara'
+}
+ 
+63.
+ 
+Dict.fromkeys()
+ 
+Description
+ 
+The method
+ 
+fromkeys()
+ 
+creates a new dictionary with keys from
+ 
+seq
+ 
+and
+ 
+values
+ 
+set 
+to value.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+fromkeys()
+ 
+method:
+ 
+dict
+.
+fromkeys
+(
+seq
+[,
+ 
+value
+]))
+ 
+Parameters
+ 
+
+ 
+seq
+ 
+--
+ 
+This is the list of values which would be used for dictionary keys 
+preparation.
+ 
+
+ 
+value
+ 
+--
+ 
+This is optional, if provided then value would be set to this value
+ 
+Return Value
+ 
+This method returns the list.
+ 

@@ -1,0 +1,126 @@
+ 
+Python
+ 
+ 
+ 
+ 
+5
+ 
+ 
+version along with extra tools to support development on the Mac. For ol
+der Mac OS's 
+before Mac OS X 10.3 (released in 2003), MacPython is available.
+ 
+Jack Jansen maintains it and you can have full access to the entire documentation at 
+his 
+w
+eb
+site 
+-
+ 
+ 
+http://www.cwi.nl/~jack/macpython.html
+. 
+Y
+ou 
+can 
+find complete installation 
+detail
+s
+ 
+for Mac OS installation.
+ 
+Setting up PATH
+ 
+Programs and other executable file
+s can 
+be
+ 
+in many directories, so operating systems 
+provide a search path that lists the directories that the OS searches for executables.
+ 
+The path is stored in an environment variable, which is a named string maintained 
+by the operating system. Th
+is
+ 
+variable
+ 
+contain
+s
+ 
+information available to the command 
+shell and other programs.
+ 
+The
+ 
+path
+ 
+variable is named 
+as 
+PATH in Unix or Path in Windows (Unix is case
+-
+sensitive; Windows is not).
+ 
+In Mac OS, the installer handles the path details. To invoke the Pyth
+on interpreter 
+from any particular directory, you must add the Python directory to your path.
+ 
+Setting path at Unix/Linux
+ 
+To add the Python directory to the path for a particular session in Unix:
+ 
+
+ 
+In the csh shell:
+ 
+type
+ 
+setenv PATH 
+"$PATH:/usr/local/bin/python" and press 
+Enter.
+ 
+
+ 
+In the bash shell (Linux):
+ 
+type
+ 
+export 
+ATH="$PATH:/usr/local/bin/python" 
+and press Enter.
+ 
+
+ 
+In the sh or ksh shell:
+ 
+type
+ 
+PATH="$PATH:/usr/local/bin/python" and press 
+Enter.
+ 
+
+ 
+Note:
+ 
+/usr/local/bin/python is the 
+path of the Python directory
+ 
+Setting path at Windows
+ 
+To add the Python directory to the path for a particular session in Windows:
+ 
+At the command prompt
+:
+ 
+type
+ 
+path %path%;C:
+\
+Python and press Enter.
+ 
+Note:
+ 
+C:
+\
+Python is the path of the Python directory
+ 

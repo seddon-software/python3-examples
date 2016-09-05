@@ -1,0 +1,58 @@
+ 
+Python
+ 
+ 
+ 
+ 
+288
+ 
+ 
+CGI Architecture 
+ 
+ 
+Web Server Support 
+and
+ 
+Configuration
+ 
+Before you proceed with CGI Programming, make sure that your Web Server supports 
+CGI and it is configured to handle CGI Programs. All the CGI Programs to be executed 
+by the HTTP server are ke
+pt in a pre
+-
+configured directory. This directory is called CGI 
+Directory and by convention it is named as /var/www/cgi
+-
+bin. By convention, CGI 
+files 
+have extension as
+.cgi
+, but you can keep your files with python extension
+ 
+.py
+ 
+as 
+well.
+ 
+By default, the 
+Linux server is configured to run only the scripts in the cgi
+-
+bin 
+directory in /var/www. If you want to specify any other directory to run your CGI 
+scripts, comment the following lines in the httpd.conf file:
+ 
+<Directory
+ 
+"/var/www/cgi
+-
+bin"
+>
+ 
+   
+AllowOverride
+ 
+None
+ 
+   
+Options ExecCGI
+ 

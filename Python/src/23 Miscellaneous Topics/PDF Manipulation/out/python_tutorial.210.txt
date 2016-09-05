@@ -1,0 +1,134 @@
+ 
+Python
+ 
+ 
+ 
+ 
+198
+ 
+ 
+Default 
+A
+rguments
+ 
+A default argument is an argument that assumes a default value if a value is not 
+provided in the function call for that argument. 
+The f
+ollowing example gives an idea 
+on default arguments, it print
+s
+ 
+default age if it is not passed:
+ 
+#!/usr/bin/python
+ 
+ 
+# Func
+tion definition is here
+ 
+def
+ 
+printinfo
+(
+ 
+name
+,
+ 
+age 
+=
+ 
+35
+ 
+):
+ 
+   
+"This prints a passed info into this function"
+ 
+   
+print
+ 
+"Name: "
+,
+ 
+name
+;
+ 
+   
+print
+ 
+"Age "
+,
+ 
+age
+;
+ 
+   
+return
+;
+ 
+ 
+# Now you can call printinfo function
+ 
+printinfo
+(
+ 
+age
+=
+50
+,
+ 
+name
+=
+"miki"
+ 
+);
+ 
+printinfo
+(
+ 
+name
+=
+"miki"
+ 
+);
+ 
+When the above code is executed, it produces the following result:
+ 
+Name
+:
+  
+miki
+ 
+Age
+  
+50
+ 
+Name
+:
+  
+miki
+ 
+Age
+  
+35
+ 
+Variable L
+ength 
+Arguments
+ 
+You may need to process a function for more arguments than you specified while 
+defining the function. These argum
+ents are called
+ 
+variable
+-
+length
+ 
+arguments and are 
+not named in the function definition, unlike required and default arguments.
+ 
+S
+yntax for a function with non
+-
+keyword variable arguments is this:
+ 

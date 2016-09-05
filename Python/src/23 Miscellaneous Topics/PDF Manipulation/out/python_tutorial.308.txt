@@ -1,0 +1,169 @@
+ 
+Python
+ 
+ 
+ 
+ 
+296
+ 
+ 
+Let us take again same example as above which passes two values using HTML FORM 
+and submit button. We 
+use same CGI script hello_get.py to handle this i
+n
+put.
+ 
+<form
+ 
+action
+=
+"/cgi
+-
+bin/hello_get.py"
+ 
+method
+=
+"post"
+>
+ 
+First Name: 
+<input
+ 
+type
+=
+"text"
+ 
+name
+=
+"first_name"
+><br
+ 
+/>
+ 
+Last Name: 
+<input
+ 
+type
+=
+"text"
+ 
+name
+=
+"last_name"
+ 
+/>
+ 
+ 
+<input
+ 
+type
+=
+"submit"
+ 
+value
+=
+"Submit"
+ 
+/>
+ 
+</form>
+ 
+Here is the actual output of the above form. You enter First and Last Name and then 
+click submit button to see the result.
+ 
+First Name:
+ 
+ 
+Last Name:
+ 
+ 
+ 
+Bottom of Form
+ 
+
+ 
+Checkboxes are used when more than one option is required to be selected.
+ 
+Here is example HTML code for a form with two checkboxes:
+ 
+<form
+ 
+action
+=
+"/cgi
+-
+bin/checkbox.cgi"
+ 
+method
+=
+"POST"
+ 
+target
+=
+"_blank"
+>
+ 
+<input
+ 
+type
+=
+"checkbox"
+ 
+name
+=
+"maths"
+ 
+value
+=
+"on"
+ 
+/>
+ 
+Maths
+ 
+<input
+ 
+type
+=
+"checkbox"
+ 
+name
+=
+"physics"
+ 
+value
+=
+"on"
+ 
+/>
+ 
+Physics
+ 
+<input
+ 
+type
+=
+"submit"
+ 
+value
+=
+"Select Subject"
+ 
+/>
+ 
+</form>
+ 
+The result of this code is the following form:
+ 
+ 
+Maths
+ 
+ 
+Physics
+ 
+ 
+Bottom of Form
+ 
+Below is checkbox.cgi script to handle input given by web browser for checkbox 
+button.
+ 

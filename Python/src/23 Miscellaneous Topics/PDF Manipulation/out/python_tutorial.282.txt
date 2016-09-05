@@ -1,0 +1,125 @@
+ 
+Python
+ 
+ 
+ 
+ 
+270
+ 
+ 
+.....
+ 
+You can use issubclass() or isinstance() functions to check a 
+relationships of two 
+classes and instances.
+ 
+
+ 
+The
+ 
+issubclass(sub, sup)
+ 
+boolean function returns true if the given 
+subclass
+ 
+sub
+ 
+is indeed a subclass of the superclass
+ 
+sup
+.
+ 
+
+ 
+The
+ 
+isinstance(obj, Class)
+ 
+boolean function returns true if
+ 
+obj
+ 
+is an instance 
+of class
+ 
+Class
+ 
+or is an instance of a subclass of Class
+ 
+Overriding Methods
+ 
+You can always override your parent class methods. One reason for overriding 
+parent's methods is because you may want special or different functionality in your 
+subclass.
+ 
+Example
+ 
+#!/usr/b
+in/python
+ 
+ 
+class
+ 
+Parent
+:
+        
+# define parent class
+ 
+   
+def
+ 
+myMethod
+(
+self
+):
+ 
+      
+print
+ 
+'Calling parent method'
+ 
+ 
+class
+ 
+Child
+(
+Parent
+):
+ 
+# define child class
+ 
+   
+def
+ 
+myMethod
+(
+self
+):
+ 
+      
+print
+ 
+'Calling child method'
+ 
+ 
+c 
+=
+ 
+Child
+()
+          
+# instance of child
+ 
+c
+.
+myMethod
+()
+         
+# child calls overridden method
+ 
+When the above code is executed, it produces the following result:
+ 
+Calling
+ 
+child method
+ 

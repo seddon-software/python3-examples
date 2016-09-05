@@ -1,0 +1,48 @@
+ 
+Python
+ 
+ 
+ 
+ 
+8
+ 
+ 
+
+ 
+Macintosh:
+ 
+The Macintosh version of Python along with the IDLE IDE is 
+available from the main website, downloadable as either MacBinary or 
+BinHex'd files.
+ 
+If you are not able to set up the environment properly, then you can take help from 
+your system admin.
+ 
+Make sure
+ 
+the Python
+ 
+environment is properly set up and 
+working perfectly f
+ine.
+ 
+Note:
+ 
+All the examples given in subsequent chapters 
+are
+ 
+executed with Python 2.4.3 
+version available on CentOS flavor of Linux.
+ 
+W
+e already have set up Python Programming environment online, so that you can 
+execute all the available examples online at the same time when you are 
+learning
+ 
+theory
+.
+ 
+Feel free to modify any example and execute it online.
+ 
+ 
+ 

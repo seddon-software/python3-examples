@@ -1,7 +1,6 @@
 def getPassword():
-    # homePages = "G:/_Companies/CRS Enterprises/Technical/HomePages.txt"
     homePages = '/Users/seddon/home/_Companies/CRS Enterprises/Technical/HomePages.txt'
-    f = open(homePages,"rb")
+    f = open(homePages, encoding="latin-1")
     password = f.readline().strip()
     f.close()
     return password

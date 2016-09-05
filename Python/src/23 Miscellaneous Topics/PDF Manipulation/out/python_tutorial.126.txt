@@ -1,0 +1,160 @@
+ 
+Python
+ 
+ 
+ 
+ 
+114
+ 
+ 
+ 
+str 
+=
+ 
+"     this is string example....wow!!!     "
+;
+ 
+print
+ 
+str
+.
+rstrip
+();
+ 
+str 
+=
+ 
+"88888888this is string example....wow!!!8888888"
+;
+ 
+pr
+int
+ 
+str
+.
+rstrip
+(
+'8'
+);
+ 
+When we run above program, it produces following result:
+ 
+     
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+88888888this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+ 
+33.
+ 
+31. 
+split(str="", num=string.count(str))
+ 
+ 
+Description
+ 
+The method
+ 
+split()
+ 
+returns a list of all the words in the string, using
+ 
+str
+ 
+as the 
+separator (splits on all whitespace if left unspecified), optionally limiting the number 
+of splits to
+ 
+num
+.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+split()
+ 
+method:
+ 
+st
+r
+.
+split
+(
+str
+=
+""
+,
+ 
+num
+=
+string
+.
+count
+(
+str
+)).
+ 
+Parameters
+ 
+
+ 
+str
+ 
+--
+ 
+This is any delimeter, by default it is space.
+ 
+
+ 
+num
+ 
+--
+ 
+this is number of lines to be made.
+ 
+Return Value
+ 
+This method returns a list of lines.
+ 
+Example
+ 
+The following example shows the usage of split() 
+method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"Line1
+-
+abcdef 
+\
+nLine2
+-
+abc 
+\
+nLine4
+-
+abcd"
+;
+ 

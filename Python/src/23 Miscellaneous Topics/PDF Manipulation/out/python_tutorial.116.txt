@@ -1,0 +1,121 @@
+ 
+Python
+ 
+ 
+ 
+ 
+104
+ 
+ 
+str
+.
+ljust
+(
+width
+[,
+ 
+fillchar
+])
+ 
+Parameters
+ 
+
+ 
+width
+ 
+--
+ 
+This is string length in total after padding.
+ 
+
+ 
+fillchar
+ 
+--
+ 
+This is filler character, default is a space.
+ 
+Return Value
+ 
+This method returns the string left justified in a string of 
+length width. Padding is 
+done using the specified fillchar (default is a space). The original string is returned if 
+width is less than len(s).
+ 
+Example
+ 
+The following example shows the usage of ljust() method.
+ 
+#!/usr/bin/python
+ 
+ 
+str 
+=
+ 
+"this is string example
+....wow!!!"
+;
+ 
+ 
+print
+ 
+str
+.
+ljust
+(
+50
+,
+ 
+'0'
+);
+ 
+When we run above program, it produces following result:
+ 
+this
+ 
+is
+ 
+string
+ 
+example
+....
+wow
+!!!
+000000000000000000
+ 
+23.
+ 
+21. 
+lower()
+ 
+ 
+Description
+ 
+The method
+ 
+lower()
+ 
+returns
+ 
+a copy of the string in which all case
+-
+based characters 
+have been lowercased.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+lower()
+ 
+method:
+ 
+str
+.
+lower
+()
+ 
+Parameters
+ 
+NA
+ 

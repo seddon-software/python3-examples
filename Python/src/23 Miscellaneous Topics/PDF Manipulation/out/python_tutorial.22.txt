@@ -1,0 +1,128 @@
+ 
+Python
+ 
+ 
+ 
+ 
+10
+ 
+ 
+W
+e
+ 
+assume
+ 
+that you have Python interpreter set in PATH variable. Now, try to run 
+this program as follows:
+ 
+$ python test
+.
+py
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Hello, Python!
+ 
+Let
+ 
+u
+s try another way to execute a Python script. 
+Here
+ 
+is the modified test.py file:
+ 
+#!/usr/bin/python
+ 
+print
+ 
+"Hello, Python!"
+;
+ 
+We
+ 
+assume
+ 
+that you have Python interpreter available in /usr/bin directory. Now, try 
+to run this program as follows:
+ 
+$ chmod 
++
+x test
+.
+py     
+# This is to make file executable
+ 
+$
+./
+test
+.
+py
+ 
+This 
+produce
+s
+ 
+the following result:
+ 
+Hello, Python!
+ 
+Python Identifiers
+ 
+A Python identifier is a name used to identify a variable, function, class, module
+,
+ 
+or 
+other object. An identifier starts with a letter A to Z or a to z
+,
+ 
+or an underscore (_) 
+followed by zero or more letters, underscores and digits (0 to 9).
+ 
+Python does not allow punctuation characters such as @, $
+,
+ 
+and % within identifiers. 
+Python is a case sensitive programming language. 
+Thus,
+ 
+Manpower
+ 
+and
+ 
+manpower
+ 
+are 
+two different identifiers in Python.
+ 
+Here are 
+naming convention
+s
+ 
+for Python
+ 
+identifiers
+:
+ 
+
+ 
+Class names start with an uppercase letter
+.
+ 
+A
+ll other identifiers 
+start 
+with a 
+lowercase letter.
+ 
+
+ 
+Starting an identifier with a single leadin
+g underscore indicates 
+that the 
+identifier is 
+private.
+ 

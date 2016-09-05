@@ -1,0 +1,147 @@
+ 
+Python
+ 
+ 
+ 
+ 
+149
+ 
+ 
+#!/usr/bin/python
+ 
+ 
+tuple1
+,
+ 
+tuple2 
+=
+ 
+(
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+),
+ 
+(
+456
+,
+ 
+700
+,
+ 
+200
+)
+ 
+ 
+print
+ 
+"min value element : "
+,
+ 
+min
+(
+tuple1
+);
+ 
+print
+ 
+"min value element : "
+,
+ 
+min
+(
+tuple2
+);
+ 
+When we run above 
+program, it produces following result:
+ 
+min value element 
+:
+  
+123
+ 
+min value element 
+:
+  
+200
+ 
+57.
+ 
+Tuple(seg)
+ 
+Description
+ 
+The method
+ 
+tuple()
+ 
+compares elements of two tuples.
+ 
+Syntax
+ 
+Following is the syntax for
+ 
+tuple()
+ 
+method:
+ 
+tuple
+(
+ 
+seq 
+)
+ 
+Parameters
+ 
+
+ 
+seq
+ 
+--
+ 
+This is a 
+tuple to be converted into tuple.
+ 
+Return Value
+ 
+This method returns the tuple.
+ 
+Example
+ 
+The following example shows the usage of tuple() method.
+ 
+#!/usr/bin/python
+ 
+ 
+aList 
+=
+ 
+(
+123
+,
+ 
+'xyz'
+,
+ 
+'zara'
+,
+ 
+'abc'
+);
+ 
+aTuple 
+=
+ 
+tuple
+(
+aList
+)
+ 

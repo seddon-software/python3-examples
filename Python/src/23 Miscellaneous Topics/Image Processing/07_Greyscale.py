@@ -12,6 +12,6 @@ try:
     img = img.convert("L")
     img.show()
     img.save(outfile, "JPEG")
-except IOError, e:
-    print e
+except IOError as e:
+    print(e)
     

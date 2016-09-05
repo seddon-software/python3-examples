@@ -1,0 +1,74 @@
+ 
+Python
+ 
+ 
+ 
+ 
+402
+ 
+ 
+jump
+ 
+This option controls what happens when a user drags the 
+slider
+. Normally (jump=0), every small drag of the slider 
+causes the command callback to be called. If you set this 
+option to 1, the callback isn't called until the user releases the 
+mouse button.
+ 
+orient
+ 
+Set orient=HORIZONTAL for a horizontal scrollbar, 
+orient=
+VERTICAL for a vertical one.
+ 
+repeatdelay
+ 
+This option controls how long button 1 has to be held down in 
+the trough before the slider starts moving in that direction 
+repeatedly. Default is repeatdelay=300, and the units are 
+milliseconds.
+ 
+repeatinterval
+ 
+repeatinterval
+ 
+takefocus
+ 
+Normally, you can tab the focus through a scrollbar widget. 
+Set takefocus=0 if you don't want this behavior.
+ 
+troughcolor
+ 
+The color of the trough.
+ 
+width
+ 
+Width of the scrollbar (its y dimension if horizontal, and its x 
+dimension i
+f vertical). Default is 16.
+ 
+Methods
+ 
+Scrollbar objects have these methods:
+ 
+Methods
+ 
+Description
+ 
+get()
+ 
+Returns two numbers (a, b) describing the current position of the 
+slider. The a value gives the position of the left or top edge of the 
+slider, for 
+horizontal and vertical scrollbars respectively; the b value 
+gives the position of the right or bottom edge.
+ 
+set ( first, last )
+ 
+To connect a scrollbar to another widget w, set w's xscrollcommand 
+or yscrollcommand to the scrollbar's set() method. The 
+arguments 
+have the same meaning as the values returned by the get() 
+method.
+ 
