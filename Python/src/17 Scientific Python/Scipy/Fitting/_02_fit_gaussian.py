@@ -33,7 +33,6 @@ def fitgaussian(data):
     return p
 
 def main():
-    #from pylab import *
     import pylab
     
     # Create the gaussian data

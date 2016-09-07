@@ -16,11 +16,11 @@ def f(x):
     return (exp(x)-1)-cos(x)
 
 # use fsolve to solve exp(x)-1  -  cos(x) = 0
-guess =   2.0; print fsolve(f,guess)
-guess =  -1.0; print fsolve(f,guess)
-guess =  -5.0; print fsolve(f,guess)
-guess =   0.0; print fsolve(f,guess)
-guess = -10.0; print fsolve(f,guess)
+guess =   2.0; print(fsolve(f,guess))
+guess =  -1.0; print(fsolve(f,guess))
+guess =  -5.0; print(fsolve(f,guess))
+guess =   0.0; print(fsolve(f,guess))
+guess = -10.0; print(fsolve(f,guess))
 
 # plot the graph to see if we are correct
 x = linspace(-15,1,401)

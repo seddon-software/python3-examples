@@ -19,7 +19,7 @@ z=10*outer(ones(size(u)),cos(v))
 
 fig=p.figure()
 ax = p3.Axes3D(fig)
-ax.plot_wireframe(x,y,z)
+ax.plot_wireframe(x,y,z, color="purple")
 ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')

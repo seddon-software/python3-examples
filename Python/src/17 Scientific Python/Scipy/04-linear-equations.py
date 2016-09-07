@@ -18,7 +18,7 @@ a = array( [ [5,-2, 3],
              [2,-5,-2] ])
 b = array( [22,34,-7] )
 result = solve(a, b)
-print result
+print(result)
 
 
 1

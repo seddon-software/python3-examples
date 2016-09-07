@@ -6,7 +6,7 @@ def tagIt(tagId):
     s('git add .')
     s('git commit -m "added files about to be tagged"')
     s('git log --pretty=oneline')
-    commitId = raw_input('\nenter the first 10 characters of the commit id to tag: ')
+    commitId = input('\nenter characters of the commit id to tag: ')
     s('git tag', tagId, commitId)
     s('git show-ref --tags')
     

@@ -1,13 +1,13 @@
 from PIL import Image
 import numpy, pylab
-import fit_algorithm as fa
+import _02_fit_gaussian as fg
 
 
 
 def cropImage():
     # open the test data image - it needs cropping
-    img = Image.open('../gaussian.tif')
-    print img.size
+    img = Image.open('gaussian.tif')
+    print(img.size)
     box = 800, 350, 1000, 500
     img = img.crop(box)
     img.show()
@@ -17,14 +17,14 @@ img = cropImage()
 
 # read the cropped image directly into a numpy array 
 imarray = numpy.array(img)
-print "Numpy array shape:", imarray.shape
-print "Cropped image size", img.size
+print("Numpy array shape:", imarray.shape)
+print("Cropped image size", img.size)
 
 # Create the gaussian data
 data = imarray
 pylab.matshow(data, cmap='gist_rainbow')
-params = fa.fitgaussian(data)
-fit = fa.gaussian(*params)
+params = fg.fitgaussian(data)
+fit = fg.gaussian(*params)
 pylab.contour(fit(*pylab.indices(data.shape)), cmap='copper')
 ax = pylab.gca()
 (height, x, y, width_x, width_y) = params
