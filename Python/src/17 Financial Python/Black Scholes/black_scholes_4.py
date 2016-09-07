@@ -8,13 +8,13 @@ parameters = {
     'volativity' : 50.0
 }
 
-print greeks("call", "",      **parameters)
-print greeks("put",  "",      **parameters)
-print greeks("call", "delta", **parameters)
-print greeks("put",  "delta", **parameters)
-print greeks("put",  "gamma", **parameters)
-print greeks("call", "theta", **parameters)
-print greeks("put",  "theta", **parameters)
-print greeks("call", "rho",   **parameters)
-print greeks("put",  "rho",   **parameters)
-print greeks("put",  "vega",  **parameters)
+print(greeks("call", "",      **parameters))
+print(greeks("put",  "",      **parameters))
+print(greeks("call", "delta", **parameters))
+print(greeks("put",  "delta", **parameters))
+print(greeks("put",  "gamma", **parameters))
+print(greeks("call", "theta", **parameters))
+print(greeks("put",  "theta", **parameters))
+print(greeks("call", "rho",   **parameters))
+print(greeks("put",  "rho",   **parameters))
+print(greeks("put",  "vega",  **parameters))

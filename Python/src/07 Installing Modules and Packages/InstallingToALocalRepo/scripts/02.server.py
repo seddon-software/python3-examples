@@ -1,6 +1,7 @@
-import subprocess,os,sys
+import os, sys
+import setPath
 
 
 os.chdir("../server")
-subprocess.call("python -m SimpleHTTPServer 8000".split())
+os.system("python -m http.server 8000")
 

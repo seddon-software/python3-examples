@@ -7,7 +7,7 @@ def displayTable(connection):
     cursor.execute("SELECT * FROM Cars")
     rows = cursor.fetchall()
     for row in rows:
-        print row
+        print(row)
 
 try:
     connection = lite.connect('test.db')
@@ -30,7 +30,7 @@ try:
 except lite.Error as e:
     if connection:
         connection.rollback()
-    print "Error {}:".format(e)
+    print("Error {}:".format(e))
     sys.exit(1)
 finally:
 

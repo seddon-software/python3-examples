@@ -3,7 +3,6 @@ import re
 from robobrowser import RoboBrowser
 import webbrowser
 import os
-#from BeautifulSoup import BeautifulSoup, Tag
 from bs4 import BeautifulSoup, Tag
 
 base = "http://www.bbc.co.uk"
@@ -16,7 +15,7 @@ def correctURL(url):
     return url.replace(old, new)
 
 # use mechanize to scrape spans from BBC news page
-browser = RoboBrowser()
+browser = RoboBrowser(parser="html5lib")
 browser.open(base + "/news")
 
 link = browser.get_link(text="UK")
@@ -26,7 +25,7 @@ soup = browser.parsed
 # pick out anchors that are tagged with the story class
 # tags = soup.findAll("a", "story")
 tags = soup.findAll("a")
-newSoup = BeautifulSoup()
+newSoup = BeautifulSoup(features="html5lib")
 
 for tag in tags:
     # add base url if it is missing from href

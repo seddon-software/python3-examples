@@ -9,8 +9,8 @@ def toHex(n):
 # like the above to similate a finite number of bits
 
 x = 0xAE53FE13
-print " x   = {}".format( toHex(x) )
-print "~x   = {}".format( toHex(~x) )
-print "~x+x = {}".format( toHex(~x+x) )
+print(" x   = {}".format( toHex(x) ))
+print("~x   = {}".format( toHex(~x) ))
+print("~x+x = {}".format( toHex(~x+x) ))
 
 

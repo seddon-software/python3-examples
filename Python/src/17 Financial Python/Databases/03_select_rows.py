@@ -9,10 +9,10 @@ with connection:
     rows = cursor.fetchall()
 
     for row in rows:
-        print row
-    print
+        print(row)
+    print()
     
-    print "{:2s}{:>12s}{:>8s}".format("ID", "Maker", "Cost")
-    print "{:2s}{:>12s}{:>8s}".format("==", "=====", "====")
+    print("{:2s}{:>12s}{:>8s}".format("ID", "Maker", "Cost"))
+    print("{:2s}{:>12s}{:>8s}".format("==", "=====", "===="))
     for row in rows:
-        print "{:2d}{:>12s}{:8d}".format(row[0], row[1], row[2])
+        print("{:2d}{:>12s}{:8d}".format(row[0], row[1], row[2]))

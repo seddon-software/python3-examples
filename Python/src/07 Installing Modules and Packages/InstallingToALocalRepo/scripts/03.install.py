@@ -1,9 +1,6 @@
-import pip
+import os, sys
+import setPath
 
-moduleName = "mymodule-1.0.zip"
-
-cmd = "install http://localhost:8000/repo/" + moduleName
-print("pip {0}".format(cmd))
-pip.main(cmd.split())
-pip.main("show mymodule".split())
+os.system("pip install http://localhost:8000/repo/mymodule-1.0.zip")
+os.system("pip show mymodule")
 

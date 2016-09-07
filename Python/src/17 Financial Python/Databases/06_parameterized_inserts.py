@@ -7,7 +7,7 @@ def displayTable(connection):
     cursor.execute("SELECT * FROM Cars")
     rows = cursor.fetchall()
     for row in rows:
-        print row
+        print(row)
 
 cars = (
     (1, 'Audi', 52642),

@@ -1,10 +1,10 @@
-import subprocess, os, sys, shutil
-
+import os, shutil
+import setPath
 
 os.chdir("../src")
 
 # create source distro
-subprocess.call("python setup.py sdist --formats=zip".split())
+os.system("python setup.py sdist --formats=zip")
 
 # copy to local repo
 shutil.copy("dist/mymodule-1.0.zip", "../server/repo")

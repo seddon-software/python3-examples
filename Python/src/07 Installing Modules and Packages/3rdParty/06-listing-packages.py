@@ -1,10 +1,6 @@
-import pip
+import os, setPath
 
-pip.main("list".split())
-# pip.main("list --outdated".split())
-pip.main("show beautifulSoup".split())
-
-1
-
-
+os.system("pip list")
+os.system("pip list --outdated")
+os.system("pip show beautifulsoup4")
 

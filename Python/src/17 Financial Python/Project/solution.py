@@ -2,13 +2,10 @@ import pandas as pd
 import pylab as pl
 import numpy as np
 import openpyxl as xl
-from openpyxl import Workbook
 from _sqlite3 import Row
-from mock import inplace
-from django.utils.datetime_safe import strftime
+
 pd.set_option('display.precision', 1)
 pd.set_option('display.width', 100)
-
     
 def main(): 
     prices = pd.read_excel("StockPrices.xlsx")
@@ -23,7 +20,7 @@ def main():
     prices['Nike-log-return'] = prices.apply(logReturn, raw = True, axis = 1, args = ['Nike'])
     prices['Apple-log-return'] = prices.apply(logReturn, raw = True, axis = 1, args = ['Apple'])
     prices['Date'] = prices['Date'].dt.strftime('%d:%m')
-    print prices
+    print(prices)
     ax = prices[-50:].plot(figsize=(10, 6), 
                                title = 'Shares', 
                                # x defaults to index
