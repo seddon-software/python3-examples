@@ -7,7 +7,7 @@ def displayInfo(baseFileName):
     eggInfoFile = get_python_lib() + "/" + baseFileName + version + ".egg-info"
     try:
         f = open(eggInfoFile, 'r')
-        print(f.read())
+        print((f.read()))
     except:
         pass
 

@@ -1,8 +1,8 @@
 def say_hello():
-    print "say_hello from python"
+    print("say_hello from python")
 
 def say_goodbye():
-    print "say_goodbye from python"
+    print("say_goodbye from python")
 
 def fibonacci(n):
     a, b = 0, 1

@@ -1,8 +1,8 @@
 def say_hello():
-    print "say_hello was compiled using cython"
+    print("say_hello was compiled using cython")
 
 def say_goodbye():
-    print "say_goodbye was compiled using cython"
+    print("say_goodbye was compiled using cython")
 
 def fibonacci(int n):
     cdef int a, b

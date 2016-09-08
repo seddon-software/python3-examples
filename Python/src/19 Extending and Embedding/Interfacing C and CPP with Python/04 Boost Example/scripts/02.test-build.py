@@ -13,6 +13,8 @@ def modifyPythonPathWithStage():
         print("must build application first")
         sys.exit()
         
+sys.path.append('../..')
+import set_paths
             
 modifyPythonPathWithStage()            
 
