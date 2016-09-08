@@ -1,3 +1,0 @@
-include usingforms/config/deployment.ini_tmpl
-recursive-include usingforms/public *
-recursive-include usingforms/templates *

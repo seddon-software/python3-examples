@@ -1,3 +1,0 @@
-include navigation/config/deployment.ini_tmpl
-recursive-include navigation/public *
-recursive-include navigation/templates *

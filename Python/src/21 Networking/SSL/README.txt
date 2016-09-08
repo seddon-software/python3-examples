@@ -1,48 +1,31 @@
-Assuming SSL is setup:
+This example shows how to use SSL between a client and a server on localhost.
+To get this working on MacOS:
 
-1. Start up Oracle VirtualBox
-2. Launch foo and bar Ubuntu sessions
-3. Login with passwords foo and bar
-4. Consult the README-SSH.txt on machine foo
-5. Run ssh commands from Windows 7:
-        ssh -p 5022 foo@foo-VirtualBox
-        ssh -p 6022 bar@bar-VirtualBox
-        scp -P 5022 foo@foo-VirtualBox:/home/foo/R.txt localfile   (note -P)
-        scp -P 6022 bar@bar-VirtualBox:/home/bar/R.txt localfile   (note -P)
-where ssh is installed in C:\MinGW\msys\1.0\bin
+1. Check that OpenSSL is installed:
+    openssl version -a
 
-_______________________________________________________________________
+2. Create a private key and public key certificate using the script:
+    create-certificates.py
+    
+   You can use all the defaults when running this program.  The private
+   key and certificate will be created in the folder: certificates
 
+3. On Mac and Linux, the server needs to use port 433.  However ports below
+   1024 can only be accessed by root, so you need to use port forwarding.
+   This is handled differently on Mac and Linux.  There is no restriction 
+   on port use in Windows. 
 
-To set the machines up to begin with:
+   On MacOS: 
+       echo "
+        rdr pass inet proto tcp from any to any port 443 -> 127.0.0.1 port 8443
+        " | sudo pfctl -ef -
+   On Linux (not tested):
+       iptables -t nat -A OUTPUT -p tcp --dport 443 -d 127.0.0.1 -j DNAT --to-destination 127.0.0.1:8443
+   
+4. Fire up the server
+    python ssl-server.py
 
-On the Ubuntu machine:
-======================
+5. Fire up the client:
+    python ssl-client.py
+    Assuming SSL is setup:
 
-1. Install ssh
---------------
-
-sudo apt-get install openssh-server
-
-
-2. Run the following commands to set keys
------------------------------------------
-
-ssh-keygen -t rsa
-cd ~/.ssh
-cp id_rsa.pub authorized_keys
-
-
-3. Set up networking
---------------------
-
-# set up NAT port forwarding with
-# Host = 4022
-# Guest = 22
-
-
-On the host (Windows 7)
------------------------
-
-ssh -p 5022 foo@foo-VirtualBox
-scp -P 5022 foo@foo-VirtualBox:/home/foo/R.txt localfile   (note -P)

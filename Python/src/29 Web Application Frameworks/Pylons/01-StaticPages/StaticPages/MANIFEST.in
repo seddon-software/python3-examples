@@ -1,3 +1,0 @@
-include staticpages/config/deployment.ini_tmpl
-recursive-include staticpages/public *
-recursive-include staticpages/templates *

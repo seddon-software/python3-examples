@@ -1,11 +1,9 @@
 import paramiko
+import config
 
 paramiko.util.log_to_file('ssh.log') # sets up logging
-
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
-#ssh.connect('192.168.2.5', username='python', password='this is a demo account')
-
 
 def execute(cmd, hostname, port, username, password):
     try:
@@ -14,9 +12,11 @@ def execute(cmd, hostname, port, username, password):
         ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy()) 
         ssh.connect(hostname, port, username, password) 
         stdin, stdout, stderr = ssh.exec_command(cmd)
-        print stdout.readlines()
+        print(stdout.readlines())
         ssh.close()
-    except Exception,e:
-        print 'whoops: ' + str(e)
+    except Exception as e:
+        print('whoops: ' + str(e))
 
-execute(cmd="uname -a", hostname="192.168.1.140", port=22, username="pi", password="3.14159")
+execute(cmd="uname -a", 
+        hostname=config.HOSTNAME, port=22, 
+        username=config.USER, password=config.PASSWORD)
