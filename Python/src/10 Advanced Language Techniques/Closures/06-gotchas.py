@@ -1,37 +1,26 @@
 # Closures close over variables, not values
 
 ############################################################
-# Part 1 - closure fails
-def outer():
-    x = 50
-    def inner():
-        print((inner.__closure__))
-        x += 1  # x refers to local x => NO closure
-    return inner
+# Part 1 - closure gives 'unexpected' results
+funcs = []
+for i in range(4):
+    def f():
+        print(i, end=' ')    # this closes over the (single) variable i
+    funcs.append(f)
 
-f = outer()
-try:
-    f()     # outer 'x' is not in scope here
-            # hence exception raised
-except UnboundLocalError as e:
-    print(e)
+for f in funcs:
+    f()             # i is now 4, so it prints 4 each time
 
 print()
 
 ############################################################
-# Part 2 - workaround for the above problem
+# Part 2 - create extra instances of i for the closure
+funcs = []
+for i in range(4):
+    def f(i=i):     # new i with local scope
+        print(i, end=' ')    # each i takes on a different value
+    funcs.append(f)
+    
+for f in funcs:
+    f()             # prints 1, 2, 3, 4
 
-def outer():
-    x = [50]     # x is mutable
-    def inner():
-        print((inner.__closure__))
-        print((inner.__closure__[1].cell_contents))
-        x[0] += 1  # x refers to outer 'x' because its mutable => closure
-    return inner
-
-f = outer()
-try:
-    f()     # outer 'x' is brought into scope by the closure
-            # hence NO exception raised
-except UnboundLocalError as e:
-    print(e)
