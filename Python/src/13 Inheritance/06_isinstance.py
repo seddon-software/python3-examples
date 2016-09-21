@@ -22,6 +22,9 @@ def Check(obj):
 p = Person("Anne")
 e = Employee("Beth", 7468)
 s = SalesPerson("Carol", 4712, "NE")
+if type(s) is Person: print("s is a Person")
+if type(s) is Employee: print("s is a Employee")
+if type(s) is SalesPerson: print("s is a SalesPerson")
 
 Check(p)
 Check(e)

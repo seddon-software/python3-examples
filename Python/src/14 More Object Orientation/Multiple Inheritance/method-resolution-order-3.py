@@ -55,4 +55,3 @@ for clazz in Z.mro():
 # mro would put C before D, but this contradicts mro(Z)
 # hence this class is illegal
 class Y(Z,C,D): pass
-

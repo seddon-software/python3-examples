@@ -1,3 +1,5 @@
+import pprint
+
 class Point:
     count = 0
     def getCount():
@@ -13,10 +15,18 @@ class Point:
     def display(self):
         print( "Point:{2} [{0},{1}]".format(self.x, self.y, self.name) )
 # create objects (instances of the class)
+
+class A: pass
+
 print( Point.getCount() )
 p1 = Point(100, 200, 'point-p1')
+p1.__class__ = A
 p2 = Point(110, 210, 'point-p2')
 p3 = Point(120, 220, 'point-p3')
+print(Point)
+pprint.pprint(Point.__dict__)
+print(Point.__bases__)
+print(p1.__dict__)
 print( Point.getCount() )
 p1.moveBy(2, 2)
 p2.moveBy(1, 1)

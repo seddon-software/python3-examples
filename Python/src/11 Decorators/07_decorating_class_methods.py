@@ -21,6 +21,9 @@ class MyClass(object):
     def addText(self, text):
         self.text += text + "\n"
     
+    def addText2(self, text):
+        self.text += text + "\n"
+    
     def display(self):
         print(self.text)
 
@@ -32,7 +35,9 @@ m.addText("line 3")
 m.addText("line 4")
 m.addText("line 5")
 m.display()
-# currying version
-trace(m.addText("currying"))
+
+# functional version
+trace(MyClass.addText2)(m, "line 6")
+m.display()
 
 1

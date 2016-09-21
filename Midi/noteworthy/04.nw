@@ -1,0 +1,66 @@
++revert
+
+
+
++Tempo180
++Sweep
+
+
+# I caught you dreaming just the other day
+[4] 12                    # I
+[2] 15                    # caught
+[4] 12                    # you
+[2] 10                    # dream-
+[4] 8                     # -ing
+[2] 12                # just
+[4] 10                    # the
+[4] +dot 9 7               # other
+[2] 5                     # day
++rest
++bar
+
+# I saw you turn and look the other way
+[4] 10                    # I
+[2] 13                    # saw
+[4] 10                    # you
+[2] 8                     # turn
+[4] 6                     # and
+[2] 8                     # look
+[4] 6                     # the
+[4] +dot 5 3               # other
+[2] 1                     # way
++rest
++bar
+
+# Perhaps you'll dream of yesterday
+[4] 6                    # Per-
+[2] 8                     # -haps
+[4] 10                     # to
+[2] 8                     # dream
+[4] 10                     # of
+[2] 8                     # yester
+[4] 6                    # -day
+[4] +dot 11 13               # other
+[2] 11                     # way
++rest
++bar
+
+#	Of all the futures that we shared
+[4] 10                    # Per-
+[2] 8                     # -haps
+[4] 6                     # to
+[2] 8                     # dream
+[4] 10                    # -day
+[2] 8                     # dream
+[4] 10                    # -day
+[4] +dot 5 3               # other
+[2] 1                     # way
++rest
++bar
+
+#	I caught you dreaming of another way
+#	Perhaps we'll try to start again
+
++auto-beam
++go
+

@@ -11,3 +11,7 @@ print(ord(u[-1]))
 # convert to bytes
 b = u.encode('latin1')
 print(b)
+
+
+raw_input
+input

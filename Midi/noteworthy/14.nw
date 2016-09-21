@@ -1,0 +1,24 @@
++revert
++Tempo100
+
++ElectricGrandPiano
+[8] 3 5  8 [4] 20 18 15 13 [8] 14 3 +rest +bar
+[8] 5 8 11 [4] 20 18 [8] 15 13 14 12 [4] 3 +rest +bar
+
+[8] 20 [4] 20 18 15 13 [8] 14 3 +rest +bar
+[8] 5 8 11 [4] 20 18 [8] 15 13 3 18 [4] 20 +rest +bar
+
+
++bass
++MelodicTom
+[8] 0 0 0 [4] 0 0 0 0 [8] 0 0 +rest +bar
+[8] 0 0 0 [4] 0 0     [8] 0 0 0 0 [4] 0 +rest +bar
+
+[8] 0 [4] 0 0 0 0 [8] 0 0 +rest +bar
+[8] 0 0 0 [4] 0 0 [8] 0 0 0 0 [4] 0 +rest +bar
+
+
+
++auto-beam
++go
+
