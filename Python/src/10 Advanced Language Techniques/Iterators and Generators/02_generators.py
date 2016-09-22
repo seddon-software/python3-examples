@@ -7,7 +7,7 @@
 # generators are a shortcut to building iterators
 
 # class is not iterable in sense that 
-#    the class doesn't define __iter__() and next()
+#    the class doesn't define __iter__() and __next__()
 # but any method that contains yield 
 #    will be converted to an iterator internally
 class Fibonacci:
@@ -28,7 +28,7 @@ print("Does gen-iter have an '__iter__' function:", hasattr(gen_iter, "__iter__"
 print("Does gen-iter have an '__next__' function:", hasattr(gen_iter, "__next__"))
 
 for n in gen_iter:   # invoke the iterable
-    print(n, end=' ')
+    print(n)
 
 
 

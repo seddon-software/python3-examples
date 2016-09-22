@@ -2,8 +2,8 @@ import sys
 from distutils.core import setup, Extension
 
 
-example_module = Extension('roots',
-            sources=['sumOfRoots.i', 'sumOfRoots.c'],
+example_module = Extension('_roots',
+        sources=['sumOfRoots.i', 'sumOfRoots.c'],
                            )
 
 setup (
@@ -24,3 +24,6 @@ setup (
        ext_modules = [example_module],
        py_modules = ["roots"],
        )
+
+
+

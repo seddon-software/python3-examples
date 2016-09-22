@@ -9,7 +9,7 @@ def compute1(pool):
     future3 = pool.submit(sum_of_squares, 10001, 10 * 1000 * 1000)
     while not future3.done():
         sleep(0.25)
-        print(".", end=" ", flush="true")
+        print(".", end=" ", flush=True)
     
     print()
     print(future1.result() + future2.result() + future3.result())

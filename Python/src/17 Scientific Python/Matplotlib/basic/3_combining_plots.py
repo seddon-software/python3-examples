@@ -7,7 +7,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-# evenly sampled time at 200ms intervals
 t = np.arange(0.0, 5.0, 0.200)
 
 redDashes = "r--"

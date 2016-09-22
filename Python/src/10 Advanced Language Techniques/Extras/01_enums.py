@@ -1,7 +1,7 @@
 # define symbols names
 MON, TUE, WED, THU, FRI, SAT, SUN = list(range(7))
-
 # use as enum
+
 print(WED)
 
 def isWeekend(day):

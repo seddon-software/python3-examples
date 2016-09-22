@@ -6,14 +6,17 @@ def child(connection):
     connection.send(message)
     connection.close()
 
-# create 2 connections
-parent_connection, child_connection = Pipe()
-
-# create the 2 way pipe
-pipe = Process(target=child, args=(child_connection,))
-
-# start sending and receiving
-pipe.start()
-parent_connection.send(100)
-print(parent_connection.recv())
-p.join()
+# required for Windows
+if __name__ == "__main__":
+    # create 2 connections
+    parent_connection, child_connection = Pipe()
+    
+    # create the 2 way pipe
+    pipe = Process(target=child, args=(child_connection,))
+    
+    # start sending and receiving
+    pipe.start()
+    parent_connection.send(100)
+    print(parent_connection.recv())
+    pipe.join()
+    

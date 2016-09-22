@@ -20,10 +20,8 @@ class MyClass:
         global lock, count1, count2
         for i in range(0, 2*1000*1000):
             count1 += 1
-            with lock: 
-                count2 += 1
+            with lock: count2 += 1
 
-    
 lock = Lock()
 count1 = 0
 count2 = 0

@@ -2,7 +2,7 @@
 def func(a, b, c, d, e):
     return a, b, c, d, e
 
-print((func(1, 2, 3, 4, 5)))
+print(func(1, 2, 3, 4, 5))
 
 # curried version that takes 1 arg
 def f(a):
@@ -24,10 +24,10 @@ d = f(1)(2)(3)(4)
 e = f(1)(2)(3)(4)(5)
 
 # missing arguments can be supplied later
-print((a(2)(3)(4)(5)))
-print((b(3)(4)(5)))
-print((c(4)(5)))
-print((d(5)))
+print(a(2)(3)(4)(5))
+print(b(3)(4)(5))
+print(c(4)(5))
+print(d(5))
 print(e)
 
 

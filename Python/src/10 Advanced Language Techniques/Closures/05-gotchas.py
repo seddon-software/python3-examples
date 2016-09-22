@@ -3,8 +3,9 @@ def f(x):
     print(("locals for f(): ", locals()))        
     def inner():
         print(("locals for inner(): ", locals()))        
-        y = y * 2   # defines a new local variable (y) which shadows that defined in f
+        z = y * 2   # defines a new local variable (y) which shadows that defined in f
                     # hence the RHS of this expression refers to the local y which is undefined 
+        y = z
         return y
     inner()
     print(y)

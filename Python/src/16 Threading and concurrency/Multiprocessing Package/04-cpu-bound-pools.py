@@ -12,7 +12,7 @@ def cpuBoundFunction(x):
     for x in range(1000000): i = i + 1
     return x + 1
 
-def serial():
+def serialx():
     serialList = []
     r = range(100)
     for i in r: serialList += [cpuBoundFunction(i)]

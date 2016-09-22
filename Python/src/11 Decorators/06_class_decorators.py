@@ -24,6 +24,8 @@ class MyClass(object):
 def f(): 
     print("f()")
 
+
+
 # since f is decorated, the call f()
 # is replaced with a call to anon.__call__()
 # where anon is the anonymous object created above

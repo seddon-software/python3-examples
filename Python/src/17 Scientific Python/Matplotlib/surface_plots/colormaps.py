@@ -29,5 +29,5 @@ for cmap in colormaps:
     fig.colorbar(surface, shrink=0.5, aspect=5)
     plt.draw()
     plt.pause(0.001)
-    time.sleep(0.1)
+    time.sleep(1.0)
     plt.close(fig)

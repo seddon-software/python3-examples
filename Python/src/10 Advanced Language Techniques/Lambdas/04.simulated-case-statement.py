@@ -6,11 +6,11 @@ calc = lambda : {
 
 op = '+'
 x = 100
-print((calc()))
+print(calc())
 x = 200
-print((calc()))
+print(calc())
 op = '-'
-print((calc()))
+print(calc())
 op = '*'
-print((calc()))
+print(calc())
 1

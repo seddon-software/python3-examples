@@ -14,13 +14,11 @@ import sys
 class MyClass:
     def __call__(self, name):
         global semaphore
-        semaphore.acquire()
-        print((name + " claimed semaphore"));
-        time.sleep(5)
-        print(("\t" + name + " released semaphore"));
-        semaphore.release()
-
-
+        # with calls semaphore.acquire() and semaphore.release()
+        with semaphore:
+            print((name + " claimed semaphore"));
+            time.sleep(5)
+            print(("\t" + name + " released semaphore"));
 
 semaphore = BoundedSemaphore(3)
 

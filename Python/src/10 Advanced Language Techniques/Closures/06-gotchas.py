@@ -5,11 +5,11 @@
 funcs = []
 for i in range(4):
     def f():
-        print(i, end=' ')    # this closes over the (single) variable i
+        print(i)    # this closes over the (single) variable i
     funcs.append(f)
 
 for f in funcs:
-    f()             # i is now 4, so it prints 4 each time
+    f()             # i is now 3, so it prints 4 each time
 
 print()
 
@@ -18,9 +18,9 @@ print()
 funcs = []
 for i in range(4):
     def f(i=i):     # new i with local scope
-        print(i, end=' ')    # each i takes on a different value
+        print(i)    # each i takes on a different value
     funcs.append(f)
     
 for f in funcs:
-    f()             # prints 1, 2, 3, 4
+    f()             # prints 0, 1, 2, 3
 

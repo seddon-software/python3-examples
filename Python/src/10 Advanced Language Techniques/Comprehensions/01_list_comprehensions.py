@@ -29,7 +29,7 @@ print([(x,y) for x in range(1,13) for y in range(1,13) if x*y > 120])
 n = 1000 #some arbitrary stopping point
 primes = [p for p in range(2, n)
            if p not in
-            [np for i in range(2, int(n**0.5))  # i = 2,3,..31 
+            [np for i in range(2, int(n**0.5) + 1)  # i = 2,3,..31 
                 for np in range(i * 2, n, i)]]  # np = 4,6,8 .. + 6,9,12 .. + 8,12,16 .. + 10,15,20 ..
 print(primes)
 
