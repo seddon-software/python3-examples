@@ -5,7 +5,7 @@ sd = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 local_ssl_sock = ssl.wrap_socket(sd,
                            ca_certs="certificates/server.crt",
                            cert_reqs=ssl.CERT_NONE,
-                           ssl_version=ssl.PROTOCOL_TLSv1)
+                           ssl_version=ssl.PROTOCOL_TLSv1_2)
 
 local_ssl_sock.connect(('localhost', 443))
 

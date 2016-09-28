@@ -34,7 +34,7 @@ while True:
                                      server_side=True,
                                      keyfile='certificates/server.key',
                                      certfile='certificates/server.crt',
-                                     ssl_version=ssl.PROTOCOL_TLSv1)
+                                     ssl_version=ssl.PROTOCOL_TLSv1_2)
         
         do_request(ssl_socket, from_addr)
         

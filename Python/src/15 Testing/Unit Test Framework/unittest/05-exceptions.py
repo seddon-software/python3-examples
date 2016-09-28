@@ -8,7 +8,7 @@ def f(x, y):
     return (x * y) / (x - y)
 
 class TestExceptions(unittest.TestCase):
-    def testMyExceptionIsRaised(self):
+    def testMyExceptionIsRaisedByCallingFWithTwoParametersThatAreEqual(self):
         self.assertRaises(MyException, f, 6, 6)
         
     def testWhatHappensIfMyExceptionIsNotRaised(self):

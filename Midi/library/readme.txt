@@ -1,3 +1,6 @@
+The mymidi.py directs output to: Real Player
+The myrtmidi.py directs output to: CLP150
+
 The Python library code for MIDIUtil is at:
 	/Users/seddon/work/MIDIUtil-0.89
 There is only one source file:

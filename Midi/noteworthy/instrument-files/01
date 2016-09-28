@@ -1,0 +1,4 @@
+t1.setInstrument("Pad 8 (sweep)", channel = 1, pitchShift = -12, volume = 100)
+t2.setInstrument("Orchestral Harp", channel = 2, pitchShift = 0, volume = 100)
+t3.setInstrument("Synth Drum", channel = 3, pitchShift = -12, volume = 80)
+t4.setInstrument("Bright Acoustic Piano", channel = 4, pitchShift = 0, volume = 100)

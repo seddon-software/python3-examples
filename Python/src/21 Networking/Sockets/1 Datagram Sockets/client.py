@@ -15,4 +15,5 @@ mySocket.sendto(b'This is a message from the client', ('localhost', 7002))
 
 # pick up the (optional) response
 data, server = mySocket.recvfrom(100)
+data = data.decode()
 print(data)

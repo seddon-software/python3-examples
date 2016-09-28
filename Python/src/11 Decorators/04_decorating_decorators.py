@@ -25,7 +25,7 @@ def toggleable(decorator):
 @toggleable
 def trace(fn):
     def enhance(x):
-        print("calling " + fn.__name__ + "(" + str(x) + ")")
+        print("calling {}({})".format(fn.__name__, x))
         return fn(x)
     return enhance
     

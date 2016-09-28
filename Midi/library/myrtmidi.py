@@ -21,16 +21,16 @@ def setup():
     
     if available_ports:
         midiout.open_port(0)
-        print "sending midi to the piano"
+        print("sending midi to the piano")
         for channel in range(1, 16+1):
             reset = [0xB0 + channel - 1, 0x7B, 0]            
             midiout.send_message(reset)
     else:
-        print "No available MIDI ports - are you connected to the piano?"
+        print("No available MIDI ports - are you connected to the piano?")
 
     if os.path.isfile("lock"):
         os.remove("lock")
-        print "reseting controllers - try again"
+        print("reseting controllers - try again")
         sys.exit()
 
 midiout = rtmidi.MidiOut()
@@ -57,18 +57,19 @@ class Midi:
             
     def dump(self):
         for [beat, midiMessage] in Midi.Sequence.sorted():
-            print beat, "[", 
+#             print(beat, "[", end=' ') 
+            print("{} [ ".format(beat))
             for byte_ in midiMessage:
-                print "{0:02x}".format(byte_),
-            print "]"
+                print("{0:02x}".format(byte_), end=' ')
+            print("]")
     def setTempo(self, tempo):
         self.tempo = tempo       
         
     def printMessage(self, beat, message): 
-        print beat,
+        print(beat, end=' ')
         for byte_ in message:
-            print "{0:X}".format(byte_),
-        print
+            print("{0:X}".format(byte_), end=' ')
+        print()
 
     def play(self):
         previousBeat = 0
@@ -113,7 +114,7 @@ class Channel:
     
     class Score:
         def __init__(self, notes, durations):
-            self.score = zip(notes.get(), durations.get())
+            self.score = list(zip(notes.get(), durations.get()))
 
         def get(self):
             return self.score
@@ -122,7 +123,7 @@ class Channel:
         try:
             instrument = self.__class__.VoiceToNumber[instrument] - 1
         except KeyError:
-            print "{0} is not a valid instrument".format(instrument)
+            print("{0} is not a valid instrument".format(instrument))
             sys.exit()
         self.check(channel, 1, 16)
         self.instrument = instrument
@@ -206,7 +207,7 @@ class Channel:
         for instrument in range(lower, upper + 1):
             self.programChange(self.channel, instrument)
             self.addNote(60, 1)
-            print instrument
+            print(instrument)
         
     VoiceToNumber = {
         "Acoustic Grand Piano" : 1 ,

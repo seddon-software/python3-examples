@@ -38,3 +38,4 @@ def main():
                     print(".", end="", flush="true")
         time.sleep(0.25)
         
+main()

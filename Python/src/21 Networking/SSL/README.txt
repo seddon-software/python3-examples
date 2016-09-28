@@ -10,7 +10,7 @@ To get this working on MacOS:
    You can use all the defaults when running this program.  The private
    key and certificate will be created in the folder: certificates
 
-3. On Mac and Linux, the server needs to use port 433.  However ports below
+3. On Mac and Linux, the server needs to use port 443.  However ports below
    1024 can only be accessed by root, so you need to use port forwarding.
    This is handled differently on Mac and Linux.  There is no restriction 
    on port use in Windows. 
@@ -29,3 +29,9 @@ To get this working on MacOS:
     python ssl-client.py
     Assuming SSL is setup:
 
+Free Certificates:
+    startssl
+    letsencrypt
+
+Implementation of the TLS/SSL protocols
+    S2N:  https://github.com/awslabs/s2n

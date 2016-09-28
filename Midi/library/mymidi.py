@@ -14,7 +14,7 @@ class Track():
         try:        
             self.MyMIDI.addTrackName(self.trackNo, self.time, self.trackName)
         except IndexError:
-            print "Not enough tracks defined"
+            print("Not enough tracks defined")
             sys.exit()
         self.pitchShift = 0
     
@@ -25,8 +25,8 @@ class Track():
         if isinstance(instrument, str):
             try:
                 instrumentCode = VoiceToNumber[instrument] - 1
-            except Exception, e:
-                print "not a valid instrument: {0}".format(e)
+            except Exception as e:
+                print("not a valid instrument: {0}".format(e))
                 sys.exit()
         else:
             raise Exception("illegal instrument {0}".format(instrument))
@@ -97,7 +97,7 @@ class Tracks:
     
     def setTempo(self, tempo = 120):
         if len(self.tracks) == 0:
-            print "create the tracks before you set the tempo"
+            print("create the tracks before you set the tempo")
             sys.exit()
         for track in self.tracks:
             track.setTempo(tempo)
@@ -132,7 +132,7 @@ class Instrument:
     
     class Score:
         def __init__(self, notes, durations):
-            self.score = zip(notes.get(), durations.get())
+            self.score = list(zip(notes.get(), durations.get()))
 
         def get(self):
             return self.score
