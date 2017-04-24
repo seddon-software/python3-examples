@@ -15,6 +15,8 @@ greenTriangles = "g^"
 plt.plot(t, t,    redDashes, 
          t, t**2, blueSquares,  
          t, t**3, greenTriangles)
+plt.gcf().canvas.set_window_title('Multiple Plots')
+
 plt.show()
 
 1

@@ -4,7 +4,7 @@ import numpy as np
 pd.set_option('display.width', 1000)
 pd.set_option('display.precision', 2)
 
-df = pd.read_excel("data/sales-funnel.xlsx")
+df = pd.read_excel("data/sales.xlsx")
 print(df.head())
 
 # print out the head of the data frame

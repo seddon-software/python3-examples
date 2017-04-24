@@ -15,7 +15,8 @@ def forLoop2(n):
 
 import math
 def listComprehension(n):
-    return sum([math.sqrt(x) for x in range(n)])
+#    return sum([math.sqrt(x) for x in range(n)])
+    return sum([x**0.5 for x in range(n)])
 
 import numpy
 def numpyMethod(n):
