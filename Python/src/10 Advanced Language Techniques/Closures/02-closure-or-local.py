@@ -19,6 +19,5 @@ def f1():
         y2 = y3
         scope(f2)
     f2()
-    return f2
 
-f = f1()
+f1()

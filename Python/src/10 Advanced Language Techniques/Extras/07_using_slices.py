@@ -23,18 +23,6 @@ class mylist(object):
                         result.append(self.theList[_slice])
             flattenedList = list(itertools.chain.from_iterable(result))
             return flattenedList
-    
-    def __xgetitem__(self, item):
-        result = []
-        for s in item:
-            if s != Ellipsis:
-                x = self.theList[s]
-                if isinstance(x, int):
-                    result.append([self.theList[s]])
-                else:
-                    result.append(self.theList[s])
-        return list(itertools.chain.from_iterable(result))
-
 
 # define slices
 mySlice = slice(3,9,2)
