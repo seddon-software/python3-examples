@@ -9,7 +9,7 @@ for i in range(4):
     funcs.append(f)
 
 for f in funcs:
-    f()             # i is now 3, so it prints 4 each time
+    f()             # i is now 3, so it prints 3 each time
 
 print()
 

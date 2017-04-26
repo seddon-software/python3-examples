@@ -26,27 +26,25 @@ def log(level):
     return logit
  
 
-log(logging.WARNING)
+@log(logging.WARNING)
 def square(x): 
     return x * x
-
 @log(logging.DEBUG)
 def cube(x):
     return x * x * x
-    
 @log(logging.CRITICAL)
 def quad(x):
     return x * x * x * x
     
 # main program
 # as no logfile specified, use the console
-logging.basicConfig(level=logging.DEBUG)
+# logging.basicConfig(level=logging.DEBUG)
 # logging.basicConfig(level=logging.INFO)
 # logging.basicConfig(level=logging.WARNING)
 # logging.basicConfig(level=logging.ERROR)
-# logging.basicConfig(level=logging.CRITICAL)
+logging.basicConfig(level=logging.CRITICAL)
 
-# print log(logging.WARNING)(square)(4)
+# print( log(logging.WARNING)(square)(4) )
 print(square(4))
 print(cube(5))
 print(quad(10))
