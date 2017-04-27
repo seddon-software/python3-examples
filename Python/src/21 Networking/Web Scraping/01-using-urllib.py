@@ -16,7 +16,7 @@ def get_quote(symbol):
         
 get_quote("IBM")
 get_quote("MS")
-get_quote("XXZZ")
+get_quote("XX")
 get_quote("MSFT")
 get_quote("ERICB")
 
