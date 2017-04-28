@@ -15,7 +15,8 @@ def main():
                                sep = '[*# ]+')
 
     # create a new column from year and month columns
-    lerwick_data['period'] = lerwick_data.apply(lambda x : "{:.0f}-{:.0f}".format(x.year, x.month), raw = True, axis = 1)
+    lerwick_data['period'] = lerwick_data.apply(
+        lambda row : "{:.0f}-{:.0f}".format(row.year, row.month), raw = True, axis = 1)
 
     # drop columns we are not using (not necessary)
     lerwick_data.drop(['year', 'month', 'air-frost-days', 'rain(mm)', 'sun(hours)', 'comment'], axis = 1, inplace = True)
