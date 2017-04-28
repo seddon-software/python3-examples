@@ -1,6 +1,6 @@
 from openpyxl import Workbook
 from openpyxl.compat import range
-from openpyxl.cell import get_column_letter
+from openpyxl.utils import get_column_letter
 import datetime
 
 wb = Workbook()
