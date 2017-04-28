@@ -11,7 +11,6 @@ a = np.arange(10)**2; print(a)
 
 # setup index arrays
 index1 = np.array( [2,3,5,9] ); print(index1)
-index1 = [2,3,5,9]
 index2 = np.array( [[5,9],[2,3]]); print(index2)
 
 # apply indexes to a

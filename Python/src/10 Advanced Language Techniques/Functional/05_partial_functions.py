@@ -4,8 +4,8 @@ import functools as ft
 
 # range takes 3 parametrs
 myrange = ft.partial(range, 0, 10) # 2 parameters filled in
-print((myrange()))
-print((myrange(2))) # supply a 3rd parameter
+print((list(myrange())))
+print((list(myrange(2)))) # supply a 3rd parameter
 
 # now try with a function of 5 parameters
 def f(v, w, x, y, z): return v + w + x + y + z

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #
 # Modules A to D documentation build configuration file, created by
-# sphinx-quickstart on Sat Mar  4 17:07:18 2017.
+# sphinx-quickstart on Fri Apr 28 13:18:47 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.

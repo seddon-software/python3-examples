@@ -10,7 +10,7 @@ import re
 text1 = "This line contains the number 8.73 and 4.67"
 text2 = "This line does not contains any numbers"
 
-numberPattern = r"\d+\.\d+"
+numberPattern = r"\d+[.]\d+"
 pattern = re.compile(numberPattern)
 matcher1 = pattern.search(text1)
 matcher2 = pattern.search(text2)
